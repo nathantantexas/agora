@@ -91,6 +91,22 @@ test('rss and atom parsing', () => {
   assert.equal(a[0].link, 'https://x.test/b');
 });
 
+test('an encoded angle bracket inside an attribute does not leak markup into the summary', () => {
+  // Newsroom feeds lead with an <img> in CDATA. Decoding entities before stripping tags
+  // turns an encoded &gt; in the alt text into a real bracket that ends the tag early,
+  // which used to spill the remaining attributes into the description.
+  const item = (description) => `<rss><channel><item><title>T</title><link>https://x.test/a</link><description>${description}</description></item></channel></rss>`;
+
+  const withImage = parseFeed(item('<![CDATA[<img alt="Photo by: A &gt; B" data-large-file="https://i.test/x.jpg?fit=780%2C440&amp;ssl=1" />Council raises the tax rate.]]>'));
+  assert.equal(withImage[0].description, 'Council raises the tax rate.');
+
+  // Feeds that escape their markup rather than embedding it still get stripped.
+  assert.equal(parseFeed(item('&lt;p&gt;Bond package moves ahead.&lt;/p&gt;'))[0].description, 'Bond package moves ahead.');
+
+  // Entities in genuine prose are still decoded.
+  assert.equal(parseFeed(item('Parks &amp; recreation &quot;master plan&quot;'))[0].description, 'Parks & recreation "master plan"');
+});
+
 test('language comes from the query string and the Accept-Language header', async () => {
   const en = await (await fetch(`${base}/api/topics`)).json();
   const es = await (await fetch(`${base}/api/topics?lang=es`)).json();

@@ -148,11 +148,19 @@ function decodeEntities(s) {
     .replace(/&amp;/g, '&');
 }
 
-/** Unwrap CDATA, decode escaped HTML, strip tags, collapse whitespace. */
+/**
+ * Unwrap CDATA, strip tags, decode escaped HTML, collapse whitespace.
+ *
+ * Tags are stripped before entities are decoded, not after. Newsroom feeds embed an
+ * <img> whose alt text can contain an encoded &gt;, and decoding first turns that into a
+ * real angle bracket that ends the tag early, leaking the remaining attributes into the
+ * summary as text. Stripping runs a second time after decoding for the feeds that escape
+ * their markup instead of embedding it.
+ */
 function clean(s) {
   const unwrapped = String(s || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
-  return decodeEntities(unwrapped)
-    .replace(/<[^>]+>/g, ' ')
+  return decodeEntities(unwrapped.replace(/<[^>]*>/g, ' '))
+    .replace(/<[^>]*>/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
