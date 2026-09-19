@@ -12,6 +12,10 @@ Agora is a web app, an installable phone app (PWA), and a terminal tool that all
 
 To run the whole thing, including the API, without installing anything locally, open the repository on GitHub and choose **Code > Codespaces > Create codespace on main**. Dependencies install on their own, then run `npm run dev` and open the forwarded port 5173. Under **Ports** you can set that port to public and hand the URL to anyone you want to show it to.
 
+The live app is served from the `gh-pages` branch. `npm run deploy` rebuilds it and pushes,
+and the workflow in `.github/workflows/pages.yml` does the same automatically once GitHub
+Pages is switched to the GitHub Actions source in **Settings > Pages**.
+
 ## Quick start
 
 Locally you need [Node.js 22 or newer](https://nodejs.org/).

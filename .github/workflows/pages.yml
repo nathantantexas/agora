@@ -1,0 +1,59 @@
+name: Deploy to GitHub Pages
+
+# Publishes the web app so anyone with access to the repository can open it at a URL
+# instead of running it locally. The map, city guides, rankings, and charts all read
+# bundled data, so they work with no server; the features that need the API (local news,
+# address lookup, and the AI explanations) fall back to their offline behavior.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build for the repository subpath
+        run: npm run build
+        env:
+          VITE_BASE: /${{ github.event.repository.name }}/
+
+      - name: Add the SPA fallback and disable Jekyll
+        # Pages serves 404.html for any path it does not recognize, which is how a
+        # client-routed deep link such as /cities reaches the app instead of a 404.
+        run: |
+          cp packages/web/dist/index.html packages/web/dist/404.html
+          touch packages/web/dist/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: packages/web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
