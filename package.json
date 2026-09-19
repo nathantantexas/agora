@@ -25,5 +25,11 @@
     "test": "npm run build:data && node --test \"packages/*/test/**/*.test.js\"",
     "demo": "node packages/cli/bin/agora.js demo"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "optionalDependencies": {
+    "@esbuild/darwin-arm64": "0.28.2",
+    "@esbuild/linux-x64": "0.28.2",
+    "@rollup/rollup-darwin-arm64": "4.63.1",
+    "@rollup/rollup-linux-x64-gnu": "4.63.1"
+  }
 }
