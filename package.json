@@ -23,8 +23,7 @@
     "start": "node packages/server/src/index.js",
     "cli": "node packages/cli/bin/agora.js",
     "test": "npm run build:data && node --test \"packages/*/test/**/*.test.js\"",
-    "demo": "node packages/cli/bin/agora.js demo",
-    "deploy": "node scripts/deploy-pages.mjs"
+    "demo": "node packages/cli/bin/agora.js demo"
   },
   "license": "MIT"
 }
