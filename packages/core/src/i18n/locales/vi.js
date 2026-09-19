@@ -287,6 +287,7 @@ export default {
     cadenceAria: { one: 'Họp {n} trong 42 ngày tới', other: 'Họp {n} trong 42 ngày tới' },
   },
   news: {
+    snapshotNote: 'Tin tức được thu thập lúc {when}. Bản đăng trực tuyến này thu thập vài lần mỗi ngày thay vì mỗi lần bạn mở trang.',
     heading: 'Phóng viên địa phương đang đưa tin gì',
     topic: 'Chủ đề',
     allTopics: 'Tất cả chủ đề',

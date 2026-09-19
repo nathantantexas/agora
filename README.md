@@ -8,7 +8,15 @@ Agora is a web app, an installable phone app (PWA), and a terminal tool that all
 
 ## Try it
 
-**[Open the live app](https://nathantantexas.github.io/agora/)**, hosted from this repository. Every commit to `main` republishes it. The map, the city guides, the rankings, and the charts all read data bundled into the page, so they work with no server behind them; the three features that need the API (local news, address lookup, and the AI explanations) fall back to their offline behavior there.
+**[Open the live app](https://nathantantexas.github.io/agora/)**, hosted from this repository. Every commit to `main` republishes it. The map, the city guides, the rankings, and the charts all read data bundled into the page, so they work with no server behind them.
+
+Headlines work there too, with one difference worth knowing. A static site cannot run the
+news endpoint, so the deploy gathers the newsroom feeds at build time and ships the result
+as a snapshot, and a scheduled run refreshes it four times a day. The page says when the
+headlines were collected rather than implying they are live. Address lookup and the AI
+explanations do need the API, so on the hosted copy they fall back to their offline
+behavior: pick a city from the list instead of typing a ZIP code, and agenda items get a
+plain-language explanation from the topic guide instead of from the model.
 
 To run the whole thing, including the API, without installing anything locally, open the repository on GitHub and choose **Code > Codespaces > Create codespace on main**. Dependencies install on their own, then run `npm run dev` and open the forwarded port 5173. Under **Ports** you can set that port to public and hand the URL to anyone you want to show it to.
 

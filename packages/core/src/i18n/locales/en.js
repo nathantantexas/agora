@@ -287,6 +287,7 @@ export default {
     cadenceAria: { one: 'Meets on {n} of the next 42 days', other: 'Meets on {n} of the next 42 days' },
   },
   news: {
+    snapshotNote: 'Headlines gathered {when}. This hosted copy collects them a few times a day rather than on every visit.',
     heading: 'What local reporters are covering',
     topic: 'Topic',
     allTopics: 'All topics',

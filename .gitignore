@@ -20,3 +20,6 @@ scratch/
 Thumbs.db
 .vscode/
 .idea/
+
+# Headlines gathered at deploy time by scripts/build-news.mjs, never committed
+packages/web/public/news-snapshot.json

@@ -2,12 +2,17 @@ name: Deploy to GitHub Pages
 
 # Publishes the web app so anyone with access to the repository can open it at a URL
 # instead of running it locally. The map, city guides, rankings, and charts all read
-# bundled data, so they work with no server; the features that need the API (local news,
-# address lookup, and the AI explanations) fall back to their offline behavior.
+# bundled data, so they work with no server. Headlines are gathered here at build time,
+# since a static site cannot run the news endpoint itself; the scheduled run below keeps
+# them current. Address lookup and the AI explanations still need the API and fall back
+# to their offline behavior.
 
 on:
   push:
     branches: [main]
+  schedule:
+    # A few times a day, so the published headlines do not go stale between commits.
+    - cron: '17 5,11,17,23 * * *'
   workflow_dispatch:
 
 permissions:
@@ -32,10 +37,17 @@ jobs:
 
       - run: npm ci
 
+      - name: Gather current headlines
+        run: npm run build:news
+
       - name: Build for the repository subpath
-        run: npm run build
+        # GITHUB_REPOSITORY is owner/repo and is set for every trigger, including the
+        # scheduled runs where the event payload differs from a push.
+        run: VITE_BASE="/${GITHUB_REPOSITORY##*/}/" npm run build
         env:
-          VITE_BASE: /${{ github.event.repository.name }}/
+          # No server is deployed alongside this build, so the news page reads the
+          # snapshot directly instead of trying the API first.
+          VITE_STATIC_DEPLOY: '1'
 
       - name: Add the SPA fallback and disable Jekyll
         # Pages serves 404.html for any path it does not recognize, which is how a

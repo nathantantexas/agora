@@ -287,6 +287,7 @@ export default {
     cadenceAria: { one: 'Se reúne {n} de los próximos 42 días', other: 'Se reúne {n} de los próximos 42 días' },
   },
   news: {
+    snapshotNote: 'Titulares recopilados el {when}. Esta copia publicada los recoge varias veces al día en vez de en cada visita.',
     heading: 'Lo que cubren los reporteros locales',
     topic: 'Tema',
     allTopics: 'Todos los temas',

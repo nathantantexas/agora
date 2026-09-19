@@ -7,7 +7,7 @@ import TopicIcon from '../components/TopicIcon.jsx';
 import { TopicTag } from '../components/TopicChips.jsx';
 
 export default function News() {
-  const { prefs } = useStore();
+  const { prefs, lang } = useStore();
   const [topic, setTopic] = useState(prefs.interests[0] || '');
   const [city, setCity] = useState('');
   const [state, setState] = useState({ status: 'loading', data: null });
@@ -61,6 +61,12 @@ export default function News() {
       {state.status === 'ok' && state.data && (
         <>
           {state.data.items.length === 0 && <p className="muted">{t('news.noStories')}</p>}
+          {/* Say plainly when the headlines were collected, rather than implying they are live. */}
+          {state.data.snapshotAt && (
+            <p className="hint" style={{ marginBottom: 10 }}>
+              {t('news.snapshotNote', { when: new Date(state.data.snapshotAt).toLocaleString(lang, { dateStyle: 'medium', timeStyle: 'short' }) })}
+            </p>
+          )}
           <ul className="rows">
             {state.data.items.map((item) => (
               <li key={item.link} style={{ padding: '13px 0 14px' }}>
