@@ -1,0 +1,255 @@
+{
+  "cityId": "farmers-branch",
+  "name": "Farmers Branch",
+  "county": "Dallas",
+  "populationApprox": 36442,
+  "cityHall": {
+    "name": "Farmers Branch City Hall",
+    "address": "13000 William Dodson Pkwy., Farmers Branch, TX 75234",
+    "lat": 32.92098,
+    "lng": -96.8933
+  },
+  "website": "https://www.farmersbranchtx.gov",
+  "councilPageUrl": "https://www.farmersbranchtx.gov/mayor-city-council",
+  "council": {
+    "size": 6,
+    "structure": "Mayor elected at large + 5 council members elected from single-member Districts 1 through 5",
+    "districtCount": 5,
+    "districtMapUrl": "https://www.farmersbranchtx.gov/asset/b587099d-5910-467f-b89d-504e9905cc85",
+    "findMyDistrictUrl": "https://www.farmersbranchtx.gov/city-council-district-look-up",
+    "mayorName": "Terry Lynne",
+    "termNote": "Three-year staggered terms. Mayor Terry Lynne was first elected in 2023, won a June 2026 runoff, and his current term expires in 2029. Council: Lupe Gonzalez (District 1, first elected 2025, term to 2028), Tina Bennett-Burton (District 2, re-elected May 2026, term to 2029), David Reid (District 3, Mayor Pro Tem since June 2, 2026, term to 2027), Elizabeth Villafranca (District 4, term to 2028) and Roger Neal (District 5, Deputy Mayor Pro Tem, term to 2027). Members can be emailed at District1@ through District5@farmersbranchtx.gov; the general council phone is 972-919-2515."
+  },
+  "meetings": [
+    {
+      "type": "work-session",
+      "label": "City Council Study Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "16:00",
+        "notes": "Held the same afternoon as the regular meeting, on the same agenda; the 4 p.m. start is from the Sept. 15, 2026 agenda and can vary by meeting, so check the posted agenda."
+      },
+      "location": "Council Chambers, Farmers Branch City Hall, 13000 William Dodson Pkwy., Farmers Branch, TX 75234",
+      "virtualUrl": "https://farmersbranch.granicus.com/MediaPlayer.php?camera_id=2",
+      "openToPublicComment": true,
+      "notes": "The study session agenda includes a 'Public Comments on Study Session Items' section; the council reviews the evening's consent and regular items and may go into closed executive session (on Sept. 15, about the City Attorney's role and a request for legal defense by a council member).",
+      "source": "https://legistar.granicus.com/FarmersBranch/meetings/2026/9/2724_A_City_Council_26-09-15_Meeting_Agenda.pdf"
+    },
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "notes": "First and third Tuesdays at 6 p.m. (the city notes schedules are subject to change); the October 2026 first-Tuesday meeting moves to Wednesday, Oct. 7 because of National Night Out on Oct. 6."
+      },
+      "location": "Council Chambers, Farmers Branch City Hall, 13000 William Dodson Pkwy., Farmers Branch, TX 75234",
+      "virtualUrl": "https://farmersbranch.granicus.com/MediaPlayer.php?camera_id=2",
+      "openToPublicComment": true,
+      "notes": "Public Comments section follows ceremonial items and community announcements; upcoming dates on the city calendar: Sept. 15, Oct. 7 (Wed.), Oct. 20, Nov. 3, Nov. 17, Dec. 1 and Dec. 15, 2026. FBTV rebroadcasts the most recent meeting at 6 p.m. daily.",
+      "source": "https://www.farmersbranchtx.gov/farmers-branch-tv"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-17",
+      "status": "special",
+      "note": "Special called City Council meeting at 6 p.m. in Council Chambers to accept the 2026 appraisal roll and adopt the FY 2026-27 tax rate (Ordinance 4016).",
+      "source": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1442543&GUID=394E30A0-4CCE-4006-841A-849FF953D28D"
+    },
+    {
+      "date": "2026-09-29",
+      "status": "special",
+      "note": "Special called City Council meeting listed at 5 p.m. in Council Chambers on the Legistar calendar; agenda not yet posted.",
+      "source": "https://farmersbranch.legistar.com/Calendar.aspx"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "rescheduled",
+      "note": "Regular meeting moved from Tuesday, Oct. 6 to Wednesday, Oct. 7, 2026 at 6 p.m. because the city's National Night Out event is at City Hall on Tuesday, Oct. 6.",
+      "source": "https://www.farmersbranchtx.gov/city-meetings-calendar"
+    },
+    {
+      "date": "2026-10-07",
+      "status": "special",
+      "note": "Regular City Council meeting held on a Wednesday at 6 p.m. at City Hall (replaces the Oct. 6 date). The city calendar entry says the meeting was moved to Wednesday because of National Night Out on Tuesday.",
+      "source": "https://www.farmersbranchtx.gov/city-meetings-calendar"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://farmersbranch.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "City Council and board agendas, packets, minutes and video links; the city calls it the Agenda Center or Agenda Calendar. As of Sept. 10, 2026 it listed council meetings on Sept. 15, Sept. 17 (special) and Sept. 29 (special); October meetings were not yet posted."
+  },
+  "liveStream": {
+    "url": "https://farmersbranch.granicus.com/MediaPlayer.php?camera_id=2",
+    "platform": "Granicus",
+    "notes": "FBTV live stream (Granicus); FBTV also airs on cable channel 16 in Farmers Branch and posts select videos on YouTube (https://www.youtube.com/user/FBTV16). Coverage of regular council meetings starts at 6 p.m. on the first and third Tuesdays, with a rebroadcast of the most recent meeting at 6 p.m. seven days a week. Archived meetings are at https://farmersbranch.granicus.com/ViewPublisher.php?view_id=2 and through Legistar."
+  },
+  "publicComment": {
+    "summary": "Fill out the online Citizen Comment Form, or hand a paper form to the City Secretary, any time after the agenda is posted and at least 30 minutes before the 6 p.m. meeting; if you have not turned in a form you will not be called to speak. When the Mayor calls you, say your name and address and you have three minutes.",
+    "howToRegister": "Submit the online Citizen Comment Form at https://farmersbranchtx-portal.app.transform.civicplus.com/forms/21090 (Spanish version: https://farmersbranchtx-portal.app.transform.civicplus.com/forms/22601), or hand a paper request form to the City Secretary at City Hall. Forms are accepted from the time the agenda is posted until 30 minutes before the regular meeting starts. This applies to all action items on the agenda; there is also a comment opportunity on study session items at the start of the study session. Questions: City Secretary, erin.flores@farmersbranchtx.gov or 972-919-2520.",
+    "registrationUrl": "https://farmersbranchtx-portal.app.transform.civicplus.com/forms/21090",
+    "deadline": "30 minutes before the regular meeting (5:30 p.m. for a 6 p.m. meeting)",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No written-comment form is listed on the agenda; email the Mayor at Mayor@farmersbranchtx.gov or your district council member (District1@ through District5@farmersbranchtx.gov, listed on the Mayor & City Council page).",
+    "notes": "The printed agenda still says the online form is at https://www.farmersbranchtx.gov/101/City-Council, but that address now returns Page Not Found; the working form is linked from the Mayor & City Council page under 'Sign Up to Speak at a City Council Meeting'. Speakers must follow the city's Rules of Decorum and Conduct for Public Hearings and Citizen Comments (the agenda links them from the Mayor & City Council page) and direct comments to the council, not the audience. The agenda states the city will not tolerate unruly behavior, intimidation or remarks not relevant to policy issues within the city's authority. No remote or virtual speaking option is described. Accessibility requests go to the City Secretary at (972) 919-2520 at least 72 hours before the meeting.",
+    "source": "https://legistar.granicus.com/FarmersBranch/meetings/2026/9/2724_A_City_Council_26-09-15_Meeting_Agenda.pdf"
+  },
+  "youthPrograms": [
+    {
+      "name": "Teen Leadership Program (Teen Camp)",
+      "url": "https://www.farmersbranchtx.gov/teen-camp-teen-leadership-program",
+      "ages": "13 to 15",
+      "description": "Summer weekday day camp (7:30 a.m. to 6 p.m.) at the Farmers Branch Community Recreation Center, 14050 Heartside Place, combining recreation with community service and projects with the Animal Adoption Center, Historical Park and Parks; $15 per week for residents, $40 for non-residents. Teens completing about 80 service hours earn a free end-of-summer lock-in.",
+      "applyWindow": "The 2026 session ran May 26 to Aug. 10 with resident registration from March 1 and non-resident registration from May 15; the city says 2027 details will be posted in January 2027",
+      "source": "https://content.civicplus.com/api/assets/tx-farmersbranch/b6b87ed3-622e-406f-bb01-c18e59b21e26"
+    },
+    {
+      "name": "Teen Fire & Rescue Academy",
+      "url": "https://www.farmersbranchtx.gov/teen-fire-rescue-academy",
+      "ages": "13 to 18 (residents and non-residents)",
+      "description": "One-week summer academy run by Farmers Branch Fire and Parks and Recreation where teens learn firefighting equipment, basic emergency response, search-and-rescue skills and fitness challenges alongside city firefighters; the 2026 academy has ended and a 2027 session is planned.",
+      "applyWindow": "Summer 2027; resident registration opens May 3, 2027 and non-resident registration May 17, 2027, with full details posted in spring 2027",
+      "source": "https://www.farmersbranchtx.gov/teen-fire-rescue-academy"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing on the Proposed Fiscal Year 2026-27 Operating and Capital Improvement Program Budget",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can speak on next year's proposed city budget before the council votes on it.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Ordinance No. 4014 adopting the budget and strategic plan for fiscal year Oct. 1, 2026 to Sept. 30, 2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council votes to adopt the city budget and strategic plan for the coming fiscal year and to amend the 2025-26 budget.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Resolution No. 2026-122 ratifying the property tax revenue increase reflected in the FY 2026-27 Budget",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "State law requires a separate vote acknowledging that the new budget raises more property tax revenue than last year.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Public hearing and scheduling of the adoption of a maximum property tax rate of $0.608512",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Public hearing on a proposed city property tax rate of up to $0.608512 per $100 of value, with the adoption vote set for the Sept. 17 special meeting.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Receive an update on the Squire and Mercer Park projects",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Study Session",
+      "topics": [
+        "parks-recreation"
+      ],
+      "summary": "Staff update the council on progress at the Squire Park and Mercer Park improvement projects.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Resolution No. 2026-111: contract with Mackie Interior Construction for roof replacement at the 1856 Gilbert House in the Historical Park",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "arts-culture",
+        "parks-recreation"
+      ],
+      "summary": "Approves up to $148,500 to replace the roof on the historic 1856 Gilbert House at the city's Historical Park.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Resolution No. 2026-127 affirming the appointment of a shared DART Board member with the City of Plano",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "transit",
+        "governance-elections"
+      ],
+      "summary": "Confirms the person who will represent Farmers Branch and Plano together on the Dallas Area Rapid Transit board.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Resolution No. 2026-106 reaffirming authorization to purchase desktop, laptop and rugged workstations",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "technology"
+      ],
+      "summary": "Authorizes up to $91,000 for new city computer workstations.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Executive session on the appointment, employment, evaluation and duties of the City Attorney",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Study Session",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council meets in closed session about the City Attorney's role and expectations under the council-manager form of government.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336"
+    },
+    {
+      "title": "Ordinance No. 4016 accepting the Tax Year 2026 appraisal roll and adopting the FY 2026-27 tax rate",
+      "meetingDate": "2026-09-17",
+      "meetingLabel": "City Council Special Called Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council votes to set the city property tax rate for tax year 2026 at a special 6 p.m. meeting.",
+      "url": "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1442543&GUID=394E30A0-4CCE-4006-841A-849FF953D28D"
+    }
+  ],
+  "confidence": "high",
+  "sources": [
+    "https://farmersbranch.legistar.com/Calendar.aspx",
+    "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1382038&GUID=2B0FF885-2C0B-4629-B312-6DEB74BFE336",
+    "https://farmersbranch.legistar.com/MeetingDetail.aspx?ID=1442543&GUID=394E30A0-4CCE-4006-841A-849FF953D28D",
+    "https://legistar.granicus.com/FarmersBranch/meetings/2026/9/2724_A_City_Council_26-09-15_Meeting_Agenda.pdf",
+    "https://webapi.legistar.com/v1/farmersbranch/events",
+    "https://www.farmersbranchtx.gov/mayor-city-council",
+    "https://www.farmersbranchtx.gov/farmers-branch-tv",
+    "https://www.farmersbranchtx.gov/city-meetings-calendar",
+    "https://www.farmersbranchtx.gov/city-council-district-look-up",
+    "https://www.farmersbranchtx.gov/asset/b587099d-5910-467f-b89d-504e9905cc85",
+    "https://farmersbranchtx-portal.app.transform.civicplus.com/forms/21090",
+    "https://www.farmersbranchtx.gov/teen-camp-teen-leadership-program",
+    "https://www.farmersbranchtx.gov/teen-fire-rescue-academy",
+    "https://content.civicplus.com/api/assets/tx-farmersbranch/b6b87ed3-622e-406f-bb01-c18e59b21e26",
+    "https://content.civicplus.com/api/content/tx-farmersbranch/graphql",
+    "https://farmersbranch.granicus.com/MediaPlayer.php?camera_id=2",
+    "https://farmersbranch.granicus.com/ViewPublisher.php?view_id=2",
+    "https://www.youtube.com/user/FBTV16"
+  ],
+  "notes": "Verified Sept. 10, 2026. farmersbranchtx.gov renders its pages client-side, so page content (council roster and terms, FBTV schedule statement, calendar events, the sign-up-to-speak links and youth program pages) was read through the city's own CivicPlus content API using the public read-only token the site itself embeds, plus the Legistar portal. Older numeric URLs (for example /598/City-Council-Mayor, /1360/City-Council-District-Look-Up, /206/Farmers-Branch-TV, /1671/City-Meetings-Calendar) redirect to the slug URLs used here. The 'first and third Tuesdays at 6 p.m.' schedule comes from the city's FBTV page and matches the city calendar events for Sept. through Dec. 2026, including the Oct. 7 (Wednesday) move. No youth advisory council, youth commission or teen court was found for Farmers Branch. Population is the most recent estimate found (36,442) and was not re-verified in this pass; the 2020 census count was 35,991. Coordinates come from the city's own City Hall facility record (32.9210, -96.8933).",
+  "lastVerified": "2026-09-10"
+}

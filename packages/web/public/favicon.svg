@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Agora">
+  <rect width="64" height="64" fill="#17150f"/>
+  <g fill="#f2efe7">
+    <rect x="6" y="13" width="52" height="5"/>
+    <rect x="10" y="19" width="44" height="4"/>
+    <rect x="15" y="25" width="7" height="20"/>
+    <rect x="29" y="25" width="7" height="20"/>
+    <rect x="43" y="25" width="7" height="20"/>
+    <rect x="6" y="46" width="52" height="5"/>
+  </g>
+</svg>

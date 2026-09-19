@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+packages/web/dev-dist/
+.cache/
+
+# Local data collection scratch, never part of the project
+scratch/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Logs and editor or OS noise
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

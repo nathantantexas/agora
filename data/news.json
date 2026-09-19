@@ -1,0 +1,1197 @@
+{
+  "generatedAt": "2026-09-10",
+  "sources": [
+    {
+      "id": "kera-news",
+      "name": "KERA News",
+      "homepage": "https://www.keranews.org/",
+      "rssUrl": "https://www.keranews.org/news.rss",
+      "rssVerified": true,
+      "coverage": [
+        "dfw"
+      ],
+      "topics": [
+        "housing",
+        "transit",
+        "roads-traffic",
+        "public-safety",
+        "environment",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "arts-culture",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "animal-services",
+        "technology",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Nonprofit NPR member station for North Texas and the most consistent broadcaster on Dallas and Fort Worth city council business. Tag pages such as /tags/dallas-city-council and /tags/fort-worth-city-council track council votes directly; KERA also owns the Denton Record-Chronicle. Feed verified with the fetch tool (RSS 2.0, current items)."
+    },
+    {
+      "id": "dallas-morning-news",
+      "name": "The Dallas Morning News",
+      "homepage": "https://www.dallasnews.com/",
+      "rssVerified": false,
+      "coverage": [
+        "Dallas",
+        "dfw"
+      ],
+      "topics": [
+        "housing",
+        "transit",
+        "roads-traffic",
+        "public-safety",
+        "environment",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "arts-culture",
+        "health",
+        "economic-development",
+        "governance-elections"
+      ],
+      "paywall": "metered",
+      "notes": "Largest DFW daily, now on Hearst's publishing platform. No RSS feed could be found: the old Arc outbound feed paths return 404 and the page metadata reports rssFeedUrl as null, so no feed URL is given. The site serves a bot challenge to the fetch tool, but curl confirms the section pages load; the Dallas City and County Local Government section lives at /news/dallas-local-government/."
+    },
+    {
+      "id": "fort-worth-report",
+      "name": "Fort Worth Report",
+      "homepage": "https://fortworthreport.org/",
+      "rssUrl": "https://fortworthreport.org/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Fort Worth",
+        "Arlington",
+        "Tarrant County"
+      ],
+      "topics": [
+        "housing",
+        "transit",
+        "roads-traffic",
+        "parks-recreation",
+        "public-safety",
+        "environment",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "youth",
+        "arts-culture",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "animal-services",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Nonprofit newsroom with a dedicated local government desk covering Fort Worth City Council, Tarrant County and suburbs like Bedford. Every tag has its own feed at /tag/<slug>/feed/ (for example /tag/fort-worth-city-council/feed/). The site rate-limits bursts of requests with HTTP 429, so poll gently. Main feed verified with the fetch tool."
+    },
+    {
+      "id": "fort-worth-star-telegram",
+      "name": "Fort Worth Star-Telegram",
+      "homepage": "https://www.star-telegram.com/",
+      "rssUrl": "https://www.star-telegram.com/news/local/?widgetName=rssfeed&widgetContentId=712015&getXmlFeed=true",
+      "rssVerified": false,
+      "coverage": [
+        "Fort Worth",
+        "Tarrant County",
+        "Arlington"
+      ],
+      "topics": [
+        "housing",
+        "transit",
+        "roads-traffic",
+        "public-safety",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "governance-elections"
+      ],
+      "paywall": "metered",
+      "notes": "McClatchy daily for Tarrant County. The host could not be reached from this environment at all (connections never completed over IPv4 or IPv6 and the fetch tool refuses the domain), so the feed URL is McClatchy's standard local-news feed pattern and must be checked before relying on it."
+    },
+    {
+      "id": "dallas-observer",
+      "name": "Dallas Observer",
+      "homepage": "https://www.dallasobserver.com/",
+      "rssUrl": "https://www.dallasobserver.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Dallas",
+        "dfw"
+      ],
+      "topics": [
+        "housing",
+        "transit",
+        "public-safety",
+        "budget-taxes",
+        "zoning-development",
+        "arts-culture",
+        "governance-elections",
+        "other"
+      ],
+      "paywall": "none",
+      "notes": "Alt-weekly with pointed City Hall and police coverage. The site returns 403 to the fetch tool, so the feed was verified with curl (RSS 2.0, 10 items); the legacy /dallas/Rss.xml path redirects to /feed/. News section at /news/."
+    },
+    {
+      "id": "d-magazine",
+      "name": "D Magazine",
+      "homepage": "https://www.dmagazine.com/",
+      "rssUrl": "https://www.dmagazine.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Dallas",
+        "dfw"
+      ],
+      "topics": [
+        "housing",
+        "transit",
+        "parks-recreation",
+        "budget-taxes",
+        "zoning-development",
+        "arts-culture",
+        "economic-development",
+        "governance-elections"
+      ],
+      "paywall": "metered",
+      "notes": "City magazine whose FrontBurner blog follows Dallas City Hall closely; tag pages at /tag/dallas-city-hall/, /tag/dallas-city-council/ and /tag/dart/. The site returns 403 to the fetch tool, so the feed was verified with curl (RSS 2.0, 12 items)."
+    },
+    {
+      "id": "community-impact-dfw",
+      "name": "Community Impact (Dallas-Fort Worth)",
+      "homepage": "https://communityimpact.com/dallas-fort-worth/",
+      "rssUrl": "https://communityimpact.com/rss/",
+      "rssVerified": true,
+      "coverage": [
+        "dfw"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Free hyperlocal chain with a Government section in every edition that summarizes council and planning-and-zoning meetings. The network feed at /rss/ covers all Texas markets, so filter by DFW cities; per-edition feeds follow /rss/<edition>/ and per-section feeds /rss/<edition>/<section>/. The Lewisville/Flower Mound/Highland Village and Coppell/Valley Ranch/Las Colinas editions no longer exist as separate editions (every slug variant returns 404 and they are absent from the DFW edition list), so use Star Local Media and Cross Timbers Gazette for those cities."
+    },
+    {
+      "id": "community-impact-plano",
+      "name": "Community Impact (Plano)",
+      "homepage": "https://communityimpact.com/plano/",
+      "rssUrl": "https://communityimpact.com/rss/plano/",
+      "rssVerified": true,
+      "coverage": [
+        "Plano"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Edition feed verified with the fetch tool. Government-only feed also verified at https://communityimpact.com/rss/plano/government/; section pages at /plano/government/, /plano/transportation/, /plano/development/, /plano/education/, /plano/business/."
+    },
+    {
+      "id": "community-impact-richardson",
+      "name": "Community Impact (Richardson)",
+      "homepage": "https://communityimpact.com/richardson/",
+      "rssUrl": "https://communityimpact.com/rss/richardson/",
+      "rssVerified": true,
+      "coverage": [
+        "Richardson"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Edition feed verified with curl (RSS, 50 items). Government section at /richardson/government/ follows the same pattern as Plano."
+    },
+    {
+      "id": "community-impact-frisco",
+      "name": "Community Impact (Frisco)",
+      "homepage": "https://communityimpact.com/frisco/",
+      "rssUrl": "https://communityimpact.com/rss/frisco/",
+      "rssVerified": true,
+      "coverage": [
+        "Frisco"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Edition feed verified with curl (RSS, 50 items); government-only feed also confirmed at https://communityimpact.com/rss/frisco/government/."
+    },
+    {
+      "id": "community-impact-mckinney",
+      "name": "Community Impact (McKinney)",
+      "homepage": "https://communityimpact.com/mckinney/",
+      "rssUrl": "https://communityimpact.com/rss/mckinney/",
+      "rssVerified": true,
+      "coverage": [
+        "McKinney"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Edition feed verified with curl (RSS, 50 items)."
+    },
+    {
+      "id": "community-impact-allen",
+      "name": "Community Impact (Allen)",
+      "homepage": "https://communityimpact.com/allen/",
+      "rssUrl": "https://communityimpact.com/rss/allen/",
+      "rssVerified": true,
+      "coverage": [
+        "Allen"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Edition feed verified with curl (RSS, 50 items)."
+    },
+    {
+      "id": "community-impact-grapevine-colleyville-southlake",
+      "name": "Community Impact (Grapevine, Colleyville, Southlake)",
+      "homepage": "https://communityimpact.com/grapevine-colleyville-southlake/",
+      "rssUrl": "https://communityimpact.com/rss/grapevine-colleyville-southlake/",
+      "rssVerified": true,
+      "coverage": [
+        "Grapevine",
+        "Colleyville",
+        "Southlake"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Edition feed verified with curl (RSS, 50 items)."
+    },
+    {
+      "id": "community-impact-keller-roanoke-northeast-fort-worth",
+      "name": "Community Impact (Keller, Roanoke, Northeast Fort Worth)",
+      "homepage": "https://communityimpact.com/keller-roanoke-northeast-fort-worth/",
+      "rssUrl": "https://communityimpact.com/rss/keller-roanoke-northeast-fort-worth/",
+      "rssVerified": true,
+      "coverage": [
+        "Keller",
+        "Roanoke",
+        "North Richland Hills",
+        "Fort Worth"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Edition feed verified with curl (RSS, 50 items). This is the edition that covers Keller, Roanoke and the Northeast Tarrant suburbs including North Richland Hills."
+    },
+    {
+      "id": "community-impact-denton",
+      "name": "Community Impact (Denton)",
+      "homepage": "https://communityimpact.com/denton/",
+      "rssUrl": "https://communityimpact.com/rss/denton/",
+      "rssVerified": true,
+      "coverage": [
+        "Denton"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "health",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Not in the requested list but a live DFW edition; feed verified with curl (RSS, 50 items). Pairs well with the Denton Record-Chronicle."
+    },
+    {
+      "id": "community-impact-prosper-celina",
+      "name": "Community Impact (Prosper, Celina)",
+      "homepage": "https://communityimpact.com/prosper-celina/",
+      "rssUrl": "https://communityimpact.com/rss/prosper-celina/",
+      "rssVerified": true,
+      "coverage": [
+        "Prosper",
+        "Celina"
+      ],
+      "topics": [
+        "roads-traffic",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "economic-development",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Not in the requested list but a live DFW edition for two fast-growing Collin County cities; feed verified with curl (RSS, 50 items)."
+    },
+    {
+      "id": "texas-tribune",
+      "name": "The Texas Tribune",
+      "homepage": "https://www.texastribune.org/",
+      "rssUrl": "https://feeds.texastribune.org/feeds/main/",
+      "rssVerified": true,
+      "coverage": [
+        "texas"
+      ],
+      "topics": [
+        "housing",
+        "transit",
+        "public-safety",
+        "environment",
+        "budget-taxes",
+        "education-libraries",
+        "health",
+        "utilities-water",
+        "technology",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Statewide nonprofit; best for state laws that constrain what city councils can do (property tax caps, preemption, school vouchers, data center rules). The /feeds/main/ path on the main domain 301-redirects to feeds.texastribune.org, which is the URL given. Topic pages at /topics/<slug>/ work for transportation, public-education, environment, health-care, energy, criminal-justice and politics; the housing and water topic slugs do not resolve to topic pages."
+    },
+    {
+      "id": "dallas-free-press",
+      "name": "Dallas Free Press",
+      "homepage": "https://dallasfreepress.com/",
+      "rssUrl": "https://dallasfreepress.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Dallas"
+      ],
+      "topics": [
+        "housing",
+        "parks-recreation",
+        "zoning-development",
+        "education-libraries",
+        "youth",
+        "budget-taxes",
+        "public-safety",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Nonprofit covering South and West Dallas, with a Dallas Documenters program that publishes notes from city council, park board and zoning meetings, and a student journalist program that is directly relevant to a teen audience. Site uses a single Dallas News archive at /dallas-news/ rather than topic categories."
+    },
+    {
+      "id": "dallas-weekly",
+      "name": "Dallas Weekly",
+      "homepage": "https://dallasweekly.com/",
+      "rssUrl": "https://dallasweekly.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Dallas",
+        "dfw"
+      ],
+      "topics": [
+        "housing",
+        "public-safety",
+        "governance-elections",
+        "economic-development",
+        "arts-culture",
+        "health"
+      ],
+      "paywall": "none",
+      "notes": "Black-owned weekly founded in 1954; strong on southern Dallas housing, equity and elections. Feed verified with the fetch tool."
+    },
+    {
+      "id": "denton-record-chronicle",
+      "name": "Denton Record-Chronicle",
+      "homepage": "https://dentonrc.com/",
+      "rssUrl": "https://dentonrc.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+      "rssVerified": true,
+      "coverage": [
+        "Denton",
+        "Denton County"
+      ],
+      "topics": [
+        "housing",
+        "roads-traffic",
+        "public-safety",
+        "environment",
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "governance-elections"
+      ],
+      "paywall": "metered",
+      "notes": "Daily owned by KERA since 2023. Runs on the BLOX CMS, so the feed is a search endpoint; the fetch tool was rate-limited (429) but curl returned RSS with 25 items. News index at /news/."
+    },
+    {
+      "id": "star-local-media",
+      "name": "Star Local Media",
+      "homepage": "https://starlocalmedia.com/",
+      "rssUrl": "https://starlocalmedia.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+      "rssVerified": true,
+      "coverage": [
+        "Plano",
+        "Frisco",
+        "McKinney",
+        "Allen",
+        "Lewisville",
+        "Flower Mound",
+        "Coppell",
+        "Carrollton",
+        "The Colony",
+        "Little Elm",
+        "Celina",
+        "Mesquite",
+        "Rowlett"
+      ],
+      "topics": [
+        "budget-taxes",
+        "zoning-development",
+        "education-libraries",
+        "public-safety",
+        "roads-traffic",
+        "parks-recreation",
+        "governance-elections"
+      ],
+      "paywall": "metered",
+      "notes": "Chain of suburban weeklies (Plano Star Courier, Frisco Enterprise, McKinney Courier-Gazette, Allen American, Lewisville Leader, Coppell Gazette and others), which makes it the main council-coverage source for Lewisville, Flower Mound and Coppell now that Community Impact has dropped those editions. BLOX search-as-RSS feed verified with the fetch tool; it mixes in syndicated wire content."
+    },
+    {
+      "id": "candys-dirt",
+      "name": "CandysDirt.com",
+      "homepage": "https://candysdirt.com/",
+      "rssUrl": "https://candysdirt.com/feed/",
+      "rssVerified": false,
+      "coverage": [
+        "Dallas",
+        "dfw"
+      ],
+      "topics": [
+        "housing",
+        "zoning-development",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Real estate news site that follows Dallas zoning cases, the City Plan Commission and the ForwardDallas land-use plan closely. Cloudflare returns a 403 challenge to every automated request (fetch tool and curl alike), so the standard WordPress feed path could not be confirmed and the homepage could not be loaded either; check manually before use."
+    },
+    {
+      "id": "fort-worth-weekly",
+      "name": "Fort Worth Weekly",
+      "homepage": "https://www.fwweekly.com/",
+      "rssUrl": "https://www.fwweekly.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Fort Worth",
+        "Tarrant County"
+      ],
+      "topics": [
+        "arts-culture",
+        "governance-elections",
+        "public-safety",
+        "other"
+      ],
+      "paywall": "none",
+      "notes": "Alt-weekly with opinionated Metropolis column on Fort Worth politics; the feed also carries sponsored lifestyle posts, so filter by category. Verified with the fetch tool."
+    },
+    {
+      "id": "people-newspapers",
+      "name": "People Newspapers (Park Cities People, Preston Hollow People)",
+      "homepage": "https://www.peoplenewspapers.com/",
+      "rssUrl": "https://www.peoplenewspapers.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Highland Park",
+        "University Park",
+        "Dallas"
+      ],
+      "topics": [
+        "education-libraries",
+        "zoning-development",
+        "public-safety",
+        "arts-culture",
+        "parks-recreation",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Community papers for the Park Cities and Preston Hollow; covers Highland Park and University Park town councils and Highland Park ISD. Verified with the fetch tool."
+    },
+    {
+      "id": "nbc-dfw",
+      "name": "NBC 5 Dallas-Fort Worth (KXAS)",
+      "homepage": "https://www.nbcdfw.com/",
+      "rssUrl": "https://www.nbcdfw.com/news/local/?rss=y",
+      "rssVerified": true,
+      "coverage": [
+        "dfw"
+      ],
+      "topics": [
+        "transit",
+        "roads-traffic",
+        "housing",
+        "public-safety",
+        "health",
+        "technology",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Local feed verified with the fetch tool. Tag pages exist for some civic topics (/tag/dart/, /tag/housing/), but unknown tag slugs silently redirect to the homepage instead of returning 404, so test any new tag before linking it."
+    },
+    {
+      "id": "wfaa",
+      "name": "WFAA (ABC 8)",
+      "homepage": "https://www.wfaa.com/",
+      "rssUrl": "https://www.wfaa.com/feeds/syndication/rss/news/local",
+      "rssVerified": true,
+      "coverage": [
+        "dfw"
+      ],
+      "topics": [
+        "roads-traffic",
+        "transit",
+        "public-safety",
+        "governance-elections",
+        "education-libraries",
+        "health"
+      ],
+      "paywall": "none",
+      "notes": "TEGNA station; local syndication feed verified with the fetch tool. Section URLs are limited (politics and education paths returned 404) but /traffic works."
+    },
+    {
+      "id": "fox-4",
+      "name": "FOX 4 News (KDFW)",
+      "homepage": "https://www.fox4news.com/",
+      "rssUrl": "https://www.fox4news.com/rss/category/local-news",
+      "rssVerified": true,
+      "coverage": [
+        "dfw"
+      ],
+      "topics": [
+        "public-safety",
+        "governance-elections",
+        "education-libraries",
+        "health",
+        "technology",
+        "animal-services",
+        "roads-traffic"
+      ],
+      "paywall": "none",
+      "notes": "Local news feed verified with the fetch tool. Topic pages live at /tag/<slug> (politics, education, crime-publicsafety, health, technology, pets-animals)."
+    },
+    {
+      "id": "cbs-texas",
+      "name": "CBS News Texas (KTVT)",
+      "homepage": "https://www.cbsnews.com/texas/",
+      "rssUrl": "https://www.cbsnews.com/texas/latest/rss/main",
+      "rssVerified": true,
+      "coverage": [
+        "dfw"
+      ],
+      "topics": [
+        "public-safety",
+        "transit",
+        "governance-elections",
+        "health",
+        "education-libraries"
+      ],
+      "paywall": "none",
+      "notes": "Feed verified with the fetch tool but it mixes national CBS stories with local ones; /texas/local-news/ and /texas/tag/dart/ are the useful local pages."
+    },
+    {
+      "id": "arlington-report",
+      "name": "Arlington Report",
+      "homepage": "https://fortworthreport.org/arlington-report/",
+      "rssUrl": "https://fortworthreport.org/tag/arlington/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Arlington"
+      ],
+      "topics": [
+        "budget-taxes",
+        "governance-elections",
+        "education-libraries",
+        "zoning-development",
+        "parks-recreation",
+        "public-safety",
+        "roads-traffic"
+      ],
+      "paywall": "none",
+      "notes": "Fort Worth Report's Arlington newsroom (arlingtonreport.org redirects here). There is no dedicated section feed, so the Arlington tag feed is used; verified with the fetch tool. Government subsection at /arlington-government/."
+    },
+    {
+      "id": "advocate-magazine",
+      "name": "Advocate Magazine",
+      "homepage": "https://advocatemag.com/",
+      "rssUrl": "https://lakewood.advocatemag.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Dallas"
+      ],
+      "topics": [
+        "zoning-development",
+        "education-libraries",
+        "parks-recreation",
+        "arts-culture",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Dallas neighborhood magazines covering council district-level issues. The root advocatemag.com/feed/ is stale, so the Lakewood/East Dallas edition feed is used (verified with the fetch tool); the Oak Cliff, Lake Highlands and Preston Hollow editions have their own feeds at oakcliff., lakehighlands. and prestonhollow.advocatemag.com/feed/ (each returned 10 items via curl). Some items are sponsored."
+    },
+    {
+      "id": "dallas-innovates",
+      "name": "Dallas Innovates",
+      "homepage": "https://dallasinnovates.com/",
+      "rssUrl": "https://dallasinnovates.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "dfw"
+      ],
+      "topics": [
+        "technology",
+        "economic-development",
+        "education-libraries"
+      ],
+      "paywall": "none",
+      "notes": "Owned by the Dallas Regional Chamber with editorial independence, so expect a business-friendly lens; good for data centers, startups and economic development deals. Verified with the fetch tool; sections at /business/, /education/, /impact/."
+    },
+    {
+      "id": "texas-metro-news",
+      "name": "Texas Metro News",
+      "homepage": "https://texasmetronews.com/",
+      "rssUrl": "https://texasmetronews.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Dallas",
+        "dfw"
+      ],
+      "topics": [
+        "governance-elections",
+        "parks-recreation",
+        "education-libraries",
+        "public-safety",
+        "arts-culture"
+      ],
+      "paywall": "none",
+      "notes": "Black community news outlet that republishes many City of Dallas announcements (park dedications, programs) alongside political coverage. Verified with the fetch tool."
+    },
+    {
+      "id": "cross-timbers-gazette",
+      "name": "The Cross Timbers Gazette",
+      "homepage": "https://www.crosstimbersgazette.com/",
+      "rssUrl": "https://www.crosstimbersgazette.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Flower Mound",
+        "Lewisville",
+        "Highland Village",
+        "Argyle",
+        "Denton County"
+      ],
+      "topics": [
+        "governance-elections",
+        "zoning-development",
+        "roads-traffic",
+        "education-libraries",
+        "public-safety",
+        "parks-recreation"
+      ],
+      "paywall": "none",
+      "notes": "Southern Denton County community paper; the best remaining local source for Flower Mound and Highland Village council news. Verified with the fetch tool."
+    },
+    {
+      "id": "local-profile",
+      "name": "Local Profile",
+      "homepage": "https://www.localprofile.com/",
+      "rssUrl": "https://www.localprofile.com/rss/",
+      "rssVerified": true,
+      "coverage": [
+        "Plano",
+        "Frisco",
+        "McKinney",
+        "Allen",
+        "Collin County"
+      ],
+      "topics": [
+        "economic-development",
+        "zoning-development",
+        "arts-culture",
+        "education-libraries",
+        "governance-elections"
+      ],
+      "paywall": "none",
+      "notes": "Collin County magazine mixing lifestyle with civic news. The fetch tool gets a 403, so the /rss/ feed was verified with curl (20 items)."
+    },
+    {
+      "id": "dallas-voice",
+      "name": "Dallas Voice",
+      "homepage": "https://dallasvoice.com/",
+      "rssUrl": "https://dallasvoice.com/feed/",
+      "rssVerified": true,
+      "coverage": [
+        "Dallas",
+        "dfw"
+      ],
+      "topics": [
+        "governance-elections",
+        "arts-culture",
+        "health",
+        "public-safety"
+      ],
+      "paywall": "none",
+      "notes": "LGBTQ community outlet; covers council actions and elections affecting that community. Verified with the fetch tool."
+    }
+  ],
+  "topicLinks": [
+    {
+      "topic": "housing",
+      "label": "KERA News housing tag",
+      "url": "https://www.keranews.org/tags/housing",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "housing",
+      "label": "NBC 5 DFW housing tag",
+      "url": "https://www.nbcdfw.com/tag/housing/",
+      "sourceName": "NBC 5 Dallas-Fort Worth (KXAS)"
+    },
+    {
+      "topic": "housing",
+      "label": "Fort Worth Report housing tag",
+      "url": "https://fortworthreport.org/tag/housing/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "housing",
+      "label": "Dallas Morning News real estate section",
+      "url": "https://www.dallasnews.com/business/real-estate/",
+      "sourceName": "The Dallas Morning News"
+    },
+    {
+      "topic": "transit",
+      "label": "KERA News DART tag",
+      "url": "https://www.keranews.org/tags/dart",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "transit",
+      "label": "NBC 5 DFW DART tag",
+      "url": "https://www.nbcdfw.com/tag/dart/",
+      "sourceName": "NBC 5 Dallas-Fort Worth (KXAS)"
+    },
+    {
+      "topic": "transit",
+      "label": "CBS Texas DART tag",
+      "url": "https://www.cbsnews.com/texas/tag/dart/",
+      "sourceName": "CBS News Texas (KTVT)"
+    },
+    {
+      "topic": "transit",
+      "label": "Community Impact Plano transportation section",
+      "url": "https://communityimpact.com/plano/transportation/",
+      "sourceName": "Community Impact (Plano)"
+    },
+    {
+      "topic": "roads-traffic",
+      "label": "WFAA traffic section",
+      "url": "https://www.wfaa.com/traffic",
+      "sourceName": "WFAA (ABC 8)"
+    },
+    {
+      "topic": "roads-traffic",
+      "label": "NBC 5 DFW traffic section",
+      "url": "https://www.nbcdfw.com/traffic/",
+      "sourceName": "NBC 5 Dallas-Fort Worth (KXAS)"
+    },
+    {
+      "topic": "roads-traffic",
+      "label": "KERA News transportation section",
+      "url": "https://www.keranews.org/transportation",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "roads-traffic",
+      "label": "Dallas Morning News transportation section",
+      "url": "https://www.dallasnews.com/news/transportation/",
+      "sourceName": "The Dallas Morning News"
+    },
+    {
+      "topic": "parks-recreation",
+      "label": "Fort Worth Report parks tag",
+      "url": "https://fortworthreport.org/tag/parks/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "parks-recreation",
+      "label": "D Magazine nature and environment tag (parks stories)",
+      "url": "https://www.dmagazine.com/tag/nature-environment/",
+      "sourceName": "D Magazine"
+    },
+    {
+      "topic": "parks-recreation",
+      "label": "KERA News parks tag",
+      "url": "https://www.keranews.org/tags/parks",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "public-safety",
+      "label": "FOX 4 crime and public safety section",
+      "url": "https://www.fox4news.com/tag/crime-publicsafety",
+      "sourceName": "FOX 4 News (KDFW)"
+    },
+    {
+      "topic": "public-safety",
+      "label": "KERA News criminal justice section",
+      "url": "https://www.keranews.org/criminal-justice",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "public-safety",
+      "label": "CBS Texas crime section",
+      "url": "https://www.cbsnews.com/texas/crime/",
+      "sourceName": "CBS News Texas (KTVT)"
+    },
+    {
+      "topic": "public-safety",
+      "label": "Dallas Morning News public safety section",
+      "url": "https://www.dallasnews.com/news/public-safety/",
+      "sourceName": "The Dallas Morning News"
+    },
+    {
+      "topic": "environment",
+      "label": "KERA News energy and environment section",
+      "url": "https://www.keranews.org/energy-environment",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "environment",
+      "label": "Texas Tribune environment topic",
+      "url": "https://www.texastribune.org/topics/environment/",
+      "sourceName": "The Texas Tribune"
+    },
+    {
+      "topic": "environment",
+      "label": "Fort Worth Report environment category",
+      "url": "https://fortworthreport.org/category/environment/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "environment",
+      "label": "Dallas Morning News environment section",
+      "url": "https://www.dallasnews.com/news/environment/",
+      "sourceName": "The Dallas Morning News"
+    },
+    {
+      "topic": "budget-taxes",
+      "label": "KERA News Dallas City Council tag (budget votes)",
+      "url": "https://www.keranews.org/tags/dallas-city-council",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "budget-taxes",
+      "label": "Fort Worth Report budget tag",
+      "url": "https://fortworthreport.org/tag/budget/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "budget-taxes",
+      "label": "Community Impact Plano government section",
+      "url": "https://communityimpact.com/plano/government/",
+      "sourceName": "Community Impact (Plano)"
+    },
+    {
+      "topic": "budget-taxes",
+      "label": "D Magazine Dallas City Hall tag",
+      "url": "https://www.dmagazine.com/tag/dallas-city-hall/",
+      "sourceName": "D Magazine"
+    },
+    {
+      "topic": "zoning-development",
+      "label": "Community Impact Plano development section",
+      "url": "https://communityimpact.com/plano/development/",
+      "sourceName": "Community Impact (Plano)"
+    },
+    {
+      "topic": "zoning-development",
+      "label": "Fort Worth Report zoning tag",
+      "url": "https://fortworthreport.org/tag/zoning/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "zoning-development",
+      "label": "NBC 5 DFW housing tag (Dallas zoning rewrite coverage)",
+      "url": "https://www.nbcdfw.com/tag/housing/",
+      "sourceName": "NBC 5 Dallas-Fort Worth (KXAS)"
+    },
+    {
+      "topic": "zoning-development",
+      "label": "D Magazine residential real estate category",
+      "url": "https://www.dmagazine.com/category/residential-real-estate/",
+      "sourceName": "D Magazine"
+    },
+    {
+      "topic": "education-libraries",
+      "label": "KERA News education section",
+      "url": "https://www.keranews.org/education",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "education-libraries",
+      "label": "Fort Worth Report education section",
+      "url": "https://fortworthreport.org/education/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "education-libraries",
+      "label": "FOX 4 education section",
+      "url": "https://www.fox4news.com/tag/education",
+      "sourceName": "FOX 4 News (KDFW)"
+    },
+    {
+      "topic": "education-libraries",
+      "label": "Texas Tribune public education topic",
+      "url": "https://www.texastribune.org/topics/public-education/",
+      "sourceName": "The Texas Tribune"
+    },
+    {
+      "topic": "youth",
+      "label": "Fort Worth Report youth tag",
+      "url": "https://fortworthreport.org/tag/youth/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "youth",
+      "label": "KERA News children tag",
+      "url": "https://www.keranews.org/tags/children",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "youth",
+      "label": "Dallas Free Press student journalists",
+      "url": "https://dallasfreepress.com/author/dfp-student-journalists/",
+      "sourceName": "Dallas Free Press"
+    },
+    {
+      "topic": "youth",
+      "label": "KERA News Dallas ISD tag",
+      "url": "https://www.keranews.org/tags/dallas-isd",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "arts-culture",
+      "label": "KERA News arts and culture section",
+      "url": "https://www.keranews.org/arts-culture",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "arts-culture",
+      "label": "Fort Worth Report arts and culture section",
+      "url": "https://fortworthreport.org/arts-culture/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "arts-culture",
+      "label": "D Magazine FrontRow arts and entertainment",
+      "url": "https://www.dmagazine.com/arts-entertainment/",
+      "sourceName": "D Magazine"
+    },
+    {
+      "topic": "arts-culture",
+      "label": "Dallas Observer arts and culture section",
+      "url": "https://www.dallasobserver.com/arts-culture/",
+      "sourceName": "Dallas Observer"
+    },
+    {
+      "topic": "health",
+      "label": "KERA News health section",
+      "url": "https://www.keranews.org/health",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "health",
+      "label": "Fort Worth Report health section",
+      "url": "https://fortworthreport.org/health/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "health",
+      "label": "Texas Tribune health care topic",
+      "url": "https://www.texastribune.org/topics/health-care/",
+      "sourceName": "The Texas Tribune"
+    },
+    {
+      "topic": "health",
+      "label": "Dallas Morning News public health section",
+      "url": "https://www.dallasnews.com/news/public-health/",
+      "sourceName": "The Dallas Morning News"
+    },
+    {
+      "topic": "economic-development",
+      "label": "KERA News business and economy section",
+      "url": "https://www.keranews.org/business-economy",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "economic-development",
+      "label": "Fort Worth Report business section",
+      "url": "https://fortworthreport.org/business/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "economic-development",
+      "label": "Dallas Innovates business section",
+      "url": "https://dallasinnovates.com/business/",
+      "sourceName": "Dallas Innovates"
+    },
+    {
+      "topic": "economic-development",
+      "label": "Community Impact Plano business section",
+      "url": "https://communityimpact.com/plano/business/",
+      "sourceName": "Community Impact (Plano)"
+    },
+    {
+      "topic": "utilities-water",
+      "label": "KERA News water tag",
+      "url": "https://www.keranews.org/tags/water",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "utilities-water",
+      "label": "Fort Worth Report water tag",
+      "url": "https://fortworthreport.org/tag/water/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "utilities-water",
+      "label": "Texas Tribune energy topic (grid and electric rates)",
+      "url": "https://www.texastribune.org/topics/energy/",
+      "sourceName": "The Texas Tribune"
+    },
+    {
+      "topic": "animal-services",
+      "label": "KERA News Dallas Animal Services tag",
+      "url": "https://www.keranews.org/tags/dallas-animal-services",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "animal-services",
+      "label": "Fort Worth Report animal shelter tag",
+      "url": "https://fortworthreport.org/tag/animal-shelter/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "animal-services",
+      "label": "FOX 4 pets and animals section",
+      "url": "https://www.fox4news.com/tag/pets-animals",
+      "sourceName": "FOX 4 News (KDFW)"
+    },
+    {
+      "topic": "technology",
+      "label": "KERA News science and technology section",
+      "url": "https://www.keranews.org/science-technology",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "technology",
+      "label": "KERA News data centers tag",
+      "url": "https://www.keranews.org/tags/data-centers",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "technology",
+      "label": "FOX 4 technology section",
+      "url": "https://www.fox4news.com/tag/technology",
+      "sourceName": "FOX 4 News (KDFW)"
+    },
+    {
+      "topic": "technology",
+      "label": "Dallas Innovates",
+      "url": "https://dallasinnovates.com/",
+      "sourceName": "Dallas Innovates"
+    },
+    {
+      "topic": "governance-elections",
+      "label": "KERA News Dallas City Council tag",
+      "url": "https://www.keranews.org/tags/dallas-city-council",
+      "sourceName": "KERA News"
+    },
+    {
+      "topic": "governance-elections",
+      "label": "Fort Worth Report local government section",
+      "url": "https://fortworthreport.org/local-government/",
+      "sourceName": "Fort Worth Report"
+    },
+    {
+      "topic": "governance-elections",
+      "label": "Dallas Morning News Dallas local government section",
+      "url": "https://www.dallasnews.com/news/dallas-local-government/",
+      "sourceName": "The Dallas Morning News"
+    },
+    {
+      "topic": "governance-elections",
+      "label": "Arlington Report government section",
+      "url": "https://fortworthreport.org/arlington-government/",
+      "sourceName": "Arlington Report"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "cityId": "north-richland-hills",
+  "name": "North Richland Hills",
+  "county": "Tarrant",
+  "populationApprox": 70209,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "North Richland Hills City Hall",
+    "address": "4301 City Point Drive, North Richland Hills, TX 76180",
+    "lat": 32.8267,
+    "lng": -97.2178
+  },
+  "website": "https://www.nrhtx.com",
+  "councilPageUrl": "https://www.nrhtx.com/359/City-Council",
+  "council": {
+    "size": 8,
+    "structure": "mayor + 7 places (Places 1 to 7), all elected at large; no geographic districts",
+    "districtCount": 0,
+    "mayorName": "Jack McCarty",
+    "termNote": "Three-year staggered terms, elected in May, under a council-manager form of government. Mayor Pro Tem is Kelvin Deupree (Place 7). Members: Cecille Delaney (P1), Brianne Goetz (P2), Danny Roberts (P3), Matt Blake (P4), Billy Parks (P5), Russ Mitchell (P6), Kelvin Deupree (P7)."
+  },
+  "meetings": [
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "17:30",
+        "notes": "The council page says work sessions start at 5 or 5:30 p.m. depending on the agenda; the Sept. 14 and Sept. 28 listings and the city calendar show 5:30 p.m. Followed by a closed executive session."
+      },
+      "location": "Council Work Session Room, 3rd floor, City Hall, 4301 City Point Drive, North Richland Hills, TX 76180",
+      "virtualUrl": "http://nrhtx.granicus.com/MediaPlayer.php?publish_id=3",
+      "openToPublicComment": false,
+      "notes": "Council reviews the evening's agenda and receives staff briefings; informational only, no action is taken and there is no public comment period.",
+      "source": "https://www.nrhtx.com/359/City-Council"
+    },
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "19:00",
+        "notes": "Second and fourth Monday. The regular meeting starts immediately after executive session, no earlier than 7:00 p.m. Published 2026 dates: Sept. 14, Sept. 28, Oct. 12, Oct. 26, Nov. 9, Dec. 14."
+      },
+      "location": "Council Chamber, 3rd floor, City Hall, 4301 City Point Drive, North Richland Hills, TX 76180",
+      "virtualUrl": "http://nrhtx.granicus.com/MediaPlayer.php?publish_id=3",
+      "openToPublicComment": true,
+      "notes": "Order: call to order, invocation, pledge, presentations, public comments, consent agenda, public hearings, action items, Citizens Presentation, announcements. Agendas are posted three business days ahead.",
+      "source": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-16",
+      "status": "special",
+      "note": "Special City Council meeting at 6:30 p.m. at City Hall: public comments, then executive session on ethics complaint EC2026-01 (consultation with the city attorney) and a personnel matter concerning the Place 4 council member; council may take action afterward in open session.",
+      "source": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1442825&GUID=F4158DFD-1F7A-4064-AC8B-71A8ADE12C5F"
+    },
+    {
+      "date": "2026-11-23",
+      "status": "cancelled",
+      "note": "The regular fourth-Monday date in Thanksgiving week is not on the city's published public-meetings calendar; November shows only the Nov. 9 meeting. No formal cancellation notice was found, so treat this as likely but unconfirmed.",
+      "source": "https://www.nrhtx.com/calendar.aspx?CID=20&month=11&year=2026"
+    },
+    {
+      "date": "2026-12-28",
+      "status": "cancelled",
+      "note": "The regular fourth-Monday date in Christmas week is not on the city's published public-meetings calendar; December shows only the Dec. 14 meeting. No formal cancellation notice was found, so treat this as likely but unconfirmed.",
+      "source": "https://www.nrhtx.com/calendar.aspx?CID=20&month=12&year=2026"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://nrhtx.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Agendas, packets, minutes and archived video. The Sept. 28 meeting is listed but its agenda was not yet posted as of Sept. 10; agendas go up three business days before each meeting."
+  },
+  "liveStream": {
+    "url": "http://nrhtx.granicus.com/MediaPlayer.php?publish_id=3",
+    "platform": "Granicus",
+    "notes": "City says the livestream is best viewed in Edge, Firefox or Safari. Also on the NRHTX mobile app, AT&T U-verse channel 99 and Charter/Spectrum channel 190. On-demand video is posted through the Legistar calendar the morning after each meeting."
+  },
+  "publicComment": {
+    "summary": "Before the 7 p.m. meeting starts, pick up a Public Meeting Appearance Form from the table at the Council Chamber entrance on the 3rd floor of City Hall, fill it out and give it to the City Secretary. You get 3 minutes, either on a specific agenda item, during a public hearing, or during Citizens Presentation for anything not on the agenda.",
+    "howToRegister": "Speaker form at the meeting: complete the Public Meeting Appearance Form (on a table at the Council Chamber entrance, 3rd floor, 4301 City Point Drive) and present it to the City Secretary before the 7 p.m. meeting begins. No online, phone or email sign-up is published.",
+    "deadline": "Before the 7 p.m. regular meeting begins",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Not published on the speaking-guidelines page; contact the City Secretary's Office at 817-427-6060 (4301 City Point Drive, 2nd floor)",
+    "notes": "A group of 10 or more people present may designate one spokesperson for 10 minutes (group members stand to be counted and do not speak individually). Public hearings: 3 minutes per speaker with a 30-minute cumulative limit for each side, comments must be germane to the item, and nobody speaks twice until everyone else has spoken. Citizens Presentation (non-agenda topics): 3 minutes per speaker, 30 minutes total, and council cannot deliberate or act on what is raised. No personal attacks on officials or staff.",
+    "source": "https://www.nrhtx.com/1106/Speaking-at-a-Council-Meeting"
+  },
+  "youthPrograms": [
+    {
+      "name": "Youth Advisory Committee",
+      "url": "https://www.nrhtx.com/523/Youth-Advisory-Committee",
+      "ages": "High school students who live in North Richland Hills",
+      "description": "Liaison between the City Council and local youth: members learn how city government works, hear guest speakers, organize a community service project each semester and report to council yearly. Appointed by the mayor and council to one-year terms (members in good standing are reappointed). Meets the second Wednesday of the month at 6 p.m. at City Hall during the school year.",
+      "applyWindow": "Applications for 2026-27 have closed; the next cycle typically opens before the school year. Contact Christy Hardy, 817-427-6004.",
+      "source": "https://www.nrhtx.com/523/Youth-Advisory-Committee"
+    },
+    {
+      "name": "Northeast Tarrant Teen Court",
+      "url": "https://www.nrhtx.com/331/Teen-Court",
+      "ages": "12 to 18",
+      "description": "Teen court serving North Richland Hills, Watauga and Richland Hills for middle and high school students who received a citation; students without a citation can volunteer as jurors or teen attorneys. Sessions are on Mondays at City Hall, 4301 City Point Drive (use the west parking lot); upcoming dates include Sept. 14, Sept. 28 and Oct. 5, 2026. Coordinator Rafael Martinez, 817-427-6734.",
+      "applyWindow": "Volunteer application accepted online year-round",
+      "source": "https://www.nrhtx.com/331/Teen-Court"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing and Ordinance 3974: adopt the FY 2027 operating and capital budget",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council takes public comment and votes on the city's spending plan for the fiscal year beginning Oct. 1, 2026.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Public hearing and Ordinance 3975: adopt the tax year 2026 property tax rate",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Public hearing on the property tax rate residents will pay next year, followed by a vote.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Public hearing and Ordinance 3976: special development plan for a winery at 8204 Northeast Parkway",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "A proposed winery needs a special development plan approved before it can open at this address.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Public hearing and Ordinance 3977: zoning change from Agricultural to Single-Family Residential",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "Rezoning that would allow single-family homes on land currently zoned for agriculture.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Engineering services agreement for a Water Master Plan",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Hires an engineering firm to plan the city's long-term water system needs.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Resolution 2026-052: certify the 2026 tax roll",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Formally accepts the appraisal district's list of taxable property values used to calculate tax bills.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Work session: Destination Marketing Program update",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "economic-development",
+        "arts-culture"
+      ],
+      "summary": "Staff updates council on efforts to market the city to visitors.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Work session: update on the city's strategic goals, priorities and related initiatives",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Progress report on the council's adopted goals and major initiatives.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Executive session: consultation with the city attorney on five pending legal matters and economic development negotiations for four sites",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "economic-development",
+        "other"
+      ],
+      "summary": "Closed-door legal briefing on five pending or contemplated litigation matters, plus deliberation on business prospects at four locations; any action must be taken in open session.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Appoint council members to the annual award selection subcommittee",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Names council members to a subcommittee that picks city award recipients.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7"
+    },
+    {
+      "title": "Special meeting: executive session on ethics complaint EC2026-01 and a Place 4 council member personnel matter",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "Special City Council Meeting (6:30 p.m.)",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council meets in closed session with its attorney about an ethics complaint and the Place 4 council member, with public comments taken first and any vote in open session.",
+      "url": "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1442825&GUID=F4158DFD-1F7A-4064-AC8B-71A8ADE12C5F"
+    }
+  ],
+  "confidence": "high",
+  "notes": "All schedule, address, council and public-comment details were confirmed on Sept. 10, 2026 directly from official nrhtx.com and nrhtx.legistar.com pages. The Sept. 28 meeting appears on the Legistar calendar at 5:30 p.m. without an agenda yet. Nov. 23 and Dec. 28 are listed as cancelled because they are absent from the city's published calendar (which states the council typically meets on the 2nd and 4th Monday) rather than because of an explicit cancellation notice; the Legistar events feed only contains meetings through mid-September, so it cannot confirm either way. Population: 69,917 at the 2020 census; 70,209 in the 2021 estimate.",
+  "sources": [
+    "https://www.nrhtx.com/359/City-Council",
+    "https://www.nrhtx.com/1106/Speaking-at-a-Council-Meeting",
+    "https://www.nrhtx.com/134/Streaming-Video",
+    "https://www.nrhtx.com/calendar.aspx?CID=20&month=11&year=2026",
+    "https://www.nrhtx.com/calendar.aspx?CID=20&month=12&year=2026",
+    "https://nrhtx.legistar.com/Calendar.aspx",
+    "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1372998&GUID=7561D50B-406E-4DF9-AB96-FA7EE1F5ABC7",
+    "https://nrhtx.legistar.com/MeetingDetail.aspx?ID=1442825&GUID=F4158DFD-1F7A-4064-AC8B-71A8ADE12C5F",
+    "https://webapi.legistar.com/v1/nrhtx/events",
+    "https://www.nrhtx.com/523/Youth-Advisory-Committee",
+    "https://www.nrhtx.com/331/Teen-Court",
+    "https://nominatim.openstreetmap.org/search?q=4301+City+Point+Drive+North+Richland+Hills+TX"
+  ]
+}

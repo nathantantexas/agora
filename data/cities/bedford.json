@@ -1,0 +1,129 @@
+{
+  "cityId": "bedford",
+  "name": "Bedford",
+  "county": "Tarrant",
+  "populationApprox": 47958,
+  "cityHall": {
+    "name": "Bedford City Hall (Council Chambers)",
+    "address": "2000 Forest Ridge Drive, Bedford, TX 76021",
+    "lat": 32.8405,
+    "lng": -97.1417
+  },
+  "website": "https://bedfordtx.gov",
+  "councilPageUrl": "https://bedfordtx.gov/249/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 places (Places 1 to 6), all elected at large",
+    "districtCount": 0,
+    "mayorName": "Dan Cogan",
+    "termNote": "Three-year staggered terms; every member is elected citywide and represents the whole city. Current terms: Mayor Dan Cogan, Place 1 Nichelle D. Dawkins (Mayor Pro Tem) and Place 2 Joy Donovan Brandon run 2024 to 2027; Place 3 Amy Sabol and Place 5 Steve Farco 2025 to 2028; Place 4 Shelly Lemman and Place 6 Rob Gagliardi 2026 to 2029. The Mayor and Places 1 and 2 are next on the ballot Saturday May 1, 2027 (candidate filing 8 a.m. Jan. 13 to 5 p.m. Feb. 12, 2027; early voting April 19 to 27, 2027)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "18:00",
+        "notes": "Second and fourth Tuesdays at 6 p.m. (the council page, the city calendar and the 2026 agendas all say 6 p.m.). The calendar blocks 6 to about 9 p.m., though recent meetings ran roughly 50 minutes to 1 hour 15 minutes. Upcoming dates on the city calendar: Sept. 22, Oct. 13, Oct. 27, Nov. 17 and Dec. 8, 2026."
+      },
+      "location": "Council Chambers, Bedford City Hall (Building A), 2000 Forest Ridge Drive, Bedford, TX 76021",
+      "virtualUrl": "https://bedfordtx.gov/250/Public-Meetings-Online",
+      "openToPublicComment": true,
+      "notes": "Order of business: call to order, invocation, pledge, Public Comments (near the top of the meeting), council recognition, consent agenda, new business and public hearings, reports, then executive (closed) session at the end. The council also holds occasional work sessions (for example the Aug. 6, 2026 budget work session) and special meetings that are posted in the Agenda Center rather than on a fixed schedule.",
+      "source": "https://bedfordtx.gov/249/City-Council"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-15",
+      "status": "special",
+      "note": "Special meeting at 5:30 p.m. in the City Hall Conference Room, 2000 Forest Ridge Drive: interviews and discussion for appointments to citizen boards and commissions. No public comment item.",
+      "source": "https://bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1616"
+    },
+    {
+      "date": "2026-11-10",
+      "status": "rescheduled",
+      "note": "No second-Tuesday meeting in November; the city calendar shows a single November regular meeting on Tuesday Nov. 17, 2026 at 6 p.m. (third Tuesday).",
+      "source": "https://bedfordtx.gov/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "recess",
+      "note": "No fourth-Tuesday meeting during Thanksgiving week; the only November meeting is Nov. 17.",
+      "source": "https://bedfordtx.gov/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar"
+    },
+    {
+      "date": "2026-12-22",
+      "status": "recess",
+      "note": "No fourth-Tuesday meeting in December; the calendar shows only the Dec. 8 meeting that month.",
+      "source": "https://bedfordtx.gov/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://bedfordtx.gov/AgendaCenter/City-Council-2/",
+    "platform": "CivicPlus AgendaCenter",
+    "notes": "PDF agendas and full packets are posted at least 72 hours (three business days) before each meeting; minutes are added after approval. As of Sept. 10, 2026 the newest items are the Sept. 15 special meeting and the Sept. 8 regular meeting; the Sept. 22 agenda should appear by about Sept. 17."
+  },
+  "liveStream": {
+    "url": "https://bedfordtx.new.swagit.com/views/default/city-council/",
+    "platform": "Swagit",
+    "notes": "Swagit video archive (the old bedfordtx.swagit.com address redirects here); reached from the 'Watch Meetings' link on the city's Public Meetings Online page (bedfordtx.gov/250). Meetings also air live on Charter Spectrum channel 16 (15.4 digital) and AT&T U-verse channel 99; recordings are posted within 24 hours and kept at least 365 days."
+  },
+  "publicComment": {
+    "summary": "Show up before the 6 p.m. regular session starts and sign in with the City Secretary in the Council Chambers; you then get up to 3 minutes during Public Comments on any topic. If your topic is a public hearing on the agenda, wait and speak when the mayor opens that hearing (also 3 minutes).",
+    "howToRegister": "In person only: sign in with the City Secretary in the Council Chambers before the Regular Session is called to order. Speakers are called in the order they signed in; anyone who signs in after the session begins is not allowed to speak under Public Comments. Questions: 817-952-2100 or citysecretary@bedfordtx.gov.",
+    "deadline": "Before the Regular Session is called to order (arrive before 6 p.m.)",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No formal written-comment process is published; email the City Secretary at citysecretary@bedfordtx.gov or the mayor and council members directly (addresses on the council page).",
+    "notes": "The mayor may recommend extending public hearing time equally for all speakers; zoning applicants and their experts have no time limit. No remote or virtual speaking option is published. Accessibility accommodations must be requested in writing to the City Secretary at least 72 hours before the meeting.",
+    "source": "https://bedfordtx.gov/245/Speaking-at-a-Council-Meeting"
+  },
+  "youthPrograms": [
+    {
+      "name": "HEB Teen Court",
+      "url": "https://bedfordtx.gov/163/Teen-Court",
+      "ages": "Defendants 11 to 17 (or 18 if enrolled in an accredited high school); teen volunteers 13 to 18 (teen attorneys 15 and older); first-offender educational program for ages 11 to 13",
+      "description": "Hurst-Euless-Bedford diversion program run out of the Bedford Municipal Court, 2000 Forest Ridge Drive (City Hall bottom floor). Teen defendants with Class C misdemeanors have their cases heard by a jury of peers who assign community service and jury terms; on completion the case is dismissed. Teens ages 13 to 18 can volunteer as jurors, attorneys, bailiffs and clerks by submitting a Teen Court volunteer application by mail, in person or email; volunteers arrive by 5 p.m. on session nights. Defendants doing their assigned jury duty must call ahead (no walk-ins) and sign in by 5:15 p.m.",
+      "applyWindow": "Ongoing; sessions are held once a month on Monday evenings and dates are posted on the city calendar; call 817-952-2468 or email teen.court@bedfordtx.gov",
+      "source": "https://bedfordtx.gov/172/Teen-Court-Volunteers"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Interviews for appointments to Bedford's citizen boards and commissions",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Special Meeting (5:30 p.m., City Hall Conference Room)",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council interviews residents who applied for seats on city boards and commissions and may discuss the appointments.",
+      "url": "https://bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1616"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified 2026-09-10 against the council page, the Speaking at a Council Meeting page, the Agenda Center, both September agenda PDFs, the city iCalendar feed, the Swagit archive and the Election Information page. The next regular meeting after Sept. 10 is Tuesday Sept. 22, 2026 at 6 p.m.; its agenda was not yet in the Agenda Center, so the only upcoming agenda item listed is from the Sept. 15 special meeting. The Sept. 8 regular meeting (already held) adopted the FY 2026-27 budget, the 2026 tax rate and new water and sewer rates, expanded the Animal Shelter Advisory Board, dissolved the Cultural Arts Advisory Board and renewed the Hurst-Euless-Bedford jail agreement ($713,064). The city's election page contains a typo giving the filing start as January 13, 2025; the filing period is clearly for the May 1, 2027 election. Population is the Census Bureau July 1, 2025 estimate (2020 Census: 49,928). Coordinates are from OpenStreetMap and Census Bureau geocoding of the City Hall address, which agree to within 30 m.",
+  "sources": [
+    "https://bedfordtx.gov/249/City-Council",
+    "https://bedfordtx.gov/245/Speaking-at-a-Council-Meeting",
+    "https://bedfordtx.gov/250/Public-Meetings-Online",
+    "https://bedfordtx.new.swagit.com/views/default/city-council/",
+    "https://bedfordtx.gov/AgendaCenter/City-Council-2/",
+    "https://bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09082026-1613",
+    "https://bedfordtx.gov/AgendaCenter/ViewFile/Agenda/_09152026-1616",
+    "https://bedfordtx.gov/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar",
+    "https://bedfordtx.gov/265/Election-Information",
+    "https://bedfordtx.gov/163/Teen-Court",
+    "https://bedfordtx.gov/172/Teen-Court-Volunteers",
+    "https://www.census.gov/quickfacts/fact/table/eulesscitytexas,bedfordcitytexas,mansfieldcitytexas/PST045225",
+    "https://nominatim.openstreetmap.org/search?format=json&q=2000+Forest+Ridge+Dr,+Bedford,+TX+76021",
+    "https://geocoding.geo.census.gov/geocoder/locations/address?street=2000+Forest+Ridge+Dr&city=Bedford&state=TX&zip=76021&benchmark=Public_AR_Current&format=json"
+  ],
+  "lastVerified": "2026-09-10"
+}

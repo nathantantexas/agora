@@ -1,0 +1,259 @@
+{
+  "cityId": "plano",
+  "name": "Plano",
+  "county": "Collin",
+  "populationApprox": 293028,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "Plano Municipal Center (Senator Florence Shapiro Council Chambers)",
+    "address": "1520 K Avenue, Plano, TX 75074",
+    "lat": 33.0208,
+    "lng": -96.6988
+  },
+  "website": "https://www.plano.gov/",
+  "councilPageUrl": "https://www.plano.gov/mayor-and-city-council",
+  "council": {
+    "size": 8,
+    "structure": "Mayor + 7 council members, all elected at large citywide; candidates for Places 1-4 must live in their district, Places 5-8 (including the mayor) have no district residency requirement",
+    "districtCount": 4,
+    "districtMapUrl": "https://www.plano.gov/asset/cc9999c9-3306-450d-92d0-8bbc03356b89",
+    "mayorName": "John B. Muns",
+    "termNote": "Four-year terms with a maximum of two consecutive terms. Current members: Mayor John B. Muns, Mayor Pro Tem Rick Horne, Deputy Mayor Pro Tem Vidal Quintanilla, Bob Kehr, Chris Krupa Downs, Maria Tu, Steve Lavine, Shun Thomas."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "19:00",
+        "notes": "Second and fourth Mondays at 7 p.m. per the city council page. Legistar lists Sept 14 and Sept 28, 2026 at 7:00 p.m.; no council meetings after Sept 28 were posted on Legistar when checked on Sept 10, so October to December dates follow the stated rule and are not yet confirmed."
+      },
+      "location": "Senator Florence Shapiro Council Chambers, Plano Municipal Center, 1520 K Avenue, Plano, TX 75074 (lower level, elevator access)",
+      "virtualUrl": "https://www.plano.gov/1565/Plano-TV",
+      "openToPublicComment": true,
+      "notes": "Preceded by a 5 p.m. executive session (closed) and a Preliminary Open Meeting. Agendas are posted by close of business the Tuesday before the Monday meeting. Speakers must register online in advance; there is no onsite sign-up.",
+      "source": "https://www.plano.gov/city-council-agendas"
+    },
+    {
+      "type": "briefing",
+      "label": "City Council Preliminary Open Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "17:00",
+        "notes": "Held immediately after the 5 p.m. executive session on regular meeting days, so the posted start time varies: 6:00 p.m. on Sept 14, 2026 and 5:00 p.m. on Sept 28, 2026 per Legistar. Check the Legistar calendar for the exact time."
+      },
+      "location": "Senator Florence Shapiro Council Chambers, Plano Municipal Center, 1520 K Avenue, Plano, TX 75074",
+      "virtualUrl": "https://www.plano.gov/1565/Plano-TV",
+      "openToPublicComment": false,
+      "notes": "Briefing and discussion session ahead of the regular meeting; it has its own agenda on Legistar but no public comment portion is listed.",
+      "source": "https://plano.legistar.com/Calendar.aspx"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://plano.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Agendas, accessible agendas, packets and video links for each meeting; the city's own landing page is plano.gov/city-council-agendas. Agendas post by close of business the Tuesday before the meeting."
+  },
+  "liveStream": {
+    "url": "https://www.plano.gov/1565/Plano-TV",
+    "platform": "city TV",
+    "notes": "The Sept 14, 2026 agenda says meetings are live-streamed at planotv.org (which redirects to this Plano TV page), youtube.com/cityofplanotexas and facebook.com/cityofplanotx. Cable per the Plano TV page: Spectrum digital channel 15.101 or analog channel 16, Frontier FiOS channels 30 and 31, AT&T U-verse channel 99 (then choose Plano). Replays air Wednesday and Saturday at 7 p.m.; archived video is at planotx.new.swagit.com."
+  },
+  "publicComment": {
+    "summary": "To speak at a Plano City Council meeting you have to sign up online ahead of time: registration opens at 5 p.m. the Tuesday before the meeting and closes at 4 p.m. on meeting day, and you cannot sign up at the door. You get up to 3 minutes, either on an agenda item when it is called or during Comments of Public Interest for topics not on the agenda (30 minutes total for that segment, held at the end of the meeting).",
+    "howToRegister": "Online only: go to plano.gov/SpeakerRegistration (which opens the form at forms.plano.gov/Forms/Sign_Up_Citizen) between 5 p.m. on the Tuesday before the meeting and 4 p.m. on the day of the meeting, and choose the agenda item or Comments of Public Interest. Onsite registration is not available.",
+    "registrationUrl": "https://forms.plano.gov/Forms/Sign_Up_Citizen",
+    "deadline": "4:00 p.m. on the day of the meeting (registration opens 5:00 p.m. the Tuesday before)",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email councilcomments@plano.gov (the city asks for emails by 4 p.m. on meeting day)",
+    "notes": "Public hearing items: applicant gets 15 minutes plus a 5 minute rebuttal, other speakers 3 minutes each within a 30 minute total. For non-hearing agenda items the presiding officer sets time limits based on the number of requests and may set a cumulative limit. Comments of Public Interest (topics not on the agenda) are typically heard only at the end of the first regular council meeting of the month, per the city agendas page; the Sept 14, 2026 agenda includes that segment at the end. Council changed these rules in April 2026, limiting non-agenda comments to one meeting a month, moving them to the end of the meeting and removing the Zoom option, so speaking is in person only.",
+    "source": "https://plano.legistar.com/View.ashx?M=A&ID=1426552&GUID=97FCDC3F-FF0A-4CEA-A903-90B52EC3DC43"
+  },
+  "youthPrograms": [
+    {
+      "name": "Plano Teen Court",
+      "url": "https://www.plano.gov/teen-court",
+      "ages": "Jurors 14-18, attorneys 15-18",
+      "description": "Teen volunteers serve as jurors and attorneys in a municipal court diversion program for teen defendants. Teen Court is usually held on Monday evenings, about twice a month, with a volunteer shift from 5:30 to 8:30 p.m. As of September 2026 the volunteer portal says the juror pool is full and not taking new juror volunteers.",
+      "applyWindow": "Rolling; create an account on the city volunteer portal (volunteers.plano.gov/agency/detail/planoteencourt/) using the teen application and check the Teen Court box, or email PlanoTeenCourt@plano.gov",
+      "source": "https://www.plano.gov/teen-court"
+    },
+    {
+      "name": "Plano Mayor's Summer Internship Program",
+      "url": "https://planomayorsinterns.org/",
+      "ages": "Rising high school juniors and seniors enrolled in Plano ISD",
+      "description": "Paid earn-and-learn summer internships with Plano businesses, nonprofits and civic organizations, run with the Mayor's office; the 2026 program ran June 8 to July 31.",
+      "applyWindow": "2026 cycle opened Jan 16 and closed Feb 9 at 5 p.m.; expect a similar winter window for 2027",
+      "source": "https://planomayorsinterns.org/"
+    },
+    {
+      "name": "Teen Street Team (Plano Public Library)",
+      "url": "https://volunteers.plano.gov/agency/detail/?agency_id=154986",
+      "ages": "13-18",
+      "description": "Library teen volunteer group that promotes teen library services and helps plan and present teen programs; about 5 hours per month.",
+      "applyWindow": "Applications open around May 1 each year; the portal lets you sign up to be notified for 2027",
+      "source": "https://volunteers.plano.gov/agency/detail/?agency_id=154986"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public Hearing on the proposed FY2026-27 tax rate of $0.4376 per $100 of taxable value",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Second and final public hearing on keeping the city property tax rate at $0.4376, which would raise the median homestead bill from about $1,978 to $2,033.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203243&GUID=032A0AE8-0661-4C38-A39B-0778CDD95752"
+    },
+    {
+      "title": "Ordinance adopting the FY2026-27 Operating Budget",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council votes to adopt the city's operating budget for October 1, 2026 through September 30, 2027 after three public hearings in August.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203268&GUID=56080C4A-5C56-44A7-BB6F-1EA8B492A47F"
+    },
+    {
+      "title": "Ordinance adopting the FY2026-27 Community Investment Program",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes",
+        "roads-traffic"
+      ],
+      "summary": "Adopts the capital projects budget (streets, facilities, parks, utilities) for the coming fiscal year.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203269&GUID=5B85EABC-EF53-475F-87ED-222C7C0B86AE"
+    },
+    {
+      "title": "Ordinance adopting the FY2026-27 property tax rate",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Formal vote setting the tax rate for the fiscal year beginning October 1, 2026, following the public hearing earlier in the meeting.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203270&GUID=7800F41A-3FC4-4CB3-85AE-96DBAB5B0054"
+    },
+    {
+      "title": "Ordinance ratifying the property tax revenue increase in the 2026-27 budget",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "State law requires a separate vote acknowledging that the budget collects more property tax revenue than last year.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203292&GUID=E908E2F4-4A98-4E4A-A96F-F9F9E99BCB30"
+    },
+    {
+      "title": "Resolution adopting the City of Plano 2027 Legislative Program",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Sets the city's positions and priorities for the 2027 Texas legislative session and directs the City Manager to act on them.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203625&GUID=7310EE90-3983-40BD-92DC-9758C416FBCF"
+    },
+    {
+      "title": "Adoption of the 2026-2027 City Council Strategic Plan",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Consent item adopting the council's strategic vision and goals for the coming year.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203065&GUID=14339120-0DEF-491C-BAFC-9C7DEBF5C097"
+    },
+    {
+      "title": "Bid award for Fire Station No. 7 re-roof ($242,310)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "public-safety",
+        "budget-taxes"
+      ],
+      "summary": "Awards a roofing contract for Fire Station No. 7 to Shoemake Holdings (Premiere Roofing).",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203624&GUID=F380CE73-2334-4AE6-BDC5-9675D3F804DA"
+    },
+    {
+      "title": "Engineering services for drainage improvements at various locations ($537,700)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "utilities-water",
+        "environment"
+      ],
+      "summary": "Approves a design contract with Teague Nall and Perkins for drainage fixes across the city.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203686&GUID=0BC71CAF-2440-4BED-9329-CCCBCD01C3C1"
+    },
+    {
+      "title": "Ordinance creating no truck parking zones on Geomap Lane and Love All Drive",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "roads-traffic"
+      ],
+      "summary": "Bans parking of vehicles over 10,000 pounds along parts of Geomap Lane and Love All Drive between 14th Street and Contour Lane.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203092&GUID=47FB7B58-67F7-4C24-B4E6-AA80D5240A6E"
+    },
+    {
+      "title": "Ordinance creating no parking zones on Parkhaven Drive next to Haggard Middle School",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "roads-traffic",
+        "education-libraries"
+      ],
+      "summary": "Adds no parking zones on sections of Parkhaven Drive beside Haggard Middle School to improve traffic flow and safety.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203093&GUID=3D641D70-32F6-4D1F-96A9-2E5887E8BB94"
+    },
+    {
+      "title": "$500,000 transfer for a generator at Tom Muehlenbeck Recreation Center",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "parks-recreation",
+        "budget-taxes"
+      ],
+      "summary": "Moves money within the Recreation Center Renovations Fund to buy and install a backup generator at the Tom Muehlenbeck Recreation Center.",
+      "url": "https://plano.legistar.com/LegislationDetail.aspx?ID=8203094&GUID=3CA71157-5BE6-4647-B5E4-FB282B9522E5"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Plano lies mostly in Collin County with a small portion in Denton County. The plano.gov site is a JavaScript-rendered CivicPlus site, so some pages were read through a rendering proxy; the content is the city's own. Legistar's public calendar listed council meetings only through Sept 28, 2026 when checked on Sept 10, so October to December dates follow the city's stated 2nd and 4th Monday rule (Oct 12, Oct 26, Nov 9, Nov 23, Dec 14, Dec 28) and holiday cancellations, if any, could not be confirmed. The Sept 28 agenda was not yet posted. A Youth Advisory Commission does not appear on the city's current boards and commissions list. Population is the Census Bureau July 1, 2025 estimate as reported by the earlier research pass (2020 census: 285,494); the QuickFacts page could not be reopened during the Sept 10 check.",
+  "sources": [
+    "https://www.plano.gov/mayor-and-city-council",
+    "https://www.plano.gov/city-council-agendas",
+    "https://plano.legistar.com/Calendar.aspx",
+    "https://plano.legistar.com/MeetingDetail.aspx?ID=1426552&GUID=97FCDC3F-FF0A-4CEA-A903-90B52EC3DC43",
+    "https://plano.legistar.com/View.ashx?M=A&ID=1426552&GUID=97FCDC3F-FF0A-4CEA-A903-90B52EC3DC43",
+    "https://webapi.legistar.com/v1/plano/events",
+    "https://forms.plano.gov/Forms/Sign_Up_Citizen",
+    "https://www.plano.gov/1565/Plano-TV",
+    "https://www.plano.gov/asset/cc9999c9-3306-450d-92d0-8bbc03356b89",
+    "https://www.plano.gov/boards-and-commissions",
+    "https://www.plano.gov/boards-and-commissions-calendar",
+    "https://www.plano.gov/teen-court",
+    "https://volunteers.plano.gov/agency/detail/planoteencourt/",
+    "https://planomayorsinterns.org/",
+    "https://volunteers.plano.gov/agency/detail/?agency_id=154986",
+    "https://www.census.gov/quickfacts/fact/table/planocitytexas,richardsoncitytexas,addisontowntexas/PST045224",
+    "https://communityimpact.com/dallas-fort-worth/plano/government/2026/03/11/plano-city-council-changes-rules-for-public-comment/"
+  ]
+}

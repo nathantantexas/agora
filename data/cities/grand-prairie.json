@@ -1,0 +1,147 @@
+{
+  "cityId": "grand-prairie",
+  "name": "Grand Prairie",
+  "county": "Dallas",
+  "populationApprox": 201883,
+  "cityHall": {
+    "name": "Grand Prairie City Hall (City Council Chambers)",
+    "address": "300 W. Main St., Grand Prairie, TX 75050",
+    "lat": 32.7457,
+    "lng": -97.0069
+  },
+  "website": "https://www.gptx.org",
+  "councilPageUrl": "https://www.gptx.org/Government/Mayor-and-City-Council",
+  "council": {
+    "size": 9,
+    "structure": "mayor at large + 6 single-member districts + 2 at-large places (Place 7 and Place 8)",
+    "districtCount": 6,
+    "districtMapUrl": "https://www.gptx.org/Government/Mayor-and-City-Council/Council-District-Map",
+    "findMyDistrictUrl": "https://www.gptx.org/Government/Mayor-and-City-Council/Council-District-Map",
+    "mayorName": "Ron Jensen",
+    "termNote": "Mayor and council members are elected to three-year, nonpartisan, staggered terms; regular city elections are held every May. Current members: Jorja Clemson (D1), Jacquin Headen (D2), David Chappelle (D3, won the June 13, 2026 runoff), John Lopez (D4), Tony Shotwell (D5), Kurt G. Johnson (D6), Bessye Adams (Place 7), Rodney Anderson (Place 8). The printable February 2026 district map PDF still shows the pre-election District 3 and Place 8 members."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:30",
+        "notes": "First and third Tuesdays at 6:30 p.m., but some months have only one meeting. Remaining 2026 dates on the city calendar: Sept 15, Oct 20, Nov 3, Nov 17 and Dec 15 (no Oct 6 or Dec 1 meeting); calendar blocks run 6:30 to 8:30 p.m."
+      },
+      "location": "City Council Chambers, City Hall, 300 W. Main St., Grand Prairie, TX 75050",
+      "virtualUrl": "http://www.gptxtv.org/categories/meetings",
+      "openToPublicComment": true,
+      "notes": "Citizen Comments on non-agenda topics happen near the start of the meeting, after the consent agenda. Broadcast live on GPTV cable channel 16 and online; recordings posted the next day on gptxtv.org and the city's YouTube channel.",
+      "source": "https://www.gptx.org/Government/Mayor-and-City-Council/City-Council-Meetings"
+    },
+    {
+      "type": "town-hall",
+      "label": "District 1 Town Hall with Council Member Jorja Clemson",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 4,
+        "time": "18:00",
+        "dates": [
+          "2026-10-29"
+        ],
+        "notes": "One-time event, Thursday Oct 29, 2026, 6:00 to 8:00 p.m."
+      },
+      "location": "City Council Chambers, City Hall, 300 W. Main St., Grand Prairie, TX 75050",
+      "openToPublicComment": true,
+      "notes": "Residents can raise community concerns directly with the District 1 council member; free and open to the public.",
+      "source": "https://www.gptx.org/Community-Calendar/City-Council-Member-Jorja-Clemson-Town-Hall-Meeting-October-2026"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-15",
+      "status": "special",
+      "note": "Regular meeting includes the state-required public hearing on the proposed 2026 property tax rate of $0.660000 per $100 valuation (unchanged from 2025 but above the no-new-revenue rate of $0.635388).",
+      "source": "https://www.gptx.org/files/sharedassets/public/v/2/departments/budget/documents/budget-and-tax-matters/2026-notice-of-public-hearing-on-tax-increase.pdf"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "recess",
+      "note": "No meeting scheduled on the first Tuesday of October; the only October meeting is Oct 20.",
+      "source": "https://www.gptx.org/Community-Calendar/City-Council-Meeting"
+    },
+    {
+      "date": "2026-10-29",
+      "status": "special",
+      "note": "District 1 Town Hall with Council Member Jorja Clemson, 6:00 to 8:00 p.m., Council Chambers.",
+      "source": "https://www.gptx.org/Community-Calendar/City-Council-Member-Jorja-Clemson-Town-Hall-Meeting-October-2026"
+    },
+    {
+      "date": "2026-12-01",
+      "status": "recess",
+      "note": "No meeting scheduled on the first Tuesday of December; the only December meeting is Dec 15.",
+      "source": "https://www.gptx.org/Community-Calendar/City-Council-Meeting"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://grandprairietx.portal.civicclerk.com/",
+    "platform": "other",
+    "notes": "CivicClerk (CivicPlus) public portal; it needs JavaScript to display. Agendas are also attached to meeting videos in the Swagit archive at https://grandprairietx.new.swagit.com/views/default/city-council/ (the city links the older address http://grandprairietx.swagit.com/city-council/). The gptx.org agendas-and-minutes archive only covers meetings through January 2021."
+  },
+  "liveStream": {
+    "url": "http://www.gptxtv.org/categories/meetings",
+    "platform": "city TV",
+    "notes": "GPTV (cable channel 16) live broadcasts and replays; also on YouTube at https://www.youtube.com/user/cityofgptx and archived on Swagit at https://grandprairietx.new.swagit.com/views/default/city-council/"
+  },
+  "publicComment": {
+    "summary": "Fill out a speaker comment card at City Hall and hand it in before the 6:30 p.m. meeting is called to order; you get up to 3 minutes per agenda item, at public hearings, or during Citizen Comments on any other topic (up to 5 minutes total on consent items). If you cannot attend, submit written comments through the online form or by emailing gpcitysecretary@gptx.org by 3 p.m. on meeting day; they are noted in the minutes but not read aloud.",
+    "howToRegister": "In person: complete a speaker comment card at City Hall, 300 W. Main St., and submit it before the City Council meeting is called to order (no advance registration needed). Written comments: use the online form at https://us.openforms.com/Form/fc163f82-283c-4d0e-8d90-102932710e71 (titled Contact City Council Members) or email gpcitysecretary@gptx.org by 3:00 p.m. the day of the meeting. Questions: City Secretary 972-237-8035.",
+    "registrationUrl": "https://us.openforms.com/Form/fc163f82-283c-4d0e-8d90-102932710e71",
+    "deadline": "Speaker card: before the meeting is called to order at 6:30 p.m.; written comments: 3:00 p.m. on the day of the meeting",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online form (us.openforms.com link) or email gpcitysecretary@gptx.org by 3:00 p.m. on meeting day; acknowledged in the minutes but not read into the record",
+    "notes": "Rules effective Jan 1, 2026: up to 5 minutes total on consent-agenda items, 3 minutes per individual agenda item, 3 minutes per speaker at public hearings and in Citizen Comments; zoning applicants get 5 minutes and other zoning speakers 3; speakers using a translator get double time. No remote or video speaking option is offered.",
+    "source": "https://www.gptx.org/News-Articles/New-Guidelines-for-Public-Comments-News-Story"
+  },
+  "youthPrograms": [],
+  "agendaItems": [
+    {
+      "title": "Public hearing on the proposed 2026 property tax rate of $0.660000 per $100 valuation",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council holds the state-required hearing before adopting a tax rate that keeps last year's rate but raises more revenue than the no-new-revenue rate; residents may speak for or against it.",
+      "url": "https://www.gptx.org/files/sharedassets/public/v/2/departments/budget/documents/budget-and-tax-matters/2026-notice-of-public-hearing-on-tax-increase.pdf"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "notes": "Verified 2026-09-10 against official gptx.org pages (council meetings page, community calendar, public-comment guidelines, council roster, elections page, tax-hearing notice). The full Sept 15, 2026 agenda could not be retrieved: the CivicClerk portal renders only with JavaScript, its API endpoints return 404, the gptx.org archive stops at January 2021, and the Swagit archive had not yet posted the Sept 15 meeting, so only the officially noticed tax-rate hearing is listed. The Council Development Committee and the two other council committees (Finance and Government; Public Safety, Health and Environment) have no 2026 schedule posted (the community calendar entry still shows 2024 dates and the committee archive ends in 2021), so no committee meetings are listed; ask the City Secretary (972-237-8035) for current committee dates. No youth advisory council, mayor's youth council or teen court was found on the city website. Coordinates are OpenStreetMap's point for 300 W. Main St. (the Census geocoder places the address about 90 m east at 32.7455, -97.0059). Population is the July 1, 2024 Census estimate.",
+  "sources": [
+    "https://www.gptx.org/Government/Mayor-and-City-Council/City-Council-Meetings",
+    "https://www.gptx.org/Community-Calendar/City-Council-Meeting",
+    "https://www.gptx.org/Government/Mayor-and-City-Council",
+    "https://www.gptx.org/Government/Mayor-and-City-Council/Contact-Your-Council-Member",
+    "https://www.gptx.org/Government/Mayor-and-City-Council/Council-District-Map",
+    "https://www.gptx.org/files/sharedassets/public/v/2/government/mayor-and-city-council/documents/february2026-city-council-map-with-photos.pdf",
+    "https://www.gptx.org/News-Articles/New-Guidelines-for-Public-Comments-News-Story",
+    "https://www.gptx.org/Government/City-Council-Committee-Meetings",
+    "https://www.gptx.org/Government/Mayor-and-City-Council/Council-Development-Committee",
+    "https://www.gptx.org/Community-Calendar/Council-Development-Committee-Meeting",
+    "https://www.gptx.org/Community-Calendar/City-Council-Member-Jorja-Clemson-Town-Hall-Meeting-October-2026",
+    "https://www.gptx.org/files/sharedassets/public/v/2/departments/budget/documents/budget-and-tax-matters/2026-notice-of-public-hearing-on-tax-increase.pdf",
+    "https://www.gptx.org/Government/Boards-and-Commissions/Boards-and-Commissions-Agendas-and-Minutes",
+    "https://www.gptx.org/Departments/City-Secretary/Elections",
+    "https://www.gptx.org/Departments/Municipal-Court/Juveniles",
+    "https://grandprairietx.portal.civicclerk.com/",
+    "https://grandprairietx.new.swagit.com/views/default/city-council/",
+    "http://www.gptxtv.org/categories/meetings",
+    "https://us.openforms.com/Form/fc163f82-283c-4d0e-8d90-102932710e71",
+    "https://nominatim.openstreetmap.org/search?q=300+W+Main+St,+Grand+Prairie,+TX+75050&format=json",
+    "https://www.texas-demographics.com/grand-prairie-demographics"
+  ]
+}

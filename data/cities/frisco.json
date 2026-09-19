@@ -1,0 +1,309 @@
+{
+  "cityId": "frisco",
+  "name": "Frisco",
+  "county": "Collin",
+  "populationApprox": 249246,
+  "cityHall": {
+    "name": "George A. Purefoy Municipal Center (Frisco City Hall), Council Chambers",
+    "address": "6101 Frisco Square Blvd., Frisco, TX 75034",
+    "lat": 33.150048,
+    "lng": -96.834579
+  },
+  "website": "https://www.friscotexas.gov/",
+  "councilPageUrl": "https://www.friscotexas.gov/585/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "Mayor + 6 council members (Places 1-6), all elected at large (no districts)",
+    "districtCount": 0,
+    "mayorName": "Mark Hill",
+    "termNote": "Staggered three-year terms; elections held annually on the first Saturday in May. Mayor Pro Tem Laura Rummel (Place 5), Deputy Mayor Pro Tem Angelia Pelham (Place 3). Other members: Ann Anderson (Place 1), Burt Thakur (Place 2), Jared Elad (Place 4), Brittany Colberg (Place 6)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting (public portion begins about 6:30 p.m.)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "17:00",
+        "notes": "Posted start is 5 p.m. for a closed (executive) session; the public portion (invocation, reports, agenda items) begins at approximately 6:30 p.m. The Sept. 15, 2026 meeting is posted for 5:15 p.m. On the Sept. 15 agenda, Citizen Input on non-agenda topics is listed to begin at approximately 7:30 p.m."
+      },
+      "location": "Council Chambers, George A. Purefoy Municipal Center, 6101 Frisco Square Blvd., Frisco, TX 75034",
+      "virtualUrl": "https://www.friscotexas.gov/943/Watch-FTVN-Live-Council-Meetings-etc",
+      "openToPublicComment": true,
+      "notes": "Fall 2026 dates on the city calendar: Sept. 15, Oct. 6, Oct. 20, Nov. 3, Nov. 17, Dec. 1, Dec. 15 (all 5 p.m.). The Sept. 15 agenda (item 51) proposes cancelling the second meetings in November and December 2026, so Nov. 17 and Dec. 15 are likely to be cancelled; confirm on the city calendar. Agendas post at least three business days before the meeting; the action summary posts by 2 p.m. the next day.",
+      "source": "https://www.friscotexas.gov/585/City-Council"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "16:00",
+        "notes": "Held the afternoon of each regular meeting. On the 2026 city calendar, first-Tuesday sessions start at 4 p.m. (Oct. 6, Nov. 3, Dec. 1) and third-Tuesday sessions at 3:30 p.m. (Sept. 15, Oct. 20, Nov. 17, Dec. 15); the Sept. 15 session is posted on OnBase for 3 p.m. Check the agenda for the exact time and room."
+      },
+      "location": "George A. Purefoy Municipal Center, 6101 Frisco Square Blvd., Frisco, TX 75034 (Training Room 252, second floor, on third Tuesdays; Conference Room L120, first floor, on first Tuesdays)",
+      "virtualUrl": "https://www.friscotexas.gov/943/Watch-FTVN-Live-Council-Meetings-etc",
+      "openToPublicComment": false,
+      "notes": "Discussion-only sessions; no Citizen Input period is listed on work session agendas. A Special Called Budget Work Session was held Sept. 2, 2026 (it appears on the city calendar as a 5 p.m. City Council Meeting), and the council sets separate Summer and Winter Work Session dates each year.",
+      "source": "https://www.friscotexas.gov/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-11-17",
+      "status": "cancelled",
+      "note": "Proposed cancellation: Sept. 15, 2026 agenda item 51 asks the council to cancel the second City Council Meeting in November 2026 (and December 2026 and March 2027) and set Winter Work Session dates. The meeting still appears on the city calendar until the council acts; confirm after Sept. 15.",
+      "source": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "date": "2026-12-15",
+      "status": "cancelled",
+      "note": "Proposed cancellation of the second December 2026 meeting under the same Sept. 15 agenda item 51; confirm after the council votes.",
+      "source": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "special",
+      "note": "Regular meeting remains on the city calendar on Election Day (Nov. 3, 2026) at 5 p.m. in the Council Chambers, with the work session at 4 p.m. in Conference Room L120.",
+      "source": "https://www.friscotexas.gov/Calendar.aspx?EID=6847"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/",
+    "platform": "OnBase",
+    "notes": "Hyland OnBase Agenda Online. Upcoming meetings appear about two weeks ahead; agendas post at least three business days before the meeting; videos post within 24 hours. Meeting search: https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/Search?dropid=4&mtids=108 (City Council) and mtids=126 (Work Sessions). As of Sept. 10, 2026 the Sept. 15 regular meeting (5:15 p.m.) and work session (3 p.m.) were the only council meetings posted."
+  },
+  "liveStream": {
+    "url": "https://www.friscotexas.gov/943/Watch-FTVN-Live-Council-Meetings-etc",
+    "platform": "city TV",
+    "notes": "FTVN (Frisco Television Network) streams City Council and Planning and Zoning meetings live from the Council Chambers; live council coverage begins at 5 p.m. Video on demand is at https://friscotx.cvp.swagit.com/ (friscotexas.gov/video)."
+  },
+  "publicComment": {
+    "summary": "At any regular council meeting you can speak for up to 5 minutes on any item that is on the agenda (10 minutes if you use a translator). Fill out a paper speaker card at the meeting and hand it to City Secretary staff in the Council Chambers; there is no online sign-up. The Sept. 15, 2026 agenda also lists a Citizen Input period (around 7:30 p.m.) for anything not on the agenda. That period had been removed from every agenda from June 16 through Sept. 1, 2026, and the council has talked about running it with a 3-minute limit and advance registration, so check the agenda for that meeting's rules. Keep it civil: the council adopted rules of decorum in April 2026 (no signs, props or disruptions).",
+    "howToRegister": "1) Find the meeting on agenda.friscotexas.gov and note whether your topic is a posted agenda item (up to 5 minutes, 10 with a translator) or a non-agenda topic (only allowed when Citizen Input is on that meeting's agenda). 2) Go to the Council Chambers at the George A. Purefoy Municipal Center before the public portion starts (about 6:30 p.m.), pick up a paper speaker card, fill it out and give it to City Secretary's Office staff. 3) When called, state your name and speak from the podium; do not approach the dais. If in doubt about the sign-up method for a particular meeting, call the City Secretary's Office at 972-292-5020 or email CitySec@friscotexas.gov beforehand.",
+    "registrationUrl": "https://www.friscotexas.gov/2051/Public-Meetings",
+    "deadline": "No published advance deadline; turn in a speaker card at the meeting before the item is called (arrive before the 6:30 p.m. public portion; Citizen Input, when listed, begins about 7:30 p.m.)",
+    "timeLimitMinutes": 5,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No formal written-comment form is published; the city says council members read emails sent outside meetings. Email the City Secretary's Office (CitySec@friscotexas.gov) or contact council members directly through the council directory at https://www.friscotexas.gov/directory.aspx?did=38.",
+    "notes": "Per Ordinance 19-10-86 (cited on every agenda) each speaker gets up to 5 minutes on a posted item; the council may reduce that to 3 minutes (6 with a translator) when 10 or more people sign up on one item. Texas law lets anyone, not just Frisco residents, speak on posted agenda items. The council cannot deliberate or act on non-agenda topics raised during Citizen Input; staff may follow up. Citizen Input was dropped from agendas on June 2, 2026 and returns on the Sept. 15, 2026 agenda; at an Aug. 4 work session the council discussed limiting non-agenda speakers to 3 minutes, moving them to the end of the meeting and requiring registration, but no updated rules were posted on the city website as of Sept. 10.",
+    "source": "https://www.friscotexas.gov/2051/Public-Meetings"
+  },
+  "youthPrograms": [
+    {
+      "name": "Mayor's Youth Council",
+      "url": "https://www.friscotexas.gov/754/Mayors-Youth-Council",
+      "ages": "11th and 12th graders who attend a Frisco ISD or private Frisco high school, or homeschooled Frisco residents",
+      "description": "High school students learn about local government and city services and work on community projects; meets 6 to 7:30 p.m. on the second Tuesday of the month, October through May.",
+      "applyWindow": "Program is on hold as of September 2026; the city says to watch its social media and e-news for future announcements (staff liaison 972-292-5107).",
+      "source": "https://www.friscotexas.gov/754/Mayors-Youth-Council"
+    },
+    {
+      "name": "Junior Police Academy",
+      "url": "https://www.friscotexas.gov/317/Junior-Police-Academy",
+      "ages": "Students who have completed 6th or 7th grade and live in Frisco or attend Frisco ISD schools",
+      "description": "Free four-day summer sessions (8:15 a.m. to 4:15 p.m.) at Boals and Tadlock elementary schools where students learn how a police department works, including SWAT, 911, crime scene and K9 units.",
+      "applyWindow": "Eight sessions run early June through late July; all 2026 sessions are full and registration is closed (confirmation letters are usually sent by early May).",
+      "source": "https://www.friscotexas.gov/317/Junior-Police-Academy"
+    },
+    {
+      "name": "Fire Explorers",
+      "url": "https://www.friscotexas.gov/1850/Fire-Explorers",
+      "ages": "Grades 9-12, ages 15-19 (must turn 15 by Sept. 1 of the application year); live in Frisco, attend a Frisco ISD high school, or be sponsored by a city employee",
+      "description": "Hands-on fire service career program with two monthly meetings, ride-alongs and station time; requires a 3.0 GPA, background check and physical.",
+      "applyWindow": "The 2026-2027 application period is closed; the application link is posted on the page when the next period opens (Community Education 972-292-6351).",
+      "source": "https://www.friscotexas.gov/1850/Fire-Explorers"
+    },
+    {
+      "name": "Junior Citizen's Fire Academy",
+      "url": "https://www.friscotexas.gov/1461/Jr-Citizens-Fire-Academy",
+      "ages": "Middle school students (grades 6-8) who live in Frisco or attend school in Frisco; first-time participants only",
+      "description": "Free one-week fire department academy for middle schoolers (9 a.m. to 3 p.m. Monday through Thursday, 9 a.m. to 1 p.m. Friday with graduation); two sessions each June (June 1-5 and June 8-12 in 2026).",
+      "applyWindow": "Applications open in April for June sessions; the 2026 sessions and waitlist are full.",
+      "source": "https://www.friscotexas.gov/1827/Get-Involved"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing and ordinance amending the Project Plan and Financing Plans for Tax Increment Reinvestment Zone Number One (TIRZ #1)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "economic-development",
+        "budget-taxes"
+      ],
+      "summary": "The council will hold a public hearing and then vote on changes to how the downtown-area tax increment zone spends and finances its projects (agenda items 26 and 27).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Approval of the 2026 tax rate calculation worksheet for Fiscal Year 2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council will approve the worksheet that calculates the no-new-revenue and voter-approval property tax rates used to set this year's tax rate (item 28).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Third public hearing on the City of Frisco Fiscal Year 2027 Annual Budget (including the Community Development Corporation and Economic Development Corporation budgets)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can speak about the proposed city budget for the year starting Oct. 1, 2026 before the council adopts it (item 29).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Public hearing and recorded vote to adopt an ordinance levying the Tax Year 2026 property tax rate",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "The council will take public comment and then vote on the property tax rate (the proposed rate is $0.425517 per $100 of value, the same as last year) for the 2026-27 fiscal year (item 30).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Ordinance adopting the Fiscal Year 2026-27 city budget and revised FY 2025-26 budget figures",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Final vote to adopt the city's spending plan for the fiscal year beginning Oct. 1, 2026, plus a resolution ratifying the property tax revenue increase (items 31 to 34).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Ordinance amending the Comprehensive Fee Ordinance to set new rates for water, sanitary sewer, reclaimed water, solid waste collection, parks and recreation, development services and fire department services",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes",
+        "parks-recreation"
+      ],
+      "summary": "Council will vote on updated city fees, including what residents pay for water, sewer, trash pickup and parks programs (item 36).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Calling a public hearing on City of Frisco stormwater drainage fee adjustments",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water",
+        "environment",
+        "budget-taxes"
+      ],
+      "summary": "Council will schedule a future public hearing on changing the monthly stormwater drainage fee (item 35).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Advanced Funding Agreement with TxDOT for the BNSF Veloweb Trail and Cottonwood Creek Trail",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "parks-recreation",
+        "transit",
+        "roads-traffic"
+      ],
+      "summary": "A funding agreement with the state to help build two regional hike-and-bike trail connections (consent item 21).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Resolution approving the Fiscal Year 2027 General Fund Social Services Grant allocations",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "health",
+        "housing",
+        "other"
+      ],
+      "summary": "Council will decide how much city grant money goes to nonprofits that provide social services to Frisco residents next year (consent item 20).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Purchase order to Reliable Chevrolet for three Police Department vehicles",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "public-safety"
+      ],
+      "summary": "Consent item 23 to buy three new police vehicles.",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Purchase order to Collin County for animal shelter services for FY 2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "animal-services"
+      ],
+      "summary": "Consent item 24 paying Collin County to shelter animals picked up in Frisco during the coming fiscal year.",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Appointments to city boards and commissions (Planning and Zoning Commission, Parks and Recreation Board, Board of Adjustment, Arts and Culture, Hike and Bike, Natural Resources, Social Services and Housing, Rail District, Multicultural Committee, Animal Advisory Committee and others)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council will fill seats on more than a dozen citizen boards for terms beginning Oct. 1, 2026 (items 37 to 50).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    },
+    {
+      "title": "Cancellation of the second City Council meeting in November 2026, December 2026 and March 2027, and setting the dates for the City Council Winter Work Session",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "If approved, the Nov. 17 and Dec. 15, 2026 council meetings would be cancelled for the holidays and dates would be set for the council's winter planning retreat (item 51).",
+      "url": "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1"
+    }
+  ],
+  "confidence": "medium",
+  "lastVerified": "2026-09-10",
+  "notes": "Schedule, address, council roster, time limits and the full Sept. 15 agenda were confirmed from official Frisco pages and the OnBase agenda on Sept. 10, 2026. Confidence is medium because the rules for the restored Citizen Input period are not yet published: Citizen Input was removed from agendas on June 2, 2026 (it is absent from the June 16, July 7, Aug. 4, Aug. 18 and Sept. 1 agendas) and reappears on the Sept. 15 agenda, and the city publishes no speaker sign-up form online (paper cards at the meeting). Frisco spans Collin and Denton counties; City Hall is in Collin County. Population is the city's monthly estimate (249,246) from its Demographics page. Town Hall meetings are held irregularly (next date listed as TBA), 7 to 9 p.m. at the Municipal Center, with participation in person, by phone (888-409-5380) or on Facebook Live (https://www.friscotexas.gov/433/Town-Hall). October 2026 council agendas were not yet posted on OnBase as of Sept. 10.",
+  "sources": [
+    "https://www.friscotexas.gov/585/City-Council",
+    "https://www.friscotexas.gov/2051/Public-Meetings",
+    "https://www.friscotexas.gov/m/faq?cat=139",
+    "https://www.friscotexas.gov/712/Agendas-Meetings-Ordinances",
+    "https://www.friscotexas.gov/943/Watch-FTVN-Live-Council-Meetings-etc",
+    "https://www.friscotexas.gov/606/City-Secretary",
+    "https://www.friscotexas.gov/directory.aspx?did=36",
+    "https://www.friscotexas.gov/directory.aspx?did=38",
+    "https://www.friscotexas.gov/1827/Get-Involved",
+    "https://www.friscotexas.gov/433/Town-Hall",
+    "https://www.friscotexas.gov/1454/Demographics",
+    "https://www.friscotexas.gov/754/Mayors-Youth-Council",
+    "https://www.friscotexas.gov/317/Junior-Police-Academy",
+    "https://www.friscotexas.gov/1850/Fire-Explorers",
+    "https://www.friscotexas.gov/1461/Jr-Citizens-Fire-Academy",
+    "https://www.friscotexas.gov/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar",
+    "https://www.friscotexas.gov/Calendar.aspx?EID=6847",
+    "https://agenda.friscotexas.gov/OnBaseAgendaOnline/",
+    "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/Search?dropid=4&mtids=108",
+    "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?id=5700&doctype=1",
+    "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Documents/ViewAgenda?meetingId=5700&type=agenda&doctype=1",
+    "https://agenda.friscotexas.gov/OnBaseAgendaOnline/Documents/ViewAgenda?meetingId=5699&type=agenda&doctype=1",
+    "https://friscotx.cvp.swagit.com/",
+    "https://communityimpact.com/dallas-fort-worth/frisco/government/2026/06/03/frisco-removes-public-input-from-council-agendas-indefinitely/",
+    "https://communityimpact.com/frisco/government/frisco-weighs-restoring-public-comment-at-council-meetings/",
+    "https://communityimpact.com/dallas-fort-worth/frisco/government/2026/04/09/frisco-updates-public-input-rules-delays-decision-on-speaking-time-changes/",
+    "https://nominatim.openstreetmap.org/search?q=6101+Frisco+Square+Blvd+Frisco+TX+75034&format=json"
+  ]
+}

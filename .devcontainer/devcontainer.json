@@ -1,0 +1,27 @@
+{
+  "name": "Agora",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install",
+  "postAttachCommand": {
+    "hint": "echo 'Run: npm run dev   (web on 5173, API on 8787)'"
+  },
+  "forwardPorts": [5173, 8787],
+  "portsAttributes": {
+    "5173": {
+      "label": "Agora web app",
+      "onAutoForward": "openPreview"
+    },
+    "8787": {
+      "label": "Agora API",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+      "settings": {
+        "editor.formatOnSave": false
+      }
+    }
+  }
+}

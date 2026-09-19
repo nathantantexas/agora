@@ -1,0 +1,129 @@
+{
+  "cityId": "euless",
+  "name": "Euless",
+  "county": "Tarrant",
+  "populationApprox": 60008,
+  "cityHall": {
+    "name": "Euless City Hall (Council Chambers; pre-council session in the Precouncil Room)",
+    "address": "201 N. Ector Drive, Euless, TX 76039",
+    "lat": 32.8391,
+    "lng": -97.0935
+  },
+  "website": "https://www.eulesstx.gov",
+  "councilPageUrl": "https://www.eulesstx.gov/city-hall/euless-city-council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 places (Places 1 to 6), all elected at large",
+    "districtCount": 0,
+    "mayorName": "Tim Stinneford",
+    "termNote": "Three-year staggered terms, no compensation. Mayor Tim Stinneford's term expires May 2029. Council: Place 1 Zariyan Stark, Place 2 Jeremy Tompkins, Place 3 Eddie Price, Place 4 Perry Bynum (Mayor Pro Tem), Place 5 Annabel Eads, Place 6 Tika Paudel. Places 5 and 6 are next elected May 1, 2027 (candidate filing Jan. 13 to Feb. 12, 2027); Places 1 and 3 on May 6, 2028 (filing Jan. 12 to Feb. 11, 2028)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Euless City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "19:00",
+        "notes": "Second and fourth Tuesdays at 7 p.m. The city calendar's individual event pages list Sept. 8, Sept. 22, Oct. 13, Oct. 27, Nov. 10, Nov. 24 and Dec. 8, 2026 (all at 7 p.m.); nothing is scheduled for Dec. 22. The Nov. 24 meeting is held even though Nov. 25 and 26 are city holidays. No regular meetings were held in July 2026 and the Aug. 24 meeting was skipped; the August meetings were Aug. 11 and Monday Aug. 17."
+      },
+      "location": "Council Chambers, Euless City Hall, 201 N. Ector Drive, Euless, TX 76039",
+      "virtualUrl": "https://www.eulesstx.gov/city-hall/euless-city-council/streaming-video",
+      "openToPublicComment": true,
+      "notes": "The 7 p.m. regular session covers presentations, the consent agenda, the regular agenda (including zoning public hearings) and then a standing 'Public Comments' item near the end, followed by staff and council reports. Streamed live (agendas print the address www.eulesstx.gov/video) and archived on Swagit the next day; agendas post at least three business days ahead. The Sept. 8 agenda states that the next regular meeting is Tuesday, Sept. 22, 2026 at 7 p.m. in the Council Chambers.",
+      "source": "https://www.eulesstx.gov/Home/Components/Calendar/Event/18041/17"
+    },
+    {
+      "type": "work-session",
+      "label": "Pre-Council Worksession",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "16:30",
+        "notes": "Same days as the regular meeting, 4:30 p.m., posted on the same agenda as the 7 p.m. session. The city calendar lists a 4:30 p.m. Pre-Council Worksession for each of the seven remaining 2026 meeting dates."
+      },
+      "location": "Precouncil Room, Euless City Hall, 201 N. Ector Drive, Euless, TX 76039",
+      "openToPublicComment": false,
+      "notes": "Open meeting where the mayor and council give reports and staff brief the council on agenda items, finance, capital projects and transportation; the council may recess into closed session here. No public comment period. The pre-council presentation slides are posted afterward as Vimeo links on the Meeting Documents page.",
+      "source": "https://www.eulesstx.gov/Home/Components/Calendar/Event/17993/17"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-12-22",
+      "status": "recess",
+      "note": "No City Council meeting on the fourth Tuesday of December; the city calendar shows only the Dec. 8 meeting that month (Dec. 24 and 25 are city holidays).",
+      "source": "https://www.eulesstx.gov/community/stay-connected/calendar-of-events?curm=12&cury=2026"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://eulesstx.portal.civicclerk.com/",
+    "platform": "CivicClerk",
+    "notes": "CivicClerk (CivicPlus) public portal, in use since summer 2026 (the Aug. 17 and Sept. 8, 2026 agendas are there). The city's Meeting Documents page (https://www.eulesstx.gov/city-hall/euless-city-council/city-council-meeting-documents) lists each meeting's agenda, minutes, pre-council presentation and video; agendas before August 2026 are HTML files on services.eulesstx.gov. Agendas are posted at least 3 business days before each meeting, so the Sept. 22 agenda should appear by about Sept. 17. The portal itself needs JavaScript; the same data is available from the API at https://eulesstx.api.civicclerk.com/v1/Events."
+  },
+  "liveStream": {
+    "url": "https://eulesstx.new.swagit.com/views/default/city-council-archives/",
+    "platform": "Swagit",
+    "notes": "Swagit video archive (the old eulesstx.swagit.com address redirects here). Embedded on the city's Streaming Video page, which says meetings also air live and in replay on the Euless Government Access cable channel; archives are available the next day."
+  },
+  "publicComment": {
+    "summary": "You can speak during the 'Public Comments' item at the 7 p.m. regular session on the second and fourth Tuesdays; it comes after the voting items, so plan to stay for most of the meeting. If a zoning item on the agenda has a public hearing, you can also speak when the mayor opens that hearing.",
+    "howToRegister": "The city does not publish sign-up rules online. Call the City Secretary's Office (817-685-1434, or 817-685-1420 for disability accommodations) before the meeting to ask whether you need to fill out a speaker card, then attend in person at Council Chambers, 201 N. Ector Drive.",
+    "writtenCommentMethod": "No dedicated written-comment form was found; email eulessinfo@eulesstx.gov or mayor@eulesstx.gov, or use the Access Euless request system (https://www.eulesstx.gov/community/stay-connected/access-euless, also available as the GORequest mobile app).",
+    "notes": "Rules for time limits, sign-up deadlines and remote participation are not published on the council page, the Public Meetings page or the agenda itself; the agenda only lists 'PUBLIC COMMENTS' as item 14. The council page says only that 'the public is welcome to attend or view the meeting live online.' Treat time limit and deadline as unconfirmed.",
+    "source": "https://www.eulesstx.gov/city-hall/euless-city-council"
+  },
+  "youthPrograms": [
+    {
+      "name": "HEB Teen Court",
+      "url": "https://www.eulesstx.gov/departments/municipal-court/teen-court",
+      "ages": "Defendants 11 to 17 (or 18 if still in high school); teen volunteers 13 to 18 (teen attorneys must be 15 or older)",
+      "description": "Joint Hurst-Euless-Bedford diversion program in which teen volunteer attorneys present first-offender Class C misdemeanor cases to a jury of peers, who assign community service; on completion the case is dismissed. Euless teens can volunteer as jurors, attorneys, bailiffs or clerks by submitting a Teen Court volunteer application to teen.court@bedfordtx.gov. Sessions are held once a month on Monday evenings at the Bedford Municipal Court, 2000 Forest Ridge Dr., Bedford (817-952-2468); volunteers arrive by 5 p.m. to sign in.",
+      "applyWindow": "Ongoing; submit the volunteer application (https://bedfordtx.gov/172/Teen-Court-Volunteers) by mail, in person or email, then attend a session",
+      "source": "https://bedfordtx.gov/172/Teen-Court-Volunteers"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "medium",
+  "notes": "Verified 2026-09-10. The eulesstx.gov site sits behind Akamai bot protection (direct fetches return 403), but its pages were read through a text proxy and every council date above was confirmed on the city's individual calendar event pages; the Sept. 8 agenda was read from the CivicClerk API. The next meeting after Sept. 10 is Tuesday Sept. 22, 2026, and its agenda was not yet posted, so agendaItems is empty; the most recent posted agenda (Sept. 8) covered a DPS conviction-reporting agreement, water line contracts for Sotogrande Boulevard and Sagebrush Trail, an Atmos Energy rate settlement (Ordinance 2463), a specific use permit at 221 Martha Street (Ordinance 2464) and a warehouse site plan near South Pipeline Road. Confidence is medium because the city publishes no public-comment procedure (sign-up, time limit, remote option) that could be verified. Euless also holds occasional Town Hall meetings (Jan. 15, 2026 is on record); none is on the calendar for Sept. to Dec. 2026. Population is the Census Bureau July 1, 2025 estimate (2020 Census: 61,032). Coordinates are from OpenStreetMap geocoding of the City Hall and library campus address (the Census geocoder puts the address at 32.8381, -97.0908, about 250 m away).",
+  "sources": [
+    "https://www.eulesstx.gov/city-hall/euless-city-council",
+    "https://www.eulesstx.gov/community/stay-connected/public-meetings",
+    "https://www.eulesstx.gov/city-hall/euless-city-council/streaming-video",
+    "https://www.eulesstx.gov/city-hall/euless-city-council/mayor",
+    "https://www.eulesstx.gov/city-hall/city-secretary-s-office/elections",
+    "https://www.eulesstx.gov/city-hall/city-secretary-s-office",
+    "https://www.eulesstx.gov/city-hall/euless-city-council/city-council-meeting-documents",
+    "https://services.eulesstx.gov/docs/Meetings/MeetingsJSON.aspx?g=council",
+    "https://eulesstx.portal.civicclerk.com/event/1279/files",
+    "https://eulesstx.api.civicclerk.com/v1/Events/1279",
+    "https://eulesstx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3208,plainText=true)",
+    "https://www.eulesstx.gov/community/stay-connected/calendar-of-events?curm=9&cury=2026",
+    "https://www.eulesstx.gov/community/stay-connected/calendar-of-events?curm=10&cury=2026",
+    "https://www.eulesstx.gov/community/stay-connected/calendar-of-events?curm=11&cury=2026",
+    "https://www.eulesstx.gov/community/stay-connected/calendar-of-events?curm=12&cury=2026",
+    "https://www.eulesstx.gov/Home/Components/Calendar/Event/18041/17",
+    "https://www.eulesstx.gov/Home/Components/Calendar/Event/18043/17",
+    "https://www.eulesstx.gov/Home/Components/Calendar/Event/18045/17",
+    "https://www.eulesstx.gov/Home/Components/Calendar/Event/18047/17",
+    "https://www.eulesstx.gov/Home/Components/Calendar/Event/18049/17",
+    "https://www.eulesstx.gov/Home/Components/Calendar/Event/18051/17",
+    "https://eulesstx.new.swagit.com/views/default/city-council-archives/",
+    "https://www.eulesstx.gov/departments/municipal-court/teen-court",
+    "https://bedfordtx.gov/163/Teen-Court",
+    "https://bedfordtx.gov/172/Teen-Court-Volunteers",
+    "https://www.eulesstx.gov/community/stay-connected/access-euless",
+    "https://www.census.gov/quickfacts/fact/table/eulesscitytexas,bedfordcitytexas,mansfieldcitytexas/PST045225",
+    "https://nominatim.openstreetmap.org/search?format=json&q=201+N+Ector+Dr,+Euless,+TX+76039"
+  ],
+  "lastVerified": "2026-09-10"
+}

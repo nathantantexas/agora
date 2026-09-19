@@ -1,0 +1,29 @@
+{
+  "name": "agora",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agora: find your city council meeting, learn how to speak, and take your seat at the table in Dallas-Fort Worth.",
+  "type": "module",
+  "workspaces": [
+    "packages/core",
+    "packages/server",
+    "packages/cli",
+    "packages/web"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "icons": "node scripts/make-icons.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm run dev --workspace @agora/web",
+    "dev:server": "npm run dev --workspace @agora/server",
+    "build": "npm run build:data && npm run build --workspace @agora/web",
+    "start": "node packages/server/src/index.js",
+    "cli": "node packages/cli/bin/agora.js",
+    "test": "npm run build:data && node --test \"packages/*/test/**/*.test.js\"",
+    "demo": "node packages/cli/bin/agora.js demo"
+  },
+  "license": "MIT"
+}

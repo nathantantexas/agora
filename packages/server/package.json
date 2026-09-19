@@ -1,0 +1,24 @@
+{
+  "name": "@agora/server",
+  "version": "0.1.0",
+  "description": "Agora API server: meetings, matching, news, geocoding, stats, and optional AI explanations. Serves the built web app in production.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/app.js",
+    "./news": "./src/news.js",
+    "./geocode": "./src/geocode.js",
+    "./ai": "./src/ai.js"
+  },
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0",
+    "@agora/core": "0.1.0",
+    "express": "^5.2.1"
+  },
+  "license": "MIT"
+}

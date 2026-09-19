@@ -1,0 +1,233 @@
+{
+  "cityId": "southlake",
+  "name": "Southlake",
+  "county": "Tarrant",
+  "populationApprox": 31137,
+  "cityHall": {
+    "name": "Southlake Town Hall, Council Chambers (2nd floor)",
+    "address": "1400 Main Street, Southlake, TX 76092",
+    "lat": 32.9429,
+    "lng": -97.1312
+  },
+  "website": "https://www.cityofsouthlake.com",
+  "councilPageUrl": "https://www.cityofsouthlake.com/246/Mayor-and-City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 numbered council places, all elected at large",
+    "districtCount": 0,
+    "mayorName": "Shawn McCaskill",
+    "termNote": "Three-year staggered terms; the Mayor's term expires May 2027. Members: Gary Fawks (Place 1, to May 2029), Randy Robbins (Mayor Pro Tem, Place 2, to May 2027), Frances Scharli (Place 3, to May 2028), Austin Reynolds (Deputy Mayor Pro Tem, Place 4, to May 2028), Chuck Taggart (Place 5, to May 2028), Eric Wang (Place 6, to May 2029). Council members are not divided into geographic districts."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "17:30",
+        "notes": "Each meeting opens with a public work session at 5:30 p.m. in which Council discusses every item on the night's agenda without voting; the regular session (executive session, reports, consent agenda, Public Forum, public hearings and votes) begins immediately after. Public Forum never starts before 7:00 p.m. No meetings in July. Remaining 2026 dates: Sept 15, Oct 6 and 20, Nov 3 and 17, Dec 1 and 15."
+      },
+      "location": "Council Chambers, 2nd floor, Southlake Town Hall, 1400 Main Street, Southlake, TX 76092",
+      "virtualUrl": "https://www.cityofsouthlake.com/332/Southlake-TV",
+      "openToPublicComment": true,
+      "notes": "Residents can speak during Public Forum (non-agenda topics, not before 7:00 p.m., about 3 minutes) and during any item marked PUBLIC HEARING. Regular meetings are streamed live on Southlake TV and archived on demand.",
+      "source": "https://www.cityofsouthlake.com/4120/Council-Meeting-Information"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://www.cityofsouthlake.com/AgendaCenter/City-Council-2/",
+    "platform": "CivicPlus AgendaCenter",
+    "notes": "Agendas post about six days before the meeting (the September 15, 2026 agenda was posted September 9) in HTML, PDF and full packet formats; minutes post after Council approval. City Secretary's Office: 817-748-8183."
+  },
+  "liveStream": {
+    "url": "https://www.cityofsouthlake.com/332/Southlake-TV",
+    "platform": "city TV",
+    "notes": "Southlake TV web player streams regular meetings live (City Council listed at 5:30 p.m.) and hosts on-demand recordings; the city's YouTube channel, City of Southlake Texas, is at https://www.youtube.com/@cityofsouthlaketexas231."
+  },
+  "publicComment": {
+    "summary": "At any regular meeting you can speak for up to 3 minutes during Public Forum (any topic, but it will not start before 7:00 p.m.) or during a public hearing item by filling out a speaker card and handing it to the City Secretary in the Council Chambers. If you cannot attend, submit the online Public Comment Card by 5:00 p.m. on the meeting day and your comment goes into the official record.",
+    "howToRegister": "In person: complete a speaker card at the meeting and present it to the City Secretary before Public Forum or the public hearing item is called; when the Mayor recognizes you, go to the podium and state your name and address (and the group you represent, if any). Online, written only: fill out the Public Comment Card at https://forms.cityofsouthlake.com/Forms/Public-Comment-Card, choosing the meeting date, the board (City Council), and the agenda item number, with up to 500 characters and a signature, by 5:00 p.m. on the meeting date.",
+    "registrationUrl": "https://forms.cityofsouthlake.com/Forms/Public-Comment-Card",
+    "deadline": "Speaker cards: before the item or Public Forum is called at the meeting. Online written comments: 5:00 p.m. on the meeting date.",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online Public Comment Card (https://forms.cityofsouthlake.com/Forms/Public-Comment-Card) submitted by 5:00 p.m. on the meeting date; all comments received by then are provided for the record. Questions: City Secretary's Office, 817-748-8183, 1400 Main Street, Suite 270.",
+    "notes": "The 3 minutes include any video or visual presentation, and any slides or videos must be sent to the City Secretary's office for review 24 hours before the meeting. Groups are asked to pick one spokesperson. No further input is allowed after your presentation unless Council asks questions, and there is no citizen participation during staff presentations or Council deliberation. Under the Texas Open Meetings Act Council cannot discuss or decide anything raised in Public Forum but may refer it to staff.",
+    "source": "https://www.cityofsouthlake.com/2760/Addressing-City-Council"
+  },
+  "youthPrograms": [
+    {
+      "name": "Southlake Youth Action Commission (SYAC)",
+      "url": "https://www.cityofsouthlake.com/262/Southlake-Youth-Action-Commission",
+      "ages": "Grades 9 to 12; must live in Southlake or attend a Carroll ISD school",
+      "description": "City youth commission whose members advise the City Council on youth-related issues, work alongside city staff, take on community service projects, help at city events and represent Southlake's youth voice. Seven students serve as full members with additional alternates; the group meets the second Monday of each month at 4:15 p.m. from October through May at The Marq Southlake, 285 Shady Oaks Drive, and meetings are open to the public.",
+      "applyWindow": "Applications for the 2026-27 term (October to May) were due August 21, 2026; the application requires an online form, parental consent form, essays and letters of recommendation, followed by an interview with the SYAC Board. Watch the SYAC page in summer 2027 for the next cycle. Contact: Vicky Schiber, 817-748-8186.",
+      "source": "https://www.cityofsouthlake.com/262/Southlake-Youth-Action-Commission"
+    },
+    {
+      "name": "Metroport Teen Court (teen volunteer attorneys and jurors)",
+      "url": "https://www.cityofsouthlake.com/106/Metroport-Teen-Court",
+      "ages": "Teens (middle and high school students volunteer as jurors and attorneys); the program handles defendants ages 12 to 19",
+      "description": "Southlake administers the joint Grapevine, Southlake, Colleyville and Keller teen court, where student volunteers act as attorneys and jurors in real Class C misdemeanor cases for juvenile defendants who work off their citations through community service.",
+      "applyWindow": "Rolling. Register through the Southlake volunteer website (applications take about a week or more to process), then email Teen Court staff to be placed as a volunteer, since the volunteer site has no Teen Court signup option; a waitlist was in effect as of September 2026. Phone 817-748-8346, 600 State Street; office hours Monday to Friday, 8:00 a.m. to 5:00 p.m.",
+      "source": "https://www.cityofsouthlake.com/106/Metroport-Teen-Court"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Ordinance No. 1302, 2nd reading: adopt the Fiscal Year 2027 Annual Budget and revised FY2026 budget figures (public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Final vote and public hearing on the city's spending plan for the year starting October 1, 2026.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 1301, 2nd reading: Tax Levy Ordinance (public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Sets the city property tax rate; for an average-valued homestead ($856,319) the city's share of the tax bill is estimated at $2,483 under the proposed budget versus $2,526 this year.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 480-837b / ZA26-0047, 2nd reading: zoning change and development plan for Trademark/Shivers' Farm Residential (Trademark Southlake) at 1800 and 1900 N. White Chapel Boulevard (public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "Final vote on a residential development plan for the Shivers family farm land in the Employment Center zoning district.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 480-321a / ZA26-0042, 2nd reading: zoning change and site plan for St. Martin-in-the-Fields Episcopal Church, 223 S. Pearson Lane (public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "Final vote on an updated site plan for the church property.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Resolution No. 26-028 / ZA26-0037: Specific Use Permit for a mass gathering event, Pride Kel-So, at St. Martin-in-the-Fields, 223 S. Pearson Lane (public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "arts-culture"
+      ],
+      "summary": "Council decides whether to permit a large community event on the church grounds.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 480-772a / ZA26-0045, 2nd reading: zoning change and site plan for Sedo Laser, 750-756 N. Carroll Avenue (public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "Final vote on a detailed site plan for a business on North Carroll Avenue.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 1303, 1st reading: creating Tax Increment Reinvestment Zone Number Two",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "economic-development",
+        "budget-taxes"
+      ],
+      "summary": "First reading of an ordinance that would designate a new zone where future property tax growth is set aside to fund improvements in that area.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 735C, 1st reading: amending the Bicycle Ordinance to add rules for e-bikes and electric scooters (consent)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "roads-traffic",
+        "public-safety",
+        "youth"
+      ],
+      "summary": "New regulations on where and how electric bikes and scooters can be ridden in Southlake.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Award construction contract for TW King Pump Station Improvements Phase I to Taknek LLC, not to exceed $10,000,000 (consent)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "A $10 million contract to upgrade a major water pump station.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 480-299a / ZA26-0044, 1st reading: zoning change and site plan for Mulino Ristorante, 1125 Davis Boulevard",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "First reading on a site plan for a restaurant on Davis Boulevard.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Ordinance No. 480-849 / ZA26-0054, 1st reading: zoning change and concept plan from Agricultural to SF-30 single-family for 4060 N. White Chapel Boulevard",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "First reading to rezone a tract on North White Chapel for single-family homes.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    },
+    {
+      "title": "Resolution No. 26-031: authorizing grant applications to the Office of the Governor, Public Safety Office (consent)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "public-safety",
+        "budget-taxes"
+      ],
+      "summary": "Lets the city apply for state public safety grants and names the officials who will manage them.",
+      "url": "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "sources": [
+    "https://www.cityofsouthlake.com/4120/Council-Meeting-Information",
+    "https://www.cityofsouthlake.com/246/Mayor-and-City-Council",
+    "https://www.cityofsouthlake.com/2760/Addressing-City-Council",
+    "https://www.cityofsouthlake.com/AgendaCenter",
+    "https://www.cityofsouthlake.com/AgendaCenter/City-Council-2/",
+    "https://www.cityofsouthlake.com/AgendaCenter/ViewFile/Agenda/_09152026-2320",
+    "https://forms.cityofsouthlake.com/Forms/Public-Comment-Card",
+    "https://www.cityofsouthlake.com/332/Southlake-TV",
+    "https://www.youtube.com/@cityofsouthlaketexas231",
+    "https://www.cityofsouthlake.com/calendar.aspx?CID=14&view=list&year=2026&month=10",
+    "https://www.cityofsouthlake.com/calendar.aspx?CID=14&view=list&year=2026&month=11",
+    "https://www.cityofsouthlake.com/262/Southlake-Youth-Action-Commission",
+    "https://www.cityofsouthlake.com/106/Metroport-Teen-Court",
+    "https://en.wikipedia.org/wiki/Southlake,_Texas",
+    "https://nominatim.openstreetmap.org/search?q=1400+Main+Street,+Southlake,+TX+76092"
+  ],
+  "notes": "Population is the 2023 Census estimate as reported on Wikipedia (2020 census: 31,265); Census QuickFacts and the Census API refused the request. No cancellations or rescheduled meetings were found between September 10 and December 10, 2026; the city calendar and the Council Meeting Information page both list the November 3, 2026 (general election day) meeting at 5:30 p.m. The annual July recess is outside the window. Council also holds an annual Strategic Priority Workshop (February 25, 2026 this year) that is a one-off retreat rather than a recurring monthly meeting. The next agenda (October 6, 2026) had not been posted as of September 10; the Chapel Crossing Medical zoning case ZA26-0010 was tabled to that meeting. The 7:00 p.m. earliest start for Public Forum comes from the posted agenda text, not from the Addressing City Council page."
+}

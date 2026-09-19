@@ -1,0 +1,144 @@
+{
+  "cityId": "coppell",
+  "name": "Coppell",
+  "county": "Dallas",
+  "populationApprox": 43196,
+  "cityHall": {
+    "name": "Coppell Town Center (Council Chambers)",
+    "address": "255 E. Parkway Boulevard, Coppell, TX 75019",
+    "lat": 32.97575,
+    "lng": -96.99114
+  },
+  "website": "https://www.coppelltx.gov",
+  "councilPageUrl": "https://www.coppelltx.gov/702/Mayor-City-Council",
+  "council": {
+    "size": 8,
+    "structure": "mayor + 7 numbered places (Places 1 to 7), all elected at large",
+    "districtCount": 0,
+    "mayorName": "Wes Mays",
+    "termNote": "Three-year staggered terms. Places 1, 3, 5 and 7 were up in May 2026; on February 24, 2026 the Council cancelled the May 2, 2026 election because all four candidates (Jim Walker, Don Carroll, Ramesh Premkumar and Mark Hill) were unopposed, and declared them elected to full three-year terms. The Mayor and Places 2, 4 and 6 are on the May 1, 2027 ballot according to the city's Election Information page. The city's Elective Office Requirements page does not mention term limits."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "19:30",
+        "notes": "The council page says meetings are on the 2nd and 4th Tuesdays of each month or as posted. In 2026 Legistar shows only one council meeting in June (June 9), November (Nov 10) and December (Dec 8). Legistar lists each evening under its 5:30 p.m. Work Session start; the Regular Session (invocation, Citizens' Appearance, public hearings, votes) begins at 7:30 p.m."
+      },
+      "location": "Council Chambers, Coppell Town Center, 255 E. Parkway Boulevard, Coppell, TX 75019",
+      "virtualUrl": "https://www.youtube.com/@CityofCoppellTX/featured",
+      "openToPublicComment": true,
+      "notes": "Citizens' Appearance (3 minutes, any topic) and public hearings (5 minutes on the item) happen during this session. Special meetings and Notices of Possible Quorum are posted on Legistar. Remaining 2026 dates on Legistar: Sept 22, Oct 13, Oct 27, Nov 10, Dec 8.",
+      "source": "https://www.coppelltx.gov/702/Mayor-City-Council"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "17:30",
+        "notes": "Same evenings as the Regular Session. The agenda says the meeting may be convened into a closed Executive Session for legal advice on any agenda item."
+      },
+      "location": "1st Floor Conference Room, Coppell Town Center, 255 E. Parkway Boulevard, Coppell, TX 75019",
+      "openToPublicComment": false,
+      "notes": "Open to the public, but the agenda states that citizen comments will not be heard during the Work Session; they are heard later that night under Citizens' Appearance in the Regular Session.",
+      "source": "https://coppell.legistar.com/View.ashx?M=A&ID=1366947&GUID=1AC7A293-D770-4D4C-A078-5342207A7546"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-10",
+      "status": "special",
+      "note": "Notice of Possible Quorum posted for 6:00 p.m. at the Coppell Arts Center; a council quorum may attend an event, but no council business is conducted.",
+      "source": "https://coppell.legistar.com/Calendar.aspx"
+    },
+    {
+      "date": "2026-09-11",
+      "status": "special",
+      "note": "Notice of Possible Quorum posted for 8:30 a.m. at Coppell Town Center; not a voting meeting.",
+      "source": "https://coppell.legistar.com/Calendar.aspx"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "recess",
+      "note": "No fourth-Tuesday meeting in November 2026; Legistar lists only Nov 10 for the month.",
+      "source": "https://coppell.legistar.com/Calendar.aspx"
+    },
+    {
+      "date": "2026-12-22",
+      "status": "recess",
+      "note": "No fourth-Tuesday meeting in December 2026; Legistar lists only Dec 8 for the month.",
+      "source": "https://coppell.legistar.com/Calendar.aspx"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://coppell.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "The city says agendas are posted three business days before each meeting; the portal also carries minutes, meeting video and an agenda-item search. City landing page: https://www.coppelltx.gov/1064/Agendas-Minutes"
+  },
+  "liveStream": {
+    "url": "https://www.youtube.com/@CityofCoppellTX/featured",
+    "platform": "YouTube",
+    "notes": "Also broadcast live on CiTV, the city's cable access channel (listed on the city site as Time Warner Cable channel 16 and Verizon FiOS channel 32), with a replay the weekend after the meeting. Archived video is linked from each Legistar meeting entry, and the city's Agendas page links an audio archive of council and board meetings on SoundCloud."
+  },
+  "publicComment": {
+    "summary": "Go to Coppell Town Center on a meeting night and sign the speaker list near the Council Chambers entrance before 7:20 p.m.; you get up to 3 minutes during Citizens' Appearance on any topic, or up to 5 minutes when a public hearing item you care about is called. If you would rather speak from home, email citysec@coppelltx.gov before noon on the meeting day and the City Secretary will set you up to comment over Zoom.",
+    "howToRegister": "In person: sign up on the register near the entry to the Council Chambers before 7:20 p.m. (Regular Session starts 7:30 p.m.). Virtual: send an email to the City Secretary's Office at citysec@coppelltx.gov before noon on the day of the meeting asking to speak via Zoom during Citizens' Appearance or a specific public hearing.",
+    "registrationUrl": "https://www.coppelltx.gov/1064/Agendas-Minutes",
+    "deadline": "7:20 p.m. at the meeting for in-person speakers; noon the day of the meeting for virtual speakers",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": true,
+    "writtenCommentMethod": "No dedicated written-comment form is published; the published contacts are the City Secretary's Office (citysec@coppelltx.gov, 972-304-3669) and the Council mailbox (citycouncil@coppelltx.gov).",
+    "notes": "Citizens' Appearance allows 3 minutes for general comments; public hearing comments on a specific agenda item are limited to 5 minutes. Direct comments to the City Council and be courteous and respectful. Comments are not taken during the 5:30 p.m. Work Session.",
+    "source": "https://www.coppelltx.gov/1064/Agendas-Minutes"
+  },
+  "youthPrograms": [
+    {
+      "name": "Coppell Teen Court",
+      "url": "https://www.coppelltx.gov/658/Teen-Court",
+      "ages": "Volunteers 14 to 18 enrolled in middle or high school and living in Coppell ISD",
+      "description": "Peer-jury alternative sentencing program in Coppell Municipal Court where teens serve as attorneys, bailiffs, clerks or jurors. The city's Teen Court and Volunteers pages both state the program is not currently active (placed on hold indefinitely when the court closed during the pandemic).",
+      "applyWindow": "Not accepting volunteers while the program is inactive; contact 972-462-0022 or info@coppelltx.gov",
+      "source": "https://www.coppelltx.gov/661/Volunteers"
+    },
+    {
+      "name": "Youth Advisors on City Boards (Library Board, Parks and Recreation Board, Smart City Board)",
+      "url": "https://www.coppelltx.gov/278/Boards-Commissions",
+      "ages": "7th to 11th grade students who live in Coppell and attend Coppell ISD (per the city's October 2023 recruitment notice)",
+      "description": "Student advisor seats on the Library Board, the Parks and Recreation Board and the Smart City Board, filled through the city's boards and commissions application at coppelltx.gov/boards. The city's news release says the positions are not ceremonial and appointees are expected to attend meetings regularly. The Boards and Commissions page itself does not currently mention the youth seats, so confirm current openings and grade requirements with the City Secretary's Office (972-304-3669).",
+      "applyWindow": "Adult board recruitment runs August through September each year with interviews in October and appointments in November; youth advisor openings have been announced separately (the last published notice had an October 20, 2023 deadline), so ask the City Secretary about the next round",
+      "source": "https://www.coppelltx.gov/CivicAlerts.aspx?AID=1213&ARC=1876"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "high",
+  "notes": "Coppell sits mostly in Dallas County with a small portion in Denton County. Meeting schedule, address, Work Session location and public comment rules were confirmed on Sept 10, 2026 from the city's council page, its Agendas, Minutes and Meeting Videos page, the Legistar calendar and the posted Sept 8, 2026 agenda. The Sept 8 meeting has already happened, and the agenda for the next meeting (Sept 22, 2026) was not yet published on Legistar as of Sept 10 (the city posts agendas three business days ahead, so expect it around Sept 17), which is why agendaItems is empty; check https://coppell.legistar.com/Calendar.aspx for the Sept 22 agenda. Population is the city's own January 2025 figure (2025 Adjusted Claritas with NCTCOG estimates) from its Demographics page. Coordinates are for the Town Center building at 255 E. Parkway Boulevard and sit within about 150 meters of the OpenStreetMap geocode for the street.",
+  "sources": [
+    "https://www.coppelltx.gov/702/Mayor-City-Council",
+    "https://www.coppelltx.gov/1064/Agendas-Minutes",
+    "https://coppell.legistar.com/Calendar.aspx",
+    "https://coppell.legistar.com/View.ashx?M=A&ID=1366947&GUID=1AC7A293-D770-4D4C-A078-5342207A7546",
+    "https://www.coppelltx.gov/201/Elective-Office-Requirements",
+    "https://www.coppelltx.gov/203/Election-Information",
+    "https://coppell.legistar.com/View.ashx?GUID=CE1285E1-589F-4ED4-8C08-5C4B975F49F6&ID=15257832&M=F",
+    "https://www.coppelltx.gov/241/Demographics",
+    "https://www.coppelltx.gov/658/Teen-Court",
+    "https://www.coppelltx.gov/661/Volunteers",
+    "https://www.coppelltx.gov/278/Boards-Commissions",
+    "https://www.coppelltx.gov/CivicAlerts.aspx?AID=1213&ARC=1876",
+    "https://www.youtube.com/@CityofCoppellTX/featured"
+  ],
+  "lastVerified": "2026-09-10"
+}

@@ -1,0 +1,275 @@
+{
+  "cityId": "lewisville",
+  "name": "Lewisville",
+  "county": "Denton",
+  "populationApprox": 139006,
+  "cityHall": {
+    "name": "Lewisville City Hall",
+    "address": "151 W. Church Street, Lewisville, TX 75057",
+    "lat": 33.0478,
+    "lng": -96.9953
+  },
+  "website": "https://www.cityoflewisville.com",
+  "councilPageUrl": "https://www.cityoflewisville.com/city-hall/city-council-and-mayor",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 council places (Places 1 to 6), all elected at large citywide; the mayor votes only to break a tie",
+    "districtCount": 0,
+    "mayorName": "TJ Gilmore",
+    "termNote": "Council members serve three-year terms. Current members: Brent Kuykendall (Place 1), William J. Meridith (Place 2, Mayor Pro Tem), Ronni Cade (Place 3), Lonnie Tipton (Place 4, Deputy Mayor Pro Tem), Kristin Green (Place 5), Patrick Kelly (Place 6). Term limits and exact election dates are not stated on the council page."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "notes": "If the Monday is a recognized city holiday the meeting moves to the following Monday (Labor Day Sept. 7 moved to Sept. 14, 2026). The city notes schedule variations in January, July and September."
+      },
+      "location": "Council Chambers, Lewisville City Hall, 151 W. Church Street, Lewisville, TX 75057",
+      "virtualUrl": "https://www.cityoflewisville.com/city-hall/city-council-meetings",
+      "openToPublicComment": true,
+      "notes": "Visitors Forum is a standing agenda item at every regular session; the regular session starts at 7 p.m. unless the agenda posts a different time.",
+      "source": "https://www.cityoflewisville.com/city-hall/city-council-meetings"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Workshop Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:15",
+        "notes": "Held immediately before the regular session on the same evening; the posted start varies by agenda (6:15 p.m. on Sept. 14, 2026 and 6:30 p.m. posted for Sept. 21, 2026)."
+      },
+      "location": "Council Chambers, Lewisville City Hall, 151 W. Church Street, Lewisville, TX 75057",
+      "virtualUrl": "https://www.cityoflewisville.com/city-hall/city-council-meetings",
+      "openToPublicComment": false,
+      "notes": "Workshop items are council and staff discussion (consent and regular agenda review, legislative agenda); no Visitors Forum is listed in the workshop portion.",
+      "source": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-14",
+      "status": "rescheduled",
+      "note": "First-Monday meeting moved from Labor Day (Sept. 7) to Sept. 14: workshop 6:15 p.m., regular session 7 p.m. A 5:30 p.m. special-called joint workshop with the Youth Action Council precedes it in the City Hall lower level.",
+      "source": "https://cityoflewisville.legistar.com/Calendar.aspx"
+    },
+    {
+      "date": "2026-09-15",
+      "status": "special",
+      "note": "Special-Called City Council Meeting at 6 p.m. on King Arthur Boulevard traffic calming (public input and change order).",
+      "source": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1439769&GUID=1DDDF56D-255D-4CEC-BB60-A64650671DBD"
+    },
+    {
+      "date": "2026-09-21",
+      "status": "special",
+      "note": "Regular 3rd-Monday meeting; Legistar posts a 6:30 p.m. start (workshop) with agenda not yet available as of Sept. 10.",
+      "source": "https://cityoflewisville.legistar.com/Calendar.aspx"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://cityoflewisville.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Agendas, packets, minutes, meeting videos and the eComment link (far right of each meeting row) are all on Legistar; eComments run through the Granicus SpeakUp portal at cityoflewisville.granicusideas.com. October to December 2026 council meetings were not yet loaded in Legistar as of Sept. 10."
+  },
+  "liveStream": {
+    "url": "https://www.cityoflewisville.com/city-hall/city-council-meetings",
+    "platform": "Swagit",
+    "notes": "The city's council meetings page links live and archived meeting videos; the video host is Swagit at lewisvilletx.new.swagit.com, where upcoming council meetings and the archive are listed. Taped replays air on LVTV cable: Astound Broadband 1016, Frontier 15, Spectrum 16. The city also has a YouTube channel linked from its website."
+  },
+  "publicComment": {
+    "summary": "Every regular council meeting has a Visitors Forum where you can speak for up to 3 minutes on any topic, whether or not it is on the agenda. Sign up with the City Secretary in the Council Chambers before the meeting starts. You can also submit a written eComment online through Legistar until one hour before the meeting.",
+    "howToRegister": "In person: arrive before the meeting begins and sign up with the City Secretary in the Council Chambers (a speaker card is also how you ask to pull a consent agenda item for discussion), then speak during Visitors Forum; address the Mayor and state your name and city of residence. Online: go to cityoflewisville.legistar.com/Calendar.aspx, click the eComment link at the far right of the meeting's row, and submit your comment before the cutoff.",
+    "registrationUrl": "https://cityoflewisville.legistar.com/Calendar.aspx",
+    "deadline": "In-person sign-up before the meeting begins; eComments close one hour before the posted start (5:15 p.m. for the 6:15 p.m. Sept. 14 workshop start, 5 p.m. for the 6 p.m. Sept. 15 special meeting)",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "eComment via the Legistar calendar (Granicus SpeakUp portal at cityoflewisville.granicusideas.com); submissions close one hour before the meeting",
+    "notes": "The current agendas (Sept. 2026) set the Visitors Forum limit at 3 minutes; the older city FAQ page still says 5 minutes. Council cannot discuss or act on non-agenda items raised in Visitors Forum. Personal, impertinent, profane or slanderous remarks can get a speaker removed. No live remote speaking option is offered.",
+    "source": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+  },
+  "youthPrograms": [
+    {
+      "name": "Lewisville Youth Action Council",
+      "url": "https://www.cityoflewisville.com/city-hall/city-council-and-mayor/youth-action-council",
+      "ages": "Lewisville residents in grades 10 to 12, ages 15 to 18 as of Sept. 1",
+      "description": "Teens advise the City Council on youth issues, help with special projects and events, evaluate youth programs and plan new activities; monthly meetings over a nine-month term (September to May) with no more than three absences allowed. New members take oaths of office at a joint workshop with council on Sept. 14, 2026.",
+      "applyWindow": "Applications due in early August before the term starts (Aug. 4 for the 2026-2027 cohort); apply via the Google Form linked on the program page; contact 972-219-3460",
+      "source": "https://www.cityoflewisville.com/city-hall/city-council-and-mayor/youth-action-council"
+    },
+    {
+      "name": "Lewisville/Flower Mound Teen Court",
+      "url": "https://www.lewisvillecourt.com/court-appearance/juvenile-teen-court/volunteer-for-teen-court",
+      "ages": "Teen defendants cited for Class C misdemeanors; volunteers must be middle or high school students ages 13 to 18 who attend school or live in the greater Lewisville area",
+      "description": "Municipal Court program where teens who plead guilty or no contest have their case heard by a jury of peers and complete community service instead of paying a fine. Volunteers first observe a court session, then sign a volunteer agreement; most start as jurors and can move up to bailiff, court clerk, prosecutor, defense attorney and master jury judge. Court sits twice a month from 5:30 to 8 p.m., alternating between Lewisville and Flower Mound, generally on 1st and 3rd Tuesdays (fall 2026: Lewisville Sept. 8, Oct. 6, Nov. 3, Dec. 1; Flower Mound Sept. 22, Oct. 20, Nov. 17, Dec. 15). Contact teencourt@cityoflewisville.com or 972-219-3799.",
+      "applyWindow": "Rolling; sign up for specific court dates through the Lewisville United Volunteers portal at volunteer.cityoflewisville.com",
+      "source": "https://www.flowermound.gov/461/Youth-Services"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing: ordinance adopting the FY 2026-2027 Operating Budget and adding up to seven public safety positions",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "budget-taxes",
+        "public-safety"
+      ],
+      "summary": "Council holds a hearing and votes on next year's city budget, which lets the city overfill up to three firefighter, two police officer, one detention officer and one dispatcher positions to ease understaffing.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Resolution ratifying the property tax increase reflected in the FY 2026-27 budget",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "A required vote acknowledging that the new budget raises about $5.47 million (5.61 percent) more property tax revenue than last year.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Public input and update on the Draft Lewisville 2035 Vision Plan",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "zoning-development",
+        "governance-elections"
+      ],
+      "summary": "Residents can comment on the draft long-range plan that will guide how Lewisville grows through 2035.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Legislative Agenda (workshop)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Workshop Session",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council discusses which state legislative issues the city will push for or oppose in the next session.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Economic development agreement with Moonshot Electrical & Controls, LLC",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "The city would give a 10-year tax grant and fee waiver to an electrical contractor relocating from Denton to 1100 Spinks Road, in exchange for at least 290 jobs including 200 new positions by mid-2028.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Bid awards for disaster debris clearance, removal and management services",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "public-safety",
+        "environment"
+      ],
+      "summary": "Council lines up primary, secondary and tertiary contractors to clear debris after a storm or other disaster.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Temporary closure of Charles Street for the Buffalo Hirsch one-year anniversary event on Oct. 11, 2026",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "roads-traffic",
+        "arts-culture"
+      ],
+      "summary": "A downtown street would close between Main and Elm streets for about 14 hours for a community celebration with live music.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "HUD Community Development Block Grant disbursement to Denton County Friends of the Family",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "housing",
+        "health"
+      ],
+      "summary": "About $500,000 in federal grant money passed through the city would help build the first phase of a Family Justice Center for survivors of domestic violence and sexual assault.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Ordinance approving the Atmos Energy Mid-Tex 2026 rate review settlement",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Council votes on a negotiated settlement affecting what residents pay for natural gas starting Oct. 1, 2026.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB"
+    },
+    {
+      "title": "Public input and discussion on King Arthur Boulevard traffic calming improvements",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Special-Called City Council Meeting",
+      "topics": [
+        "roads-traffic"
+      ],
+      "summary": "Residents can speak (3 minutes each, sign up with the City Secretary before 6 p.m.) about the new speed-control measures on King Arthur Boulevard.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1439769&GUID=1DDDF56D-255D-4CEC-BB60-A64650671DBD"
+    },
+    {
+      "title": "Change Order #2 for the King Arthur Boulevard traffic calming project ($85,888)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Special-Called City Council Meeting",
+      "topics": [
+        "roads-traffic",
+        "budget-taxes"
+      ],
+      "summary": "Council would approve extra spending to remove bicycle lane barriers and add sensory warning buttons after resident feedback.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1439769&GUID=1DDDF56D-255D-4CEC-BB60-A64650671DBD"
+    },
+    {
+      "title": "Oaths of office for new Youth Action Council members and discussion of the 2026-2027 YAC program",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Joint Workshop of City Council and Youth Action Council",
+      "topics": [
+        "youth",
+        "governance-elections"
+      ],
+      "summary": "New teen members are sworn in and council discusses the coming year's Youth Action Council program at a 5:30 p.m. joint session in the City Hall lower level.",
+      "url": "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1440623&GUID=09C0A6DB-AFBF-4EF9-9DC8-EDD1F84E0BE0"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Verified Sept. 10, 2026. The cityoflewisville.com and lewisvillecourt.com servers return 403 to direct automated fetches, so their council, meetings, FAQ, youth council, LVTV and Teen Court pages were read through a text reader proxy; schedule, comment rules and agenda items were confirmed against the official Legistar calendar, the posted Sept. 14 and Sept. 15 agendas, the Legistar web API and the Granicus eComment portal. Legistar had only September 2026 council meetings loaded as of Sept. 10, so October to December dates (Oct. 5, Oct. 19, Nov. 2, Nov. 16, Dec. 7, Dec. 21) follow the 1st/3rd Monday rule and should be rechecked, especially December. The Visitors Forum time limit differs between the current agendas (3 minutes) and the older FAQ (5 minutes). Population is the Census QuickFacts July 1, 2025 estimate (not re-checked in this pass).",
+  "sources": [
+    "https://www.cityoflewisville.com/city-hall/city-council-meetings",
+    "https://www.cityoflewisville.com/city-hall/city-council-and-mayor",
+    "https://www.cityoflewisville.com/how-do-i/view/city-of-lewisville-faq-list",
+    "https://www.cityoflewisville.com/city-hall/city-council-and-mayor/youth-action-council",
+    "https://www.cityoflewisville.com/city-hall/city-departments/community-engagement/stay-connected/city-cable-lvtv",
+    "https://cityoflewisville.legistar.com/Calendar.aspx",
+    "https://cityoflewisville.legistar.com/People.aspx",
+    "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB",
+    "https://cityoflewisville.legistar.com/View.ashx?M=A&ID=1432436&GUID=57369332-09D3-436A-8EC1-268E458EE0FB",
+    "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1439769&GUID=1DDDF56D-255D-4CEC-BB60-A64650671DBD",
+    "https://cityoflewisville.legistar.com/View.ashx?M=A&ID=1439769&GUID=1DDDF56D-255D-4CEC-BB60-A64650671DBD",
+    "https://cityoflewisville.legistar.com/MeetingDetail.aspx?ID=1440623&GUID=09C0A6DB-AFBF-4EF9-9DC8-EDD1F84E0BE0",
+    "https://cityoflewisville.legistar.com/View.ashx?M=A&ID=1440623&GUID=09C0A6DB-AFBF-4EF9-9DC8-EDD1F84E0BE0",
+    "https://webapi.legistar.com/v1/cityoflewisville/events",
+    "https://cityoflewisville.granicusideas.com/meetings",
+    "https://lewisvilletx.new.swagit.com/",
+    "https://www.lewisvillecourt.com/court-appearance/juvenile-teen-court/volunteer-for-teen-court",
+    "https://volunteer.cityoflewisville.com/agency/detail/?agency_id=179338",
+    "https://www.flowermound.gov/461/Youth-Services",
+    "https://www.census.gov/quickfacts/fact/table/lewisvillecitytexas/PST045225",
+    "https://nominatim.openstreetmap.org/search?format=json&q=151+W+Church+St,+Lewisville,+TX+75057"
+  ],
+  "lastVerified": "2026-09-10"
+}

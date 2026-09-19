@@ -1,0 +1,321 @@
+{
+  "cityId": "fort-worth",
+  "name": "Fort Worth",
+  "county": "Tarrant",
+  "populationApprox": 1028117,
+  "cityHall": {
+    "name": "Fort Worth City Hall (City Council Chamber)",
+    "address": "100 Fort Worth Trail, Fort Worth, TX 76102",
+    "lat": 32.7529,
+    "lng": -97.3435
+  },
+  "website": "https://www.fortworthtexas.gov",
+  "councilPageUrl": "https://www.fortworthtexas.gov/government/elected-officials",
+  "council": {
+    "size": 11,
+    "structure": "mayor elected at large + 10 single-member districts (Districts 2 through 11)",
+    "districtCount": 10,
+    "districtMapUrl": "https://www.fortworthtexas.gov/government/district-map",
+    "findMyDistrictUrl": "https://www.fortworthtexas.gov/my-area",
+    "mayorName": "Mattie Parker",
+    "termNote": "Two-year terms; the mayor and all ten district council members are elected together every two years in May (city page: elections are held every two years for a mayor, elected at large, and ten council members, elected by district)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Evening Meeting (business and zoning hearings)",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "18:00",
+        "dates": [
+          "2026-09-15",
+          "2026-10-13",
+          "2026-11-10",
+          "2026-12-08"
+        ],
+        "notes": "Fort Worth adopts an irregular annual calendar rather than a fixed nth-Tuesday pattern. 2026 evening meetings as posted by the City Secretary: Jan 13, Feb 10, Mar 10, May 12, Jun 9, Aug 11, Sep 15, Oct 13, Nov 10, Dec 8, all Tuesdays at 6:00 p.m. (the April 14 date in the original resolution was removed when Council amended the calendar on Jan 13, 2026)."
+      },
+      "location": "City Council Chamber, City Hall, 100 Fort Worth Trail, Fort Worth, TX 76102",
+      "virtualUrl": "https://fortworthgov.granicus.com/player/camera/5",
+      "openToPublicComment": true,
+      "notes": "Agenda includes consent and non-consent business, public hearings, zoning hearings and a Public Comments section at the end (section 14 on the Sept 15, 2026 agenda). The Sept 15, 2026 meeting includes FY2027 budget and tax-rate adoption. Item 5 on each agenda lets Council vote at the start to reduce registered speakers' time when many people sign up.",
+      "source": "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Evening-Meetings"
+    },
+    {
+      "type": "regular",
+      "label": "City Council Day Meeting",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "13:00",
+        "dates": [
+          "2026-09-29",
+          "2026-10-27",
+          "2026-11-17"
+        ],
+        "notes": "Posted start time for the fall 2026 day meetings is 1:00 p.m. The adopted resolution says day meetings generally start at 11:00 a.m., but the posted agenda controls: Jan 27 started at 2:00 p.m., Feb 24 through Aug 25 at 11:00 a.m., and Sep 29, Oct 27 and Nov 17 are posted at 1:00 p.m. Full 2026 list: Jan 27, Feb 24, Mar 31, Apr 28, Jun 23, Aug 25, Sep 29, Oct 27, Nov 17."
+      },
+      "location": "City Council Chamber, City Hall, 100 Fort Worth Trail, Fort Worth, TX 76102",
+      "virtualUrl": "https://fortworthgov.granicus.com/player/camera/5",
+      "openToPublicComment": true,
+      "notes": "Daytime business meeting that follows a 9:00 a.m. work session the same day. Since the Jan 13, 2026 calendar amendment, every regular business meeting (day and evening) ends with an open Public Comments section. Check the posted agenda for the exact start time.",
+      "source": "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Day-meetings"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session (first meeting Tuesday of the month, afternoon)",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "14:00",
+        "dates": [
+          "2026-10-20",
+          "2026-11-03",
+          "2026-12-01"
+        ],
+        "notes": "Posted at 2:00 p.m. for Oct 20, Nov 3 and Dec 1, 2026 (Sept 1 was 1:00 p.m.). Preceded by a closed Executive Session, generally at noon."
+      },
+      "location": "City Council Work Session Room, City Hall, 100 Fort Worth Trail, Fort Worth, TX 76102",
+      "virtualUrl": "https://fortworthgov.granicus.com/player/camera/5",
+      "openToPublicComment": false,
+      "notes": "Briefing session; residents may attend and watch but there is no public comment period. The separate 6:00 p.m. Public Comment Meetings that the original 2026 resolution scheduled on these dates were eliminated when Council amended the calendar on Jan 13, 2026 and moved open public comment into every regular business meeting instead; the City Secretary's Public Comment Meetings page now lists only the Jan 6, 2026 meeting.",
+      "source": "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Work-Session-Meetings"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session (morning, before Day Meeting)",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "09:00",
+        "dates": [
+          "2026-09-29",
+          "2026-10-27",
+          "2026-11-17"
+        ],
+        "notes": "9:00 a.m. work session on the same Tuesday as the 1:00 p.m. day meeting."
+      },
+      "location": "City Council Work Session Room, City Hall, 100 Fort Worth Trail, Fort Worth, TX 76102",
+      "virtualUrl": "https://fortworthgov.granicus.com/player/camera/5",
+      "openToPublicComment": false,
+      "notes": "Briefing session, no public comment.",
+      "source": "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Work-Session-Meetings"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-10-06",
+      "status": "recess",
+      "note": "No council meeting (National Night Out) per the adopted 2026 calendar; the first October work session shifts to Oct 20.",
+      "source": "https://www.fortworthtexas.gov/files/assets/public/v/1/news/documents/resolution-2026-scheduled-council-calendar-of-meetings-2.pdf"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "special",
+      "note": "Election Day: only the afternoon work session (2:00 p.m.) and executive session are scheduled; no evening meeting.",
+      "source": "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Work-Session-Meetings"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "recess",
+      "note": "No meeting during Thanksgiving week.",
+      "source": "https://www.fortworthtexas.gov/files/assets/public/v/1/news/documents/resolution-2026-scheduled-council-calendar-of-meetings-2.pdf"
+    },
+    {
+      "date": "2026-12-15",
+      "status": "recess",
+      "note": "Holiday break: no council meetings Dec 15, Dec 22 or Dec 29, 2026; last meeting of the year is Dec 8.",
+      "source": "https://www.fortworthtexas.gov/files/assets/public/v/1/news/documents/resolution-2026-scheduled-council-calendar-of-meetings-2.pdf"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://docspublished.io/fortworthtexas",
+    "platform": "other",
+    "notes": "Docs Published portal used since June 17, 2026 for agendas and speaker registration (the page needs JavaScript to display); earlier agendas remain on Legistar at https://fortworthgov.legistar.com/Calendar.aspx. The City Secretary also posts agenda PDFs on the meeting event pages."
+  },
+  "liveStream": {
+    "url": "https://fortworthgov.granicus.com/player/camera/5",
+    "platform": "Granicus",
+    "notes": "FWTV live stream (Granicus camera 5; camera 4 is a second channel). Also streamed on YouTube at https://www.youtube.com/user/CityofFortWorth and on the FWTV cable channel; FWTV page: https://www.fortworthtexas.gov/departments/communications/fwtv"
+  },
+  "publicComment": {
+    "summary": "Sign up online at docspublished.io/fortworthtexas (or by phone, email or a speaker card at City Hall) no later than two hours before the meeting starts, choosing the agenda item you want to address or the general Public Comments section. You then get 3 minutes at the microphone in person; video or proxy testimony is not allowed.",
+    "howToRegister": "1) Go to https://docspublished.io/fortworthtexas, pick the meeting, open its agenda, expand the item (or Public Comments) and click the blue speech-bubble icon to open the Submit Request to Speak/Feedback form; choose In Person Presentation or Written Comments (No Presentation), fill in your details and submit. 2) Or call the City Secretary's Office at 817-392-6150, email csoadmin@fortworthtexas.gov, or fill out a speaker card in person at City Hall, 100 Fort Worth Trail. Registration opens once the agenda is posted (state law requires posting at least three business days ahead; the city usually posts on the Thursday before) and closes two hours before the meeting start time for both day and evening meetings.",
+    "registrationUrl": "https://docspublished.io/fortworthtexas",
+    "deadline": "No later than two hours before the meeting start time",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Select Written Comments (No Presentation) on the same online form at docspublished.io/fortworthtexas, or email the City Secretary's Office at csoadmin@fortworthtexas.gov",
+    "notes": "3 minutes total for consent and non-consent items regardless of how many items you sign up for; 3 minutes per item at public and zoning hearings; 3 minutes in the Public Comments section (multiple subjects allowed). A representative of a group of 10 or more (all present, names given at registration) gets 6 minutes. Proxy or video testimony is not permitted. Work sessions have no public comment.",
+    "source": "https://www.fortworthtexas.gov/departments/citysecretary/appear-at-council"
+  },
+  "youthPrograms": [
+    {
+      "name": "Fort Worth Teen Court",
+      "url": "https://www.fortworthtexas.gov/departments/municipal-court/teen-court",
+      "ages": "10 to 17, or currently enrolled in high school",
+      "description": "Municipal Court diversion program in which teens who receive Class C citations appear before a jury of their peers; teen volunteers serve as jurors and can earn community service credit. Office: A.D. Marshall Public Safety and Courts Building, 1000 Throckmorton St., 4th floor. Contact 817-392-8681 or teencourt@fortworthtexas.gov.",
+      "applyWindow": "Rolling; use the Register to Volunteer link on the Teen Court page (Galaxy Digital volunteer portal: https://fortworthtexas.galaxydigital.com/agency/detail/Teen_Court/)",
+      "source": "https://www.fortworthtexas.gov/departments/municipal-court/teen-court"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "FY2027 Budget Ordinance (item 11.1.2)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "budget-taxes",
+        "governance-elections"
+      ],
+      "summary": "Council votes to adopt the city's operating budget and capital improvement program for the fiscal year that starts October 1, 2026.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "FY2027 Ad Valorem (property) Tax Rate ordinance with public hearing (item 11.1.3)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Public hearing and vote setting the 2026 property tax rate that funds next year's budget, plus a resolution ratifying the resulting revenue increase.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "Establish a Pavement Management Fee (item 11.2.1, M&C 26-0838)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "roads-traffic",
+        "budget-taxes"
+      ],
+      "summary": "New ordinance creating a dedicated fee and fund to pay for street maintenance across the city.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "FY27 Police Staffing Ordinance (item 11.2.3, M&C 26-0935)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "public-safety",
+        "budget-taxes"
+      ],
+      "summary": "Amends Police Department staffing effective October 1, 2026 (the proposal adds sworn positions) and sets police salaries.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "Public hearing: Crime Control and Prevention District FY2027 budget (item 12.1, M&C 26-0688)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "public-safety",
+        "budget-taxes"
+      ],
+      "summary": "Residents can speak before Council approves the sales-tax-funded crime prevention district budget for next year.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "Public hearing: FY27 Stormwater Utility Fee increase (item 12.2, M&C 26-0740)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Hearing and vote on raising the monthly drainage fee that appears on water bills.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "Public hearing: Carrier Corporation tax abatement for an advanced manufacturing plant (item 12.15, M&C 26-0943)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "economic-development",
+        "budget-taxes"
+      ],
+      "summary": "Council considers a tax abatement agreement with Carrier Corporation or an affiliate for an advanced manufacturing facility in Fort Worth.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "FIFA World Cup mini pitch at Sylvania Park (item 11.2.4, M&C 26-0562)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "parks-recreation",
+        "youth"
+      ],
+      "summary": "Agreement with the North Texas FIFA World Cup Organizing Committee for the design and construction of a mini soccer pitch in Sylvania Park.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "Loan for the Evans and Rosedale redevelopment project (item 11.5.7)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "economic-development",
+        "housing"
+      ],
+      "summary": "Resolution authorizing city funding for redevelopment in the historic Evans and Rosedale area on the Near Southeast side.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "CDBG disaster recovery forgivable loan for Irma Park Senior Apartments (item 7.5.1, M&C 26-0832)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "housing"
+      ],
+      "summary": "Federal Community Development Block Grant disaster recovery funds would support senior apartments at 1519 Circle Park Boulevard; a similar loan for Richardson Ridge Apartments is item 7.5.6 (M&C 26-0852).",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "Tree planting and maintenance contracts plus $1.411 million appropriation (items 7.1.17 and 7.1.18)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "environment",
+        "parks-recreation"
+      ],
+      "summary": "Funds citywide tree planting and care through certified arborist contracts (M&C 26-0568) and a $1,411,000 appropriation ordinance (M&C 26-0655).",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    },
+    {
+      "title": "Zoning case ZC-26-089: 45 acres at 693 to 1021 Avondale Haslet Road, Council District 10 (item 13.4)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Evening Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "Zoning hearing on a 45.06-acre site in far north Fort Worth; several other zoning cases (ZC-26-092, ZC-26-093, ZC-26-094 and more) are also on the agenda.",
+      "url": "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "notes": "Verified 2026-09-10 against official City Secretary pages, the Sept 15, 2026 agenda PDF and the 2026 calendar resolution. Fort Worth's council calendar is set by an annual resolution; the resolution PDF linked here is the original (September 2025) version, which Council amended on Jan 13, 2026 to drop the April 14 evening meeting and the stand-alone Public Comment Meetings and to add open public comment to every regular business meeting, so the City Secretary event pages (not the original resolution) were used for dates and times. There are no meetings in July. Executive sessions (closed) precede the afternoon work sessions. Coordinates are from OpenStreetMap geocoding of 100 Fort Worth Trail (the former Pier 1 building west of downtown). Population is the July 1, 2025 Census estimate as reported by local news. No city youth advisory council was found on the city website; Teen Court is the only youth civic program located.",
+  "sources": [
+    "https://www.fortworthtexas.gov/government/city-council-meetings",
+    "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Evening-Meetings",
+    "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Day-meetings",
+    "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Work-Session-Meetings",
+    "https://www.fortworthtexas.gov/departments/citysecretary/events/2026-City-Council-Public-Comment-Meetings",
+    "https://www.fortworthtexas.gov/files/assets/public/v/1/news/documents/resolution-2026-scheduled-council-calendar-of-meetings-2.pdf",
+    "https://www.fortworthtexas.gov/departments/citysecretary/appear-at-council",
+    "https://www.fortworthtexas.gov/departments/citysecretary/appear-at-council/Council-Meeting-Speaker-Registration",
+    "https://www.fortworthtexas.gov/files/assets/public/v/1/city-secretary/documents/council-rules-amp-speaker-instructions/guide-for-registering-to-speak-june-2026.pdf",
+    "https://www.fortworthtexas.gov/government/elected-officials",
+    "https://www.fortworthtexas.gov/government/district-map",
+    "https://www.fortworthtexas.gov/my-area",
+    "https://www.fortworthtexas.gov/departments/communications/fwtv",
+    "https://fortworthgov.granicus.com/player/camera/5",
+    "https://docspublished.io/fortworthtexas",
+    "https://fortworthgov.legistar.com/Calendar.aspx",
+    "https://www.fortworthtexas.gov/files/assets/public/v/2/city-secretary/documents/calendar/2026-agendas/city-council/evening-zoning/9-15-2026-city-council-meeting.pdf",
+    "https://www.fortworthtexas.gov/departments/municipal-court/teen-court",
+    "https://communityimpact.com/keller-roanoke-northeast-fort-worth/government/fort-worth-city-council-votes-to-amend-public-comment-dates-time-limits/",
+    "https://nominatim.openstreetmap.org/search?q=100+Fort+Worth+Trail,+Fort+Worth,+TX+76102&format=json",
+    "https://fortworthreport.org/2026/05/14/its-official-fort-worth-is-the-10th-largest-city-in-us/"
+  ]
+}

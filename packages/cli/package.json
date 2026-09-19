@@ -1,0 +1,17 @@
+{
+  "name": "@agora/cli",
+  "version": "0.1.0",
+  "description": "Agora in the terminal: list DFW council meetings, match them to your interests, learn how to speak, and draw the map in ASCII.",
+  "type": "module",
+  "bin": {
+    "agora": "./bin/agora.js"
+  },
+  "scripts": {
+    "test": "node --test test"
+  },
+  "dependencies": {
+    "@agora/core": "0.1.0",
+    "@agora/server": "0.1.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,269 @@
+{
+  "cityId": "keller",
+  "name": "Keller",
+  "county": "Tarrant",
+  "populationApprox": 50000,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "Keller Town Hall",
+    "address": "1100 Bear Creek Parkway, Keller, TX 76248",
+    "lat": 32.9297,
+    "lng": -97.2271
+  },
+  "website": "https://www.cityofkeller.com",
+  "councilPageUrl": "https://www.cityofkeller.com/services/city-council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 places (Places 1 to 6), all elected at large",
+    "districtCount": 0,
+    "mayorName": "Ross McMullin",
+    "termNote": "Three-year staggered terms with elections each May. Mayor Ross McMullin was elected May 2026 (term expires 2029); Mayor Pro Tem is Shannon Dubberly (Place 1, term expires 2027). Current members: Dubberly (P1), Greg Will (P2, expires 2027), Karen Brennan (P3, expires 2028), Jarrett Armstrong (P4, elected June 2026, expires 2028), Chris Whatley (P5, expires 2029), Charles Randklev (P6, expires 2029)."
+  },
+  "meetings": [
+    {
+      "type": "work-session",
+      "label": "Pre-Council Meeting (work session and executive session)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "17:00",
+        "notes": "Held before every regular meeting on the first and third Tuesday; the city calendar lists the combined event as 'Pre-Council and Regular Council Meeting' at 5:00 PM."
+      },
+      "location": "Keller Town Hall, 1100 Bear Creek Parkway, Keller, TX 76248",
+      "virtualUrl": "https://cityofkeller.granicus.com/ViewPublisher.php?view_id=2",
+      "openToPublicComment": false,
+      "notes": "Informational session to review agenda items plus any closed executive session; no formal public comment period. Streamed live on KTV starting at 5 p.m.",
+      "source": "https://cityofkeller.legistar.com/View.ashx?M=A&ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "notes": "First and third Tuesday of each month. City calendar confirms 2026 dates of Sept. 15, Oct. 6, Oct. 20, Nov. 3, Nov. 17, Dec. 1 and Dec. 15."
+      },
+      "location": "Council Chambers, Keller Town Hall, 1100 Bear Creek Parkway, Keller, TX 76248",
+      "virtualUrl": "https://cityofkeller.granicus.com/ViewPublisher.php?view_id=2",
+      "openToPublicComment": true,
+      "notes": "Order of business: call to order, invocation, pledges, proclamations, Persons to be Heard, consent, old business, new business (including public hearings), executive session. Residents speak during Persons to be Heard or during a posted public hearing.",
+      "source": "https://cityofkeller.legistar.com/View.ashx?M=A&ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://cityofkeller.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Agendas, packets, minutes and linked video for council and boards. Agendas are posted roughly six days before the meeting (the Sept. 15 agenda was posted Sept. 9). The Legistar calendar only shows the current month; later dates are on the city website calendar."
+  },
+  "liveStream": {
+    "url": "https://cityofkeller.granicus.com/ViewPublisher.php?view_id=2",
+    "platform": "Granicus",
+    "notes": "KTV broadcasts and streams council meetings live at 5 p.m. on the first and third Tuesday; also on Charter/Spectrum channel 190, Frontier FiOS channel 31 and OneSource channel 7. The Granicus page lists archived video and agendas for every meeting (usually posted within a day). The city's Video on Demand page at https://www.cityofkeller.com/services/city-council/video-on-demand describes the KTV schedule but no embedded player could be confirmed there."
+  },
+  "publicComment": {
+    "summary": "Fill out a request-to-speak card and hand it to the City Secretary before the 7 p.m. regular meeting starts; you will be called during Persons to be Heard and get 3 minutes on any topic (items posted as public hearings are handled when that item comes up instead). Council cannot debate a non-agenda topic that night, but it can refer your issue to staff or place it on a future agenda.",
+    "howToRegister": "Speaker card at the meeting: complete a request-to-speak form and give it to the City Secretary before the regular meeting is called to order (or immediately after you speak). Go to the lectern, state your name and address, and address the mayor. No online, phone or email sign-up is published.",
+    "deadline": "Before the 7 p.m. regular meeting is called to order",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email mayorandcouncil@cityofkeller.com to reach all council members; printed material can be given to the City Secretary one week before a meeting for inclusion in the packet, or handed to the City Secretary at the meeting for distribution.",
+    "notes": "There is a cumulative 30-minute limit for Persons to be Heard at each regular meeting, which the mayor may extend. You may speak only once unless a council member asks you a question. Public hearing items may not be addressed under Persons to be Heard; speak when the hearing is opened. The council's Rules of Order document lists 2 minutes per speaker, but current posted agendas state 3 minutes, so 3 is what applies today.",
+    "source": "https://cityofkeller.legistar.com/View.ashx?M=A&ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+  },
+  "youthPrograms": [
+    {
+      "name": "Metroport Teen Court",
+      "url": "https://www.cityofsouthlake.com/106/Teen-Court",
+      "ages": "12 to 19 and enrolled in middle school or high school",
+      "description": "Regional teen court funded by Keller, Southlake, Grapevine and Colleyville. Teens who received a Class C ticket can keep it off their record by doing service hours and jury duty; other teens volunteer as jurors or as teen attorneys coached by real lawyers. Trials are Tuesday evenings between 5 and 8 p.m. at Southlake Municipal Court, 600 State Street, Southlake. To volunteer, register on the Southlake volunteer website, then email the Teen Court office (there is currently a waitlist). Phone 817-748-8346. Keller appoints one council member and two residents to the Metroport Teen Court Advisory Board that oversees the program.",
+      "applyWindow": "Volunteer registration accepted year-round through Southlake; waitlist in effect",
+      "source": "https://www.cityofkeller.com/services/boards-commissions"
+    },
+    {
+      "name": "Keller Public Library Teen Advisory Board",
+      "url": "https://www.cityofkeller.com/services/library/teens/teen-advisory-board",
+      "ages": "Teens and tweens",
+      "description": "Library-run board for young people who want to be active in the community; members help plan teen programs and events and earn up to 1.5 volunteer hours per meeting. Meets the third Tuesday of the month at 4:30 p.m. at Keller Public Library, 1100 Bear Creek Parkway; snacks provided. Contact library@cityofkeller.com or 817-743-4840.",
+      "applyWindow": "Ongoing; attend a meeting",
+      "source": "https://www.cityofkeller.com/services/library/teens/teen-advisory-board"
+    },
+    {
+      "name": "Keller Police Chief's Student Forum",
+      "url": "https://www.cityofkeller.com/about-us/departments-h-z/police/who-we-are/chief-s-student-forum-application-keller",
+      "ages": "High school sophomores, juniors and seniors",
+      "description": "Selected students meet six to nine times a year at Keller High School with Police Chief Brad Fortune to represent Keller's teen community; parent or guardian permission required.",
+      "applyWindow": "The application page still lists a deadline of 8 a.m. Monday, Nov. 4 with no year (Nov. 4 falls on a Wednesday in 2026, so the page appears to be from a prior cycle); confirm the current cycle with Keller Police at 817-743-4500",
+      "source": "https://www.cityofkeller.com/about-us/departments-h-z/police/who-we-are/chief-s-student-forum-application-keller"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing: adopt the FY 2026-27 annual budget, 2026-27 Capital Improvements Program and fee schedule",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council holds a public hearing and votes on the city's spending plan for the year starting Oct. 1, 2026, including capital projects and fees.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Ordinance levying property taxes for Tax Year 2026 (FY 2026-27)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Sets the property tax rate Keller homeowners and businesses will pay for the coming fiscal year.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Public hearing: amendments to the FY 2025-26 annual operating budget",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Adjusts the current year's budget before the fiscal year closes on Sept. 30.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Resolution creating the Keller Sports Authority (also discussed in work session)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "parks-recreation",
+        "economic-development"
+      ],
+      "summary": "Would create a new city body focused on sports facilities and tournaments; a related Keller Sports Park Tournament Policy is also on the consent agenda.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Flock automated license plate readers: work session discussion and resolution on public safety guidelines",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Council discusses the police department's license plate camera program in work session, then considers a consent-agenda resolution enhancing the public safety guidelines for how the cameras are used.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Chapter 380 economic development and facade grant agreements for 128 and 136 Bates Street (The Hive & Holding Co.)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "City incentives and facade improvement grants for a business redeveloping two Old Town Keller properties.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Public hearing: Specific Use Permit with variances for a carport at 1124 Oak Bend Lane",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "A homeowner asks permission to keep a 253-square-foot carport that does not meet standard rules.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Public hearing: Specific Use Permit with variance for a carport at 1330 Johnson Road",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "Request for an approximately 883-square-foot carport on a 1.53-acre lot near Johnson Road and Keller Smithfield Road.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Interlocal agreement with Southlake for the Alta Vista Water Line project",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Keller and Southlake would share a water line project in the Alta Vista area.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Amendment No. 2 to the interlocal agreement for combined public safety dispatching and jail services with Southlake and Colleyville",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "public-safety"
+      ],
+      "summary": "One-year extension of the shared 911 dispatch and jail arrangement among the three cities.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Executive session: legal action relating to the Westlake Data Center Development",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Pre-Council Meeting",
+      "topics": [
+        "zoning-development",
+        "other"
+      ],
+      "summary": "Closed-door consultation with the city attorney about a data center project in neighboring Westlake; any vote would have to happen in open session.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Work session: public works impacts of Keller surpassing 50,000 in population",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Pre-Council Meeting",
+      "topics": [
+        "roads-traffic",
+        "utilities-water",
+        "governance-elections"
+      ],
+      "summary": "Staff briefs council on what crossing the 50,000-resident threshold means for streets, utilities and state requirements.",
+      "url": "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A"
+    },
+    {
+      "title": "Work session: cancellation of council and board meetings through 2027, and the board appointment process",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Pre-Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Staff proposes cancelling the Jan. 5, June 15, July 20 and Dec. 21, 2027 council meetings for holidays and school breaks, moving the March 16 and Aug. 17, 2027 meetings one week later, and cancelling the Nov. 24 and Dec. 22, 2026 Planning and Zoning meetings. Council also reviews how it appoints board members.",
+      "url": "https://cityofkeller.legistar.com/LegislationDetail.aspx?ID=8206395&GUID=494B95B9-5B5D-484B-B4AD-E1ADD2D3AF39"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "The city's main website (cityofkeller.com) blocks automated fetches, so its pages were read through a reader proxy on Sept. 10, 2026; schedule, address, agenda and public-comment rules also come from the official Legistar agenda (PDF read directly) and the council's Rules of Order (Granicus PDF read directly). No 2026 council meeting cancellations are published: the city calendar lists all first and third Tuesdays through Dec. 15, 2026, including Nov. 3 (Election Day). A staff proposal discussed Sept. 15 would cancel or move several 2027 council dates and the Nov. 24 and Dec. 22, 2026 Planning and Zoning meetings; those are proposals, not adopted cancellations. Confidence is medium rather than high because the live-stream player could not be confirmed on the city's video page and the Chief's Student Forum application page appears to be from a prior cycle. Population: 45,776 at the 2020 census with a 2021 estimate of about 50,000.",
+  "sources": [
+    "https://cityofkeller.legistar.com/Calendar.aspx",
+    "https://cityofkeller.legistar.com/MeetingDetail.aspx?ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A",
+    "https://cityofkeller.legistar.com/View.ashx?M=A&ID=1363808&GUID=4493AB9D-1B8D-47F8-BF37-2248B3EC507A",
+    "https://cityofkeller.legistar.com/LegislationDetail.aspx?ID=8206395&GUID=494B95B9-5B5D-484B-B4AD-E1ADD2D3AF39",
+    "https://cityofkeller.legistar.com/View.ashx?M=F&ID=15841695&GUID=C3464527-41EE-4AAE-8D72-8C12C9440DC7",
+    "https://cityofkeller.granicus.com/MetaViewer.php?view_id=2&clip_id=791&meta_id=74129",
+    "https://cityofkeller.granicus.com/ViewPublisher.php?view_id=2",
+    "https://cityofkeller.granicus.com/boards/w/6c0836b7097a4e35/boards/19882",
+    "https://www.cityofkeller.com/services/city-council",
+    "https://www.cityofkeller.com/services/city-council/video-on-demand",
+    "https://www.cityofkeller.com/services/administration/city-secretary",
+    "https://www.cityofkeller.com/services/boards-commissions",
+    "https://www.cityofkeller.com/visitors/city-calendar/-curm-10/-cury-2026",
+    "https://www.cityofkeller.com/visitors/city-calendar/-curm-11/-cury-2026",
+    "https://www.cityofkeller.com/visitors/city-calendar/-curm-12/-cury-2026",
+    "https://www.cityofkeller.com/services/library/teens/teen-advisory-board",
+    "https://www.cityofkeller.com/about-us/departments-h-z/police/who-we-are/chief-s-student-forum-application-keller",
+    "https://www.cityofsouthlake.com/106/Teen-Court",
+    "https://nominatim.openstreetmap.org/search?q=1100+Bear+Creek+Parkway+Keller+TX"
+  ]
+}

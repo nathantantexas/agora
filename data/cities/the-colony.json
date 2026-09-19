@@ -1,0 +1,236 @@
+{
+  "cityId": "the-colony",
+  "name": "The Colony",
+  "county": "Denton",
+  "populationApprox": 45471,
+  "cityHall": {
+    "name": "The Colony City Hall (Council Chambers)",
+    "address": "6053 Main Street, The Colony, TX 75056",
+    "lat": 33.09154,
+    "lng": -96.89373
+  },
+  "website": "https://www.thecolonytx.gov",
+  "councilPageUrl": "https://www.thecolonytx.gov/552/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor at large + 2 at-large places (Places 1 and 2) + 4 single-member districts (Places 3 to 6; boundaries adopted May 3, 2022 by Ordinance 2022-2475)",
+    "districtCount": 4,
+    "districtMapUrl": "https://www.thecolonytx.gov/DocumentCenter/View/15551/City-Council-Districts-Map-PDF",
+    "mayorName": "Richard Boyer",
+    "termNote": "Three-year terms with November elections; at-large seats and single-member district seats come up in alternating years and the third year has no regular council election. The council page shows Mayor Boyer and at-large Places 1 and 2 serving to November 2027, and district Places 3 to 6 expiring November 2026."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:30",
+        "durationMinutes": 90,
+        "notes": "City calendar blocks 6:30 to 8:00 p.m.; recent meetings on the Granicus archive actually ran from about 25 minutes to over 3 hours. When the first Tuesday conflicts with an event the city moves the meeting to Wednesday (see scheduleExceptions)."
+      },
+      "location": "Council Chambers, City Hall, 6053 Main Street, The Colony, TX 75056",
+      "virtualUrl": "https://www.thecolonytx.gov/604/Live-Video-Stream",
+      "openToPublicComment": true,
+      "notes": "One combined meeting: announcements, Citizen Input (non-agenda topics, 5 minutes each, 30 minutes total), a Work Session segment where no citizen input is heard, consent agenda, regular items with public hearings, then executive session. Remaining 2026 dates on the city calendar: Sept 15, Oct 7 (Wed), Oct 20, Nov 4 (Wed), Nov 17, Dec 1, Dec 15.",
+      "source": "https://www.thecolonytx.gov/552/City-Council"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-10-07",
+      "status": "rescheduled",
+      "note": "City calendar places the first October council meeting on Wednesday, Oct 7 at 6:30 p.m. instead of the usual first Tuesday (Oct 6, which is National Night Out in Texas). The calendar does not state the reason.",
+      "source": "https://www.thecolonytx.gov/calendar.aspx?CID=33&month=10&year=2026"
+    },
+    {
+      "date": "2026-11-04",
+      "status": "rescheduled",
+      "note": "City calendar places the first November council meeting on Wednesday, Nov 4 at 6:30 p.m. instead of Tuesday, Nov 3 (Election Day). The calendar does not state the reason.",
+      "source": "https://www.thecolonytx.gov/calendar.aspx?CID=33&month=11&year=2026"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://thecolony.granicus.com/ViewPublisher.php?view_id=3",
+    "platform": "Granicus",
+    "notes": "Granicus listing of council agendas, packets, minutes and video, embedded on https://www.thecolonytx.gov/601/Agendas-Packets-Minutes-Videos. The agenda link opens a PDF hosted on Amazon S3. Agendas are certified as posted by 5 p.m. about six days before the meeting (the Sept 15 agenda was posted Sept 9)."
+  },
+  "liveStream": {
+    "url": "https://www.thecolonytx.gov/604/Live-Video-Stream",
+    "platform": "Granicus",
+    "notes": "Granicus player on the city's Live Video Stream page. The city's Communications page says council and Planning and Zoning meetings are also carried live and recorded on Spectrum cable channel 1308 and AT&T U-verse channel 99; recordings are also posted to the city's YouTube channel, https://www.youtube.com/user/CityofTheColonyTX."
+  },
+  "publicComment": {
+    "summary": "Show up at City Hall (6053 Main Street) a little before 6:30 p.m. on a meeting night, grab a Citizen Input form at the Council Chambers entrance, and hand it to the City Secretary; you can speak up to 5 minutes during Citizen Input about anything not on the agenda, or on a specific agenda item before Council takes it up. There is no online sign-up and no remote speaking option, so you need to be there in person.",
+    "howToRegister": "Complete the Citizen Input form (the agenda calls it a Request Form) located at the entrance of the Council Chambers and submit it to the City Secretary before the Council reaches the item (for agenda items) or before the Citizen Input portion begins (for non-agenda topics). Residents who do not want to speak may instead submit a form to the City Secretary registering support or opposition, and the Mayor reads each name into the record.",
+    "registrationUrl": "https://www.thecolonytx.gov/552/City-Council",
+    "deadline": "Before the item is called; for Citizen Input, before that portion of the meeting begins (arrive before 6:30 p.m.)",
+    "timeLimitMinutes": 5,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email the City Secretary's Office (972-624-3105) or use the city website; the agenda states that comments on agenda items submitted that way can be added to the council minutes.",
+    "notes": "Citizen Input is capped at 30 minutes total per meeting and Council may only respond with factual data or policy information or place the topic on a future agenda. No citizen input is heard during the Work Session portion. The agenda says that to address Council in person you attend the meeting at City Hall.",
+    "source": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+  },
+  "youthPrograms": [
+    {
+      "name": "Teen Police Academy",
+      "url": "https://www.thecolonytx.gov/302/Teen-Police-Academy",
+      "ages": "Grades 7 to 12; must live in The Colony, attend a school in The Colony, or attend a Lewisville ISD or Little Elm ISD school",
+      "description": "Free week-long summer program run by The Colony Police Department (9 a.m. to 4 p.m. at 5151 North Colony Blvd) with hands-on sessions on police work, meant to build a positive relationship between teens and officers; t-shirts and lunches are provided. The 2026 session ran June 22 to 26.",
+      "applyWindow": "Registration opens ahead of the summer session; apply online or email the printable application and waiver forms to the academy coordinator (Sgt. TJ Vowell-Zundel) or drop them at the Police Department (972-625-1887)",
+      "source": "https://www.thecolonytx.gov/302/Teen-Police-Academy"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Presentation from the Library regarding upcoming events and activities",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "education-libraries"
+      ],
+      "summary": "Library staff will brief Council on what the library has coming up.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Ordinance budget amendment increasing the FY2026 budget of the Public Works Fleet Division (General Fund)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Adds money to this year's budget for the city vehicle fleet operation.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Resolution authorizing a legislative consulting agreement with Desk 138, LLC for $72,000",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Hires a legislative consulting firm to represent the city's interests with state lawmakers.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Contract with Tod-Co Consultative Services to assist in developing a Hotel/Convention Center ($60,000)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "Brings on a consultant to help plan a possible hotel and convention center project in The Colony.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Municipal Building #5 lease agreement with Lakeside Community Theater for FY 2026-27",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "arts-culture"
+      ],
+      "summary": "Renews the community theater's lease of a city building for the coming year.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Lease agreements with American Legion Holley-Riddle Post 21 (Government Center) and The Colony Chamber of Commerce (Library Building) for FY 2026-27",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "governance-elections",
+        "economic-development"
+      ],
+      "summary": "Renews annual leases letting the American Legion post and the Chamber of Commerce use space in city buildings.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "The Colony Community Development Corporation Sales Tax Revenue Bonds, Series 2026",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes",
+        "economic-development"
+      ],
+      "summary": "Council would approve the Community Development Corporation issuing bonds backed by sales tax to fund community projects.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Public hearing: amendment to Planned Development 14 (Lone Star Car Wash) to allow inside auto parts and accessory sales by Specific Use Permit near Main Street and Ridgepointe Drive",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "Residents can speak on whether a 0.44-acre car wash site should be allowed to add indoor auto parts sales.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Site Plan ordinance for 'Amarco HQ,' a 17,679 sq ft office building in the Business Park district and Gateway Overlay",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "Approves the layout for a new office headquarters building on about 1.4 acres.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Public hearing: ordinance levying the FY 2026-27 annual assessment for The Colony Public Improvement District No. 1",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Sets the yearly special assessment charged to properties inside the city's Public Improvement District No. 1.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Ordinance adding 'Automobile Fatality Memorial Marker' regulations to Chapter 18 of the Code of Ordinances",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "roads-traffic",
+        "public-safety"
+      ],
+      "summary": "Creates rules for placing roadside memorial markers for people killed in crashes on city streets.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    },
+    {
+      "title": "Executive session on pending litigation (TOCA Colony, LLC v. Blue Sky Sports Center, LP and the City) and on real property and business incentive negotiations",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "governance-elections",
+        "economic-development"
+      ],
+      "summary": "Council meets privately with its attorney about a lawsuit and about possible incentives for a business prospect, with any action taken afterward in open session.",
+      "url": "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Schedule (1st and 3rd Tuesday, 6:30 p.m.), address, and citizen input rules were confirmed on Sept 10, 2026 from the official council page, the city meetings calendar (September through December 2026) and the posted Sept 15, 2026 agenda. The Oct 7 and Nov 4 Wednesday dates were read directly from the city calendar. The agenda link on Granicus redirects to a PDF hosted on Amazon S3. Cable channel numbers come from the city's Communications page. Population is the Census Bureau's July 1, 2023 estimate as cited on Wikipedia (2020 census: 44,534); the Census Bureau's own pages could not be fetched to confirm it. No youth advisory council or teen court was found on the city site; the Teen Police Academy is the only city-run youth civic program located. Coordinates match the OpenStreetMap entry for The Colony City Hall.",
+  "sources": [
+    "https://www.thecolonytx.gov/552/City-Council",
+    "https://www.thecolonytx.gov/601/Agendas-Packets-Minutes-Videos",
+    "https://www.thecolonytx.gov/604/Live-Video-Stream",
+    "https://www.thecolonytx.gov/178/Communications",
+    "https://thecolony.granicus.com/ViewPublisher.php?view_id=3",
+    "https://thecolony.granicus.com/AgendaViewer.php?view_id=3&event_id=6478",
+    "https://www.thecolonytx.gov/calendar.aspx?CID=33&month=9&year=2026",
+    "https://www.thecolonytx.gov/calendar.aspx?CID=33&month=10&year=2026",
+    "https://www.thecolonytx.gov/calendar.aspx?CID=33&month=11&year=2026",
+    "https://www.thecolonytx.gov/calendar.aspx?CID=33&month=12&year=2026",
+    "https://www.thecolonytx.gov/518/Election-Information",
+    "https://www.thecolonytx.gov/DocumentCenter/View/15551/City-Council-Districts-Map-PDF",
+    "https://www.thecolonytx.gov/302/Teen-Police-Academy",
+    "https://www.youtube.com/user/CityofTheColonyTX",
+    "https://en.wikipedia.org/wiki/The_Colony,_Texas"
+  ],
+  "lastVerified": "2026-09-10"
+}

@@ -1,0 +1,328 @@
+{
+  "cityId": "rowlett",
+  "name": "Rowlett",
+  "county": "Dallas",
+  "populationApprox": 67519,
+  "cityHall": {
+    "name": "Rowlett City Hall (Municipal Building)",
+    "address": "4000 Main St., Rowlett, TX 75088",
+    "lat": 32.9029,
+    "lng": -96.5649
+  },
+  "website": "https://www.rowletttx.gov/",
+  "councilPageUrl": "https://www.rowletttx.gov/97/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 numbered places, all elected at large",
+    "districtCount": 0,
+    "mayorName": "Jeff Winget",
+    "termNote": "Mayor and Places 1-6 are elected citywide to staggered three-year terms in May elections (a four-three-none rotation); an individual may serve no more than two consecutive three-year terms as Mayor and two as Councilmember (Charter Sec. 3.02)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "durationMinutes": 150,
+        "notes": "First and third Tuesdays; regular meetings generally begin at 7 p.m. (check the agenda). The Oct. 6, 2026 meeting starts at 5 p.m. instead (see scheduleExceptions)."
+      },
+      "location": "Council Chambers, City Hall Municipal Building, 4000 Main St., Rowlett, TX 75088",
+      "virtualUrl": "https://rowletttx.new.swagit.com/views/default/live",
+      "openToPublicComment": true,
+      "notes": "Citizens' Input on any topic is taken early in the meeting (after presentations); comment on specific agenda items is taken when the item is called. Council cannot act on Citizens' Input topics.",
+      "source": "https://www.rowletttx.gov/529/Meeting-Information"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 1,
+        "time": "18:00",
+        "dates": [
+          "2026-09-14",
+          "2026-10-19",
+          "2026-11-02",
+          "2026-11-16",
+          "2026-11-30",
+          "2026-12-14"
+        ],
+        "notes": "Held at 6 p.m. on the Monday preceding the first and third Tuesday meeting, unless that Monday is a holiday. The Oct. 5 work session is cancelled on the city calendar. Dates confirmed on the city calendar and the CivicClerk event list."
+      },
+      "location": "City Hall Municipal Building, 4000 Main St., Rowlett, TX 75088",
+      "virtualUrl": "https://rowletttx.new.swagit.com/views/default/live",
+      "openToPublicComment": true,
+      "notes": "Work session agendas include a Citizens' Input item where comments are taken on any topic; the rest of the session is briefings, discussion of the next night's consent agenda, and executive session.",
+      "source": "https://rowletttx.portal.civicclerk.com/event/74/files"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-16",
+      "status": "special",
+      "note": "City Council Special Meeting at 5:30 p.m. at City Hall; the Sept. 15 agenda postpones the vote on the FY2027 budget to Sept. 16.",
+      "source": "https://www.rowletttx.gov/calendar.aspx?CID=25"
+    },
+    {
+      "date": "2026-09-28",
+      "status": "special",
+      "note": "City Council Special Work Session at 6 p.m. at City Hall (listed on CivicClerk; no agenda posted as of Sept. 10).",
+      "source": "https://rowletttx.portal.civicclerk.com/"
+    },
+    {
+      "date": "2026-09-29",
+      "status": "special",
+      "note": "City Council Special Meeting at 7 p.m. at City Hall (no agenda posted as of Sept. 10).",
+      "source": "https://www.rowletttx.gov/calendar.aspx?CID=25"
+    },
+    {
+      "date": "2026-10-05",
+      "status": "cancelled",
+      "note": "Work Session cancelled per the city calendar.",
+      "source": "https://www.rowletttx.gov/calendar.aspx?CID=25&Keywords=&startDate=10%2F01%2F2026&endDate=11%2F30%2F2026"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "rescheduled",
+      "note": "Regular meeting starts at 5:00 p.m. instead of 7:00 p.m. (Oct. 6 is National Night Out in Texas).",
+      "source": "https://www.rowletttx.gov/calendar.aspx?CID=25&Keywords=&startDate=10%2F01%2F2026&endDate=11%2F30%2F2026"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "special",
+      "note": "Regular meeting is held as scheduled at 7 p.m. even though it is Election Day (listed on both the city calendar and CivicClerk).",
+      "source": "https://rowletttx.portal.civicclerk.com/"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://rowletttx.portal.civicclerk.com/",
+    "platform": "other",
+    "notes": "CivicClerk portal; the city's Agendas and Minutes page (rowletttx.gov/474) links to it and to Laserfiche archives back to 1952. The City Council page says agendas are posted 3 business days before meetings."
+  },
+  "liveStream": {
+    "url": "https://rowletttx.new.swagit.com/views/default/live",
+    "platform": "Swagit",
+    "notes": "Swagit archive holds Council meeting and work session videos back to 2008 with agendas; meetings also air on cable channel RTN16, and select sessions are posted to the City of Rowlett YouTube channel (youtube.com/user/RowlettTexasVideo). The city's Streaming Video page (rowletttx.gov/397) is the official gateway."
+  },
+  "publicComment": {
+    "summary": "Go to City Hall, pick up a Request to Speak card just inside the Council Chambers door, and turn it in before the item you care about (or before Citizens' Input if your topic is not on the agenda); you get up to 3 minutes. If you cannot come, fill out the online Public Input Form by 3:30 p.m. on meeting day; it is not read aloud, but Council members get it before the meeting.",
+    "howToRegister": "In person: fill out a Request to Speak card (forms and instructions are inside the door of the City Council Chambers) before the agenda item you wish to address, or before Citizens' Input for non-agenda topics. Written: complete the Public Input Form on the city website (choose City Council as the meeting body) by 3:30 p.m. the day of the meeting. General comments not tied to a meeting can be emailed to CityCouncil@rowlett.com.",
+    "registrationUrl": "https://www.rowletttx.gov/forms.aspx?FID=234",
+    "deadline": "In person: before the item is called; online Public Input Form: 3:30 p.m. on the day of the meeting (the day before for a morning meeting)",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online Public Input Form (rowletttx.gov/forms.aspx?FID=234) by 3:30 p.m. on meeting day, or email CityCouncil@rowlett.com; a separate Citizen Input Form (rowletttx.gov/2274) is only for zoning cases",
+    "notes": "State your name and city of residence; you may not give your 3 minutes to another speaker; groups of 5 or more may designate one presenter who gets 15 minutes. The presiding officer may shorten time. Bring hard copies of any handouts (one per member plus a record copy) because electronic media cannot be shown. Speak only from the podium. Questions: 972-412-6100.",
+    "source": "https://www.rowletttx.gov/2021/Public-Input"
+  },
+  "youthPrograms": [
+    {
+      "name": "Rowlett Youth Advisory Council (RYAC)",
+      "url": "https://www.rowletttx.gov/1598/Rowlett-Youth-Advisory-Council",
+      "ages": "High school sophomores, juniors and seniors",
+      "description": "Seven regular members plus five alternates appointed by the City Council advise Council on the needs of Rowlett youth, learn the local political process, serve as city ambassadors, and volunteer at city events. Meets 6 p.m. on the second Monday of each month at the Rowlett Community Centre, 5300 Main St., for a one-year term running August through July. Applicants under 18 need a notarized waiver of liability.",
+      "applyWindow": "Applications are available from the City Secretary's Office (City Hall, 4000 Main St., 972-412-6109) or by email and can be dropped off or emailed back; the City Council makes appointments in July for the August-to-July term. Contact Recreation Supervisor Erin Mudry (emudry@rowlett.com, 972-463-3948) for timing.",
+      "source": "https://www.rowletttx.gov/1598/Rowlett-Youth-Advisory-Council"
+    },
+    {
+      "name": "Junior Alternate Member seats on city boards and commissions",
+      "url": "https://www.rowletttx.gov/321/Boards-and-Commissions",
+      "ages": "Rowlett residents in grades 9-12",
+      "description": "High school students can be appointed as non-voting junior alternate members of Rowlett's advisory boards and commissions to take part in discussions. The Junior Alternate Member application must be completed, printed and notarized, then delivered to the City Secretary's Office or emailed to citysec@rowlett.com.",
+      "applyWindow": "Applications are accepted from Sept. 1 through Oct. 15 each year",
+      "source": "https://www.rowletttx.gov/321/Boards-and-Commissions"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Amend the Master Fee Schedule (utilities, emergency services, fire prevention, miscellaneous)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes",
+        "utilities-water"
+      ],
+      "summary": "Consent item updating city fees and rates for water and other utilities, EMS, fire inspections and miscellaneous services.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Atmos Energy Mid-Tex 2026 Rate Review Mechanism settlement",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Consent item adopting a negotiated settlement that sets new natural gas rates for Atmos customers in Rowlett effective Oct. 1, 2026.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Purchase two Kenworth traffic blocking trucks (up to $396,100)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "public-safety",
+        "roads-traffic"
+      ],
+      "summary": "Buys two heavy trucks used to shield crews and responders at crash and work scenes on Rowlett roads.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Whole blood program agreement with the North Central Texas Trauma Regional Advisory Council",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "health",
+        "public-safety"
+      ],
+      "summary": "Lets the Rowlett Fire Department join a state program so paramedics can give whole blood transfusions to trauma patients before they reach the hospital.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Amendment No. 4 to the household hazardous waste interlocal agreement with Dallas County (FY27)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "environment"
+      ],
+      "summary": "Continues the county program that lets Rowlett residents drop off paint, chemicals and other hazardous household waste.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "FY2027 Economic Development Funding and Lease Agreement with the Rowlett Chamber of Commerce ($100,000)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "Funds the Chamber for economic development work and leases it the building at 4418 Main Street for $1 a year.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Contract with CORE Location Advisors for real estate advisory services for Public Safety and City Hall facilities ($46,980)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "public-safety",
+        "governance-elections"
+      ],
+      "summary": "Hires a consultant to evaluate and help acquire sites for future public safety buildings and a new City Hall.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Award contract for the Lake Bend Estates Screening Wall Project (up to $993,703.70)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "roads-traffic",
+        "zoning-development"
+      ],
+      "summary": "Awards the re-bid construction contract for a neighborhood screening wall at Lake Bend Estates, including a 10 percent contingency.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Public hearing on the Proposed Budget for Fiscal Year 2027 and postponement of the budget vote to Sept. 16",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can speak on next year's city budget; Council then sets the budget vote for a special meeting on Sept. 16.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Public hearing on the FY2027 ad valorem (property) tax rate",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Public hearing on the proposed property tax rate, with Council announcing when the rate vote will occur.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Amendment No. 4 with Hoefer Welker for Animal Services Building design (up to $550,000)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "animal-services",
+        "budget-taxes"
+      ],
+      "summary": "Pays for full architectural design through construction administration for a new animal shelter building.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Chapter 380 Economic Development Agreement with La Casita Coffee Rowlett LLC (Project Decaf)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "Offers city incentives to bring a La Casita Coffee location to Rowlett.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Public hearing and ordinance annexing 14.87 acres at 3805 Troy Road (Rockwall County)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "Would bring about 15 acres on Troy Road into the city limits with a service plan for city services.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/57/files"
+    },
+    {
+      "title": "Proposed Rowlett Development Code and Form Based Code amendments regarding Vapor Store use",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "zoning-development",
+        "health"
+      ],
+      "summary": "Staff presents new zoning rules for where and how vape shops can operate in Rowlett.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/74/files"
+    },
+    {
+      "title": "Library Advisory Board annual update",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "education-libraries"
+      ],
+      "summary": "The Library Advisory Board reports to Council on the past year at the library.",
+      "url": "https://rowletttx.portal.civicclerk.com/event/74/files"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Rowlett is primarily in Dallas County with a portion in Rockwall County. Population is the city's own 2025 estimate from its Traditional Finances page. Purposes of the Sept. 28 special work session and Sept. 29 special meeting were not posted as of Sept. 10. The Oct. 6 start time of 5 p.m. appears on both the city calendar and CivicClerk; confirm on the posted agenda. The city is currently led by an Interim City Manager per the Sept. 15 agenda. City Hall coordinates match OpenStreetMap geocoding of 4000 Main Street.",
+  "sources": [
+    "https://www.rowletttx.gov/97/City-Council",
+    "https://www.rowletttx.gov/529/Meeting-Information",
+    "https://www.rowletttx.gov/474/Agendas-and-Minutes",
+    "https://rowletttx.portal.civicclerk.com/",
+    "https://rowletttx.portal.civicclerk.com/event/57/files",
+    "https://rowletttx.portal.civicclerk.com/event/74/files",
+    "https://www.rowletttx.gov/calendar.aspx?CID=25",
+    "https://www.rowletttx.gov/calendar.aspx?CID=25&Keywords=&startDate=10%2F01%2F2026&endDate=11%2F30%2F2026",
+    "https://www.rowletttx.gov/2021/Public-Input",
+    "https://www.rowletttx.gov/forms.aspx?FID=234",
+    "https://www.rowletttx.gov/2274/Citizen-Input-Form",
+    "https://www.rowletttx.gov/DocumentCenter/View/25559/Guide-to-Speaking-at-a-Public-Meeting",
+    "https://www.rowletttx.gov/478/City-Charter",
+    "https://www.rowletttx.gov/DocumentCenter/View/22930/Home-Rule-Charter---Rev-2021",
+    "https://www.rowletttx.gov/1598/Rowlett-Youth-Advisory-Council",
+    "https://www.rowletttx.gov/321/Boards-and-Commissions",
+    "https://www.rowletttx.gov/397/Streaming-Video",
+    "https://rowletttx.new.swagit.com/views/default/live",
+    "https://www.youtube.com/user/RowlettTexasVideo",
+    "https://www.rowletttx.gov/1652/Traditional-Finances"
+  ],
+  "lastVerified": "2026-09-10"
+}

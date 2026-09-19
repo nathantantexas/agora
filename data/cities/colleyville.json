@@ -1,0 +1,274 @@
+{
+  "cityId": "colleyville",
+  "name": "Colleyville",
+  "county": "Tarrant",
+  "populationApprox": 26057,
+  "cityHall": {
+    "name": "Colleyville City Hall, City Council Chambers (3rd floor)",
+    "address": "100 Main Street, Colleyville, TX 76034",
+    "lat": 32.8849,
+    "lng": -97.157
+  },
+  "website": "https://www.colleyville.com",
+  "councilPageUrl": "https://www.colleyville.com/government/city-council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 numbered council places, all elected at large",
+    "districtCount": 0,
+    "mayorName": "Bobby Lindamood",
+    "termNote": "Three-year staggered terms under the City Charter: the Mayor and Places 1 and 2 are elected in year one, Places 3 and 4 in year two, Places 5 and 6 in year three. Mayor Lindamood's term expires May 2028. Members: Brandi Elder (Mayor Pro Tem, Place 1, to May 2028), Mark Alphonso (Place 2, to May 2028), Scotty Richardson (Deputy Mayor Pro Tem, Place 3, to May 2029), Ben Graves (Place 4, to May 2029), Kimberly Holt Gunderson (Place 5, to May 2027), Tim Raine (Place 6, to May 2027)."
+  },
+  "meetings": [
+    {
+      "type": "work-session",
+      "label": "City Council Worksession",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "17:30",
+        "notes": "Held before each regular meeting; the start time is set by Council for each meeting and was 5:30 p.m. for September 1 and September 15, 2026 and on the CivicClerk calendar for every remaining 2026 date. A closed executive session may follow the worksession. Follows the same date shifts as the regular meeting (Wednesday October 7 and Wednesday November 4, 2026)."
+      },
+      "location": "Executive Conference Room, 3rd floor, Colleyville City Hall, 100 Main Street, Colleyville, TX 76034",
+      "openToPublicComment": false,
+      "notes": "Open to the public but there is no citizen comment period; Council discusses and receives information on the evening's agenda and items not yet ready for a vote.",
+      "source": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "notes": "When the first or third Tuesday conflicts with a holiday, election or event the meeting moves, usually to the following Wednesday; remaining 2026 dates are Sept 15, Wed Oct 7, Oct 20, Wed Nov 4, Nov 17, Dec 1 and Dec 15."
+      },
+      "location": "City Council Chambers, 3rd floor, Colleyville City Hall, 100 Main Street, Colleyville, TX 76034",
+      "virtualUrl": "https://www.colleyville.com/government/webcasts-and-live-streaming",
+      "openToPublicComment": true,
+      "notes": "Every regular agenda includes public hearings on each ordinance and resolution plus a Citizen Comments item for non-agenda topics; ordinances get two readings at consecutive regular meetings with a public hearing at the second. Televised live on Verizon Fios channel 16 and Spectrum channel 15 and streamed on the city website.",
+      "source": "https://www.colleyville.com/government/departments-a-l/city-secretary/guidelines-for-city-council-meetings"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-10-07",
+      "status": "rescheduled",
+      "note": "First-Tuesday meeting moved from Tuesday October 6 to Wednesday October 7, 2026 because of National Night Out (worksession 5:30 p.m., regular meeting 7:00 p.m.).",
+      "source": "https://www.colleyville.com/government/city-council/city-council-meeting-calendar"
+    },
+    {
+      "date": "2026-11-04",
+      "status": "rescheduled",
+      "note": "First-Tuesday meeting moved from Tuesday November 3 to Wednesday November 4, 2026 because of Election Day (worksession 5:30 p.m., regular meeting 7:00 p.m.).",
+      "source": "https://www.colleyville.com/government/city-council/city-council-meeting-calendar"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://colleyvilletx.portal.civicclerk.com/",
+    "platform": "CivicClerk",
+    "notes": "Agendas and packets are posted on the CivicClerk public portal at least 72 hours before each meeting; the September 15, 2026 agenda was posted September 9. The city's index page at https://www.colleyville.com/government/meeting-agendas-packets-and-minutes links to CivicClerk for agendas and packets and to a Laserfiche WebLink archive (http://documents.colleyville.com/weblink/0/fol/135023/Row1.aspx, requires browser cookies) for approved minutes."
+  },
+  "liveStream": {
+    "url": "https://www.colleyville.com/government/webcasts-and-live-streaming",
+    "platform": "Swagit",
+    "notes": "The city page embeds the Swagit player, whose archive now lives at https://colleyvilletx.new.swagit.com/views/default/ with a live stream and chaptered recordings of Council and Planning and Zoning meetings back to 2006, added the day after each meeting. Meetings are also televised live on Verizon Fios channel 16 and Spectrum (Time Warner) channel 15; the city's viewing page still lists a 7:30 p.m. broadcast time, but the posted agendas say the regular meeting starts at 7:00 p.m."
+  },
+  "publicComment": {
+    "summary": "At any regular Council meeting (7:00 p.m., first and third Tuesdays) you can speak for up to 5 minutes on a public hearing item or, during Citizen Comments, on anything not on the agenda. Fill out a Speaker Card in the Council Chambers and hand it to the City Secretary before the item comes up, then wait for the Mayor to call you to the podium.",
+    "howToRegister": "In person only: complete a Speaker Card (available in the third-floor Council Chambers) and present it to the City Secretary before the meeting or before the public hearing item or Citizen Comments is called. When the Mayor recognizes you, go to the podium, state your name and address for the record, and identify any group you represent. There is no online or phone sign-up; the CivicClerk portal has online public comments turned off.",
+    "deadline": "Before the item or Citizen Comments is called at the meeting",
+    "timeLimitMinutes": 5,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No online comment form. Email the City Secretary, Christine Loven, at cloven@colleyville.com or call 817-503-1130 (100 Main Street, Colleyville, TX 76034), or email council members directly using the addresses on their pages (for example blindamood@colleyville.com for the Mayor).",
+    "notes": "Delegations or groups are asked to choose one spokesperson for five minutes. Keep remarks thorough but concise and direct questions to the Mayor. No additional information may be given after your presentation unless a Council member asks a question, and there is no citizen participation during staff presentations or Council deliberation. Exhibits, displays and visual aids used with a presentation are allowed, but placards, banners and signs are not. Under the Texas Open Meetings Act Council cannot discuss or decide Citizen Comments topics but may refer them to staff.",
+    "source": "https://www.colleyville.com/government/departments-a-l/city-secretary/guidelines-for-city-council-meetings"
+  },
+  "youthPrograms": [
+    {
+      "name": "Metroport Teen Court (teen volunteer attorneys and jurors)",
+      "url": "https://www.colleyville.com/government/departments-m-z/municipal-court/metroport-teen-court",
+      "ages": "Teens from local secondary schools volunteer as jurors and attorneys; the joint program (run by Southlake) handles defendants ages 12 to 19",
+      "description": "Colleyville participates in the joint Grapevine, Southlake, Colleyville and Keller teen court, a voluntary program where juvenile Class C misdemeanor offenders work off citations through community service; volunteer teen attorneys present cases to a jury of peers from local secondary schools and previously adjudicated youth, described by the city as a hands-on way for teens to understand the judicial system.",
+      "applyWindow": "Rolling; the Colleyville page links to the program site hosted by Southlake, where you register through the City of Southlake volunteer website and then email Teen Court staff (817-748-8346). A volunteer waitlist was in effect as of September 2026.",
+      "source": "https://www.colleyville.com/government/departments-m-z/municipal-court/metroport-teen-court"
+    },
+    {
+      "name": "Metroport Teen Court Advisory Board",
+      "url": "https://www.colleyville.com/government/departments-a-l/city-secretary/boards-commissions-committees/metroport-teen-court-advisory-board",
+      "ages": "Adult appointees (Colleyville City Council appoints two members to two-year terms)",
+      "description": "Joint advisory board (established August 16, 1994) with Grapevine, Southlake and Keller that guides Teen Court staff on the alternative judicial process; it meets the first Monday of every other month and is the Council-level oversight body for the teen program rather than a seat for students.",
+      "applyWindow": "Apply with the city's Application for Appointment form, emailed to CSOffice@colleyville.com, only during the advertised application period; questions to the City Secretary at 817-503-1130",
+      "source": "https://www.colleyville.com/government/boards-commissions-committees"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Ordinance O-26-2386: adoption of the proposed Fiscal Year 2027 budget (2nd reading and public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Final vote and public hearing on the city's budget for the fiscal year beginning October 1, 2026.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2385: adoption of the ad valorem tax rate for Fiscal Year 2027 (2nd reading and public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Sets the city property tax rate that funds the new budget.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2388: amending water and sewer service charges to implement updated base and volumetric rates",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Changes what residents pay on their monthly water and sewer bills.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2383: Land Development Code amendment adding 'data centers' as a permitted principal use with related standards (Case GC26-011)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "technology"
+      ],
+      "summary": "Would define data centers in the city's zoning code and set the rules for where and how they can be built.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2377: appeal of the Planning and Zoning Commission decision on a Special Use Permit for a fence at 1211 Murphy Road (Case ZC26-015)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "A homeowner asks Council to overturn P&Z's ruling on a fence permit.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2381: Special Use Permit for dog boarding and grooming with an outdoor run at 7181 Colleyville Boulevard (Case ZC26-019)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "animal-services"
+      ],
+      "summary": "Public hearing on whether a pet boarding and grooming business with outdoor runs can open on Colleyville Boulevard.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2382: Special Use Permit for an adult day services use at 4121 Colleyville Boulevard (Case ZC26-020)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "health"
+      ],
+      "summary": "Public hearing on permitting an adult day care facility in a highway commercial zone.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2384: amending development fees and library fees and charges in the Code of Ordinances",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes",
+        "education-libraries"
+      ],
+      "summary": "Updates the fee schedule for development permits and library services.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Ordinance O-26-2389: approval of the Atmos Cities Steering Committee settlement of Atmos Energy Mid-Tex's 2026 Rate Review Mechanism filing",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Adopts negotiated natural gas rate adjustments for Atmos customers in the city.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Consent 4c: adoption of the Fiscal Year 2027 to 2031 Capital Improvement Program",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes",
+        "roads-traffic"
+      ],
+      "summary": "Five-year plan for major construction projects such as streets, drainage, utilities and facilities.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Consent 4d: construction services agreement with CGC General Contractors for the City Hall and Library interior renovation, not to exceed $536,217 plus an $80,000 contingency",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "education-libraries",
+        "budget-taxes"
+      ],
+      "summary": "Hires a contractor to renovate the interiors of City Hall and the library.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    },
+    {
+      "title": "Consent 4b: Amendment No. 2 to the interlocal agreement for combined public safety dispatching and jail services for Keller, Southlake and Colleyville",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "public-safety"
+      ],
+      "summary": "Updates the cost-sharing agreement for the three cities' shared 911 dispatch center and jail.",
+      "url": "https://colleyvilletx.portal.civicclerk.com/event/2235/files"
+    }
+  ],
+  "confidence": "medium",
+  "lastVerified": "2026-09-10",
+  "sources": [
+    "https://www.colleyville.com/government/city-council",
+    "https://www.colleyville.com/government/city-council/city-council-meeting-calendar",
+    "https://www.colleyville.com/government/departments-a-l/city-secretary/guidelines-for-city-council-meetings",
+    "https://www.colleyville.com/government/public-meetings",
+    "https://www.colleyville.com/government/departments-a-l/city-secretary/public-meetings/viewing-public-meetings",
+    "https://www.colleyville.com/government/webcasts-and-live-streaming",
+    "https://www.colleyville.com/government/meeting-agendas-packets-and-minutes",
+    "https://www.colleyville.com/government/city-council/mayor-city-council",
+    "https://www.colleyville.com/government/city-council/mayor-city-council/mayor",
+    "https://www.colleyville.com/government/city-council/mayor-city-council/mayor-pro-tem-455",
+    "https://www.colleyville.com/government/city-council/mayor-city-council/deputy-mayor-pro-tem",
+    "https://www.colleyville.com/government/city-council/mayor-city-council/city-council-place-2",
+    "https://www.colleyville.com/government/city-council/mayor-city-council/city-council-place-4",
+    "https://www.colleyville.com/government/city-council/mayor-city-council/city-council-place-5",
+    "https://www.colleyville.com/government/city-council/mayor-city-council/city-council-place-6",
+    "https://www.colleyville.com/government/city-council/city-council-terms-and-requirements",
+    "https://colleyvilletx.portal.civicclerk.com/",
+    "https://colleyvilletx.portal.civicclerk.com/event/2235/files",
+    "https://colleyvilletx.api.civicclerk.com/v1/Events?$filter=startDateTime%20ge%202026-09-01T00:00:00Z%20and%20startDateTime%20le%202026-12-31T00:00:00Z&$orderby=startDateTime",
+    "https://colleyvilletx.api.civicclerk.com/v1/Events/2235",
+    "https://colleyvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12508,plainText=false)",
+    "https://colleyvilletx.new.swagit.com/views/default/",
+    "https://www.colleyville.com/government/departments-m-z/municipal-court/metroport-teen-court",
+    "https://www.colleyville.com/government/departments-a-l/city-secretary/boards-commissions-committees/metroport-teen-court-advisory-board",
+    "https://www.colleyville.com/government/boards-commissions-committees",
+    "https://www.cityofsouthlake.com/106/Metroport-Teen-Court",
+    "https://en.wikipedia.org/wiki/Colleyville,_Texas",
+    "https://nominatim.openstreetmap.org/search?q=100+Main+Street,+Colleyville,+TX+76034"
+  ],
+  "notes": "The colleyville.com web server returns HTTP 403 to direct automated fetches, so on September 10, 2026 the city pages were re-read through a text-rendering proxy (r.jina.ai) of the official URLs; the schedule, meeting rooms, agenda contents and council roster were independently confirmed against the city's CivicClerk events API (which lists the October 7 and November 4, 2026 Wednesday dates at 5:30 p.m.) and the posted September 15, 2026 agenda PDF, which places the 5:30 p.m. worksession in the third-floor Executive Conference Room and the 7:00 p.m. regular meeting in the Council Chambers. The city's Public Meetings page now shows the same rooms. Population is the 2020 census count (Wikipedia lists a 2021 estimate of 25,986); Census QuickFacts and the Census API refused the request. The October 7, 2026 agenda had not been posted as of September 10, and December 15, 2026 had not yet been added to CivicClerk although it appears on the city's published calendar. Colleyville's board list contains no youth advisory council; the only youth-related program is the shared Metroport Teen Court. The city's own Teen Court page gives no volunteer details and simply links to the program site run by Southlake."
+}

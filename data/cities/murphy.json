@@ -1,0 +1,187 @@
+{
+  "cityId": "murphy",
+  "name": "Murphy",
+  "county": "Collin",
+  "populationApprox": 21188,
+  "cityHall": {
+    "name": "Murphy City Hall, City Council Chambers",
+    "address": "206 N. Murphy Road, Murphy, TX 75094",
+    "lat": 33.01749,
+    "lng": -96.61093
+  },
+  "website": "https://www.murphytx.org/",
+  "councilPageUrl": "https://www.murphytx.org/1961/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 numbered places (Place 1 to Place 6), all elected at large representing the entire city",
+    "districtCount": 0,
+    "mayorName": "Scott Bradley",
+    "termNote": "Three-year terms. Current members per the council page and the Sept 15, 2026 agenda: Elizabeth Abraham (Place 1), W. Scott Smith (Place 2, Mayor Pro Tem), Debbie Ison (Place 3), Ken Oltmann (Place 4, Deputy Mayor Pro Tem), Kevin Kelley (Place 5) and Jené Butler (Place 6). Council-manager government: City Manager Aretha Adams (appointed February 2024), Assistant City Manager Jared Mayfield, City Secretary Kandi Jackson."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "durationMinutes": 120,
+        "notes": "First and third Tuesdays at 6:00 p.m. The city calendar lists each meeting as 6:00 to 8:00 PM and was checked date by date on 2026-09-10 for Sept 15, Oct 6, Oct 20, Nov 3, Nov 17, Dec 1 and Dec 15, 2026. Recent meetings on the Swagit archive ran from about 17 minutes to just over 3 hours."
+      },
+      "location": "City Council Chambers, Murphy City Hall, 206 N. Murphy Road, Murphy, TX 75094",
+      "virtualUrl": "https://www.murphytx.org/586/Council-Meeting-Video",
+      "openToPublicComment": true,
+      "notes": "Public Comments is item 4, right after roll call. Council members may attend by video conference but a quorum is physically present in the chambers. Agendas are posted at least 72 hours ahead (the Sept 15 agenda was posted Sept 9). The council also holds separate City Council Budget Work Sessions in budget season (most recently Sept 9, 2026).",
+      "source": "https://www.murphytx.org/1961/City-Council"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://murphytx.civicweb.net/Portal/",
+    "platform": "other",
+    "notes": "CivicWeb portal (iCompass, a Diligent brand). Meeting list: https://murphytx.civicweb.net/Portal/MeetingTypeList.aspx. Each meeting page links a full agenda packet PDF (the Sept 15, 2026 packet is 440 pages and about 45 MB). Agendas before 2017 are in the older CivicPlus Agenda Center at https://www.murphytx.org/AgendaCenter, which now just points visitors to the CivicWeb portal."
+  },
+  "liveStream": {
+    "url": "https://www.murphytx.org/586/Council-Meeting-Video",
+    "platform": "Swagit",
+    "notes": "The Council Meeting Video page offers 'Live Streaming Media during meetings and archives'. The Swagit site for Murphy, with a Watch Live button and archived council recordings back to 2015, is https://murphytx.new.swagit.com/views/170/live. The video page also links 'View Meeting Presentations' in the city's Document Center (https://www.murphytx.org/DocumentCenter/Index/434)."
+  },
+  "publicComment": {
+    "summary": "Every regular Murphy council meeting has a Public Comments item near the beginning where you can talk for up to three minutes about anything on the agenda (except public hearing items, which get their own turn) or raise a general topic. Fill out the city's online Public Comment Form before the meeting so the City Secretary knows you want to speak.",
+    "howToRegister": "Complete the online Public Comment Form at https://www.cognitoforms.com/CityOfMurphy1/PublicCommentForm (linked from the council page, the Meeting Regulations page and each CivicWeb meeting page). The Cognito form renders only in a browser, so its exact fields could not be read; confirm any extra requirements with the City Secretary, Kandi Jackson, at 972-468-4011 or kjackson@murphytx.org.",
+    "registrationUrl": "https://www.cognitoforms.com/CityOfMurphy1/PublicCommentForm",
+    "deadline": "Not stated on official pages; submit the form before the meeting starts",
+    "timeLimitMinutes": 3,
+    "writtenCommentMethod": "Online Public Comment Form (Cognito Forms) or email the City Secretary at kjackson@murphytx.org",
+    "notes": "Agenda text: 'Public comments are limited to three (3) minutes per speaker, unless otherwise required by law. Per the Texas Open Meetings Act, the Council is not permitted to act on or discuss any item not listed on the agenda. Items suggested for action may be placed on a future agenda, at the Council's sole discretion.' Comments on public hearing items are heard when that hearing begins. No remote-speaking procedure is published. ADA accommodations or interpretive services must be requested at least 48 hours ahead through the City Secretary (972-468-4011 or kjackson@murphytx.org).",
+    "source": "https://murphytx.civicweb.net/document/272283/City%20Council%20-%2015%20Sep%202026.pdf?handle=D76FA7A2739147FE8EE89146F139FA91"
+  },
+  "youthPrograms": [
+    {
+      "name": "Murphy Youth Advisory Committee",
+      "url": "https://www.murphytx.org/935/Youth-Advisory-Committee",
+      "ages": "Murphy resident teens in grades 9 to 12 (ages 14 to 18)",
+      "description": "A city board of teens that meets once a month on the third Monday at the Murphy Community Center, 205 N. Murphy Road, to discuss ideas that help the city serve its youth. Terms run Aug 1 through May 31 and members can be reappointed until they graduate from high school. Applicants submit the online application through the city's CivicWeb portal, a signed parent waiver, an essay of 500 words or less explaining why they want to serve, and one letter of reference (essay and reference letter for first-time applicants only). Supporting materials go to the City Secretary at kjackson@murphytx.org.",
+      "applyWindow": "The page says applications are being accepted, with no closing date posted; terms begin Aug 1",
+      "source": "https://www.murphytx.org/935/Youth-Advisory-Committee"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Presentation on the MS4 stormwater program and receive public comments",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "environment",
+        "utilities-water"
+      ],
+      "summary": "Public Works Superintendent Daniel Paredez will brief the council on the city's municipal separate storm sewer system (MS4) permit program and take public comments on it.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    },
+    {
+      "title": "Ordinance amending the FY26 General Fund budget for unanticipated expenses",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "A consent item to increase the current-year General Fund budget to cover expenses that were not anticipated.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    },
+    {
+      "title": "Ordinance approving the Atmos Energy Mid-Tex 2026 rate review settlement",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "A consent item approving a negotiated settlement between the Atmos Cities Steering Committee and Atmos Energy that sets new natural gas rates for Murphy customers.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    },
+    {
+      "title": "Public hearing and ordinance adopting the FY27 city budget",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "budget-taxes",
+        "governance-elections"
+      ],
+      "summary": "Residents can speak on the proposed budget for Oct 1, 2026 through Sept 30, 2027 before the council votes to adopt it and approve the assessment roll certified by the Collin Central Appraisal District. The proposed budget is posted at https://www.murphytx.org/150/City-Budget.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    },
+    {
+      "title": "Public hearing on the proposed FY27 property tax rate of $0.361832 per $100",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "A required hearing on a tax rate slightly above this year's $0.357514 (the no-new-revenue rate would be $0.348240). The city estimates the bill on the median-valued homestead ($592,198) would rise from $2,036 to $2,143.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    },
+    {
+      "title": "Ordinance levying the 2026 tax rate and ratifying the property tax revenue increase",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Formal votes to set the 2026 tax rate at $0.361832 per $100 of value and to ratify the increase in property tax revenue reflected in the FY27 budget.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    },
+    {
+      "title": "Appoint the Boards and Commissions Interview Committee",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Names the council members who will interview residents applying to serve on city boards and commissions.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    },
+    {
+      "title": "Executive session: evaluations of the City Secretary and City Manager, and land use and code enforcement litigation",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting, Sept 15, 2026",
+      "topics": [
+        "governance-elections",
+        "other"
+      ],
+      "summary": "A closed session on personnel evaluations of City Secretary Kandi Jackson and City Manager Aretha Adams and on legal advice about land use, zoning, nuisance and code enforcement matters, with any action taken afterward in open session.",
+      "url": "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Schedule (confirmed date by date on the city calendar through Dec 15, 2026), address, coordinates, public-comment rules and all agenda items were re-confirmed on 2026-09-10 from official pages and the full Sept 15, 2026 agenda packet downloaded from the CivicWeb portal. The Oct 6 agenda was not yet posted. The population figure is the ACS 2024 5-year estimate as reported by Census Reporter (the 2020 Census counted 21,013); census.gov QuickFacts returned HTTP 403 in this session. City Hall coordinates match the OpenStreetMap 'Murphy City Hall' entry at 206 N. Murphy Road.",
+  "sources": [
+    "https://www.murphytx.org/1961/City-Council",
+    "https://murphytx.org/1969/Meeting-Regulations",
+    "https://www.murphytx.org/586/Council-Meeting-Video",
+    "https://www.murphytx.org/280/City-Manager",
+    "https://murphytx.civicweb.net/Portal/",
+    "https://murphytx.civicweb.net/Portal/MeetingTypeList.aspx",
+    "https://murphytx.civicweb.net/Portal/MeetingInformation.aspx?Id=11101",
+    "https://murphytx.civicweb.net/document/272283/City%20Council%20-%2015%20Sep%202026.pdf?handle=D76FA7A2739147FE8EE89146F139FA91",
+    "https://murphytx.new.swagit.com/views/170/live",
+    "https://www.murphytx.org/AgendaCenter",
+    "https://www.murphytx.org/DocumentCenter/Index/434",
+    "https://www.murphytx.org/calendar.aspx?view=list&year=2026&month=9&day=15",
+    "https://www.murphytx.org/calendar.aspx?view=list&year=2026&month=10&day=6",
+    "https://www.murphytx.org/calendar.aspx?view=list&year=2026&month=10&day=20",
+    "https://www.murphytx.org/calendar.aspx?view=list&year=2026&month=11&day=3",
+    "https://www.murphytx.org/calendar.aspx?view=list&year=2026&month=11&day=17",
+    "https://www.murphytx.org/calendar.aspx?view=list&year=2026&month=12&day=1",
+    "https://www.murphytx.org/calendar.aspx?view=list&year=2026&month=12&day=15",
+    "https://www.murphytx.org/935/Youth-Advisory-Committee",
+    "https://www.cognitoforms.com/CityOfMurphy1/PublicCommentForm",
+    "https://censusreporter.org/profiles/16000US4850100-murphy-tx/",
+    "https://nominatim.openstreetmap.org/search?format=json&q=206+N+Murphy+Road+Murphy+TX+75094"
+  ],
+  "lastVerified": "2026-09-10"
+}

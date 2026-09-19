@@ -1,0 +1,283 @@
+{
+  "cityId": "duncanville",
+  "name": "Duncanville",
+  "county": "Dallas",
+  "populationApprox": 39683,
+  "cityHall": {
+    "name": "Duncanville City Hall (Council Chambers and Briefing Room)",
+    "address": "203 E. Wheatland Road, Duncanville, TX 75116",
+    "lat": 32.6461,
+    "lng": -96.9065
+  },
+  "website": "https://www.duncanvilletx.gov/",
+  "councilPageUrl": "https://www.duncanvilletx.gov/city_hall/government/duncanville_city_council",
+  "council": {
+    "size": 7,
+    "structure": "Mayor elected at large + 1 at-large council member + 5 council members from single-member districts",
+    "districtCount": 5,
+    "findMyDistrictUrl": "https://www.duncanvilletx.gov/city_hall/government/interactive_city_maps",
+    "districtMapUrl": "https://duncanville.maps.arcgis.com/apps/instant/basic/index.html?appid=185c997a3fa64bafbb370a4b8f8ccf41",
+    "mayorName": "Greg Contreras",
+    "termNote": "Two-year staggered terms: the Mayor, District 2 and District 4 seats expire in even-numbered years; Districts 1, 3 and 5 expire in odd-numbered years (council page). Current members: DeMonica Gooden (At-Large, Mayor Pro Tem), Joe Veracruz (District 1), Don McBurnett (District 2), Jeremy Koontz (District 3), Jarred D. Davis (District 4), Kyle Pennebaker (District 5). Council-manager form of government."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "notes": "The council page says the council meets on the first and third Tuesday of every month, with the 7:00 p.m. Regular Session in the Council Chambers following the 6:00 p.m. Work Session/Briefing. Agendas say the regular session starts at 7:00 p.m. 'or immediately following' the work session. The Sept 15, 2026 agenda confirms this format."
+      },
+      "location": "Council Chambers, Duncanville City Hall, 203 E. Wheatland Road, Duncanville, TX 75116",
+      "virtualUrl": "https://duncanvilletx.new.swagit.com/views/454/",
+      "openToPublicComment": true,
+      "notes": "Citizens' Input is a standing item early in the regular session (after reports and proclamations). Public hearings are also held here. Meetings are in person and broadcast on the website and social media; a council member may join by videoconference but the presiding officer and a quorum must be physically present.",
+      "source": "https://www.duncanvilletx.gov/city_hall/government/duncanville_city_council"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session / Briefing",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00"
+      },
+      "location": "Briefing Room, Duncanville City Hall, 203 E. Wheatland Road, Duncanville, TX 75116",
+      "virtualUrl": "https://duncanvilletx.new.swagit.com/views/454/",
+      "openToPublicComment": false,
+      "notes": "Open to the public; council discusses agenda items, reviews the council calendar, receives briefings and may go into executive session. Public comment is taken during the regular session that follows.",
+      "source": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "type": "town-hall",
+      "label": "Coffee with the Mayor",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 4,
+        "ordinals": [
+          4
+        ],
+        "time": "12:00",
+        "durationMinutes": 60,
+        "notes": "City events calendar lists the event as monthly on the fourth Thursday at noon, with upcoming occurrences on Sept 24, Oct 22, Nov 26 and Dec 24, 2026 and Jan 28, 2027. The November and December dates fall on Thanksgiving and Christmas Eve, so confirm before attending."
+      },
+      "location": "206 James Collins Blvd, Duncanville, TX 75116",
+      "openToPublicComment": true,
+      "notes": "Informal monthly conversation with Mayor Greg Contreras to share feedback on city programs, discuss topics important to you and ask questions; not a voting meeting.",
+      "source": "https://events.duncanvilletx.gov/duncanvilletx/260129468"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-14",
+      "status": "special",
+      "note": "Notice of Possible Quorum: council members attending a community meeting at Fairmeadows Elementary School, 101 E. Fairmeadows Dr., 6:00 p.m. No action will be taken; in-person comments are received and there is a question-and-answer period, and the public is invited to attend and participate.",
+      "source": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7101,plainText=false)"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "cancelled",
+      "note": "The first-Tuesday October meeting is absent from the CivicClerk meeting portal, which lists council meetings on Sept 15, Oct 20, Nov 3 and Nov 17 only (checked Sept 10). The city has not posted a formal cancellation notice; the Sept 15 work session includes a review of the September, October and November council calendars, so check the portal before planning around Oct 6.",
+      "source": "https://duncanvilletx.portal.civicclerk.com/"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://duncanvilletx.portal.civicclerk.com/",
+    "platform": "other",
+    "notes": "CivicPlus CivicClerk public portal (a JavaScript app; agenda PDFs are served from duncanvilletx.api.civicclerk.com). The city's Agendas & Minutes page still links the older CivicWeb document center at https://duncanville.civicweb.net/portal/ for archived agendas, minutes, resolutions and ordinances and notes the transition to CivicClerk. Meeting agendas are posted about a week ahead (the Sept 15, 2026 agenda was posted Sept 8)."
+  },
+  "liveStream": {
+    "url": "https://duncanvilletx.new.swagit.com/views/454/",
+    "platform": "Swagit",
+    "notes": "This link is printed on every council agenda. The Swagit archive holds City Council, Planning and Zoning, Arts Commission and other recordings back to about 2022, each linked to its agenda. Recordings are also posted to the city's YouTube channel (linked from the Live and Archived Videos page at https://www.duncanvilletx.gov/city_hall/live_and_archived_videos)."
+  },
+  "publicComment": {
+    "summary": "Fill out a comment card and hand it to the receptionist at City Hall before the 7 p.m. regular session starts, and you get two minutes at the microphone during Citizens' Input on any topic. If you cannot attend, email your comment to city.secretary@duncanvilletx.gov by 4 p.m. on meeting day; it is given to the council in writing but is not read aloud.",
+    "howToRegister": "In person: complete a comment (request) card and give it to the receptionist or City Secretary before the regular session begins, ahead of the Citizens' Input item. By email: send to city.secretary@duncanvilletx.gov by 4:00 p.m. on the meeting date with the subject line 'Public Comment - Tuesday, [meeting date]' and include your first name, last name and address.",
+    "deadline": "In person: before the regular session begins (about 7 p.m.); email: 4:00 p.m. on the day of the meeting",
+    "timeLimitMinutes": 2,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email city.secretary@duncanvilletx.gov by 4:00 p.m. on meeting day with subject 'Public Comment - Tuesday, [date]' plus first name, last name and address; paper copies go to the council at the dais and become part of the minutes, but under the Rules of Procedure adopted June 4, 2024 emails are no longer read aloud.",
+    "notes": "Under the Texas Open Meetings Act the council cannot discuss or decide non-agenda topics raised during Citizens' Input; they may be referred to staff for research and possible future action. ADA accommodation requests should be made at least three business days ahead at 972-780-5017 or city.secretary@duncanvilletx.gov.",
+    "source": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+  },
+  "youthPrograms": [
+    {
+      "name": "Teen Advisory Guild (Duncanville Public Library)",
+      "url": "https://www.duncanvilletx.gov/news/weekly_update/weekly_update_june_18_2026",
+      "ages": "14 to 18",
+      "description": "Library-based teen group where members share ideas, plan events for teens and earn volunteer hours. Sessions have run on Wednesdays from 5 to 6 p.m. at the Duncanville Public Library, 201 James Collins Blvd (for example June 10 and 24, 2026); the library does not keep a permanent web page for the group, so check the city's weekly updates or call for the next dates.",
+      "applyWindow": "Ongoing; contact the library at 972-780-5050",
+      "source": "https://www.duncanvilletx.gov/news/weekly_update/weekly_update_june_18_2026"
+    },
+    {
+      "name": "Duncanville Teen Council (proposed)",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)",
+      "ages": "Teens (details not yet published)",
+      "description": "A resolution establishing a Duncanville Teen Council is item 7.M on the Sept 15, 2026 City Council consent agenda; membership details and applications should follow if it is adopted.",
+      "applyWindow": "Not yet announced",
+      "source": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Continued public hearing on the FY 2026-27 budget and public hearing on the 2026 tax rate",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can speak about next year's city budget and property tax rate before the council votes.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Adopt the FY 2026-2027 budget and ratify the property tax revenue increase",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council votes on the spending plan for Oct 1, 2026 through Sept 30, 2027, which raises more property tax revenue than last year.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Levy the 2026 property tax rate of $0.611659 per $100 of value",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Sets the city property tax rate that shows up on residents' 2026 tax bills.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Adopt the Master Fee Schedule for FY 2026-2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Updates the list of fees the city charges for permits, services and facilities in the coming year.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Accept state auto-theft grant to buy two Skydio X10 drone-as-first-responder systems; defer license plate readers",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Police would get two docked drones (from Axon Enterprise) that can fly to 911 calls, while the purchase of ten automated license plate readers waits for state guidance; the work session also includes a presentation on how police use plate readers.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Raise trash collection and disposal contract rates about 4.7 percent effective October 1, 2026",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "utilities-water",
+        "environment"
+      ],
+      "summary": "Amends the Republic Services collection contract (+4.69 percent) and the Waste Management disposal contract (+4.68 percent); staff will also update the council on the solid waste and recycling procurement process.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Fire Department cost-recovery (mitigation rate) program and Emergicon billing agreement",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "public-safety",
+        "budget-taxes"
+      ],
+      "summary": "Would let the Fire Department bill for certain emergency and non-emergency responses, with a billing vendor collecting a 15 percent fee on revenues.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Public hearing: allow HUD-code manufactured homes in the Estate Single-Family (SF-43) zoning district",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "A zoning text amendment that would permit manufactured homes on large-lot estate residential properties.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Public hearing: let the Planning and Zoning Director approve simple plats administratively",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "zoning-development",
+        "governance-elections"
+      ],
+      "summary": "Would move approval of simple property subdivisions from the Planning and Zoning Commission to city staff.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Resolution establishing the Duncanville Teen Council",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "youth",
+        "governance-elections"
+      ],
+      "summary": "Creates a new city teen council so young residents can get involved in local government.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Economic development incentive of up to $631,350 for Hajoca Corporation (Moore Supply Co.)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "Approves revised terms of a DCEDC incentive agreement to keep and expand a plumbing supply business in Duncanville.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    },
+    {
+      "title": "Annual payments for wholesale treated water and wastewater treatment (Dallas Water Utilities and Trinity River Authority)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Authorizes the city's FY 2026-2027 spending on the water it buys from Dallas and the sewage treatment it pays the Trinity River Authority for.",
+      "url": "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "sources": [
+    "https://www.duncanvilletx.gov/city_hall/government/duncanville_city_council",
+    "https://www.duncanvilletx.gov/city_hall/government/agendas_minutes",
+    "https://www.duncanvilletx.gov/city_hall/live_and_archived_videos",
+    "https://www.duncanvilletx.gov/city_hall/government/interactive_city_maps",
+    "https://duncanvilletx.portal.civicclerk.com/",
+    "https://duncanvilletx.api.civicclerk.com/v1/Events?$filter=startDateTime%20ge%202026-09-01T00:00:00Z&$orderby=startDateTime",
+    "https://duncanvilletx.api.civicclerk.com/v1/Events?$filter=startDateTime%20ge%202026-11-10T00:00:00Z&$orderby=startDateTime",
+    "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7098,plainText=false)",
+    "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7103,plainText=false)",
+    "https://duncanvilletx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=7101,plainText=false)",
+    "https://duncanville.civicweb.net/portal/",
+    "https://duncanvilletx.new.swagit.com/views/454/",
+    "https://events.duncanvilletx.gov/duncanvilletx/260129468",
+    "https://www.duncanvilletx.gov/news/weekly_update/weekly_update_june_18_2026",
+    "https://www.duncanvilletx.gov/residents/education/duncanville_public_library",
+    "https://censusreporter.org/profiles/16000US4821628-duncanville-tx/",
+    "https://nominatim.openstreetmap.org/search?format=json&q=203+E+Wheatland+Rd,+Duncanville,+TX+75116"
+  ],
+  "notes": "Re-verified Sept 10, 2026 against the official council page, the full text of the posted Sept 15, 2026 agenda and its supplement, the Sept 14 Notice of Possible Quorum, the CivicClerk events feed, the interactive maps page and the city events calendar. The Sept 15 supplement adds an executive session on the Life School v. City of Duncanville lawsuit. The CivicClerk feed lists council meetings on Sept 15, Oct 20, Nov 3 and Nov 17 at 6 p.m. but not Oct 6, and no December council meetings had been entered as of Sept 10, so check the portal for December dates. Population is the ACS 2024 5-year estimate (Census Reporter) and was not re-checked in this pass. Coordinates match the OpenStreetMap geocode of the City Hall address."
+}

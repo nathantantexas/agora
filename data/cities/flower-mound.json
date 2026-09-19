@@ -1,0 +1,198 @@
+{
+  "cityId": "flower-mound",
+  "name": "Flower Mound",
+  "county": "Denton",
+  "populationApprox": 81925,
+  "cityHall": {
+    "name": "Flower Mound Town Hall",
+    "address": "2121 Cross Timbers Road, Flower Mound, TX 75028",
+    "lat": 33.0334,
+    "lng": -97.0614
+  },
+  "website": "https://www.flowermound.gov",
+  "councilPageUrl": "https://www.flowermound.gov/161/Town-Council",
+  "council": {
+    "size": 6,
+    "structure": "mayor + 5 council places (Places 1 to 5), all elected at large",
+    "districtCount": 0,
+    "mayorName": "Cheryl Moore",
+    "termNote": "Three-year terms with a maximum of two full consecutive terms; a member may serve two additional terms if elected mayor. Current members: Adam Schiestel (Place 1, Mayor Pro Tem), Chris Drew (Place 2), Brian Taylor (Place 3, Deputy Mayor Pro Tem), Janvier Werner (Place 4), Clare Harris (Place 5)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Town Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "notes": "Holiday Mondays are cancelled rather than shifted (Sept. 7 and Dec. 21, 2026 are cancelled on the CivicClerk calendar)."
+      },
+      "location": "Flower Mound Town Hall, 2121 Cross Timbers Road, Flower Mound, TX 75028",
+      "virtualUrl": "https://www.flowermound.gov/969/Streaming-Video",
+      "openToPublicComment": true,
+      "notes": "Public comment period comes right after the invocation and pledge, before other agenda items; public hearing speakers are called when the Mayor opens that hearing.",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "type": "work-session",
+      "label": "Town Council Work Session (as needed, 3rd Thursday)",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 4,
+        "ordinals": [
+          3
+        ],
+        "time": "18:00",
+        "dates": [
+          "2026-10-15",
+          "2026-11-19",
+          "2026-12-17"
+        ],
+        "notes": "The Town schedules work sessions as needed on the third Thursday; these three are posted on the CivicClerk calendar (none in September 2026)."
+      },
+      "location": "Flower Mound Town Hall, 2121 Cross Timbers Road, Flower Mound, TX 75028",
+      "virtualUrl": "https://www.flowermound.gov/969/Streaming-Video",
+      "openToPublicComment": true,
+      "notes": "Under Town Resolution 26-19 (printed on the Public Comment form), every open meeting including work sessions has a public comment section at the start; use the same Public Comment form and 3-minute limit as regular meetings.",
+      "source": "https://www.flowermound.gov/documentcenter/view/10425"
+    },
+    {
+      "type": "other",
+      "label": "Town Council special sessions (board and commission interviews, training)",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "18:00",
+        "dates": [
+          "2026-09-15",
+          "2026-09-17",
+          "2026-09-30"
+        ],
+        "notes": "These fall on different weekdays: Sept. 15 (Tuesday) and Sept. 17 (Thursday) are Board & Commission applicant interviews; Sept. 30 (Wednesday) is in-house board and commission training. Use the explicit dates, not the weekday field."
+      },
+      "location": "Flower Mound Town Hall, 2121 Cross Timbers Road, Flower Mound, TX 75028",
+      "openToPublicComment": false,
+      "notes": "Administrative sessions with no substantive votes expected; open to the public. Resolution 26-19 says every open meeting has a comment section, but these agendas are interviews and training, so check the posted agenda before planning to speak.",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-07",
+      "status": "cancelled",
+      "note": "Labor Day; the first-Monday Town Council meeting is cancelled, not rescheduled.",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "date": "2026-09-15",
+      "status": "special",
+      "note": "Town Council Board & Commission Interview session #1, 6 p.m.",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "date": "2026-09-17",
+      "status": "special",
+      "note": "Town Council Board & Commission Interview session #2, 6 p.m.",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "date": "2026-09-30",
+      "status": "special",
+      "note": "Town Council Board & Commission in-house training, 6 p.m.",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "date": "2026-10-15",
+      "status": "special",
+      "note": "Town Council Work Session, 6 p.m. (third Thursday).",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "date": "2026-11-19",
+      "status": "special",
+      "note": "Town Council Work Session, 6 p.m. (third Thursday).",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "date": "2026-12-17",
+      "status": "special",
+      "note": "Town Council Work Session, 6 p.m. (third Thursday).",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    },
+    {
+      "date": "2026-12-21",
+      "status": "cancelled",
+      "note": "Third-Monday Town Council meeting cancelled for the holidays; Dec. 7 regular meeting and Dec. 17 work session remain.",
+      "source": "https://flowermoundtx.api.civicclerk.com/v1/Events"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://flowermoundtx.portal.civicclerk.com/",
+    "platform": "other",
+    "notes": "CivicClerk public portal (linked from flowermound.gov/agendas). The Town recommends Chrome; CivicClerk does not work in Safari. Agendas post at least 72 hours before meetings. Older agendas are in the CivicPlus Agenda Center (flowermound.gov/AgendaCenter/Town-Council-1) and pre-2016 records in the Town archive."
+  },
+  "liveStream": {
+    "url": "https://www.flowermound.gov/969/Streaming-Video",
+    "platform": "Swagit",
+    "notes": "The Streaming Video page links to the Swagit player at flowermoundtx.new.swagit.com/views/587 for live meetings and the Town Council archive. FMTV cable: Astound/Grande 12, Spectrum 16, Frontier FiOS 42. The Town's YouTube channel is linked from its website."
+  },
+  "publicComment": {
+    "summary": "Fill out a Public Comment form and hand it to the Town Secretary before the 6 p.m. meeting starts (there is a marked tray near the Town Secretary's seat in Jody Smith Hall, the council chambers at Town Hall), and you get up to 3 minutes to speak near the start of the meeting, on any topic. For public hearing items you speak when the Mayor opens that hearing. Work sessions have the same comment slot.",
+    "howToRegister": "Download the Public Comment form (flowermound.gov/documentcenter/view/10425) or pick one up at Town Hall, fill in your name, address and the agenda item or subject, mark support or opposition, and give it to the Town Secretary before the meeting is scheduled to begin (forms are accepted until the public comment portion ends). State your name and town when you start, direct remarks to the Town Council, and keep to 3 minutes; other speakers can donate time on posted agenda items only, up to 9 minutes total. Anyone using slides or video must give the digital file to the Town Secretary's Office by 12 noon on the meeting day.",
+    "registrationUrl": "https://www.flowermound.gov/documentcenter/view/10425",
+    "deadline": "Before the meeting is scheduled to begin (forms accepted until the public comment portion concludes); electronic presentation files by 12 noon on meeting day",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email the Mayor and full council at once at towncouncil@flowermound.gov (listed on the Town Council page); emails are public records. No online eComment form is offered.",
+    "notes": "The Mayor may adjust time limits. The form is a public record and your name and municipality appear in the official minutes. Council can only respond to non-agenda topics with a statement of fact, existing policy, or a proposal to put the subject on a future agenda. No remote or virtual speaking option is described on the Town's pages.",
+    "source": "https://www.flowermound.gov/1037/FAQs"
+  },
+  "youthPrograms": [
+    {
+      "name": "Flower Mound Youth Action Council",
+      "url": "https://www.flowermound.gov/892/Youth-Action-Council",
+      "ages": "Flower Mound residents ages 14 to 19 in grades 9 to 12 (Flower Mound High, Marcus High, private or homeschool)",
+      "description": "Up to 22 students serve one-year terms as an advisory group to the Town Council, Parks Board, Executive Team and Parks & Recreation on issues affecting youth, through problem solving, education, social activities and service projects; selection is based on leadership, community involvement and vision.",
+      "applyWindow": "Not stated on the program page; apply through the online Form Center application (contact Kimberly Cheek, kimberly.cheek@flowermound.gov, 972-874-6300, or the program line 972-874-6276)",
+      "source": "https://www.flowermound.gov/892/Youth-Action-Council"
+    },
+    {
+      "name": "Lewisville/Flower Mound Teen Court",
+      "url": "https://www.flowermound.gov/461/Youth-Services",
+      "ages": "Teens cited for a Class C misdemeanor in town limits; volunteers must be middle or high school students ages 13 to 18 who attend school or live in the greater Lewisville area",
+      "description": "Voluntary alternative to paying a fine: after pleading guilty or no contest in Municipal Court and paying a $20 fee, the teen is sentenced by a jury of peers to community service and jury duty, and the case is dismissed on completion. Court alternates between Lewisville and Flower Mound, generally on 1st and 3rd Tuesdays; fall 2026 Flower Mound dates are Sept. 22, Oct. 20, Nov. 17 and Dec. 15 (Lewisville: Sept. 8, Oct. 6, Nov. 3, Dec. 1). Contact teencourt@cityoflewisville.com or 972-219-3799.",
+      "applyWindow": "Rolling; volunteers observe a session first, then sign a volunteer agreement (sign-ups at volunteer.cityoflewisville.com)",
+      "source": "https://www.flowermound.gov/461/Youth-Services"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "high",
+  "notes": "Verified Sept. 10, 2026 against the Town Council page, the CivicClerk events API (September to December 2026), the FAQs page, the Public Comment form, the Youth Action Council and Youth Services pages, the FMTV and Demographics pages, the Swagit archive and the Town Council contact page. Flower Mound is a Town (Town Council, Town Hall) and its official domain is flowermound.gov (flower-mound.com redirects). No agenda items are returned because the Sept. 21, 2026 Town Council agenda (CivicClerk event 4945, agenda ID 7490) had no published files as of Sept. 10; the Town posts agendas 72 hours before meetings, and the Sept. 15 and 17 sessions are applicant interviews only. Population is the Town's 2025 estimate (US Census, NCTCOG and Town data). The Youth Action Council application window was not stated online.",
+  "sources": [
+    "https://www.flowermound.gov/161/Town-Council",
+    "https://www.flowermound.gov/towncouncil",
+    "https://www.flowermound.gov/1037/FAQs",
+    "https://www.flowermound.gov/documentcenter/view/10425",
+    "https://www.flowermound.gov/agendas",
+    "https://www.flowermound.gov/986/Agendas-and-Minutes",
+    "https://www.flowermound.gov/AgendaCenter/Town-Council-1",
+    "https://flowermoundtx.portal.civicclerk.com/",
+    "https://flowermoundtx.api.civicclerk.com/v1/Events?$filter=categoryName%20eq%20%27Town%20Council%27%20and%20startDateTime%20ge%202026-09-01T00:00:00Z%20and%20startDateTime%20lt%202027-01-01T00:00:00Z&$orderby=startDateTime&$top=100",
+    "https://flowermoundtx.api.civicclerk.com/v1/Events/4945",
+    "https://www.flowermound.gov/969/Streaming-Video",
+    "https://flowermoundtx.new.swagit.com/views/587",
+    "https://www.flowermound.gov/946/Flower-Mound-TV-FMTV",
+    "https://www.flowermound.gov/892/Youth-Action-Council",
+    "https://www.flowermound.gov/FormCenter/Parks-and-Recreation-21/Youth-Action-Council-Application-236",
+    "https://www.flowermound.gov/461/Youth-Services",
+    "https://www.lewisvillecourt.com/court-appearance/juvenile-teen-court/volunteer-for-teen-court",
+    "https://www.flowermound.gov/2364/Demographics",
+    "https://nominatim.openstreetmap.org/search?format=json&q=2121+Cross+Timbers+Rd,+Flower+Mound,+TX+75028"
+  ],
+  "lastVerified": "2026-09-10"
+}

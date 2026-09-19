@@ -1,0 +1,214 @@
+{
+  "cityId": "carrollton",
+  "name": "Carrollton",
+  "county": "Dallas",
+  "populationApprox": 133434,
+  "cityHall": {
+    "name": "Carrollton City Hall",
+    "address": "1945 E. Jackson Rd., Carrollton, TX 75006",
+    "lat": 32.97631,
+    "lng": -96.88914
+  },
+  "website": "https://www.cityofcarrollton.com",
+  "councilPageUrl": "https://www.cityofcarrollton.com/government/city-council",
+  "council": {
+    "size": 8,
+    "structure": "Mayor + 7 council places, all elected at large citywide; the Mayor and Places 2, 4 and 6 may live anywhere in the city, while Places 1 (Northeast), 3 (Southwest), 5 (Northwest) and 7 (Southeast) must live within their geographic Place boundaries",
+    "districtCount": 4,
+    "districtMapUrl": "https://www.cityofcarrollton.com/home/showpublisheddocument/41241/639161877629800000",
+    "findMyDistrictUrl": "https://cityofcarrollton.maps.arcgis.com/apps/webappviewer/index.html?id=36208799addd42f4a915a3dcf82924f8",
+    "mayorName": "Steve Babick",
+    "termNote": "Three-year staggered terms; all seats are elected at large. Daisy Palomo (Place 6) is Mayor Pro Tem and Jason Carpenter (Place 2) is Deputy Mayor Pro Tem. Other members: Christopher Axberg (Place 1, Northeast), Richard Fleming (Place 3, Southwest), Lisa Sutter (Place 4), Nancy S. Cline (Place 5, Northwest) and Rowena Watters (Place 7, Southeast)."
+  },
+  "meetings": [
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "17:45",
+        "notes": "First and third Tuesdays; the work session typically begins at 5:45 p.m. In October 2026 the meetings are on Oct. 13 and Oct. 20 instead of the first Tuesday."
+      },
+      "location": "City Council Chambers, 2nd floor, Carrollton City Hall, 1945 E. Jackson Rd., Carrollton, TX 75006",
+      "virtualUrl": "https://www.cityofcarrollton.com/government/city-council/council-meetings",
+      "openToPublicComment": false,
+      "notes": "Briefing portion of the same evening's meeting (for example, a police technology and crime reduction briefing on Sept. 15); resident comments are taken during the regular session that follows. Legistar lists the combined meeting at 5:45 p.m.",
+      "source": "https://www.cityofcarrollton.com/government/city-council/council-meetings"
+    },
+    {
+      "type": "regular",
+      "label": "City Council Regular Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "notes": "Regular session follows the 5:45 p.m. work session at 7:00 p.m.; the city calendar and Legistar list the combined meeting at 5:45 p.m."
+      },
+      "location": "City Council Chambers, 2nd floor, Carrollton City Hall, 1945 E. Jackson Rd., Carrollton, TX 75006",
+      "virtualUrl": "https://www.cityofcarrollton.com/government/city-council/council-meetings",
+      "openToPublicComment": true,
+      "notes": "Citizen Comment (agenda items), Public Hearings and Public Forum (non-agenda items) are part of the regular session. Upcoming dates on the city calendar: Sept. 15, Oct. 13, Oct. 20, Nov. 3, Nov. 17, Dec. 1 and Dec. 15, 2026.",
+      "source": "https://www.cityofcarrollton.com/government/city-council/council-meetings"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-10-06",
+      "status": "rescheduled",
+      "note": "No council meeting on the first Tuesday of October; the city calendar instead lists City Council Meetings on Tuesday, Oct. 13 and Tuesday, Oct. 20, 2026 at 5:45 p.m. (reason not stated).",
+      "source": "https://www.cityofcarrollton.com/about-us/calendar/-curm-10/-cury-2026"
+    },
+    {
+      "date": "2026-10-13",
+      "status": "special",
+      "note": "City Council Meeting at 5:45 p.m. on the second Tuesday at City Hall, replacing the usual first-Tuesday date.",
+      "source": "https://www.cityofcarrollton.com/Home/Components/Calendar/Event/51241/2498"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://carrolltontx.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Branded 'Meetings Central'; holds agendas, packets, minutes and links to meeting video. As of Sept. 10, 2026 Legistar listed council meetings only through Sept. 15; October dates come from the city calendar."
+  },
+  "liveStream": {
+    "url": "https://carrolltontx.new.swagit.com/views/864/",
+    "platform": "Swagit",
+    "notes": "Player is embedded at the bottom of the Council Meetings page; meetings also air at 10 a.m. and 9 p.m. daily on Spectrum HD 1305 / SD 16 and Frontier HD 539 / SD 39."
+  },
+  "publicComment": {
+    "summary": "Go to City Hall before the meeting, pick up an appearance card from the table at the entrance to the Council Chambers, fill it in and turn it in to city staff. You get three minutes: use Citizen Comment for items on the agenda and Public Forum for anything else about the city.",
+    "howToRegister": "Complete an appearance card (name, address, phone and the agenda item or topic) at the table at the entrance to the City Council Chambers and hand it to a staff member before the meeting begins; there is no online sign-up. When called, go to the podium, state your name and city of residence, and address the presiding officer rather than individual council members.",
+    "registrationUrl": "https://www.cityofcarrollton.com/home/showpublisheddocument/40059/638938730222370000",
+    "deadline": "Turn in the appearance card before the meeting begins",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email mayor.council@cityofcarrollton.com (Mayor and Council) or citysecr@cityofcarrollton.com (City Secretary, 972-466-3001). At a public hearing you can also file an appearance card to register support or opposition without speaking, and the Mayor reads the names into the record.",
+    "notes": "Under the Texas Open Meetings Act the council cannot discuss or act on Public Forum topics that are not on the agenda; action can only come at a future meeting. Signs, placards and banners that block others are not allowed, and disruptive conduct can lead to removal. The registrationUrl is the city's sample appearance card (a PDF), not an online form. The council's 'Participate in a Council Meeting' page sets the limit at 3 minutes; the City Secretary's older 'Public Comment, Forum, & Hearing' page says 2 to 5 minutes and allows up to 5 minutes per speaker at public hearings.",
+    "source": "https://www.cityofcarrollton.com/government/city-council/council-meetings/participate-in-a-council-meeting"
+  },
+  "youthPrograms": [
+    {
+      "name": "Youth in Government Commission (YGC)",
+      "url": "https://www.cityofcarrollton.com/government/city-manager-s-office/city-secretary/youth-in-government-commission",
+      "ages": "Grades 9 to 12; must live in Carrollton, attend a public or private high school in the city and be in good academic standing",
+      "description": "Selected students serve as an advisory board member for one scheduled meeting each of the Parks & Recreation Board, Library Board, Neighborhood Advisory Commission and Museum and Historic Advisory Committee, then attend a City Council meeting where they are formally recognized.",
+      "applyWindow": "Application open online via SurveyMonkey (https://www.surveymonkey.com/r/K63JHBC); no deadline listed",
+      "source": "https://www.cityofcarrollton.com/government/city-manager-s-office/city-secretary/youth-in-government-commission"
+    },
+    {
+      "name": "Teen Advisory Council (TAC), Carrollton Public Library",
+      "url": "https://www.cityofcarrollton.com/departments/departments-g-p/library/about/support-the-library/teen-advisory-council",
+      "ages": "Ages 13 to 18",
+      "description": "Group of teens that meets once a month with the Teen Librarian to plan teen programs, shape library services and materials for teens, and volunteer at youth events; members earn volunteer hours. Requires about 4 hours per month and one recommendation letter from a non-relative adult. Membership runs September through May.",
+      "applyWindow": "June 1 to August 1 each year (the 2026-2027 application closed Aug. 1, 2026); interviews are held in August",
+      "source": "https://www.cityofcarrollton.com/departments/departments-g-p/library/about/support-the-library/teen-advisory-council"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Receive Briefing on Police Use of Technology and Crime Reduction Strategies",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Police brief the council on the technology the department uses and its strategies for reducing crime.",
+      "url": "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579"
+    },
+    {
+      "title": "Cooperative Agreement with Flock Safety for the Lease of 82 IP Cameras and Supporting Software",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Council considers leasing 82 Flock Safety cameras and software for up to $398,258 a year and $1.19 million total.",
+      "url": "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579"
+    },
+    {
+      "title": "Three-Year Agreement with Esri for Enterprise GIS Software Licensing",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "technology"
+      ],
+      "summary": "Renews the city's mapping (GIS) software licenses for three years at $157,564 a year, up to $472,692 total.",
+      "url": "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579"
+    },
+    {
+      "title": "Change Order No. 1 with ESO Solutions for the Fire Department Records Management Solution",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Adds up to $61,462 to the fire department's records software contract, bringing it to $307,308.",
+      "url": "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579"
+    },
+    {
+      "title": "Renew Agreements with Various Furniture Vendors through Interlocal Cooperative Agreements for Fiscal Year 2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "budget-taxes",
+        "other"
+      ],
+      "summary": "Authorizes up to $880,000 in furniture purchases for city facilities next fiscal year through cooperative purchasing contracts.",
+      "url": "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579"
+    },
+    {
+      "title": "Resolution: Agreement with Metrocrest Services for Services to Carrollton Citizens for FY 2026-27",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "health",
+        "housing"
+      ],
+      "summary": "Funds the nonprofit Metrocrest Services to provide assistance programs to Carrollton residents next fiscal year.",
+      "url": "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579"
+    },
+    {
+      "title": "Resolution: Agreement with Children's Advocacy Center for North Texas for FY 2026-27",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Session",
+      "topics": [
+        "public-safety",
+        "youth"
+      ],
+      "summary": "Funds the Children's Advocacy Center for North Texas to serve Carrollton children and families next fiscal year.",
+      "url": "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579"
+    }
+  ],
+  "confidence": "high",
+  "sources": [
+    "https://www.cityofcarrollton.com/government/city-council/council-meetings",
+    "https://www.cityofcarrollton.com/government/city-council",
+    "https://www.cityofcarrollton.com/government/city-council/council-meetings/participate-in-a-council-meeting",
+    "https://www.cityofcarrollton.com/government/city-manager-s-office/city-secretary/public-forums-hearings",
+    "https://www.cityofcarrollton.com/about-us/calendar/-curm-10/-cury-2026",
+    "https://www.cityofcarrollton.com/about-us/calendar/-curm-11/-cury-2026",
+    "https://www.cityofcarrollton.com/about-us/calendar/-curm-12/-cury-2026",
+    "https://www.cityofcarrollton.com/Home/Components/Calendar/Event/51241/2498",
+    "https://carrolltontx.legistar.com/Calendar.aspx",
+    "https://carrolltontx.legistar.com/MeetingDetail.aspx?ID=1442813&GUID=0C185AB9-1ECF-43C6-B94C-67C447F6E579",
+    "https://webapi.legistar.com/v1/carrolltontx/events",
+    "https://carrolltontx.new.swagit.com/views/864/",
+    "https://www.cityofcarrollton.com/government/city-manager-s-office/city-secretary/youth-in-government-commission",
+    "https://www.cityofcarrollton.com/departments/departments-g-p/library/about/support-the-library/teen-advisory-council",
+    "https://cityofcarrollton.maps.arcgis.com/apps/webappviewer/index.html?id=36208799addd42f4a915a3dcf82924f8"
+  ],
+  "notes": "Verified Sept. 10, 2026. cityofcarrollton.com blocks direct automated fetches (Akamai 403), so the official pages were read through a rendering proxy of the same URLs; Legistar, Swagit, ArcGIS and SurveyMonkey links were checked directly. Carrollton extends into Denton and Collin counties, but City Hall and most of the city are in Dallas County. Population is the 2020 census count; no newer official estimate was retrieved. The Oct. 13 agenda was not yet posted on Legistar, so agenda items come from the Sept. 15 meeting only. The district map link is the city's 'CouncilDistrictsMap' PDF. Coordinates are within about 100 m of the geocoded City Hall address.",
+  "lastVerified": "2026-09-10"
+}

@@ -1,0 +1,121 @@
+{
+  "cityId": "hurst",
+  "name": "Hurst",
+  "county": "Tarrant",
+  "populationApprox": 39304,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "Hurst City Hall",
+    "address": "1505 Precinct Line Road, Hurst, TX 76054",
+    "lat": 32.8406,
+    "lng": -97.1873
+  },
+  "website": "https://www.hursttx.gov",
+  "councilPageUrl": "https://www.hursttx.gov/about-us/city-council",
+  "council": {
+    "size": 7,
+    "structure": "7 council places elected at large; the person elected to Place 3 serves as mayor",
+    "districtCount": 0,
+    "mayorName": "Henry Wilson",
+    "termNote": "Two-year terms. Places 1, 2 and 6 are elected in odd-numbered years; Places 3 (mayor), 4, 5 and 7 in even-numbered years. A quorum is five members. Mayor Pro Tem is Cathy Butler Brotherton (Place 4). Members: Jimmy Meeks (P1), John Miller (P2), Henry Wilson (P3, Mayor), Cathy Butler Brotherton (P4), Alan Heaton (P5), Jon McKenzie (P6), Gary N. Waldron (P7)."
+  },
+  "meetings": [
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "17:30",
+        "notes": "Start time varies by agenda: 5:30 p.m. on Aug. 25, 2026 and 5:45 p.m. on Sept. 8, 2026; the council page says the 6:30 p.m. meeting is preceded by a 5:30 p.m. briefing session. Check the posted agenda. If Ordinance 2638 receives final approval on Sept. 22, 2026, meetings move to the second and fourth Monday (see notes)."
+      },
+      "location": "First Floor Conference Room, Hurst City Hall, 1505 Precinct Line Road, Hurst, TX 76054",
+      "virtualUrl": "https://www.hursttx.gov/about-us/city-council/streaming-video",
+      "openToPublicComment": false,
+      "notes": "Council discusses informational items and that night's regular agenda, then usually goes into a closed executive session before the regular meeting. No public comment period.",
+      "source": "https://www.hursttx.gov/home/showpublisheddocument/14774/639238728878000000"
+    },
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "18:30",
+        "notes": "Second and fourth Tuesday per the council page and the city calendar, which lists Sept. 22, Oct. 13, Oct. 27, Nov. 10, Nov. 24, Dec. 8 and Dec. 22, 2026, all at 6:30 p.m. Pending change: Ordinance 2638, approved on first reading Sept. 8, 2026, would move regular meetings to the second and fourth Monday of each month (still 6:30 p.m.) and takes effect on final approval, expected at the Sept. 22 second reading. Confirm the day on the posted agenda after Sept. 22."
+      },
+      "location": "Council Chamber, Hurst City Hall, 1505 Precinct Line Road, Hurst, TX 76054",
+      "virtualUrl": "https://www.hursttx.gov/about-us/city-council/streaming-video",
+      "openToPublicComment": true,
+      "notes": "'Public Invited to be Heard' comes near the end of the regular agenda, after Other Business and before executive session. Hurst ordinances get two readings, so items often appear at two consecutive meetings.",
+      "source": "https://www.hursttx.gov/about-us/city-council"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://www.hursttx.gov/about-us/agendas-and-minutes/agendas-and-minutes-2026",
+    "platform": "other",
+    "notes": "PDF agendas, packets and minutes are listed by date on the city website with a Swagit video link for each meeting; agendas are posted three business days before the meeting. As of Sept. 10 the newest agenda was for Sept. 8. Questions: City Secretary's Office, 817-788-7042."
+  },
+  "liveStream": {
+    "url": "https://www.hursttx.gov/about-us/city-council/streaming-video",
+    "platform": "Swagit",
+    "notes": "The city's Streaming Video page is meant to embed the Swagit player, but the player itself could not be confirmed by automated fetch (the page loads only navigation for scripts). Archived meetings with video and agenda are confirmed at https://hursttx.new.swagit.com (for example the Sept. 8, 2026 meeting at https://hursttx.new.swagit.com/videos/400339). The city also has a YouTube channel at https://www.youtube.com/@thecityofhurst6861."
+  },
+  "publicComment": {
+    "summary": "Fill out a Request to Appear card and give it to the City Secretary at the meeting; you will be called during 'Public Invited to be Heard,' which comes near the end of the 6:30 p.m. regular meeting. You get up to 3 minutes.",
+    "howToRegister": "Speaker card at the meeting: complete a Request to Appear card and return it to the City Secretary in the Council Chamber before that portion of the meeting is called. No online, phone or email registration is published.",
+    "deadline": "Before 'Public Invited to be Heard' is called; turn in the card when you arrive",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Not published; the City Secretary's Office can be reached at citysecretary@hursttx.gov or 817-788-7042",
+    "notes": "Agenda language: 'Public invited to be heard: a request to appear card must be completed and returned to the City Secretary to be recognized. Citizen comments are limited to a maximum of 3 minutes per speaker.' The council page states all meetings except executive session are open to the public.",
+    "source": "https://www.hursttx.gov/home/showpublisheddocument/14774/639238728878000000"
+  },
+  "youthPrograms": [
+    {
+      "name": "Youth in Government Program (HEB)",
+      "url": "https://www.hursttx.gov/about-us/city-council/youth-in-government-program",
+      "ages": "High school juniors and seniors (by January 2027) who live in Hurst, Euless or Bedford",
+      "description": "Joint program of the HEB Chamber of Commerce and the cities of Hurst, Euless and Bedford that teaches students how local government works and encourages community involvement. Classes meet Mondays 5:30 to 7 p.m. at locations around the three cities with a light dinner; no transportation provided. Apply through heb.org.",
+      "applyWindow": "Applications for the 2027 program open in November 2026",
+      "source": "https://www.hursttx.gov/about-us/city-council/youth-in-government-program"
+    },
+    {
+      "name": "HEB Teen Court",
+      "url": "https://www.hursttx.gov/about-us/departments/municipal-court/heb-teen-court",
+      "ages": "11 to 17, or 18 if still in high school",
+      "description": "Diversion program run jointly by Hurst, Euless and Bedford that lets teens with Class C misdemeanor tickets resolve them outside the regular court system; cases are dismissed on completion. Teens without a ticket can volunteer as jurors (arrive by 5:15 p.m., pre-register by phone, dress code applies). Court meets Monday evenings at Bedford Municipal Court, 2000 Forest Ridge Drive, Bedford. Coordinator Mindy Eichorst, 817-952-2468, teen.court@bedfordtx.gov. Details at https://www.bedfordtx.gov/163/Teen-Court.",
+      "applyWindow": "Juror volunteers pre-register by phone before a session",
+      "source": "https://www.bedfordtx.gov/163/Teen-Court"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "medium",
+  "notes": "The next meeting after Sept. 10 is Tuesday, Sept. 22, 2026; its agenda was not yet posted (Hurst posts agendas three business days ahead), so no agenda items are listed. Important pending change, confirmed from the Sept. 8 council packet: Ordinance 2638 amends Code Section 2-2 so that 'Regular meetings shall be held on the second and fourth Mondays of each month at such time as may be posted.' The staff report says the time stays 6:30 p.m. It passed first reading Sept. 8 and is scheduled for second reading Sept. 22, 2026, taking effect on final approval. The city calendar still lists Tuesdays through Dec. 22, so the Tuesday schedule is kept here until the ordinance is adopted and the calendar is updated; residents should confirm the meeting day after Sept. 22. No holiday cancellations are published; the calendar lists both Nov. 24 and Dec. 22. The hursttx.gov site blocks most automated fetches, so its pages were read through a reader proxy and the packet was downloaded with browser headers. Population: 40,413 at the 2020 census; 39,304 in the 2023 estimate. Coordinates are from the city's own map link and sit about 80 meters from the OpenStreetMap geocode of the address.",
+  "sources": [
+    "https://www.hursttx.gov/about-us/city-council",
+    "https://www.hursttx.gov/about-us/agendas-and-minutes/agendas-and-minutes-2026",
+    "https://www.hursttx.gov/home/showpublisheddocument/14774/639238728878000000",
+    "https://www.hursttx.gov/home/showpublisheddocument/14784/639241068112470000",
+    "https://www.hursttx.gov/about-us/city-council/streaming-video",
+    "https://www.hursttx.gov/residents/city-calendar/-curm-9/-cury-2026",
+    "https://www.hursttx.gov/residents/city-calendar/-curm-10/-cury-2026",
+    "https://www.hursttx.gov/residents/city-calendar/-curm-11/-cury-2026",
+    "https://www.hursttx.gov/residents/city-calendar/-curm-12/-cury-2026",
+    "https://www.hursttx.gov/about-us/city-council/youth-in-government-program",
+    "https://www.hursttx.gov/about-us/departments/municipal-court/heb-teen-court",
+    "https://www.bedfordtx.gov/163/Teen-Court",
+    "https://hursttx.new.swagit.com/videos/400339",
+    "https://en.wikipedia.org/wiki/Hurst,_Texas",
+    "https://nominatim.openstreetmap.org/search?q=1505+Precinct+Line+Road+Hurst+TX"
+  ]
+}

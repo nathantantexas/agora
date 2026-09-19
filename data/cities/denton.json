@@ -1,0 +1,330 @@
+{
+  "cityId": "denton",
+  "name": "Denton",
+  "county": "Denton",
+  "populationApprox": 169431,
+  "cityHall": {
+    "name": "Denton City Hall",
+    "address": "215 E. McKinney St., Denton, TX 76201",
+    "lat": 33.2166,
+    "lng": -97.1309
+  },
+  "website": "https://www.cityofdenton.com",
+  "councilPageUrl": "https://www.cityofdenton.com/413/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor elected at large + 4 single-member districts + 2 at-large places (Place 5 must live in District 1 or 2, Place 6 in District 3 or 4)",
+    "districtCount": 4,
+    "districtMapUrl": "https://www.cityofdenton.com/DocumentCenter/View/4843/All-City-Council-Voter-Districts-PDF",
+    "findMyDistrictUrl": "https://www.cityofdenton.com/1204/Resident-Resources",
+    "mayorName": "Chris Watts",
+    "termNote": "Two-year staggered terms: Places 5, 6 and Mayor (Place 7) were up in May 2026; Districts 1 to 4 are up in May 2027. Charter term limit is three consecutive full terms in a place and no more than 12 consecutive years. Current members: Nick Stevens (District 2, Mayor Pro Tem), Suzi Rumohr (District 3), Joe Holland (District 4), George Ferrie (At-Large Place 5), Jill Jester (At-Large Place 6). District 1 is vacant (Jordan Villarreal resigned Aug. 15, 2026); a special election is set for Nov. 3, 2026 with early voting Oct. 19 to 30."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "18:30",
+        "dates": [
+          "2026-09-15",
+          "2026-12-01",
+          "2026-12-15"
+        ],
+        "ordinals": [
+          1,
+          3
+        ],
+        "notes": "Nominally the 1st and 3rd Tuesday of each month, but the adopted 2026 calendar skips or replaces most fall dates, so explicit dates are listed for Sept. 10 to Dec. 31, 2026. Each is a Work/Regular Session day: work session at 2 p.m., regular meeting at 6:30 p.m."
+      },
+      "location": "Council Chambers, City Hall, 215 E. McKinney St., Denton, TX 76201",
+      "virtualUrl": "https://www.cityofdenton.com/242/Public-Meetings-Agendas",
+      "openToPublicComment": true,
+      "notes": "Open Microphone (any topic not on the agenda, 4 minutes) happens right after the regular session starts at 6:30 p.m.; comments on agenda items are 3 minutes and public hearings 4 minutes. A 2 p.m. work session and closed meeting precede it the same day.",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "14:00",
+        "dates": [
+          "2026-09-15",
+          "2026-09-22",
+          "2026-10-13",
+          "2026-10-27",
+          "2026-11-17",
+          "2026-12-01",
+          "2026-12-15"
+        ],
+        "notes": "Held the same day as every regular or special session; the city says the 2 p.m. start is typical and can vary, so check the posted agenda."
+      },
+      "location": "Council Work Session Room, City Hall, 215 E. McKinney St., Denton, TX 76201",
+      "virtualUrl": "https://www.cityofdenton.com/242/Public-Meetings-Agendas",
+      "openToPublicComment": true,
+      "notes": "The only public comment during the work session is the 'Citizen Comments on Consent Agenda Items' slot at the start (3 minutes total per speaker; speaker card must be turned in to the City Secretary when the work session begins). No comments are taken on work session reports or closed meetings.",
+      "source": "https://denton-tx.legistar.com/View.ashx?M=A&ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "type": "other",
+      "label": "Work/Special Session (special called)",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "14:00",
+        "dates": [
+          "2026-09-22",
+          "2026-10-13",
+          "2026-10-27",
+          "2026-11-17"
+        ],
+        "notes": "Special sessions replace regular meetings on these fall 2026 Tuesdays; Legistar lists Sept. 22 as a Special Called meeting starting 2 p.m. in the Work Session Room and Council Chambers."
+      },
+      "location": "Council Work Session Room and Council Chambers, City Hall, 215 E. McKinney St., Denton, TX 76201",
+      "virtualUrl": "https://www.cityofdenton.com/242/Public-Meetings-Agendas",
+      "openToPublicComment": true,
+      "notes": "Speaker cards are accepted for agenda items, but the Open Microphone portion is offered at regular meetings only.",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-22",
+      "status": "special",
+      "note": "Work/Special Session (Special Called), 2 p.m.; agenda not yet posted as of Sept. 10.",
+      "source": "https://denton-tx.legistar.com/Calendar.aspx"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "cancelled",
+      "note": "No meeting: National Night Out (would have been the 1st Tuesday regular meeting).",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "date": "2026-10-13",
+      "status": "special",
+      "note": "Work/Special Session in place of the cancelled Oct. 6 regular meeting.",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "date": "2026-10-20",
+      "status": "cancelled",
+      "note": "No meeting: ICMA Conference (3rd Tuesday regular meeting dropped).",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "date": "2026-10-27",
+      "status": "special",
+      "note": "Work/Special Session.",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "cancelled",
+      "note": "No meeting: Election Day (includes the District 1 special election).",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "date": "2026-11-17",
+      "status": "special",
+      "note": "Work/Special Session instead of a regular meeting on the 3rd Tuesday.",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "recess",
+      "note": "No meeting: Thanksgiving week.",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    },
+    {
+      "date": "2026-12-22",
+      "status": "recess",
+      "note": "No meeting: December break (after regular meetings on Dec. 1 and Dec. 15).",
+      "source": "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://denton-tx.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Council agendas and packets are on Legistar and are also listed, with the eComment link, on the city's Public Meetings & Agendas page. Agendas post three business days before a meeting. The Legistar calendar's own eComment column shows 'Not available' for council meetings; the working eComment link is the one on the city calendar, which opens denton-tx.granicusideas.com. The CivicPlus Agenda Center at cityofdenton.com/AgendaCenter covers boards and commissions."
+  },
+  "liveStream": {
+    "url": "https://www.cityofdenton.com/242/Public-Meetings-Agendas",
+    "platform": "Swagit",
+    "notes": "Meetings stream live from the Public Meetings page and the Swagit video archive at dentontx.new.swagit.com/views/5 holds council recordings back to 2009. Meetings also air on DTV, the city's cable channel: Charter Spectrum 194, Grande 12, Frontier FiOS 38. DTV programs are also posted to the City of Denton YouTube channel."
+  },
+  "publicComment": {
+    "summary": "At any regular meeting you can speak for up to 4 minutes on any topic not on the agenda during Open Microphone, right after the 6:30 p.m. start, or for 3 minutes on a specific agenda item (4 minutes for public hearings). Sign up by pre-registering with the City Secretary, by turning in a speaker card at City Hall, or send a written eComment online before the meeting opens at 2 p.m.",
+    "howToRegister": "Open Microphone (regular meetings only): pre-register with the City Secretary's Office at City Hall (215 E. McKinney St.) by noon on the Tuesday before the meeting, or fill out a blue speaker card at the meeting no earlier than 30 minutes before the 6:30 p.m. regular session. Only seven public speakers in total (pre-registered plus open mic) are heard per meeting, so slots can run out. Agenda items: hand a speaker card (available at the meeting room entrance) to the City Secretary before the item is called; to speak on a consent agenda item you must be at the 2 p.m. work session and turn in your card when it begins. Public hearings: speaker cards are encouraged but not required. Written: once the agenda is posted, click the eComment link beside the meeting on the Public Meetings calendar (it opens denton-tx.granicusideas.com), create an account, and mark support or opposition plus a short comment on a specific item. Slides or video for a presentation must be given to the City Secretary 24 hours before the meeting.",
+    "registrationUrl": "https://www.cityofdenton.com/242/Public-Meetings-Agendas",
+    "deadline": "Open mic pre-registration by noon the Tuesday before the meeting, or a blue card up to 30 minutes before the 6:30 p.m. regular session; agenda-item cards before the item is called (consent items when the 2 p.m. work session starts); eComments close when the meeting opens at 2 p.m.",
+    "timeLimitMinutes": 4,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "eComment link next to the meeting listing on the Public Meetings & Agendas calendar, which opens the Granicus portal at denton-tx.granicusideas.com (account required; closes at the 2 p.m. meeting start; comments go straight to council and into the minutes but are not read aloud)",
+    "notes": "Time limits: 4 minutes for Open Microphone and public hearing items, 3 minutes for other agenda items. Council cannot discuss or ask questions about Open Microphone topics. One comment per agenda item and only one method per item. No comments on work session reports or closed meetings. There is no live remote speaking option.",
+    "source": "https://denton-tx.legistar.com/View.ashx?M=A&ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+  },
+  "youthPrograms": [
+    {
+      "name": "Denton Teen Council",
+      "url": "https://www.cityofdenton.com/1032/Denton-Teen-Council",
+      "ages": "Open to all teens who live in the City of Denton or attend Denton ISD (specific age range not stated)",
+      "description": "City-run youth leadership group that learns about local government, commits to service projects, plans events and represents peers, run through Parks and Recreation (contact Jodi McClaren).",
+      "applyWindow": "Applications accepted until all spots are filled; register through the Parks and Recreation catalog link at https://bit.ly/DentonTeenCouncil",
+      "source": "https://www.cityofdenton.com/1032/Denton-Teen-Council"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing on the FY 2026-27 Proposed Budget",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can weigh in on how the city plans to spend money next fiscal year before council adopts the budget.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Public hearing on a proposed property tax increase (proposed rate $0.548485 per $100, not to exceed $0.553485)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "The proposed rate of $0.548485 per $100 is above the no-new-revenue rate ($0.515958) but not above the voter-approval rate ($0.553485), so the city must hold a hearing before voting on it.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Work session on the FY 2026-27 City Manager's Proposed Budget",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "budget-taxes",
+        "governance-elections"
+      ],
+      "summary": "Staff briefs council on the proposed budget and takes direction ahead of adoption.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Citywide Parking Study",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "roads-traffic",
+        "zoning-development"
+      ],
+      "summary": "Council reviews a citywide parking assessment and gives staff direction on parking policy.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Re-implementing ERCOT's Commercial Emergency Response Service program for Denton Municipal Electric",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "utilities-water",
+        "environment"
+      ],
+      "summary": "Council discusses whether the city-owned electric utility should rejoin a state grid program that pays large customers to cut power use in emergencies.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Audit Project 046: City-wide Overtime",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "budget-taxes",
+        "governance-elections"
+      ],
+      "summary": "The internal auditor presents findings on how much overtime city departments use and how it is managed.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Streamlining the City of Denton's boards and commissions processes",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council considers changes to how residents are appointed to and serve on city boards and commissions.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "City Charter amendment regarding qualifications to file for a place on the ballot",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council discusses a possible charter change to the rules for who can run for city office.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "DCA26-0004a: Comprehensive amendment to the Denton Development Code (public hearing)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "A broad update to the city's zoning and development rules (use regulations, fencing, parking layout, small-scale housing design and definitions), recommended 5-0 by the Planning and Zoning Commission, gets a public hearing and vote.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Professional services agreement with DNV Energy USA for electric transmission planning ($2,487,263.73, up to five years)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Denton Municipal Electric would hire a consultant to plan its high-voltage transmission system; the Public Utilities Board recommended approval 6-0.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Agreement with Kimley-Horn & Associates for traffic signal design at US 380 and Ruddell St. and at Eagle Dr. and Welch St. ($164,000)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "roads-traffic"
+      ],
+      "summary": "Council votes on hiring an engineering firm to design safety-program traffic signals at two intersections.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    },
+    {
+      "title": "Services agreement with the Children's Advocacy Center for North Texas ($240,120)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "public-safety",
+        "youth"
+      ],
+      "summary": "The city would fund the nonprofit that provides client and clinical services to child abuse victims and their non-offending family members.",
+      "url": "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified Sept. 10, 2026 against the city council page, the Public Meetings & Agendas page, the adopted 2026 City Council Meeting Schedule PDF (text extracted locally; the fall no-meeting reasons are printed beside each date), the Legistar calendar and the posted Sept. 15 agenda, the Elections page, the DTV page, the Swagit archive and the Granicus eComment portal. The adopted calendar has no Sept. 1 meeting; the next regular meeting after Sept. 10 is Sept. 15. Two-year terms are inferred from the Elections page's staggered term-end years (2026 for at-large seats, 2027 for districts). The council page advertises a GIS 'Find My Council Member' / 'My Neighborhood' tool but publishes no direct link, so findMyDistrictUrl points to the Resident Resources page that hosts it. Population is the Census QuickFacts July 1, 2025 estimate (not re-checked in this pass).",
+  "sources": [
+    "https://www.cityofdenton.com/413/City-Council",
+    "https://www.cityofdenton.com/242/Public-Meetings-Agendas",
+    "https://www.cityofdenton.com/publicmeetings",
+    "https://www.cityofdenton.com/DocumentCenter/View/12791/2026-City-Council-Meeting-Schedule-PDF",
+    "https://denton-tx.legistar.com/Calendar.aspx",
+    "https://denton-tx.legistar.com/MeetingDetail.aspx?ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24",
+    "https://denton-tx.legistar.com/View.ashx?M=A&ID=1356105&GUID=5AFFFBC2-1685-415E-A94A-EB0C09CD9C24",
+    "https://denton-tx.granicusideas.com/meetings",
+    "https://www.cityofdenton.com/421/Elections",
+    "https://www.cityofdenton.com/819/Council-Redistricting",
+    "https://www.cityofdenton.com/DocumentCenter/View/4843/All-City-Council-Voter-Districts-PDF",
+    "https://www.cityofdenton.com/1204/Resident-Resources",
+    "https://www.cityofdenton.com/633/Denton-Television",
+    "https://dentontx.new.swagit.com/views/5",
+    "https://www.cityofdenton.com/1032/Denton-Teen-Council",
+    "https://www.census.gov/quickfacts/fact/table/dentoncitytexas/PST045225",
+    "https://nominatim.openstreetmap.org/search?format=json&q=215+E+McKinney+St,+Denton,+TX+76201"
+  ],
+  "lastVerified": "2026-09-10"
+}

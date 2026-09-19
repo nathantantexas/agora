@@ -1,0 +1,16 @@
+{
+  "name": "@agora/core",
+  "version": "0.1.0",
+  "description": "Shared engine for Agora: meeting schedules, matching, geography, and civics helpers. Zero dependencies, runs in Node and the browser.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./node": "./src/load-node.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test test"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@agora/web",
+  "version": "0.1.0",
+  "description": "Agora web and mobile app (installable PWA): interactive DFW council map, personalized matches, how-to-speak guides, insights, and news.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@agora/core": "0.1.0",
+    "leaflet": "^1.9.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0",
+    "vite-plugin-pwa": "^1.0.0"
+  },
+  "license": "MIT"
+}

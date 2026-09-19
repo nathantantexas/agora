@@ -1,0 +1,281 @@
+{
+  "cityId": "mansfield",
+  "name": "Mansfield",
+  "county": "Tarrant",
+  "populationApprox": 84444,
+  "cityHall": {
+    "name": "Mansfield City Hall (Council Chambers)",
+    "address": "1200 E. Broad Street, Mansfield, TX 76063",
+    "lat": 32.565,
+    "lng": -97.1254
+  },
+  "website": "https://www.mansfieldtexas.gov",
+  "councilPageUrl": "https://www.mansfieldtexas.gov/382/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor (Place 1) + 6 places (Places 2 to 7), all elected at large",
+    "districtCount": 0,
+    "mayorName": "Michael Evans",
+    "termNote": "Each member, including the mayor, is elected citywide to a three-year term; there are no council districts. Council: Place 2 Tamera Bounds, Place 3 Brent Newsom, Place 4 Juan Fresquez, Place 5 Todd Simmons, Place 6 Todd Tonore (Mayor Pro Tem), Place 7 Dr. Jim Vaszauskas."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting (6 p.m. regular business session)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "18:00",
+        "notes": "Second and fourth Mondays; the public business session starts at 6 p.m. or immediately after the executive session. The city calendar and the CivicClerk portal list Sept. 14, Sept. 28, Oct. 12, Nov. 9 and Dec. 14, 2026; no fourth-Monday meetings appear for October, November or December. When a Monday is a holiday the meeting shifts (May 26, 2026 was held on a Tuesday)."
+      },
+      "location": "Council Chambers, Mansfield City Hall, 1200 E. Broad St., Mansfield, TX 76063",
+      "virtualUrl": "https://mansfieldtx.portal.civicclerk.com/",
+      "openToPublicComment": true,
+      "notes": "Citizen Comments comes right after the invocation and pledges at the start of the 6 p.m. session, followed by council and staff comments, consent agenda, old business, public hearings and new business. Streamed live on the CivicClerk portal and cable channels.",
+      "source": "https://www.mansfieldtexas.gov/382/City-Council"
+    },
+    {
+      "type": "work-session",
+      "label": "Council Work Session and Executive Session (same day, before the 6 p.m. session)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "14:00",
+        "notes": "Start time varies by agenda: the Sept. 14, 2026 agenda (and the May 11 meeting) called the meeting to order at 2 p.m., while the May 26 and June 8 meetings started at 3 p.m. The work session is followed by a closed executive session before the council reconvenes at 6 p.m. The calendar describes it as 'consent agenda work sessions and executive session occur prior to 6 p.m.'; check the posted agenda for the exact time."
+      },
+      "location": "Council Chambers, Mansfield City Hall, 1200 E. Broad St., Mansfield, TX 76063",
+      "openToPublicComment": false,
+      "notes": "Posted on the same agenda as the regular meeting. The work session (staff briefings on upcoming consent items and special topics) is open to the public but has no comment period; the executive session is closed.",
+      "source": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-10-26",
+      "status": "recess",
+      "note": "No fourth-Monday meeting appears on the city calendar or the CivicClerk portal for October (only Oct. 12); the calendar's fourth-Monday series ends with Sept. 28. Confirm with the City Secretary (817-276-4203) before planning to attend.",
+      "source": "https://www.mansfieldtexas.gov/common/modules/iCalendar/iCalendar.aspx?catID=24&feed=calendar"
+    },
+    {
+      "date": "2026-11-23",
+      "status": "recess",
+      "note": "Thanksgiving week; the only November council meeting on the city calendar is Monday Nov. 9.",
+      "source": "https://www.mansfieldtexas.gov/common/modules/iCalendar/iCalendar.aspx?catID=24&feed=calendar"
+    },
+    {
+      "date": "2026-12-28",
+      "status": "recess",
+      "note": "Holiday week; the only December council meeting on the city calendar is Monday Dec. 14.",
+      "source": "https://www.mansfieldtexas.gov/common/modules/iCalendar/iCalendar.aspx?catID=24&feed=calendar"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://mansfieldtx.portal.civicclerk.com/",
+    "platform": "CivicClerk",
+    "notes": "CivicClerk (CivicPlus) public portal; meetings.mansfieldtexas.gov and the city's Agenda Center both redirect here. Final agendas and packets post 72 hours before each meeting; each event page has the agenda, packet, minutes and video. As of Sept. 10, 2026 the Sept. 14 agenda is posted and the Sept. 28 and Oct. 12 events exist without agendas yet."
+  },
+  "liveStream": {
+    "url": "https://mansfieldtx.portal.civicclerk.com/",
+    "platform": "CivicClerk",
+    "notes": "CivicClerk media portal (mctv.mansfieldtexas.gov redirects here); meetings also air live on Charter Spectrum channel 190 and AT&T U-verse channel 99."
+  },
+  "publicComment": {
+    "summary": "Fill out the online speaker card by 4 p.m. on the day of the meeting, or pick up a comment card at the Council Chambers entrance and hand it to the Deputy City Secretary by 5:50 p.m.; you then get up to 5 minutes during Citizen Comments at the start of the 6 p.m. session. If you cannot attend, the same online form lets you submit written comments that the Mayor or City Secretary reads into the record.",
+    "howToRegister": "Online: complete the 'City Council Meeting Online Speaker Card' on the Addressing the Council page (name, address, email, phone, meeting date, whether you will attend, whether you support or oppose an agenda item, your comments) by 4 p.m. on meeting day. In person: fill out a comment card at the entrance to the Council Chambers and give it to the Deputy City Secretary by 5:50 p.m.; use a separate card for each public hearing item you want to address.",
+    "registrationUrl": "https://www.mansfieldtexas.gov/450/Addressing-the-Council-During-a-Council-",
+    "deadline": "Online speaker card: 4 p.m. the day of the meeting. In-person comment card: 5:50 p.m., ten minutes before the 6 p.m. session.",
+    "timeLimitMinutes": 5,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online speaker card form on the Addressing the Council page (answer 'No' to 'Will you be present?'); comments are read into the record. City Secretary: susana.marin@mansfieldtexas.gov, 817-276-4203.",
+    "notes": "Citizen Comments is the only chance to speak on non-hearing items; after it closes only public hearing comments are heard. The council cannot respond during comments (Texas Open Meetings Act). Anyone wanting to show a presentation must email a digital copy to the City Secretary at least four days before the meeting. No live remote speaking option is offered.",
+    "source": "https://www.mansfieldtexas.gov/450/Addressing-the-Council-During-a-Council-"
+  },
+  "youthPrograms": [
+    {
+      "name": "Mansfield Youth Council (MYC)",
+      "url": "https://www.mansfieldtexas.gov/1976/Mansfield-Youth-Council-MYC",
+      "ages": "Mansfield residents in grades 9 to 12 with at least a 2.0 GPA",
+      "description": "Group of about 11 to 15 high school students who advise city leaders on youth issues, represent their peers, and plan service projects. Terms run Aug. 1 to July 31; members meet during the first week of each month of the school year at a time set at the August orientation. Applicants complete an application, interview and orientation.",
+      "applyWindow": "Main recruitment each spring for the coming school year; 2026-27 applications are closed, but applications are accepted year-round for future openings",
+      "source": "https://www.mansfieldtexas.gov/1976/Mansfield-Youth-Council-MYC"
+    },
+    {
+      "name": "My Mansfield Mini-Versity",
+      "url": "https://www.mansfieldtexas.gov/2098/My-Mansfield-Mini-Versity",
+      "ages": "Students entering grades 9 to 12 who live in Mansfield or attend Mansfield ISD schools",
+      "description": "Three-day summer teen civic academy (2026 session: July 7 to 9, 8:30 a.m. to 1:30 p.m.) with tours of city facilities such as a fire station and the water treatment plant, plus interactive sessions with city staff on economic development and parks; a feeder for the Mansfield Youth Council.",
+      "applyWindow": "Summer 2026 applications closed; check the program page or call 817-276-4200 for the 2027 window",
+      "source": "https://www.mansfieldtexas.gov/2098/My-Mansfield-Mini-Versity"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Second and final reading: FY 2026-27 city budget (public hearing continuation)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Final vote adopting the city budget for Oct. 1, 2026 through Sept. 30, 2027, with a continued public hearing beforehand.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Second and final reading: 2026 property tax rate of $0.639 per $100 valuation",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Keeps the city tax rate at $0.639, above the no-new-revenue rate of $0.6038. The agenda's taxpayer impact table estimates a bill of about $1,898 on the median homestead at the proposed rate, versus about $1,793 at the no-new-revenue rate (last year's median bill was about $2,121 on a higher median value).",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Public hearing and first reading: zoning change ZC26-001 for 11.71 acres at 500 Seeton Road (townhomes)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "Request by the John R. McAdams Company to rezone a planned development to allow single-family attached townhomes.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Public hearing and first reading: zoning change ZC26-002 for 15.8 acres at 1741 and 1755 E. Broad St. and 101 Carlin Road (commercial and package store)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "Request by Trez Shops at Broad to rezone from planned development and C-2 community business to a planned development for commercial uses including a liquor package store.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Public hearing and first and final reading: ordinance setting speed limits in work zones",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "roads-traffic",
+        "public-safety"
+      ],
+      "summary": "Adds Section 71.05 to the traffic code so the city can lower speed limits in road construction zones.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Old business: Blazing Hospitality variance to alcohol-sale distance rules at 2041 and 2081 E. Broad Street",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "Decision on whether a restaurant development can sell alcohol on-site closer than normally allowed to a school or church.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "New schedule of city fees ordinance",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting (consent)",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Updates the fees the city charges for permits, services and facilities for the new fiscal year.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Walnut Creek Drive water line rehabilitation design contracts ($545,300)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting (consent)",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Hires Egis USA for design and Brittain and Crawford for surveying to plan replacement of the water line along Walnut Creek Drive.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Willowstone Pond and downstream drainage improvements design ($474,000)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting (consent)",
+      "topics": [
+        "environment",
+        "utilities-water"
+      ],
+      "summary": "Design contract to fix flooding and drainage problems at Willowstone Pond and downstream.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Furniture, fixtures and equipment for the new Mansfield City Hall project ($3,846,567)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting (consent)",
+      "topics": [
+        "budget-taxes",
+        "other"
+      ],
+      "summary": "Approves purchases from Furniture Marketing Group, GL Seaman and Tangram to outfit the new City Hall.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Interlocal agreement with Tarrant County for 2021 Transportation Bond funding ($201,930)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting (consent)",
+      "topics": [
+        "roads-traffic",
+        "budget-taxes"
+      ],
+      "summary": "Accepts county bond money toward a Mansfield road project.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Atmos Energy 2026 rate review settlement ordinance",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting (consent)",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Approves the negotiated settlement that sets what Atmos Energy can charge Mansfield natural gas customers this year.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    },
+    {
+      "title": "Board appointments: Park Facilities Development Corporation, Economic Development Corporation, Planning and Zoning Commission, Zoning Board of Adjustment, Historic Landmark Commission, Historic Preservation Advisory Board, Library Advisory Board, Keep Mansfield Beautiful Commission, Construction Codes Board, Public Art Advisory Committee and Animal Shelter Advisory Committee",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "Regular City Council Meeting (new business)",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council fills seats on eleven citizen boards and commissions for the coming term.",
+      "url": "https://mansfieldtx.portal.civicclerk.com/event/949/files"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Verified 2026-09-10 against the council page, the Addressing the Council page, the city iCalendar feed and calendar event page, the CivicClerk portal and API, and the full text of the Sept. 14, 2026 final agenda. An older City Secretary FAQ page (mansfieldtexas.gov/faq.aspx?TID=21) still says the regular session begins at 7 p.m.; the council page, the Addressing the Council page, the calendar and the Sept. 14 agenda all say 6 p.m., so 6 p.m. is used. Agenda items come from the Sept. 14, 2026 final agenda (the next meeting after Sept. 10); the Sept. 28 agenda was not yet posted. The city extends into Johnson and Ellis counties but City Hall and most of the city are in Tarrant County. Population is the Census Bureau July 1, 2025 estimate (2020 Census: 72,602). A 'Council Chat' page (mansfieldtexas.gov/2147/Council-Chat) exists but was not checked, so any informal town hall series is unverified. Coordinates are from OpenStreetMap and Census Bureau geocoding of the City Hall address, which agree to within 100 m.",
+  "sources": [
+    "https://www.mansfieldtexas.gov/382/City-Council",
+    "https://www.mansfieldtexas.gov/450/Addressing-the-Council-During-a-Council-",
+    "https://www.mansfieldtexas.gov/faq.aspx?TID=21",
+    "https://www.mansfieldtexas.gov/calendar.aspx?EID=8371",
+    "https://www.mansfieldtexas.gov/common/modules/iCalendar/iCalendar.aspx?catID=24&feed=calendar",
+    "https://mansfieldtx.portal.civicclerk.com/",
+    "https://mansfieldtx.portal.civicclerk.com/event/949/files",
+    "https://mansfieldtx.api.civicclerk.com/v1/Events/949",
+    "https://mansfieldtx.api.civicclerk.com/v1/Events?$filter=startDateTime%20ge%202026-09-01T00:00:00Z&$orderby=startDateTime",
+    "https://mansfieldtx.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2353,plainText=true)",
+    "https://meetings.mansfieldtexas.gov/",
+    "https://mctv.mansfieldtexas.gov",
+    "https://www.mansfieldtexas.gov/1976/Mansfield-Youth-Council-MYC",
+    "https://www.mansfieldtexas.gov/2098/My-Mansfield-Mini-Versity",
+    "https://www.census.gov/quickfacts/fact/table/eulesscitytexas,bedfordcitytexas,mansfieldcitytexas/PST045225",
+    "https://nominatim.openstreetmap.org/search?format=json&q=1200+E+Broad+St,+Mansfield,+TX+76063",
+    "https://geocoding.geo.census.gov/geocoder/locations/address?street=1200+E+Broad+St&city=Mansfield&state=TX&zip=76063&benchmark=Public_AR_Current&format=json"
+  ],
+  "lastVerified": "2026-09-10"
+}

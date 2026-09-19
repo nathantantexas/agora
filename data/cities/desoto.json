@@ -1,0 +1,289 @@
+{
+  "cityId": "desoto",
+  "name": "DeSoto",
+  "county": "Dallas",
+  "populationApprox": 56211,
+  "cityHall": {
+    "name": "DeSoto City Hall at Town Center (Jim Baugh Government Center), Council Chambers",
+    "address": "211 E. Pleasant Run Road, DeSoto, TX 75115",
+    "lat": 32.604,
+    "lng": -96.8562
+  },
+  "website": "https://www.desototexas.gov/",
+  "councilPageUrl": "https://www.desototexas.gov/173/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "Mayor (Place 1) + 6 council members (Places 2 to 7); every seat is elected at large by place, but each council member (not the Mayor) must live in the district whose number matches their place",
+    "districtCount": 6,
+    "findMyDistrictUrl": "https://www.desototexas.gov/201/Find-Your-Council-Member",
+    "districtMapUrl": "https://desotogishubsite-cityofdesoto.hub.arcgis.com/",
+    "mayorName": "Rachel L. Proctor",
+    "termNote": "Staggered three-year terms, with elections on the May uniform election date. The city Elections page shows the rotation: Places 2 and 4 were on the May 2, 2026 ballot; Places 6 and 7 are up May 1, 2027; the Mayor (Place 1) and Places 3 and 5 are up May 6, 2028."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "durationMinutes": 180,
+        "notes": "The council page says regular sessions are the first and third Tuesdays at 6 p.m.; the city calendar lists them as 6:00 to 9:00 p.m. Council rules set 10:00 p.m. as the standard adjournment hour. An executive session is sometimes called at 5:00 p.m. ahead of the 6:00 p.m. regular session (for example Sept 15, 2026)."
+      },
+      "location": "Council Chambers, Jim Baugh Government Center (City Hall at Town Center), 211 E. Pleasant Run Road, DeSoto, TX 75115",
+      "virtualUrl": "https://www.desototexas.gov/176/DeSoto-TX-TV",
+      "openToPublicComment": true,
+      "notes": "Broadcast live on the city website and on the DeSoto TV app for Roku and Fire TV. Citizens Appearances (non-agenda topics) and speaker cards for agenda items and public hearings are both available at this meeting type. The chambers are wheelchair accessible with accessible parking at the west entrance.",
+      "source": "https://www.desototexas.gov/173/City-Council"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          3
+        ],
+        "time": "18:00",
+        "notes": "The council page states work sessions begin at 6 p.m. on the third Monday of each month. On the city calendar these dates (Sept 21, Oct 19, Nov 16, 2026) appear as all-day 'City Council Special Meeting' placeholders. In September 2026 a work-session-style Special Meeting was actually posted for Monday, Sept 14 at 6:00 p.m., so check the agenda portal for the exact date each month."
+      },
+      "location": "Council Chambers, Jim Baugh Government Center, 211 E. Pleasant Run Road, DeSoto, TX 75115",
+      "virtualUrl": "https://www.desototexas.gov/176/DeSoto-TX-TV",
+      "openToPublicComment": false,
+      "notes": "Open to the public. Under the council rules (Section II.E.12) a resident may only speak at a work session if a councilmember asks the Mayor to recognize them and the Mayor agrees; the Sept 14, 2026 special meeting agenda did print the standard 3-minute speaker rule.",
+      "source": "https://www.desototexas.gov/173/City-Council"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-14",
+      "status": "special",
+      "note": "City Council Special Meeting, 6:00 p.m., Council Chambers, with a work-session agenda: 2026 Curtistine S. McCowan Citizenship Award, Good Neighbor Day proclamation, Community Connect presentation, August 2026 financial report, draft Streambank Erosion Mitigation Program ordinance, Public Utilities Building update, youth sports organization retention, and a proposed Business Registration Program.",
+      "source": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3939"
+    },
+    {
+      "date": "2026-09-21",
+      "status": "special",
+      "note": "Listed on the city calendar as 'City Council Special Meeting' (all-day placeholder in the third-Monday work session slot). No agenda was posted as of Sept 10; confirm the time on the agenda portal.",
+      "source": "https://www.desototexas.gov/Calendar.aspx?EID=1437&month=9&year=2026&day=10&calType=0"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "cancelled",
+      "note": "The first-Tuesday October regular meeting is marked 'City Council Meeting - CANCELLED' on the city calendar; no reason is given. The next regular meeting is Oct 20.",
+      "source": "https://www.desototexas.gov/Calendar.aspx?EID=914&month=10&year=2026&day=10&calType=0"
+    },
+    {
+      "date": "2026-10-19",
+      "status": "special",
+      "note": "City calendar placeholder 'City Council Special Meeting' (all day) in the third-Monday work session slot; confirm on the agenda portal.",
+      "source": "https://www.desototexas.gov/Calendar.aspx?EID=1438&month=10&year=2026&day=10&calType=0"
+    },
+    {
+      "date": "2026-11-16",
+      "status": "special",
+      "note": "City calendar placeholder 'City Council Special Meeting' (all day) in the third-Monday work session slot; confirm on the agenda portal.",
+      "source": "https://www.desototexas.gov/calendar.aspx?view=list&year=2026&month=11&CID=0"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768",
+    "platform": "other",
+    "notes": "Destiny Software AgendaQuick portal (agendas, packets, minutes and Swagit video links). The city's Agendas page at https://www.desototexas.gov/196/Agendas links it as 'Agendas Mobile' (destinyhosted.com/agenda_publish.cfm?id=33768). As of Sept 10, 2026 the portal listed the Sept 1, Sept 14 and Sept 15 meetings; October and November agendas were not yet posted."
+  },
+  "liveStream": {
+    "url": "https://desototx.new.swagit.com/views/default/",
+    "platform": "Swagit",
+    "notes": "The Swagit archive holds City Council, Planning and Zoning and other meeting videos back to 2006, each with a link to its agenda. The player is embedded on the DeSoto TX TV page (https://www.desototexas.gov/176/DeSoto-TX-TV) and meetings are also carried on the DeSoto TV app for Roku and Amazon Fire TV."
+  },
+  "publicComment": {
+    "summary": "Show up before the 6 p.m. start, fill out a comment card at the ambassador table in the Council Chambers, and you can speak for up to 3 minutes during Citizens Appearances about anything not on the agenda. To speak on a specific agenda item or public hearing, turn in a speaker card before that item is introduced.",
+    "howToRegister": "In person only. For non-agenda topics: complete a comment card and submit it to the ambassador table before the meeting starts at 6:00 p.m. (an announcement is made just before the meeting). For agenda items and public hearings: complete a speaker card before the item is introduced. State your name and address for the record when called.",
+    "deadline": "Before the 6:00 p.m. start of the meeting for Citizens Appearances; before the item is introduced for agenda items and public hearings",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No formal written-comment process is published. Contact the Office of the City Secretary (City Secretary Sofine Lewis, saubrey@desototexas.gov, 972-230-9664; the council page lists 972-230-9646 or AThomas@desototexas.gov for accessibility requests).",
+    "notes": "The Mayor may enforce the 3-minute rule and may adjust the per-speaker time, but every speaker gets the same allowance. Comments must be addressed to the whole council, not individual members or staff; the council cannot act on non-agenda topics. Personal attacks, profanity or disruptions can lead to removal for the rest of the session, and signs or banners are not allowed in the chambers. Speakers needing accommodations should contact the City Secretary's office in advance.",
+    "source": "https://www.desototexas.gov/DocumentCenter/View/156/City-Council-Rules--Procedures-Manual-January-2025-PDF"
+  },
+  "youthPrograms": [
+    {
+      "name": "DeSoto Teen Council",
+      "url": "https://www.desototexas.gov/652/Teen-Council",
+      "ages": "Teens who are DeSoto residents (specific age range not stated on the page)",
+      "description": "Parks and Recreation program that gives teens a formal look at municipal operations plus education, wellness, life-skills and career-readiness experiences. General board members attend monthly meetings and help plan youth programs; executive board members hold officer positions and represent the council at city events. Benefits include community service hours (subject to school approval), business etiquette training, internship and employment opportunities, and a letter of recommendation from City Administration.",
+      "applyWindow": "Rolling; apply through the online application linked from the page (no deadline is stated). Contact Sydney Elliott, Administrative Superintendent, 972-230-9651, selliott@desototexas.gov.",
+      "source": "https://www.desototexas.gov/652/Teen-Council"
+    },
+    {
+      "name": "Teen School Year Volunteer Program (DeSoto Public Library)",
+      "url": "https://www.desototexas.gov/608/Teen-School-Year-Volunteer-Program",
+      "ages": "At least 13 years old or entering grades 8 to 12",
+      "description": "Library volunteer program giving teens confidence-building volunteer experience, practical job skills, and customer and public service experience during the school year. Volunteers are expected to be dependable, flexible and self-disciplined. The page still describes the September 2025 to May 2026 program year, so ask the library about the current year.",
+      "applyWindow": "Not stated on the page; contact the DeSoto Public Library, 211 E. Pleasant Run Road, 972-274-2489, actioncenter@desototexas.gov.",
+      "source": "https://www.desototexas.gov/608/Teen-School-Year-Volunteer-Program"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearings on the FY 2027 budget and the FY 2026-2027 tax rate",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can speak before the council votes on next year's city budget and property tax rate.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Adopt the FY 2026-2027 Annual Operating Budget and Capital Improvement Plan",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council takes a record vote on the city's spending plan for Oct 1, 2026 through Sept 30, 2027, including capital projects, and separately ratifies a $3.24 million (5.94 percent) property tax revenue increase, of which about $695,000 comes from new property added to the tax roll.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Levy the 2026 property tax rate of $0.684934 per $100 of value",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Sets the city tax rate at $0.684934 per $100 of taxable value ($0.519931 for operations and $0.165003 for debt), the same total rate as last year but above the no-new-revenue rate, so most homeowners' city tax bills go up.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Ordinances setting new water, sewer and sanitation service fees effective October 1, 2026",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Changes the rates residents pay on their water, sewer and trash bills starting in October.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Ordinance proposing creation of a DeSoto Crime Control and Prevention District",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "public-safety",
+        "budget-taxes"
+      ],
+      "summary": "Starts the process for a special sales-tax-funded district for police and crime prevention and names a temporary board of directors.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Ordinance proposing creation of a Fire Control, Prevention and Emergency Medical Services District",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "public-safety",
+        "health"
+      ],
+      "summary": "Starts the process for a special district to fund fire protection and EMS and appoints temporary directors.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Award $2.89 million bid to FMG Construction Group for Phase 1 of the Nance Farm Cultural Arts Center",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "arts-culture",
+        "parks-recreation"
+      ],
+      "summary": "Approves the builder ($2,888,017) and a total $3.5 million project budget for the first phase of a new cultural arts center at Nance Farm.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Up to $500,000 for new playground equipment at Kiva Park and Murphy Hill Park",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "parks-recreation"
+      ],
+      "summary": "Authorizes a contract with Whirlix Design to buy and install new playgrounds at two neighborhood parks.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "$150,000 contract with Kendig Keast to update the Zoning and Subdivision Ordinances",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "Hires a planning consultant, paid with a Texas General Land Office grant, to rewrite the rules that govern what can be built where in DeSoto.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Public hearings on 2027 assessments for the Candle Meadow and Stillwater Canyon Public Improvement Districts",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular City Council Meeting",
+      "topics": [
+        "budget-taxes",
+        "housing"
+      ],
+      "summary": "Sets next year's special assessment rates and budgets that homeowners in these two neighborhoods pay on top of regular property taxes.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940"
+    },
+    {
+      "title": "Presentation and discussion of a draft Streambank Erosion Mitigation Program for residential properties",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Special Meeting (work session)",
+      "topics": [
+        "environment",
+        "housing"
+      ],
+      "summary": "Council reviews a proposed ordinance for helping homeowners deal with creek-bank erosion on their property.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3939"
+    },
+    {
+      "title": "Update on efforts to support and retain youth sports organizations, and discussion of a proposed Business Registration Program",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Special Meeting (work session)",
+      "topics": [
+        "youth",
+        "parks-recreation",
+        "economic-development"
+      ],
+      "summary": "Staff report on keeping youth sports leagues in DeSoto, followed by discussion of whether the city should require local businesses to register.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3939"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "sources": [
+    "https://www.desototexas.gov/173/City-Council",
+    "https://www.desototexas.gov/DocumentCenter/View/156/City-Council-Rules--Procedures-Manual-January-2025-PDF",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=33768",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3940",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=33768&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=3939",
+    "https://www.desototexas.gov/calendar.aspx?view=list&year=2026&month=9&CID=0",
+    "https://www.desototexas.gov/calendar.aspx?view=list&year=2026&month=10&CID=0",
+    "https://www.desototexas.gov/calendar.aspx?view=list&year=2026&month=11&CID=0",
+    "https://www.desototexas.gov/Calendar.aspx?EID=1437&month=9&year=2026&day=10&calType=0",
+    "https://www.desototexas.gov/Calendar.aspx?EID=914&month=10&year=2026&day=10&calType=0",
+    "https://www.desototexas.gov/Calendar.aspx?EID=1438&month=10&year=2026&day=10&calType=0",
+    "https://www.desototexas.gov/176/DeSoto-TX-TV",
+    "https://desototx.new.swagit.com/views/default/",
+    "https://www.desototexas.gov/196/Agendas",
+    "https://www.desototexas.gov/201/Find-Your-Council-Member",
+    "https://www.desototexas.gov/249/Elections",
+    "https://www.desototexas.gov/175/City-Secretary",
+    "https://www.desototexas.gov/652/Teen-Council",
+    "https://www.desototexas.gov/608/Teen-School-Year-Volunteer-Program",
+    "https://censusreporter.org/profiles/16000US4820092-desoto-tx/",
+    "https://nominatim.openstreetmap.org/search?format=json&q=211+E+Pleasant+Run+Rd,+DeSoto,+TX+75115"
+  ],
+  "notes": "Re-verified Sept 10, 2026 against the council page, the January 2025 Council Rules and Procedures manual (full PDF text), the Sept 14 and Sept 15, 2026 agendas, the city calendar for September through November, the Elections page, the City Secretary page and both youth program pages. The October 20, November 3 and November 17 regular meetings are on the city calendar but their agendas were not yet posted on the Destiny portal as of Sept 10. Population is the ACS 2024 5-year estimate (Census Reporter) and was not re-checked in this pass. Coordinates match the OpenStreetMap geocode of the City Hall address."
+}

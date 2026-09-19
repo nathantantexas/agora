@@ -1,0 +1,267 @@
+{
+  "cityId": "irving",
+  "name": "Irving",
+  "county": "Dallas",
+  "populationApprox": 257076,
+  "cityHall": {
+    "name": "Irving City Hall",
+    "address": "825 W. Irving Blvd., Irving, TX 75060",
+    "lat": 32.81405,
+    "lng": -96.95566
+  },
+  "website": "https://www.irvingtx.gov",
+  "councilPageUrl": "https://irvingtx.gov/mayor-council",
+  "council": {
+    "size": 9,
+    "structure": "Mayor + 8 council members: the Mayor, District 2 and District 8 are elected at large; Districts 1, 3, 4, 5, 6 and 7 are single-member districts",
+    "districtCount": 6,
+    "districtMapUrl": "https://irvingtx.gov/council-district-maps",
+    "findMyDistrictUrl": "https://irvingtx.gov/index.php?section=who-represents-me",
+    "mayorName": "Al Zapanta",
+    "termNote": "Three-year staggered terms. Mayor Al Zapanta was elected in May 2026 (term 2026-2029). Mark Cronenwett (District 5, term 2026-2029) was appointed Mayor Pro Tem in July 2026 and Dennis Webb (District 8 at large, term 2024-2027) is Deputy Mayor Pro Tem. Other members: John Bloch (District 1), David Pfaff (District 2 at large), Abdul Khabeer (District 3), Luis Canosa (District 4), Fahad Ahmed (District 6, unexpired term to 2027) and Adam Muller (District 7)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 4,
+        "time": "19:00",
+        "dates": [
+          "2026-09-10",
+          "2026-09-24",
+          "2026-10-08",
+          "2026-10-29",
+          "2026-11-19",
+          "2026-12-10"
+        ],
+        "notes": "Held on designated Thursdays set by the city's 2026 Council Meeting Schedule (Sept. 10 is the budget adoption meeting). There is no fixed nth-Thursday pattern, and the city says dates and times are subject to change."
+      },
+      "location": "City Hall, First Floor, Council Chambers, 825 W. Irving Blvd., Irving, TX 75060",
+      "virtualUrl": "https://irvingtx.gov/ictn-meetings",
+      "openToPublicComment": true,
+      "notes": "Public Comments (three minutes each, on city matters not on the agenda) come at the end of the meeting after the agenda items. You can also speak on a specific agenda item before or during the council's discussion of it if the presiding officer recognizes you. Sign-up is in person from 6 to 7 p.m. on meeting day.",
+      "source": "https://www.irvingtx.gov/agendas"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 4,
+        "time": "13:00",
+        "dates": [
+          "2026-09-10",
+          "2026-09-24",
+          "2026-10-08",
+          "2026-10-29",
+          "2026-11-19",
+          "2026-12-10"
+        ],
+        "notes": "Same designated Thursdays as the regular meeting. The updated 2026 schedule says to check each agenda for the work session start time; the Aug. 27 and Sept. 10, 2026 work sessions both started at 1 p.m."
+      },
+      "location": "City Hall, First Floor, Council Conference Room, 825 W. Irving Blvd., Irving, TX 75060",
+      "virtualUrl": "https://irvingtx.gov/ictn-meetings",
+      "openToPublicComment": true,
+      "notes": "The first discussion topic on the work session agenda is 'Citizen Comments on Items Listed on the Agenda'. Work sessions also include closed executive sessions (for example, economic development negotiations and a personnel item on Sept. 10).",
+      "source": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Work-Session-Packet_1788893072.pdf"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://www.irvingtx.gov/agendas",
+    "platform": "other",
+    "notes": "City-hosted agenda page (custom CMS) with PDF agendas, long agendas, packets and minutes for each meeting; not Legistar or CivicPlus. Confirmed Sept. 10, 2026: only the Sept. 10 agenda and packet were posted; the Sept. 24 agenda was not yet available."
+  },
+  "liveStream": {
+    "url": "https://www.youtube.com/user/thecityofirving",
+    "platform": "YouTube",
+    "notes": "Live streams are on the city's YouTube channel (https://www.youtube.com/@thecityofirving/streams). Meetings are also available live and on demand on the ICTN Meetings page (https://irvingtx.gov/ictn-meetings, which embeds a Castus video player) and broadcast on ICTN cable: Spectrum channel 95 and Frontier channel 31."
+  },
+  "publicComment": {
+    "summary": "Go to City Hall on meeting day and sign up to speak between 6 and 7 p.m. During Public Comments you get three minutes on any city topic that is not on the agenda, and you can also speak on an agenda item when the presiding officer recognizes you. No slides or video are allowed during Public Comments.",
+    "howToRegister": "In person only: sign up at the City Council Chambers, 825 W. Irving Blvd., between 6 p.m. and 7 p.m. on the day of the meeting. To speak on a specific agenda item, ask to be recognized before or during that item. If you want to show a presentation on an agenda item, email the file to councilpubpres@irvingtx.gov no later than 2 p.m. on the Tuesday before the meeting.",
+    "deadline": "Sign-up closes at 7 p.m. the day of the meeting; presentations are due by 2 p.m. the Tuesday before",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No formal written-comment form was found. Email the Mayor or your council member using the contact links on the Mayor + City Council page (https://irvingtx.gov/mayor-council); the City Secretary's Office routes questions and complaints to the right department and copies the Mayor and Council.",
+    "notes": "Rules quoted from the Sept. 10, 2026 agenda: 'Citizens are invited to speak for three (3) minutes on matters relating to City government and on items not listed on the regular agenda - no audio/visual permitted.' The agendas page adds: 'Registration to speak at a council meeting begins at 6 p.m. and ends at 7 p.m. the day of the meeting.' Accommodation requests go to the City Secretary's Office at 972-721-2493 at least 48 hours ahead. No remote or virtual speaking option is offered.",
+    "source": "https://www.irvingtx.gov/agendas"
+  },
+  "youthPrograms": [
+    {
+      "name": "Irving Youth ACTION Council (IYAC)",
+      "url": "https://irvingtx.gov/teen-programs",
+      "ages": "Middle and high school students (Lively Pointe Youth Center serves ages 12 to 18)",
+      "description": "Student-led group that helps plan teen programs, organizes volunteer projects and represents Irving teens at community events across DFW. Meets at 6 p.m. on the first and third Thursdays of each month; run out of Lively Pointe Youth Center, 909 N. O'Connor Road, (972) 721-8090.",
+      "applyWindow": "Rolling; complete the IYAC application (https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Irving-Youth-Action-Council-Application-PDF_1746333982.pdf) and return it to Lively Pointe",
+      "source": "https://irvingtx.gov/teen-programs"
+    },
+    {
+      "name": "Irving Teen Court (teen volunteers)",
+      "url": "https://irvingtx.gov/teen-court",
+      "ages": "Volunteers must be at least 14 (Irving residency not required); defendants are ages 10 to 18",
+      "description": "City-run alternative justice program held one to two Tuesday evenings a month at 5:30 p.m. on the second floor of the Criminal Justice Center, 305 N. O'Connor Road. Teen volunteers serve as defense attorneys, prosecutors, jurors, bailiffs and clerks for peers' Class C misdemeanor cases; attorneys attend an all-day training held each spring and fall. Volunteer details and the online application are at https://irvingtx.gov/index.php?section=teen-court-volunteers; contact (972) 721-3601.",
+      "applyWindow": "Ongoing; attorney trainings are held twice a year (spring and fall)",
+      "source": "https://irvingtx.gov/index.php?section=teen-court-volunteers"
+    },
+    {
+      "name": "Young Adult Action Council (YAAC) at Irving Public Library",
+      "url": "https://irvingtx.gov/index.php?evtid=412&section=events-teens",
+      "ages": "Grades 9 to 12",
+      "description": "Library-based council where teens earn volunteer hours for school by planning upcoming teen programs; each library location meets once a month and you must submit a completed form to take part. The listing found is for West Irving Library.",
+      "applyWindow": "Ongoing; submit the participation form at the library",
+      "source": "https://irvingtx.gov/index.php?evtid=412&section=events-teens"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Ordinance - Adoption of the 2026-2027 City of Irving Fiscal Year Budget",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council votes on the city budget for October 2026 through September 2027, which raises about $32.3 million (14.38%) more in property taxes than last year's budget.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Ordinance - Setting the 2026 Tax Rate and Levying the Tax",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Keeps the city property tax rate at $0.5891 per $100 of value, the same as last year but above the no-new-revenue rate of $0.513817.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Resolution - Amending the City Council Rules of Procedure (Requested by Mayor Zapanta)",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Creates procedures for City Council town hall meetings, clarifies how committee chair absences are handled, and updates the council's decorum rules in light of recent court decisions.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Resolution - Homeland Security Grant Program agreement for the Police Department's Traffic Camera Project",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Accepts a $43,779 federal grant to buy traffic cameras, video displays and backup power for the police Real Time Crime Center.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Resolution - Interlocal Agreement with Dallas County Health and Human Services for Control of Communicable Disease Services",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "health"
+      ],
+      "summary": "Renews an $81,906 contract with the county for disease-prevention services.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Resolution - SYB Construction proposal for the Skyway Circle South Part 2 Water and Wastewater Improvements Project",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Awards a $1.94 million contract to replace water and sewer lines around Skyway Circle South.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Resolution - Addendum No. 3 with Pape Dawson Engineers for the North Delaware Creek Drainage Improvements Project",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "utilities-water",
+        "environment"
+      ],
+      "summary": "Adds $4.27 million in engineering work for flood-control improvements along North Delaware Creek.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Resolution - Approving the FY 2026-27 Entertainment Center Maintenance and Operations Work Plan and Budget",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "economic-development",
+        "arts-culture"
+      ],
+      "summary": "Approves next year's operating plan and budget for the city's entertainment center district, submitted by Music Factory Portfolio, L.P.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Ordinance - Second Reading: Negotiated Settlement with Atmos Energy Mid-Tex on the 2026 Rate Review Mechanism Filing",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Final vote on a settlement negotiated by a coalition of 182 cities over how much Atmos Energy can raise natural gas rates in 2026.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Ordinance - Public Hearing and Second Reading: Amending Chapter 52 'Water and Sewer Rates'",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Public hearing and final vote on new monthly water and sewer rates for Irving customers.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Ordinance - 2026-194-UDC Amendments to the Unified Development Code Relating to Rooming House and Boarding House",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "Changes the city's zoning rules for rooming houses and boarding houses after complaints about rooming houses operating in single-family homes.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf"
+    },
+    {
+      "title": "Irving Hispanic Chamber of Commerce Contract and Lease Renewal Discussion",
+      "meetingDate": "2026-09-10",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "Council discusses whether to renew the city's small business services contract and building lease with the Irving Hispanic Chamber of Commerce; the current five-year contract runs through Sept. 30, 2027.",
+      "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Work-Session-Packet_1788893072.pdf"
+    }
+  ],
+  "confidence": "high",
+  "sources": [
+    "https://www.irvingtx.gov/agendas",
+    "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/2026-Council-Meeting-Summary-updated_1784230277.pdf",
+    "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/2026-CouncilMeetingCalendar_1770140810.pdf",
+    "https://irvingtx.gov/mayor-council",
+    "https://irvingtx.gov/watch-meetings",
+    "https://irvingtx.gov/ictn-meetings",
+    "https://irvingtx.gov/council-district-maps",
+    "https://irvingtx.gov/index.php?section=who-represents-me",
+    "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Council-Long-agenda_1788465322.pdf",
+    "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Sept-10-Work-Session-Packet_1788893072.pdf",
+    "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/Aug-27-Work-Session-Agenda_1787340373.pdf",
+    "https://irvingtx.gov/teen-programs",
+    "https://irvingtx.gov/teen-court",
+    "https://irvingtx.gov/index.php?section=teen-court-volunteers",
+    "https://irvingtx.gov/index.php?evtid=412&section=events-teens",
+    "https://www.youtube.com/user/thecityofirving"
+  ],
+  "notes": "Verified Sept. 10, 2026 directly against irvingtx.gov pages and PDFs (the site returns 403 to non-browser clients, so a browser user agent was used). The city's domain is irvingtx.gov. The updated 2026 schedule lists six remaining meeting dates (Sept. 10 and 24, Oct. 8 and 29, Nov. 19, Dec. 10), so the recurrence is given as explicit dates rather than an nth-Thursday rule. The council district maps page provides PDF maps for the city and Districts 1, 3, 4, 5, 6 and 7; the who-represents-me page embeds an ArcGIS address lookup. Population is an approximate recent estimate (257,076) that could not be re-checked against Census QuickFacts during this pass; the 2020 census count was about 256,700. Coordinates match the OpenStreetMap point for Irving City Hall.",
+  "lastVerified": "2026-09-10"
+}

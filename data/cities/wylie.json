@@ -1,0 +1,134 @@
+{
+  "cityId": "wylie",
+  "name": "Wylie",
+  "county": "Collin",
+  "populationApprox": 60334,
+  "cityHall": {
+    "name": "Wylie Municipal Complex, Council Chambers (Building 100)",
+    "address": "300 Country Club Road, Building 100, Wylie, TX 75098",
+    "lat": 33.01535,
+    "lng": -96.56936
+  },
+  "website": "https://www.wylietexas.gov/",
+  "councilPageUrl": "https://www.wylietexas.gov/city_government/mayor_and_city_council/index.php",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 numbered places (Place 1 to Place 6), all elected at large by every registered voter in the city",
+    "districtCount": 0,
+    "mayorName": "Matthew Porter",
+    "termNote": "Staggered three-year terms. The council page lists Mayor Matthew Porter (term expires 2029), Mayor Pro Tem Gino Mulliqi (2029), David R. Duke, Place 1 (2028), Dave Strang, Place 2 (2027), Todd Pickens, Place 3 (2028), Scott Williams, Place 4 (2027) and Sid Hoover, Place 5 (2029). Council-manager government: City Manager Brent Parker (972-516-6010, citymgr@WylieTexas.gov); City Secretary Stephanie Storm (972-516-6020, citysec@wylietexas.gov)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting (includes work session)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "18:00",
+        "notes": "Second and fourth Tuesdays at 6 p.m. per the council page, the agendas page and the Sept 8, 2026 agenda. The city's Municode Meetings calendar, checked 2026-09-10, lists Sept 22, Oct 13, Oct 27, Nov 10 and Dec 8, 2026 at 6:00 p.m. and shows no meeting on Nov 24 or Dec 22 (Thanksgiving and Christmas weeks), matching the 2025 pattern of skipping the holiday-week fourth Tuesday."
+      },
+      "location": "Council Chambers, Wylie Municipal Complex, 300 Country Club Road, Building 100, Wylie, TX 75098",
+      "virtualUrl": "https://www.wylietexas.gov/city_government/communication_and_marketing/video_on_demand.php",
+      "openToPublicComment": true,
+      "notes": "Agenda order on Sept 8, 2026: call to order, invocation, presentations, Comments on Non-Agenda Items, consent agenda, regular agenda (public hearings), then a work session item and executive session within the same meeting (the Swagit archive labels each recording 'City Council & Work Session'). The Sept 8 and Aug 25, 2026 meetings each ran about 2 hours 20 minutes. Agendas must be posted at least 72 hours ahead under state law; the Sept 8 agenda was posted Sept 1, while the Sept 22 agenda was not yet on the Municode portal as of Sept 10.",
+      "source": "https://www.wylietexas.gov/city_government/mayor_and_city_council/index.php"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-11-24",
+      "status": "cancelled",
+      "note": "No fourth-Tuesday meeting is posted for Thanksgiving week. The city's Municode Meetings calendar lists only Nov 10 for November 2026, while October shows both Oct 13 and Oct 27.",
+      "source": "https://wylie-tx.municodemeetings.com/calendar?field_microsite_tid_selective=27&month=2026-11"
+    },
+    {
+      "date": "2026-12-22",
+      "status": "cancelled",
+      "note": "No fourth-Tuesday meeting is posted for Christmas week. The city's Municode Meetings calendar lists only Dec 8 for December 2026.",
+      "source": "https://wylie-tx.municodemeetings.com/calendar?field_microsite_tid_selective=27&month=2026-12"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://wylie-tx.municodemeetings.com/",
+    "platform": "other",
+    "notes": "Municode Meetings portal ('City of Wylie Texas Meetings'): agendas, packets, minutes and video links for the council and every board, searchable by date, with an ADA-friendly HTML version of each agenda at meetings.municode.com. Council-only calendar: https://wylie-tx.municodemeetings.com/calendar?field_microsite_tid_selective=27. The city's agendas page (https://www.wylietexas.gov/city_government/boards_and_commissions/city_council2.php) also links a Laserfiche WebLink records archive (https://records.wylietexas.gov/WebLink/Browse.aspx?id=532246) that only works in a normal browser with cookies enabled. Each meeting's agenda packet is also attached to its recording on the Swagit archive at https://wylietx.new.swagit.com/views/528/ (for example https://wylietx.new.swagit.com/videos/400314/agenda for Sept 8, 2026, which redirects to a large PDF)."
+  },
+  "liveStream": {
+    "url": "https://www.wylietexas.gov/city_government/communication_and_marketing/video_on_demand.php",
+    "platform": "Swagit",
+    "notes": "The city's Video On Demand page ('Watch Streaming and Live Meetings') loads its player with JavaScript. The Swagit archive itself is at https://wylietx.new.swagit.com/views/528/ (Watch Live button at https://wylietx.new.swagit.com/views/528/live) and holds council recordings back to 2012 with the agenda packet attached to each one."
+  },
+  "publicComment": {
+    "summary": "Anyone can speak to the Wylie City Council about something not on the agenda during the 'Comments on Non-Agenda Items' part near the start of every regular meeting, but you have to fill out a speaker form before the meeting starts. You get three minutes (six if you are speaking for a group), and the council will listen but cannot discuss or act on your topic that night because state law only lets them act on posted agenda items.",
+    "howToRegister": "Fill out the city's speaker form in person before the meeting is called to order. The agenda states: 'Members of the public must fill out a form prior to the meeting in order to speak.' No online pre-registration was found; questions go to the City Secretary's Office at 972-516-6020 or citysec@wylietexas.gov.",
+    "deadline": "Before the meeting begins (form must be submitted prior to the meeting)",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email the full council at council@WylieTexas.gov or the mayor at mayor@WylieTexas.gov; no dedicated written-comment form was found.",
+    "notes": "Agenda text: 'Council requests that comments be limited to three minutes for an individual, six minutes for a group. In addition, Council is not allowed to converse, deliberate or take action on any matter presented during citizen participation.' Public hearing items have their own comment opportunity when the hearing is opened. No remote-speaking procedure is published. Sign interpretation or other assistance must be requested 48 hours ahead through the City Secretary's Office (972-516-6020); hearing-impaired devices are available from the City Secretary before each meeting.",
+    "source": "https://wylietx.new.swagit.com/videos/400314/agenda"
+  },
+  "youthPrograms": [
+    {
+      "name": "Wylie Teen Court (teen juror volunteers)",
+      "url": "https://www.wylietexas.gov/departments/municipal_court/teen_court.php",
+      "ages": "Jurors: ages 14 to 18 and attending high school; defendants: ages 13 to 17 (some 18-year-olds may be eligible)",
+      "description": "A municipal court program in which teen volunteers serve as jurors for Class C misdemeanor cases involving juvenile defendants. All sessions are Wednesday nights at 6 p.m. at the Municipal Court, 2000 N. Highway 78; jurors arrive by 5:45 p.m. Posted dates run from Aug 12, 2026 through May 5, 2027 (roughly the first Wednesday of each month). Jurors must keep a C average in all classes, have parent consent and stay drug and alcohol free.",
+      "applyWindow": "Ongoing; contact the Juvenile Case Manager (Melissa Davis, 972-429-8085, melissa.davis@wylietexas.gov)",
+      "source": "https://www.wylietexas.gov/departments/municipal_court/teen_court.php"
+    },
+    {
+      "name": "Wylie Junior Police Academy",
+      "url": "https://www.wylietexas.gov/community2/youth_programs/index.php",
+      "ages": "Wylie ISD students entering 8th or 9th grade (just finished 7th or 8th)",
+      "description": "A Wylie Police Department program run by the school resource officers for students who are interested in law enforcement or just curious about the profession.",
+      "applyWindow": "Application dates and session dates are not posted on the program page; contact the Wylie Police Department School Resource Officers Division at 972-442-8171",
+      "source": "https://www.wylietexas.gov/community2/youth_programs/index.php"
+    },
+    {
+      "name": "P.O.L.I.C.E. Club (Practice of Leadership, Integrity and Character Education)",
+      "url": "https://www.wylietexas.gov/community2/youth_programs/index.php",
+      "ages": "Wylie ISD students in grades 9 to 12",
+      "description": "A high-school-level leadership and character club sponsored by the Wylie Police Department's school resource officers.",
+      "source": "https://www.wylietexas.gov/community2/youth_programs/index.php"
+    },
+    {
+      "name": "Wylie Youth Enrichment Program",
+      "url": "https://www.wylietexas.gov/community2/youth_programs/index.php",
+      "ages": "Adolescents; no grade range is posted",
+      "description": "A Wylie Police Department program for adolescents who are at risk or heading down a troubled path. It promotes respect for self and others, tobacco, drug and alcohol awareness, teen pregnancy education and community volunteerism.",
+      "source": "https://www.wylietexas.gov/community2/youth_programs/index.php"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "high",
+  "notes": "Schedule, address, coordinates and public-comment rules were re-confirmed on 2026-09-10 from the council page, the agendas page, the Municode Meetings calendar (populated through December 2026) and the full Sept 8, 2026 agenda packet. The next meeting is Tuesday Sept 22, 2026; its agenda was not yet posted on the Municode portal or the Swagit archive, so agendaItems is empty. The Sept 8 agenda included adoption of the FY2026-27 budget (Ordinance 2026-40), a public hearing and ordinance fixing the tax rate at $0.596554 per $100 (Ordinance 2026-41), a public hearing on rezoning 25.484 acres at 2002 W. FM 544, a work session on rezoning at 1751 McMillen Road, election-services contracts for a Nov 3, 2026 Wylie Special Election, and executive-session items on the City Manager's contract and selecting a search firm for a City Manager search (the City Manager page still lists Brent Parker). No youth advisory council or mayor's youth council was found for Wylie. The population figure is the ACS 2024 5-year estimate as reported by Census Reporter; census.gov QuickFacts returned HTTP 403 in this session, so treat it as approximate.",
+  "sources": [
+    "https://www.wylietexas.gov/city_government/mayor_and_city_council/index.php",
+    "https://www.wylietexas.gov/city_government/boards_and_commissions/city_council2.php",
+    "https://www.wylietexas.gov/city_government/city_manager/index.php",
+    "https://www.wylietexas.gov/city_government/communication_and_marketing/video_on_demand.php",
+    "https://wylie-tx.municodemeetings.com/",
+    "https://wylie-tx.municodemeetings.com/calendar?field_microsite_tid_selective=27",
+    "https://wylie-tx.municodemeetings.com/calendar?field_microsite_tid_selective=27&month=2026-10",
+    "https://wylie-tx.municodemeetings.com/calendar?field_microsite_tid_selective=27&month=2026-11",
+    "https://wylie-tx.municodemeetings.com/calendar?field_microsite_tid_selective=27&month=2026-12",
+    "https://wylie-tx.municodemeetings.com/bc-citycouncil/page/city-council-regular-meeting-120",
+    "https://meetings.municode.com/adaHtmlDocument/index?cc=WYLIETX&me=fc06c50945d84aaba0fd98fd33a065ae&ip=False",
+    "https://wylietx.new.swagit.com/views/528/",
+    "https://wylietx.new.swagit.com/views/528/live",
+    "https://wylietx.new.swagit.com/videos/400314",
+    "https://wylietx.new.swagit.com/videos/400314/agenda",
+    "https://records.wylietexas.gov/WebLink/Browse.aspx?id=532246",
+    "https://www.wylietexas.gov/departments/municipal_court/teen_court.php",
+    "https://www.wylietexas.gov/community2/youth_programs/index.php",
+    "https://censusreporter.org/profiles/16000US4880356-wylie-tx/",
+    "https://nominatim.openstreetmap.org/search?format=json&q=300+Country+Club+Road+Wylie+TX+75098"
+  ],
+  "lastVerified": "2026-09-10"
+}

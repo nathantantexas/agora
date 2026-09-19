@@ -1,0 +1,297 @@
+{
+  "cityId": "mckinney",
+  "name": "McKinney",
+  "county": "Collin",
+  "populationApprox": 237130,
+  "cityHall": {
+    "name": "McKinney City Hall, Council Chambers",
+    "address": "401 E. Virginia St., McKinney, TX 75069",
+    "lat": 33.198057,
+    "lng": -96.610596
+  },
+  "website": "https://www.mckinneytexas.org/",
+  "councilPageUrl": "https://www.mckinneytexas.org/138/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "Mayor at large + 2 at-large council members + 4 single-member districts",
+    "districtCount": 4,
+    "districtMapUrl": "https://experience.arcgis.com/experience/37f8139ce1844150865aed119c762f6a",
+    "findMyDistrictUrl": "https://experience.arcgis.com/experience/37f8139ce1844150865aed119c762f6a",
+    "mayorName": "Bill Cox",
+    "termNote": "Four-year terms. Mayor Pro Tem Rick Franklin (District 4); Justin Beller (District 1), Patrick Cloutier (District 2), Gere Feltus (District 3), Ernest Lynch (At Large 1), Michael Jones (At Large 2). Next city election May 1, 2027 for District 2, District 4 and At Large 2."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "notes": "First and third Tuesdays at 6 p.m. per the adopted 2026 schedule (updated June 15, 2026). The October meeting moves to Monday, Oct. 5, 2026 because National Night Out is Tuesday, Oct. 6."
+      },
+      "location": "Council Chambers, McKinney City Hall, 401 E. Virginia St., McKinney, TX 75069",
+      "virtualUrl": "https://mckinneytx.new.swagit.com/views/130",
+      "openToPublicComment": true,
+      "notes": "Fall 2026 regular meetings: Sept. 15, Oct. 5 (Monday), Oct. 20, Nov. 3, Nov. 17, Dec. 1, Dec. 15. Public comments on non-hearing agenda items are taken near the start (Request to Speak card to the City Secretary by 5:45 p.m., 2 minutes per speaker per item), public hearing speakers are called when the hearing opens, and comments on non-agenda matters are listed after the regular agenda. Agendas post at least three business days ahead on Legistar.",
+      "source": "https://www.mckinneytexas.org/1168/Council-Meetings"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "15:00",
+        "notes": "3 p.m. on regular-meeting days (also Monday, Oct. 5, 2026). Special-purpose meetings such as TIRZ boards or the McKinney Urban Transit District are sometimes slotted between the work session and the 6 p.m. regular meeting."
+      },
+      "location": "Council Chambers, McKinney City Hall, 401 E. Virginia St., McKinney, TX 75069",
+      "virtualUrl": "https://mckinneytx.new.swagit.com/views/130",
+      "openToPublicComment": true,
+      "notes": "Public comment is limited to items on the work session agenda: submit a Request to Speak card to the City Secretary before the meeting; 2 minutes per speaker per item.",
+      "source": "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF"
+    },
+    {
+      "type": "work-session",
+      "label": "Fourth-Tuesday Work Session (as needed)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          4
+        ],
+        "time": "15:00",
+        "notes": "Scheduled as needed. On the 2026 schedule: Sept. 22 (work session only) and Oct. 27 (work session at 3 p.m. plus a 4 p.m. joint meeting with the McKinney Economic Development Corporation). No fourth-Tuesday sessions are listed for November or December 2026."
+      },
+      "location": "Council Chambers, McKinney City Hall, 401 E. Virginia St., McKinney, TX 75069",
+      "virtualUrl": "https://mckinneytx.new.swagit.com/views/130",
+      "openToPublicComment": true,
+      "notes": "Comment only on posted agenda items, 2 minutes per speaker per item via Request to Speak card.",
+      "source": "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-22",
+      "status": "special",
+      "note": "Work session only at 3 p.m. (no 6 p.m. regular meeting).",
+      "source": "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "rescheduled",
+      "note": "The first-Tuesday meeting is moved to Monday, Oct. 5, 2026 (3 p.m. work session, 6 p.m. regular meeting) because National Night Out is Tuesday, Oct. 6.",
+      "source": "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF"
+    },
+    {
+      "date": "2026-10-05",
+      "status": "special",
+      "note": "Monday meeting date: 3 p.m. work session and 6 p.m. regular meeting held in place of Tuesday, Oct. 6.",
+      "source": "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF"
+    },
+    {
+      "date": "2026-10-27",
+      "status": "special",
+      "note": "3 p.m. work session followed by a 4 p.m. joint meeting with the McKinney Economic Development Corporation; no regular meeting.",
+      "source": "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "special",
+      "note": "Regular meeting is still scheduled on Election Day (3 p.m. work session, 6 p.m. regular meeting).",
+      "source": "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://mckinney.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Agendas post at least three business days before each meeting; sign up for NotifyMe email alerts at https://www.mckinneytexas.org/list.aspx. As of Sept. 10, 2026 only the Sept. 1 and Sept. 15 meetings were listed for the fall. Legistar minutes were temporarily unavailable for system maintenance; the Swagit archive also links minutes."
+  },
+  "liveStream": {
+    "url": "https://mckinneytx.new.swagit.com/views/130",
+    "platform": "Swagit",
+    "notes": "Every 2026 agenda says the meeting is streamed live at this Swagit page, which also holds the archive (2006 to present) with agenda and minutes links. The city's YouTube channel is https://www.youtube.com/channel/UCJwpwNycBw24-d7bOgf7GcA."
+  },
+  "publicComment": {
+    "summary": "Fill out a 'Request to Speak' card (print it from the city website ahead of time or pick one up at City Hall) and hand it to the City Secretary before the meeting; for agenda items at the 6 p.m. regular meeting the card must be in by 5:45 p.m. You get 2 minutes per agenda item, public hearing speakers are called when the hearing opens, and there is a public comments period for topics not on the agenda (the Mayor decides whether that comes at the start or the end of the meeting). Written comments can be sent through the online Citizen Comments form, but only in-person comments become part of the meeting record.",
+    "howToRegister": "1) Print and fill out the Request to Speak form (https://www.mckinneytexas.org/DocumentCenter/View/28/Speaker-Request-Form, also reachable at mckinneytexas.org/SpeakerRequest) or pick one up at the Council Chambers, 401 E. Virginia St. Do not email the form. 2) Give it to the City Secretary before the meeting begins; for agenda items at the 6 p.m. regular meeting the deadline is 5:45 p.m., and cards turned in after the meeting starts go in the record but you will not be called. 3) When the Mayor calls you, go to the speaker's stand, state your name and address, and address the council as a whole; for public hearing items you are recognized when the hearing is opened. 4) If you want to hand out materials, deliver 12 copies to the City Secretary by noon the day before. 5) For written input, use the online Citizen Comments form (limited to 1,500 characters; delivered to council but not entered in the meeting record) or mail City Council, P.O. Box 517, McKinney, TX 75070.",
+    "registrationUrl": "https://www.mckinneytexas.org/3310/Public-Meeting-Guidelines",
+    "deadline": "5:45 p.m. on meeting day for agenda items at the 6 p.m. regular meeting; before the meeting begins for work sessions and non-agenda comments",
+    "timeLimitMinutes": 2,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online Citizen Comments form (https://www.mckinneytexas.org/FormCenter/Boards-Commissions-34/Citizen-Comments-220), phone 972-547-7501, or mail to City Council, P.O. Box 517, McKinney, TX 75070. Written comments go to council members but are not read into the record.",
+    "notes": "The 2026 agendas set a limit of 2 minutes per speaker per agenda item, while the city's Public Meeting Guidelines page and the Request to Speak form say the time is generally up to 3 minutes; in both cases the Mayor may reduce it uniformly when many people sign up, and everyone gets the same amount of time. Council cannot act on non-agenda comments but may state facts, ask for a future agenda item or refer the topic to staff. Comments must be delivered in person to be part of the meeting record. ADA accommodations: contact-adacompliance@mckinneytexas.org at least 48 hours ahead.",
+    "source": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+  },
+  "youthPrograms": [
+    {
+      "name": "McKinney Tech Data Youth Council",
+      "url": "https://www.mckinneytexas.org/1827/McKinney-Tech-Data-Youth-Council",
+      "ages": "Students entering grades 10-12 who live in McKinney or attend a McKinney-area school",
+      "description": "Tech-savvy high school students work with city staff over a three-month term to build digital tools for residents; biweekly meetings at City Hall or virtually; parental consent required for members under 18.",
+      "applyWindow": "The page still shows the last cycle (applications Nov. 17 to Dec. 19, 2025 for a January to March 2026 term) and says the current application window is closed; watch the page for the next cohort.",
+      "source": "https://www.mckinneytexas.org/3425/Participate"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing on a Specific Use Permit for fuel sales (7-Eleven) at the northwest corner of Bloomdale Road and Hardin Boulevard",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "Council will hear from the public and vote on whether a 7-Eleven can sell gas at this corner. (A second 7-Eleven fuel permit at Wilmeth Road and Taylor-Burk Drive is on the same agenda with a request to be tabled.)",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Public hearing to rezone property at the northwest corner of Redbud Boulevard and West White Avenue from Office to Government Complex district",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "A rezoning that would allow city government facilities on land near Redbud Boulevard and West White Avenue.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Public hearing to rezone land on Old Mill Road near Airport Drive from Agriculture to Light Industrial district",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "Would allow light industrial development on farmland south of Harry McKillop Boulevard near the airport.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Public hearing on Unified Development Code amendments capping fees in lieu of parkland dedication for infill homes in the Historic Neighborhood Improvement Zone",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "parks-recreation",
+        "housing",
+        "zoning-development"
+      ],
+      "summary": "Would limit the park fee charged to builders of new homes in McKinney's historic neighborhoods.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Resolution supporting the McKinney Housing Finance Corporation partnership for the Torrington Terry Apartments (Jefferson Terry Phase 2)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "housing"
+      ],
+      "summary": "Council support for a new apartment development built with the city's housing finance corporation.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Professional services agreement with Parkhill for architectural and engineering design of the North Recreation Center (North APEX)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "parks-recreation"
+      ],
+      "summary": "Hires the design team for a new recreation center in north McKinney.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Ordinance establishing new rates and charges at McKinney National Airport",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "transit",
+        "budget-taxes"
+      ],
+      "summary": "Updates the fee schedule for using the city-owned airport as it prepares for commercial service.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Construction contract with G2 General Contractors for the McKinney Airport Rescue and Fire Fighters (ARFF) facility, plus a budget amendment to fund it",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "public-safety",
+        "transit"
+      ],
+      "summary": "Approves building a fire-rescue station at the airport and moves money in the budget to pay for it.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Resolutions adopting the Fiscal Year 2026-2027 Financial Policies and Investment Policy",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Annual adoption of the rules that govern how the city manages and invests its money.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Annual cost adjustments for recycling processing (Circular Services) and organic waste processing (Living Earth)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "environment",
+        "utilities-water"
+      ],
+      "summary": "Inflation-based price increases for the companies that process McKinney's recycling and yard waste.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Lease with the U.S. General Services Administration on behalf of the TSA for screening-support space at McKinney National Airport",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "transit",
+        "economic-development"
+      ],
+      "summary": "Provides space for federal security screening staff at the airport ahead of passenger flights.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861"
+    },
+    {
+      "title": "Consider and discuss vape shop regulations",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Work Session (3 p.m.)",
+      "topics": [
+        "health",
+        "zoning-development"
+      ],
+      "summary": "Council discussion of possible new rules on where and how vape shops can operate in McKinney.",
+      "url": "https://mckinney.legistar.com/View.ashx?M=A&ID=1440603&GUID=7EAEFA9A-5EEC-43CC-902E-236F0E245DC4"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "notes": "All schedule, roster, public comment and agenda facts were confirmed on Sept. 10, 2026 from the city's Council Meetings page, the 2026 meeting schedule PDF (updated June 15, 2026), the Council Members and Elections pages, the Public Meeting Guidelines page, the Request to Speak form, and the Sept. 15 Legistar agendas. Council meets at the new City Hall at 401 E. Virginia St. Population 237,130 is the city's Jan. 1, 2026 estimate from its Demographics page. Legistar had not yet posted October meetings as of Sept. 10. No city-run teen court or mayor's youth council was found; the Collin County Teen Court is a county program.",
+  "sources": [
+    "https://www.mckinneytexas.org/138/City-Council",
+    "https://www.mckinneytexas.org/1168/Council-Meetings",
+    "https://www.mckinneytexas.org/1167/Council-Members",
+    "https://www.mckinneytexas.org/139/Elections",
+    "https://www.mckinneytexas.org/FAQ.aspx?QID=1135",
+    "https://www.mckinneytexas.org/faq.aspx?qid=464",
+    "https://www.mckinneytexas.org/3310/Public-Meeting-Guidelines",
+    "https://www.mckinneytexas.org/DocumentCenter/View/28/Speaker-Request-Form",
+    "https://www.mckinneytexas.org/DocumentCenter/View/38961/2026-Proposed-Council-Meeting-Dates---PDF",
+    "https://mckinney.legistar.com/Calendar.aspx",
+    "https://mckinney.legistar.com/View.ashx?M=A&ID=1440602&GUID=812956D0-8766-4873-9222-AA3B80459861",
+    "https://mckinney.legistar.com/View.ashx?M=A&ID=1440603&GUID=7EAEFA9A-5EEC-43CC-902E-236F0E245DC4",
+    "https://www.mckinneytexas.org/FormCenter/Boards-Commissions-34/Citizen-Comments-220",
+    "https://mckinneytx.new.swagit.com/views/130/",
+    "https://www.mckinneytexas.org/294/Demographics-Census-Reports",
+    "https://www.mckinneytexas.org/3425/Participate",
+    "https://www.mckinneytexas.org/1827/McKinney-Tech-Data-Youth-Council",
+    "https://nominatim.openstreetmap.org/search?q=401+E+Virginia+St+McKinney+TX+75069&format=json"
+  ]
+}

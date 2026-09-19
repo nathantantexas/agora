@@ -1,0 +1,143 @@
+{
+  "cityId": "mesquite",
+  "name": "Mesquite",
+  "county": "Dallas",
+  "populationApprox": 158412,
+  "cityHall": {
+    "name": "Mesquite City Hall, City Council Chamber",
+    "address": "757 N. Galloway Ave., Mesquite, TX 75149",
+    "lat": 32.7739,
+    "lng": -96.599
+  },
+  "website": "https://www.cityofmesquite.com/",
+  "councilPageUrl": "https://www.cityofmesquite.com/131/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor elected at large + 6 district seats (Districts 1 to 6) with district residency requirements",
+    "districtCount": 6,
+    "districtMapUrl": "https://gisservices.cityofmesquite.com/portal/apps/webappviewer/index.html?id=6b5f67f917e04201b62b559fe8bff1b9",
+    "findMyDistrictUrl": "https://gisservices.cityofmesquite.com/portal/apps/webappviewer/index.html?id=6b5f67f917e04201b62b559fe8bff1b9",
+    "mayorName": "Daniel Alemán, Jr.",
+    "termNote": "Two-year terms for the mayor and all six council members. Current members per the council page: Jeff Casper (District 1), Kenny Green (District 2), Elizabeth Rodriguez-Ross (District 3), Andrew Hubacek (District 4), B.W. Smith (District 5), Brandon Murden (District 6). The district map linked from the council page is an ArcGIS web app that needs a current browser."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "notes": "First and third Mondays at 7 p.m. If a holiday falls on the Monday the meeting moves to Tuesday of the same week (Sept 8, 2026 followed Labor Day). The city's council calendar feed, checked 2026-09-10, lists Sept 21, Oct 5, Oct 19, Nov 2, Nov 16, Dec 7 and Dec 21, 2026, all at 7:00 PM in the Council Chamber."
+      },
+      "location": "City Council Chamber, City Hall, 757 N. Galloway Ave., Mesquite, TX 75149",
+      "virtualUrl": "https://www.cityofmesquite.com/143/Mesquite-Government-TV",
+      "openToPublicComment": true,
+      "notes": "Citizens Forum (non-agenda topics, up to 10 speakers) and Citizens Comments (agenda items) both come near the start after the invocation, pledge and special announcements; on Sept 8, 2026 the budget and tax-rate public hearings were placed ahead of them. Recent meetings on the Swagit archive ran from about 1.5 to 4.5 hours. Agendas are posted at least 72 hours ahead; residents can get email or text alerts for new council agendas and calendar events through the city's Notify Me page (https://www.cityofmesquite.com/list.aspx).",
+      "source": "https://www.cityofmesquite.com/1541/City-Council-Meetings"
+    },
+    {
+      "type": "briefing",
+      "label": "City Council Pre-Meeting (agenda review and staff presentations)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "17:00",
+        "notes": "Held before each regular meeting on the same day; the start time varies by agenda (5:00 p.m. on Aug 17, 2026 and 5:15 p.m. on Sept 8, 2026), so check the posted agenda. An executive session in the Council Conference Room is posted for the same time, and some agendas add a City Council/Staff Work Session in the Council Chamber at 6:00 p.m. (Aug 17, 2026)."
+      },
+      "location": "Training Rooms A & B, City Hall, 757 N. Galloway Ave., Mesquite, TX 75149",
+      "openToPublicComment": false,
+      "notes": "Open to the public and press but no public comment period. Staff presentations not finished before 7 p.m. may be continued in the Council Chamber after the regular meeting.",
+      "source": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09082026-2266"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-15",
+      "status": "special",
+      "note": "Town Hall Meeting on the Comprehensive Plan and Strategic Plan, Tuesday Sept 15, 2026, 6:30 to 7:30 p.m., City Hall Training Rooms A & B; a quorum of the City Council may be present.",
+      "source": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09152026-2272"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://www.cityofmesquite.com/AgendaCenter/City-Council-1",
+    "platform": "CivicPlus AgendaCenter",
+    "notes": "Agenda PDFs, action agendas and minutes are posted in the CivicPlus Agenda Center; video links from each listing go to the Swagit archive. As of Sept 10, 2026 the newest listing was the Sept 8 meeting. Council meeting calendar feed: https://www.cityofmesquite.com/calendar.aspx?CID=31"
+  },
+  "liveStream": {
+    "url": "https://www.cityofmesquite.com/143/Mesquite-Government-TV",
+    "platform": "Swagit",
+    "notes": "The Mesquite Government TV page loads its player with JavaScript; the Swagit archive itself is at https://mesquitetx.new.swagit.com/views/606 with a Watch Live button and council recordings back to 2011. Meetings also air on Spectrum digital channel 16 (15.1 or 15.2 on newer TVs with a QAM tuner) and AT&T U-verse channel 99.",
+    "source": "https://www.cityofmesquite.com/143/Mesquite-Government-TV"
+  },
+  "publicComment": {
+    "summary": "At each regular Mesquite council meeting, up to 10 people can speak for three minutes each during Citizens Forum about anything not on the agenda, and anyone can speak for three minutes about an agenda item during Citizens Comments (save public-hearing items for the hearing itself). Fill out a registration card at the Council Chamber entrance and hand it to the City Secretary before the meeting, or pre-register by emailing your name, address and topic to sland@cityofmesquite.com by 3 p.m. on meeting day.",
+    "howToRegister": "Option 1: pick up a registration card at the entrance to the City Council Chamber and give it to the City Secretary before the meeting starts. Option 2: pre-register by emailing your name, address and the subject you want to discuss to the City Secretary at sland@cityofmesquite.com by 3:00 p.m. on the day of the meeting. Questions: City Secretary's Office, 972-216-6244.",
+    "deadline": "3:00 p.m. on the day of the meeting for email pre-registration; otherwise turn in a registration card before the meeting begins",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Email the City Secretary at sland@cityofmesquite.com; the registration card can also be used to record support or opposition on an item without speaking. No dedicated written-comment form was found.",
+    "notes": "Citizens Forum is first come, first served, capped at 10 speakers, and excludes personnel matters, litigation and real-estate topics; speakers using a translator get six minutes. The council cannot act on Citizens Forum topics until they are posted on a future agenda. At public hearings, individuals get three minutes, organized groups 15 minutes, and applicants 15 minutes plus five for rebuttal. To ask for an item to be placed on a future agenda, send a written request to the City Secretary by noon on the Monday before the meeting. No remote-speaking option is published. Sign interpretation must be requested 48 hours ahead (972-216-6244 or TDD 1-800-735-2989).",
+    "source": "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09082026-2266"
+  },
+  "youthPrograms": [
+    {
+      "name": "Mesquite Youth Council",
+      "url": "https://www.cityofmesquite.com/4031/Youth-Council",
+      "ages": "Rising 9th to 12th graders (public, private or homeschool) living inside Mesquite city limits",
+      "description": "A city-run council of high school students that promotes youth resources, builds leadership skills, learns how city government works and addresses challenges facing their peers. General body meetings are August through May on the second Monday of each month from 6 to 8 p.m., with team-building sessions in June and July. Run by the Community Services Department, 1616 N. Galloway Ave., 972-216-6424.",
+      "applyWindow": "Applications for 2027-28 open in March 2027, with the application and selection timeline posted in January 2027. The usual cycle is: applications open and close in March, interviews and decisions in April, waivers due in May, first meeting in June. Applications for Summer 2026 are closed.",
+      "source": "https://www.cityofmesquite.com/4082/Youth-Council-Application"
+    },
+    {
+      "name": "Mesquite Youth Advisory Board",
+      "url": "https://www.cityofmesquite.com/4083/Youth-Advisory-Board",
+      "ages": "Adult board (school district staff, business community and residents); positions 6 to 11 require Mesquite residency",
+      "description": "An 11-member board created by the City Council to advise on Mesquite Youth Council initiatives and other youth programming: three MISD seats, two business-community seats and six resident seats. Meets at 5:30 p.m. on the second Tuesday every other month starting in January at the Community Services Building, 1616 N. Galloway Ave. Position 5 (business community) is currently vacant. Staff contact: Anthony Cao, Director of Housing and Community Services, 972-216-6427.",
+      "applyWindow": "Apply now through the city's online boards application or the City Secretary's Office, 972-216-6244",
+      "source": "https://www.cityofmesquite.com/4083/Youth-Advisory-Board"
+    },
+    {
+      "name": "Summer Youth Internship Program",
+      "url": "https://www.cityofmesquite.com/3937/Youth-Services",
+      "ages": "Teens ages 16 to 18",
+      "description": "Places Mesquite teens in paid summer internships ($13 per hour) to build college and career skills; finishers get a letter of recommendation, a certificate of completion and a City of Mesquite leadership recognition. Run by Youth Services (Sheridan Hodges, youthservices@cityofmesquite.com, 972-329-8738).",
+      "applyWindow": "Applications are closed for the 2026-27 school year; the 2026 cycle took applications March 1 to 31, so watch the Youth Services page for the next window",
+      "source": "https://www.cityofmesquite.com/m/newsflash/home/detail/2516"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "high",
+  "notes": "Schedule (confirmed through Dec 21, 2026 via the city's council calendar feed), address, coordinates and public-comment rules were re-confirmed on 2026-09-10 from official pages, the Sept 8 and Aug 17, 2026 agendas, and the city's Council Meeting Information and Guidelines document. The next regular meeting is Monday Sept 21, 2026; its agenda was not yet posted in the Agenda Center, so agendaItems is empty. The most recent meeting (Tuesday Sept 8, 2026, shifted for Labor Day) had on its agenda adoption of the FY2026-27 budget, an ordinance levying a tax rate of $0.654018 per $100, and an ordinance determining the city's population to be 158,412 as of Oct 1, 2026, which is the population figure used here; the vote outcomes were not checked. Parts of Mesquite extend into Kaufman County. No teen court was found; the city's civic youth programs are the Youth Council and its adult Youth Advisory Board.",
+  "sources": [
+    "https://www.cityofmesquite.com/131/City-Council",
+    "https://www.cityofmesquite.com/1541/City-Council-Meetings",
+    "https://www.cityofmesquite.com/3873/Council-Information",
+    "https://cityofmesquite.com/DocumentCenter/View/3834/City-Council-Meeting-Information-and-Guidelines",
+    "https://www.cityofmesquite.com/AgendaCenter/City-Council-1",
+    "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09082026-2266",
+    "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_08172026-2253",
+    "https://www.cityofmesquite.com/AgendaCenter/ViewFile/Agenda/_09152026-2272",
+    "https://www.cityofmesquite.com/143/Mesquite-Government-TV",
+    "https://mesquitetx.new.swagit.com/views/606",
+    "https://www.cityofmesquite.com/list.aspx",
+    "https://www.cityofmesquite.com/common/modules/iCalendar/iCalendar.aspx?catID=31&feed=calendar",
+    "https://www.cityofmesquite.com/calendar.aspx?CID=31",
+    "https://www.cityofmesquite.com/4031/Youth-Council",
+    "https://www.cityofmesquite.com/4082/Youth-Council-Application",
+    "https://www.cityofmesquite.com/4083/Youth-Advisory-Board",
+    "https://www.cityofmesquite.com/3937/Youth-Services",
+    "https://www.cityofmesquite.com/m/newsflash/home/detail/2516",
+    "https://gisservices.cityofmesquite.com/portal/apps/webappviewer/index.html?id=6b5f67f917e04201b62b559fe8bff1b9",
+    "https://nominatim.openstreetmap.org/search?format=json&q=757+N+Galloway+Ave+Mesquite+TX+75149"
+  ],
+  "lastVerified": "2026-09-10"
+}

@@ -1,0 +1,224 @@
+{
+  "cityId": "little-elm",
+  "name": "Little Elm",
+  "county": "Denton",
+  "populationApprox": 55357,
+  "cityHall": {
+    "name": "Little Elm Town Hall (Council Chambers)",
+    "address": "100 W. Eldorado Parkway, Little Elm, TX 75068",
+    "lat": 33.15784,
+    "lng": -96.93992
+  },
+  "website": "https://www.littleelm.gov",
+  "councilPageUrl": "https://www.littleelm.gov/525/Mayors-Welcome-and-Town-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor at large + Places 1 and 6 at large + Places 2 to 5 elected from single-member districts (Districts 2, 3, 4, 5)",
+    "districtCount": 4,
+    "districtMapUrl": "https://www.littleelm.gov/597/Town-Council-District-Map",
+    "mayorName": "Curtis J. Cornelious",
+    "termNote": "Three-year terms, limited to three consecutive terms according to the town's council FAQ. Elections are held annually on the first Saturday in May; the next is May 1, 2027, when the Mayor's and Place 3 (District 3) seats expire. Places 1, 2 and 4 expire in 2028; Places 5 and 6 in 2029."
+  },
+  "meetings": [
+    {
+      "type": "work-session",
+      "label": "Council Workshop",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "notes": "Opens the evening at 6 p.m.; the Regular Meeting is called to order when the workshop ends."
+      },
+      "location": "Council Chambers, Little Elm Town Hall, 100 W. Eldorado Parkway, Little Elm, TX 75068",
+      "virtualUrl": "https://littleelmtx.new.swagit.com/views/641/live",
+      "openToPublicComment": false,
+      "notes": "Presentation and discussion items only (for example, the Sept 15, 2026 workshop covers scooter and e-bike regulations). Public comments are taken in the Regular Meeting that follows.",
+      "source": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "type": "regular",
+      "label": "Regular Town Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "notes": "Listed at 6 p.m.; the regular session is called to order after the 6 p.m. workshop, so the Public Comments item usually comes somewhat after 6 p.m."
+      },
+      "location": "Council Chambers, Little Elm Town Hall, 100 W. Eldorado Parkway, Little Elm, TX 75068",
+      "virtualUrl": "https://littleelmtx.new.swagit.com/views/641/live",
+      "openToPublicComment": true,
+      "notes": "Public Comments (3 minutes per person, any topic) is item 3 on the regular agenda, followed by the consent agenda, public hearings and regular items, and executive session. The town FAQ says special meetings and workshops can be called at any time.",
+      "source": "https://www.littleelm.gov/m/faq?cat=28"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885",
+    "platform": "other",
+    "notes": "Destiny Software AgendaQuick portal, embedded on https://www.littleelm.gov/1258/Agendas-Minutes-Videos. Agendas are certified as posted on the town website before 5 p.m. about six days ahead (the Sept 15, 2026 agenda was posted Sept 9). Each agenda offers a PDF packet download."
+  },
+  "liveStream": {
+    "url": "https://littleelmtx.new.swagit.com/views/641/live",
+    "platform": "Swagit",
+    "notes": "Swagit player embedded on the Agendas, Minutes and Videos page; archived council videos at https://littleelmtx.new.swagit.com/views/641/town-council and on the Town's YouTube channel https://www.youtube.com/channel/UCUTeecSbIuSrwM1qd7IbXiQ."
+  },
+  "publicComment": {
+    "summary": "Come to Little Elm Town Hall on the first or third Tuesday by 6 p.m., and when the Mayor calls the Public Comments item you can talk to the Council for up to 3 minutes about anything, whether it is on the agenda or not. Zoning items with a public hearing also take comments when the hearing is opened, so check the agenda online first.",
+    "howToRegister": "The posted agenda does not describe a sign-up form or speaker card; arrive before 6 p.m., check in with staff in the Council Chambers, and ask the Town Secretary's Office (Caitlan Biggs, Town Secretary, caitlan.biggs@littleelm.gov, 214-975-0452) about the sign-in process. The 'Council Meeting Procedures' link on the council page (DocumentCenter/Index/74) and the /466/Council-Meeting-Procedures page both returned 404 errors on Sept 10, 2026.",
+    "registrationUrl": "https://www.littleelm.gov/1258/Agendas-Minutes-Videos",
+    "deadline": "Before the Public Comments item is called (arrive before 6 p.m.)",
+    "timeLimitMinutes": 3,
+    "writtenCommentMethod": "No dedicated written-comment form is published; email the Town Secretary at caitlan.biggs@littleelm.gov or the council members listed at https://www.littleelm.gov/Directory.aspx?did=35.",
+    "notes": "The agenda states that under the Texas Open Meetings Act the Council may not deliberate on non-agenda comments beyond what Section 551.007 allows. No remote or virtual speaking option is published, so virtualAllowed is left unset rather than asserted. Accessibility requests go to the Town Secretary's Office at 214-975-0452 two days before the meeting.",
+    "source": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+  },
+  "youthPrograms": [
+    {
+      "name": "Little Elm Youth Council",
+      "url": "https://www.littleelm.gov/1525/Little-Elm-Youth-Council",
+      "ages": "Little Elm residents in grades 9 to 12",
+      "description": "A liaison between the Town Council and local youth on issues affecting young people; members learn how town government works and do community projects. Meets the second Monday of each month at 6 p.m.; one-year terms. Staff liaison Colin Giusti (Colin.Giusti@littleelm.gov); council liaison Idalia Maria Amaya (idalia.amaya@littleelm.gov).",
+      "applyWindow": "Not published on the town page; the town recruited members for the current term in summer 2026, so contact the staff liaison about the next cycle",
+      "source": "https://www.littleelm.gov/1525/Little-Elm-Youth-Council"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Workshop: Present and discuss potential changes regarding scooter and e-bike regulations",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Council Workshop",
+      "topics": [
+        "public-safety",
+        "roads-traffic"
+      ],
+      "summary": "Council will talk through possible new rules for scooters and e-bikes in town before any ordinance is drafted.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Interlocal Agreement with Span, Inc. for demand-response transportation services for FY 2026-2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "transit"
+      ],
+      "summary": "Renews the town's contract with SPAN for on-demand rides, mainly for seniors and people with disabilities.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Resolution No. 0915202601 suspending the October 16, 2026 effective date of CoServ Gas's interim GRIP rate adjustment",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Delays a proposed natural gas rate increase so the town can review it.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Economic Development Corporation budget for FY 2026-2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "economic-development",
+        "budget-taxes"
+      ],
+      "summary": "Approves how the town's sales-tax-funded Economic Development Corporation plans to spend its money next year.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Little Elm EDC Investment Policy for 2026-2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "economic-development",
+        "budget-taxes"
+      ],
+      "summary": "Sets the rules for how the Economic Development Corporation may invest its cash reserves.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Performance Agreement between Little Elm Economic Development and Ace Oak LLC",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "economic-development"
+      ],
+      "summary": "An incentive deal with a business that must hit agreed targets to receive Economic Development Corporation support.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Appointments to the EDC Board, CDC Board, Animal Shelter Advisory Board and Planning and Zoning Commission",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "governance-elections",
+        "animal-services"
+      ],
+      "summary": "Council names residents to four town boards and commissions.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Public hearing and Ordinance No. 1860: rezone about 21 acres near W. Eldorado Parkway and Oak Grove Parkway from Light Commercial to a Planned Development for phased townhomes and a Montessori school",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "Residents can speak for or against turning a commercial tract into townhomes plus a private school before Council votes.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Public hearing and Ordinance No. 1875: Specific Use Permit for business service uses on one lot about 430 feet northwest of W. Eldorado Parkway and Oak Grove Parkway",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "zoning-development"
+      ],
+      "summary": "Decides whether a service business can operate on the lot, with conditions on the permit.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    },
+    {
+      "title": "Executive session: litigation, real property, security, economic development, and personnel evaluations",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Regular Town Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council meets privately on legal, property, security, economic development and personnel matters, then returns to open session for any votes.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017"
+    }
+  ],
+  "confidence": "medium",
+  "notes": "The town's littleelm.org addresses redirect to littleelm.gov. The 1st and 3rd Tuesday schedule comes from the town FAQ; the 6 p.m. workshop-then-regular format, address and 3-minute public comment rule were confirmed on Sept 10, 2026 from the posted Sept 15, 2026 agenda, and the Swagit archive shows meetings on those dates through Sept 1, 2026. Confidence is medium because the 'Council Meeting Procedures' document (DocumentCenter/Index/74 and /466/Council-Meeting-Procedures) returned 404, no speaker sign-up procedure is published, and neither the town's Main Town Calendar (which lists no council meetings for September or October 2026 even though it carried them earlier in the year) nor the agenda portal (empty for October and November 2026) lists council meetings after Sept 15, so holiday shifts (for example Election Day, Tuesday Nov 3, 2026) could not be confirmed; scheduleExceptions is therefore empty rather than assumed. The Town Secretary is Caitlan Biggs per the town's Elections page and staff directory; the older /284/Town-Secretary page still names Takisia Daniel, who the directory now lists as Administrative Manager (214-975-0471). Population is the July 1, 2022 Census estimate as cited on Wikipedia (2020 census: 46,453); Census QuickFacts could not be fetched and unofficial 2025-2026 estimates run from about 59,000 to 66,000. Coordinates match the OpenStreetMap entry for Little Elm Town Hall.",
+  "sources": [
+    "https://www.littleelm.gov/525/Mayors-Welcome-and-Town-Council",
+    "https://www.littleelm.gov/m/faq?cat=28",
+    "https://www.littleelm.gov/1258/Agendas-Minutes-Videos",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=54885",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=54885&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=1017",
+    "https://littleelmtx.new.swagit.com/views/641/live",
+    "https://littleelmtx.new.swagit.com/views/641/town-council",
+    "https://www.littleelm.gov/Calendar.aspx?EID=17914",
+    "https://www.littleelm.gov/Calendar.aspx?EID=17967",
+    "https://www.littleelm.gov/calendar.aspx?CID=14&month=9&year=2026",
+    "https://www.littleelm.gov/calendar.aspx?CID=14&month=10&year=2026",
+    "https://www.littleelm.gov/1341/Elections",
+    "https://www.littleelm.gov/597/Town-Council-District-Map",
+    "https://www.littleelm.gov/Directory.aspx",
+    "https://www.littleelm.gov/Directory.aspx?did=35",
+    "https://www.littleelm.gov/1525/Little-Elm-Youth-Council",
+    "https://www.littleelm.gov/284/Town-Secretary",
+    "https://en.wikipedia.org/wiki/Little_Elm,_Texas"
+  ],
+  "lastVerified": "2026-09-10"
+}

@@ -1,0 +1,263 @@
+{
+  "cityId": "grapevine",
+  "name": "Grapevine",
+  "county": "Tarrant",
+  "populationApprox": 51320,
+  "cityHall": {
+    "name": "Grapevine City Hall, City Council Chambers",
+    "address": "200 S. Main Street, Grapevine, TX 76051",
+    "lat": 32.9394,
+    "lng": -97.0787
+  },
+  "website": "https://www.grapevinetexas.gov",
+  "councilPageUrl": "https://grapevinetexas.gov/847/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 numbered council places, all elected at large",
+    "districtCount": 0,
+    "mayorName": "William D. Tate",
+    "termNote": "Mayor and Council Members are elected at large for three-year terms; Mayor Tate's current term expires in 2027. Current members: Paul Slechta (Mayor Pro Tem, Place 1), Sharron Rogers (Place 2), Leon Leal (Place 3), Sean Shope (Place 4), Chris Coy (Place 5), Duff O'Dell (Place 6)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "Regular City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1
+        ],
+        "time": "19:30",
+        "notes": "Council is called to order at 7:00 p.m. and immediately recesses to a closed executive session; the open regular meeting with Citizen Comments, public hearings and business begins at 7:30 p.m. The 4B Economic Development Corporation and Crime Control and Prevention District boards meet briefly in the Chambers at 7:15 p.m. between the executive session and the regular meeting."
+      },
+      "location": "City Council Chambers, Grapevine City Hall, 200 S. Main Street, Grapevine, TX 76051",
+      "virtualUrl": "https://horizon.agendalink.app/engage/grapevinetx/videos",
+      "openToPublicComment": true,
+      "notes": "Every regular agenda carries a Citizen Comments item (any topic, 3 minutes) plus any public hearings. The October 6, 2026 meeting starts at 5:30 p.m. instead of 7:30 p.m. (see scheduleExceptions). Remaining 2026 first-Tuesday dates on the city calendar: October 6, November 3 and December 1.",
+      "source": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5460"
+    },
+    {
+      "type": "regular",
+      "label": "Joint City Council and Planning and Zoning Commission Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          3
+        ],
+        "time": "19:30",
+        "notes": "Council dinner at 7:00 p.m. in the City Council Conference Room (not a public session); the joint meeting is called to order at 7:30 p.m. in the Council Chambers. The Planning and Zoning Commission holds its own meeting at 6:00 p.m. in the second-floor Planning and Zoning Conference Room beforehand."
+      },
+      "location": "City Council Chambers, Grapevine City Hall, 200 S. Main Street, Grapevine, TX 76051",
+      "virtualUrl": "https://horizon.agendalink.app/engage/grapevinetx/videos",
+      "openToPublicComment": true,
+      "notes": "Third-Tuesday meetings are held jointly with the Planning and Zoning Commission so zoning and development cases get joint public hearings; Council also takes up its own new business and consent agenda, and Citizen Comments (3 minutes) is on the agenda. Remaining 2026 third-Tuesday dates on the city calendar: September 15, October 20, November 17 and December 15.",
+      "source": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-10-06",
+      "status": "rescheduled",
+      "note": "Start time of the October 6, 2026 regular City Council meeting moved to 5:30 p.m. so Council can attend neighborhood National Night Out events (approved 6-0 on the September 1, 2026 consent agenda, item 19). As of September 10, 2026 the city calendar entry for October 6 still showed 7:30 p.m., so check the posted agenda for the final time.",
+      "source": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5476"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://www.grapevinetexas.gov/Archive.aspx?AMID=48",
+    "platform": "CivicPlus Archive Center",
+    "notes": "City Council agendas are posted as PDFs in the CivicPlus Archive Center (AMID=48); action agendas are in AMID=50 and full packets in AMID=52. The same agendas plus video are mirrored on the Horizon AgendaLink (JustMeetings) portal at https://horizon.agendalink.app/engage/grapevinetx. Agendas post about six days ahead (the September 15, 2026 agenda was posted September 9). Questions: City Secretary's Office, 817-410-3182."
+  },
+  "liveStream": {
+    "url": "https://horizon.agendalink.app/engage/grapevinetx/videos",
+    "platform": "other",
+    "notes": "JustMeetings portal with a live stream powered by Cablecast (separate 'City Council' and 'P&Z' streams) and archived videos. The city also runs a YouTube channel named CityofGrapevine at https://www.youtube.com/user/CityofGrapevine."
+  },
+  "publicComment": {
+    "summary": "At any regular or joint council meeting you can speak for up to 3 minutes, either during Citizen Comments on any topic or on a specific public hearing or agenda item. Show up 30 minutes early, fill out a Citizen Appearance Request form found at the Council Chamber doors, and drop it in the box at the City Secretary's seat before the 7:30 p.m. start.",
+    "howToRegister": "In person only. Pick up a Citizen Appearance Request form at either Council Chamber entrance or at the dais behind the City Secretary, mark clearly whether you want to speak during Citizen Comments or on a specific public hearing item, and place the completed form in the box at the City Secretary's seat before the meeting begins. Registration opens 30 minutes before the meeting start time and forms are not accepted earlier. The City Secretary calls speakers to the podium in the order forms were received; state your name and address first.",
+    "deadline": "Before the meeting is called to order; forms are accepted only in the 30 minutes before the start time",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No online comment form. Email individual Council Members (addresses at https://grapevinetexas.gov/847/City-Council), contact the City Secretary's Office at 817-410-3182 or sle@grapevinetexas.gov, or call 817-410-3000 to be routed to the right department or the City Manager's Office (817-410-3105).",
+    "notes": "No PowerPoint, video or other media at the podium; you may hand the City Secretary ten hard copies of documents for Council. Groups with the same concern should pick one spokesperson, and comments should add information not already covered by earlier speakers. Council cannot discuss or act on Citizen Comments topics under the Texas Open Meetings Act but may place them on a future agenda or refer them to staff. The Mayor can adjust the time limit for meeting efficiency. Demonstrations in the Chamber are not allowed.",
+    "source": "https://www.grapevinetexas.gov/DocumentCenter/View/9812/Speaking-at-a-City-Council-Meeting",
+    "registrationUrl": "https://www.grapevinetexas.gov/DocumentCenter/View/9812/Speaking-at-a-City-Council-Meeting"
+  },
+  "youthPrograms": [
+    {
+      "name": "Metroport Teen Court (teen volunteer attorneys and jurors)",
+      "url": "https://www.grapevinetexas.gov/329/Metroport-Teen-Court",
+      "ages": "Middle and high school students volunteer as jurors and attorneys; the program handles defendants ages 12 to 19",
+      "description": "Joint Grapevine, Southlake, Colleyville and Keller program in which juvenile Class C misdemeanor defendants work off citations through community service; cases are argued by volunteer teen attorneys before a jury of volunteers from local secondary schools and returning former defendants, giving students hands-on experience with the justice system.",
+      "applyWindow": "Rolling; register as a volunteer through the City of Southlake volunteer website, then email Teen Court staff once approved (the Grapevine page directs questions to the Teen Court coordinator at 817-748-8346). A volunteer waitlist was in place as of September 2026.",
+      "source": "https://www.grapevinetexas.gov/329/Metroport-Teen-Court"
+    },
+    {
+      "name": "Metroport Teen Court Advisory Board",
+      "url": "https://www.grapevinetexas.gov/558/Metroport-Teen-Court-Advisory-Board",
+      "ages": "Adult appointees (one Council Member and two at-large representatives per city, three-year terms)",
+      "description": "Twelve-member advisory board representing Grapevine, Southlake, Colleyville and Keller that advises Teen Court on the alternative judicial process; it meets every other month on the first Monday at 5:30 p.m. at Southlake DPS Headquarters, 600 State Street, Southlake. It is not a youth-seat body but is the governance link between Council and the teen program.",
+      "applyWindow": "City board application process; contact Teen Court at 817-748-8346",
+      "source": "https://www.grapevinetexas.gov/558/Metroport-Teen-Court-Advisory-Board"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Ordinance No. 2026-067 adopting an ad valorem tax rate of $0.226817 per $100 valuation for tax year 2026 / fiscal year 2027",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Council votes on the city property tax rate for the coming year, which is the no-new-revenue rate and would put the median homestead's city tax bill at about $854.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Staff update on the Hudgins Utility Project and restroom expansion at the Heritage Center",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "utilities-water",
+        "parks-recreation"
+      ],
+      "summary": "Staff brief Council on progress of a utility project and new restrooms at the Heritage Center.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Resolution No. 2026-018: Atmos Energy Mid-Tex Rate Review Mechanism settlement",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Council considers approving a negotiated settlement on natural gas rates recommended by the Atmos Cities Steering Committee.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Purchase of a library automatic materials sorter from Lyngsoe Systems",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "education-libraries",
+        "technology"
+      ],
+      "summary": "The library would buy an automated sorting machine to speed up check-in and reshelving of returned books.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Purchase of a drone light show for the Merry and Bright Christmas Drone Show from Sky Elements",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "arts-culture",
+        "parks-recreation"
+      ],
+      "summary": "Parks and Recreation seeks approval to hire a drone light show company for the city's holiday event.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Purchase of thermal imaging cameras for the Police Department from Z-Bar Supply",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Police would buy thermal imaging cameras to help officers see in the dark and locate people.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Professional services agreement with Del Carmen Consulting for racial profiling and EEOC compliance consulting",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "public-safety",
+        "governance-elections"
+      ],
+      "summary": "The Police Department would retain a consultant to handle annual racial profiling reporting and equal employment opportunity compliance.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Renewal of the interlocal agreement with the City of Fort Worth for the Household Hazardous Waste Program",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "environment"
+      ],
+      "summary": "Renews the arrangement that lets Grapevine residents drop off paint, chemicals and other hazardous household waste at Fort Worth's facility.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Annual contract for pavement marking services with Stripe-A-Zone",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "roads-traffic"
+      ],
+      "summary": "Public Works would contract for restriping lanes, crosswalks and other road markings across the city.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Resolution No. 2026-019 approving the Tarrant County contract with Pyramid Contracting for the 51st Year Community Development Block Grant street reconstruction project, and Ordinance No. 2026-068 appropriating funds",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "roads-traffic",
+        "budget-taxes"
+      ],
+      "summary": "Federal block grant money passed through Tarrant County would pay a contractor to rebuild a neighborhood street.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Purchase of a Rexa valve actuator for the Water Treatment Plant (Rexa Inc.) and electric actuators for the Wastewater Treatment Plant (Harold Beck & Sons)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "utilities-water"
+      ],
+      "summary": "Two consent items buying equipment to keep the city's drinking water and wastewater plants running reliably.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    },
+    {
+      "title": "Annual insurance renewals: cyber liability (AXA XL), workers' compensation (TML Risk Pool), property and casualty (Travelers), and medical stop-loss (HCC Life)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Joint City Council and Planning and Zoning Commission Meeting",
+      "topics": [
+        "budget-taxes",
+        "governance-elections"
+      ],
+      "summary": "Routine renewal of the city's insurance policies for the new fiscal year.",
+      "url": "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "sources": [
+    "https://grapevinetexas.gov/847/City-Council",
+    "https://www.grapevinetexas.gov/93/Mayor---William-D-Tate",
+    "https://www.grapevinetexas.gov/89/Agendas-Minutes",
+    "https://www.grapevinetexas.gov/Archive.aspx?AMID=48",
+    "https://www.grapevinetexas.gov/Archive.aspx?AMID=50",
+    "https://www.grapevinetexas.gov/Archive.aspx?AMID=52",
+    "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5460",
+    "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5476",
+    "https://www.grapevinetexas.gov/ArchiveCenter/ViewFile/Item/5486",
+    "https://www.grapevinetexas.gov/DocumentCenter/View/9812/Speaking-at-a-City-Council-Meeting",
+    "https://www.grapevinetexas.gov/RSSFeed.aspx?ModID=58&CID=26,27",
+    "https://www.grapevinetexas.gov/calendar.aspx?CID=26",
+    "https://www.grapevinetexas.gov/calendar.aspx?CID=26&view=list&year=2026&month=10",
+    "https://www.grapevinetexas.gov/calendar.aspx?CID=26&view=list&year=2026&month=11",
+    "https://www.grapevinetexas.gov/calendar.aspx?CID=26&view=list&year=2026&month=12",
+    "https://horizon.agendalink.app/engage/grapevinetx/videos",
+    "https://www.youtube.com/user/CityofGrapevine",
+    "https://www.grapevinetexas.gov/329/Metroport-Teen-Court",
+    "https://www.grapevinetexas.gov/558/Metroport-Teen-Court-Advisory-Board",
+    "https://www.cityofsouthlake.com/106/Metroport-Teen-Court",
+    "https://en.wikipedia.org/wiki/Grapevine,_Texas",
+    "https://nominatim.openstreetmap.org/search?q=200+S+Main+Street,+Grapevine,+TX+76051"
+  ],
+  "notes": "Population is the 2024 Census Bureau estimate as reported on Wikipedia (2020 census: 50,631); the Census QuickFacts and API endpoints refused the request. Meeting times were taken from the posted September 1 and September 15, 2026 agendas and the city calendar. As of September 10, 2026 the city calendar listed City Council meetings on October 6 (regular), October 20 (joint), November 3 (regular), November 17 (joint), December 1 (regular) and December 15 (joint), all shown at 7:30 p.m.; the calendar had not yet been updated for the 5:30 p.m. start Council approved for October 6. November 3, 2026 is the general election day and no change to that meeting has been published. Mayor Tate was absent from the September 1, 2026 meeting. The Grapevine boards list contains no youth advisory council or youth commission; the only youth-related programs found are the Metroport Teen Court and its advisory board. Grapevine also holds August budget workshops (August 5, 2026 held; August 6 canceled) that are special meetings rather than a recurring monthly series."
+}

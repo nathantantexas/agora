@@ -1,0 +1,121 @@
+{
+  "cityId": "sachse",
+  "name": "Sachse",
+  "county": "Dallas",
+  "populationApprox": 30491,
+  "cityHall": {
+    "name": "Sachse City Hall, Building B (Council Chambers)",
+    "address": "3815 Sachse Rd., Building B, Sachse, TX 75048",
+    "lat": 32.9741,
+    "lng": -96.5849
+  },
+  "website": "https://www.cityofsachse.com/",
+  "councilPageUrl": "https://www.cityofsachse.com/253/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "mayor + 6 numbered places, all elected at large",
+    "districtCount": 0,
+    "mayorName": "Jeff Bickerstaff",
+    "termNote": "Council-manager government; Mayor and Places 1-6 are elected at large to three-year terms (regular election the first Saturday in May), and no person may serve more than three consecutive terms in a given position."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:30",
+        "durationMinutes": 60,
+        "notes": "6:30 p.m. on the first and third Monday of each month per the adopted 2026 calendar; holiday and break adjustments are listed in scheduleExceptions. Calendar entries block one hour but meetings often run longer (the Sept. 8 meeting ran 2 hours 17 minutes per the video archive)."
+      },
+      "location": "Council Chambers, Sachse City Hall, 3815 Sachse Rd., Building B, Sachse, TX 75048",
+      "virtualUrl": "https://sachsetx.new.swagit.com/views/default/live",
+      "openToPublicComment": true,
+      "notes": "Each meeting includes a Public Comment section for topics not on the agenda or discussion-only items; comments on action items and public hearings are taken when the Mayor calls the item. Sachse does not list separate standing work sessions on its calendar; briefings are part of the regular meeting.",
+      "source": "https://www.cityofsachse.com/DocumentCenter/View/12256/Council-Meeting-Calendar_2026"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-29",
+      "status": "special",
+      "note": "City Council Special Meeting at 6 p.m. in the Council Chambers; agenda not yet posted as of Sept. 10.",
+      "source": "https://www.cityofsachse.com/calendar.aspx?CID=14"
+    },
+    {
+      "date": "2026-09-30",
+      "status": "special",
+      "note": "City Council Special Meeting at 6 p.m. in the Council Chambers; agenda not yet posted as of Sept. 10.",
+      "source": "https://www.cityofsachse.com/calendar.aspx?CID=14"
+    },
+    {
+      "date": "2026-12-21",
+      "status": "cancelled",
+      "note": "Third-Monday December meeting cancelled for the Christmas holiday per the adopted 2026 calendar.",
+      "source": "https://www.cityofsachse.com/DocumentCenter/View/12256/Council-Meeting-Calendar_2026"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://sachsetx.portal.civicclerk.com/?category_id=26",
+    "platform": "other",
+    "notes": "CivicClerk portal for agendas and minutes since March 18, 2024; older records at tx-sachse2.civicplus.com/Archive.aspx?AMID=65. Create a CivicClerk account to get agenda email alerts. Agendas are typically posted about 72 hours before a meeting."
+  },
+  "liveStream": {
+    "url": "https://sachsetx.new.swagit.com/views/default/live",
+    "platform": "Swagit",
+    "notes": "The city's Agendas page links the short URL sachsetx.swagit.com/live, which redirects (301) here. Archived Council videos with linked agendas go back to 2018."
+  },
+  "publicComment": {
+    "summary": "Fill out the online Public Meeting Speaker Form by 4 p.m. on the day of the meeting, or fill out a paper Public Comment Card and hand it to the City Secretary before the meeting starts, then come to the podium when called and give your name and city; you get 3 minutes. Use the Public Comment part of the meeting for anything not on the agenda, and wait for the specific item if your comment is about an action item or public hearing.",
+    "howToRegister": "Submit the Public Meeting Speaker Form online (City Secretary form on the city website) by 4:00 p.m. on the day of the meeting, or complete a paper Public Comment Card and hand it to the City Secretary before the meeting begins. You can also use the card just to register support or opposition without speaking.",
+    "registrationUrl": "https://www.cityofsachse.com/FormCenter/City-Secretary-9/Public-Meeting-Speaker-Form-102",
+    "deadline": "4:00 p.m. on the day of the meeting for the online form; paper cards before the meeting begins",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Use the same online speaker form or a paper Public Comment Card and mark that you do not wish to speak; your comment and position are noted for the record and acknowledged by the Mayor. Council members can also be emailed individually from the City Council page.",
+    "notes": "Speakers state their name and city of residence for the record. The 3-minute limit applies to Public Comment, public hearings and action items, and time may not be pooled or given to another speaker; the Mayor may adjust time based on the number of speakers. Groups on the same subject are encouraged to pick one spokesperson. No props or displays; bring nine copies of any handout for the City Secretary. Council cannot deliberate or act on non-agenda comments under the Texas Open Meetings Act.",
+    "source": "https://www.cityofsachse.com/Archive.aspx?ADID=4572"
+  },
+  "youthPrograms": [
+    {
+      "name": "Parks & Recreation Board Youth Advisors",
+      "url": "https://www.cityofsachse.com/248/Parks-Recreation-Board",
+      "ages": "Sachse residents in high school grades 9-12",
+      "description": "Two non-voting youth advisor seats on the Parks & Recreation Board; advisors join discussions, evaluate issues relevant to youth and make recommendations to the board. One seat is currently vacant (term expiring 2027); the other seat's term expires in 2026.",
+      "applyWindow": "Applications are being accepted now on a rolling basis; return the Youth Advisor Application (with parent or guardian waiver for minors) to the City Secretary's Office, 3815 Sachse Rd., Building B, or call 469-429-4773",
+      "source": "https://www.cityofsachse.com/DocumentCenter/View/2621"
+    },
+    {
+      "name": "Teen R.I.S.E. (Responsibility, Integrity, Success, and Empowerment)",
+      "url": "https://www.cityofsachse.com/837/Teen-RISE",
+      "ages": "12-17",
+      "description": "Parks & Recreation program where teens socialize, learn life skills and volunteer (board game and crochet night, decorating at Oxford Glen Memory Care, Heritage Park clean-up). Not a governance board, but a city-run youth service program; register online by activity number.",
+      "source": "https://www.cityofsachse.com/837/Teen-RISE"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "high",
+  "notes": "Sachse straddles the Dallas-Collin county line; City Hall is on the Dallas County side. Population is the Census Bureau Vintage 2024 estimate (July 1, 2024) as reported by texas-demographics.com, which also projects about 32,800 for 2026; no official 2025 figure was found. The next council meeting is Monday Sept. 21, 2026; its agenda had not been published on CivicClerk as of Sept. 10, so no agenda items could be extracted. The first September meeting was held Tuesday Sept. 8 (moved for Labor Day). The Sept. 29-30 special meetings have no posted agenda yet. The 2026 calendar also lists the Dec. 7 meeting as held. City Hall coordinates match OpenStreetMap geocoding (32.97408, -96.58494).",
+  "sources": [
+    "https://www.cityofsachse.com/253/City-Council",
+    "https://www.cityofsachse.com/328/Agendas-Minutes-and-Videos",
+    "https://www.cityofsachse.com/DocumentCenter/View/12256/Council-Meeting-Calendar_2026",
+    "https://www.cityofsachse.com/Archive.aspx?ADID=4572",
+    "https://sachsetx.portal.civicclerk.com/?category_id=26",
+    "https://www.cityofsachse.com/calendar.aspx?CID=14",
+    "https://www.cityofsachse.com/FormCenter/City-Secretary-9/Public-Meeting-Speaker-Form-102",
+    "https://sachsetx.new.swagit.com/views/default/live",
+    "https://sachsetx.new.swagit.com/views/default/city-council",
+    "https://www.cityofsachse.com/248/Parks-Recreation-Board",
+    "https://www.cityofsachse.com/DocumentCenter/View/2621",
+    "https://www.cityofsachse.com/837/Teen-RISE",
+    "https://www.cityofsachse.com/",
+    "https://www.texas-demographics.com/sachse-demographics"
+  ],
+  "lastVerified": "2026-09-10"
+}

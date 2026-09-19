@@ -1,0 +1,198 @@
+{
+  "cityId": "university-park",
+  "name": "University Park",
+  "county": "Dallas",
+  "populationApprox": 25268,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "University Park City Hall (Council Chamber)",
+    "address": "3800 University Blvd, University Park, TX 75205",
+    "lat": 32.84576,
+    "lng": -96.79691
+  },
+  "website": "https://www.uptexas.org/",
+  "councilPageUrl": "https://www.uptexas.org/326/City-Council",
+  "council": {
+    "size": 5,
+    "structure": "mayor + 4 councilmembers, all elected at large",
+    "districtCount": 0,
+    "mayorName": "Randy Biddle",
+    "termNote": "Mayor and all four councilmembers serve two-year terms, limited to three successive terms (six years). City elections are held every two years on the first Saturday in May. Mayor Pro Tem: Phillip B. Philbin; councilmembers Alex Bell, Darrell B. Lane, Melissa Rieman."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "17:00",
+        "notes": "1st and 3rd Tuesday of every month at 5 p.m. Confirmed on the city calendar for Sept 15, Oct 6, Oct 20, Nov 3, Nov 17, Dec 1 and Dec 15, 2026."
+      },
+      "location": "Council Chamber, University Park City Hall, 3800 University Blvd, University Park, TX 75205",
+      "virtualUrl": "https://uptexas.granicus.com/ViewPublisher.php?view_id=11",
+      "openToPublicComment": true,
+      "notes": "All council meetings are livestreamed; each meeting's calendar event page on uptexas.org carries a 'Meeting Livestream' link that goes live at meeting time, and recordings are posted to the Granicus video archive. Agendas with eComment are on Granicus Ideas.",
+      "source": "https://www.uptexas.org/326/City-Council"
+    },
+    {
+      "type": "work-session",
+      "label": "Pre-Meeting Work Session (and Executive Session)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "16:00",
+        "notes": "Based on the posted Sept 15, 2026 agenda: executive session 3:00 to 4:00 p.m. (Council Overflow Room) and pre-meeting work sessions 4:00 to 5:00 p.m. (Council Conference Room), ahead of the 5 p.m. regular meeting. City meeting notices for earlier meetings also list the work session at 4 p.m., but start times vary by agenda; check the Granicus agenda for each date."
+      },
+      "location": "Council Conference Room, 2nd floor, University Park City Hall, 3800 University Blvd, University Park, TX 75205",
+      "openToPublicComment": false,
+      "notes": "Staff briefings to the council before the regular meeting (e.g., Snider Plaza and Miracle Mile policy recommendations on Sept 15). Open to the public but public comment is taken at the 5 p.m. regular meeting.",
+      "source": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://uptexas.granicusideas.com/meetings",
+    "platform": "Granicus",
+    "notes": "Granicus Ideas hosts agendas with eComment for each council meeting (eComment requires a free account and comments are limited to 500 characters). The city also lists agendas, minutes and videos at https://www.uptexas.org/327/Council-Agendas-Minutes-Videos and in the Granicus archive at https://uptexas.granicus.com/ViewPublisher.php?view_id=11."
+  },
+  "liveStream": {
+    "url": "https://uptexas.granicus.com/ViewPublisher.php?view_id=11",
+    "platform": "Granicus",
+    "notes": "The city states all council meetings are livestreamed on uptexas.org; the 'Meeting Livestream' link on each meeting's calendar event page (for example https://www.uptexas.org/Calendar.aspx?EID=2864 for Sept 15, 2026) is a placeholder until the meeting starts. Recorded meetings are in the Granicus archive above (most recent: Sept 1, 2026). The city also runs a YouTube channel at https://www.youtube.com/channel/UCfNkJuTZZS-fdMeip7SRiSQ."
+  },
+  "publicComment": {
+    "summary": "To speak, fill out the online Request to Speak form before the meeting or hand a green Request to Speak card to the City Secretary at the meeting, and you get up to 3 minutes when the Mayor calls for speakers. If you would rather write, use eComment on the Granicus agenda or email city-secretary@uptexas.org by 1 p.m. on meeting day.",
+    "howToRegister": "1) Submit the online Request to Speak Form (name, address, email, phone, meeting date, topic, for/against), or 2) complete a green Request to Speak form and give it to the City Secretary at the meeting before the item is called, or 3) call City Secretary Christine Green at 214-987-5302. For written comments use eComment on the Granicus Ideas agenda page (free account required, 500-character limit) or email city-secretary@uptexas.org.",
+    "registrationUrl": "https://www.uptexas.org/FormCenter/General-Forms-4/Request-to-Speak-Form-60",
+    "deadline": "Speaker cards are accepted at the meeting before the Mayor calls for speakers; emailed or eComment written comments must be received by 1 p.m. on the day of the meeting",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "eComment via Granicus Ideas (instructions: https://tx-universitypark.civicplus.com/DocumentCenter/View/601/eComment-Instructions-PDF) or email city-secretary@uptexas.org by 1 p.m. on meeting day; the Mayor acknowledges written comments but they are not always read aloud.",
+    "notes": "No remote or virtual speaking option is published; the form assumes in-person presentation. Written comments are accepted in lieu of speaking and become part of the official public record. The same form covers Planning & Zoning Commission meetings.",
+    "source": "https://www.uptexas.org/Calendar.aspx?EID=2864"
+  },
+  "youthPrograms": [
+    {
+      "name": "Youth Advisory Commission (YAC)",
+      "url": "https://www.uptexas.org/371/Youth-Advisory-Commission",
+      "ages": "University Park residents in grades 9 through 12 at the start of the upcoming academic year",
+      "description": "Liaison between city youth and the City Council that advises on items affecting teens, meets monthly to review routine business, promotes the city recycling program, and helps staff community events such as fishing derbies and holiday celebrations.",
+      "applyWindow": "Applications were due March 31, 2026 for the fall 2026 cycle (the deadline recurs each spring); interviews guaranteed for the first 30 applicants, others waitlisted. Contacts: Amanda Hartwick (ahartwick@uptexas.org), Paige Ruedy (pruedy@uptexas.org).",
+      "source": "https://www.uptexas.org/371/Youth-Advisory-Commission"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Policy recommendations for Snider Plaza and Miracle Mile (26-205, pre-meeting work session)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "Staff will brief the council on proposed policies for the city's two main shopping districts.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    },
+    {
+      "title": "Public hearing on the proposed Snider Plaza Public Improvement District assessment (26-206)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes",
+        "economic-development"
+      ],
+      "summary": "Property owners and residents can weigh in on the special assessment that funds improvements in Snider Plaza.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    },
+    {
+      "title": "Ordinance levying assessments on Snider Plaza PID properties (26-207)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes",
+        "economic-development"
+      ],
+      "summary": "Formally sets the charges Snider Plaza property owners will pay for district improvements.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    },
+    {
+      "title": "Revised right-of-way agreement with Highland Park ISD for school parking (26-210)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "education-libraries",
+        "roads-traffic"
+      ],
+      "summary": "Updates the deal that lets the school district use public street space for parking.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    },
+    {
+      "title": "Interlocal agreement with the City of Garland for public safety radio maintenance (26-213)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "public-safety",
+        "technology"
+      ],
+      "summary": "Contracts with Garland to maintain the radios police and fire crews rely on.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    },
+    {
+      "title": "Household Hazardous Waste Program interlocal agreement with Dallas County (26-201)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "environment"
+      ],
+      "summary": "Continues residents' access to the county's drop-off program for paint, chemicals and other hazardous waste.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    },
+    {
+      "title": "FY27 food establishment inspection and coordinated health services agreements with Dallas County (26-202, 26-203)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "health"
+      ],
+      "summary": "Renews county contracts for restaurant inspections and public health services in University Park.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    },
+    {
+      "title": "Appointments to the Finance Advisory Committee and Public Safety Advisory Committee (26-204)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Names residents to volunteer advisory committees.",
+      "url": "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Re-verified Sept 10, 2026: meeting schedule (city calendar for Oct through Dec 2026 and council page), address, public-comment steps (calendar event page, Request to Speak form, eComment instructions PDF) and the Sept 15, 2026 Granicus agenda were all fetched from official uptexas.org and Granicus pages. The Granicus agenda lists an executive session (3 to 4 p.m.) and work sessions (4 to 5 p.m.) ahead of the 5 p.m. meeting; the work-session recurrence is inferred from that agenda plus earlier city meeting notices. No cancellations or reschedules appear on the city calendar for Oct through Dec 2026. The livestream player URL is only exposed on individual calendar event pages while a meeting is live, so the Granicus archive page is listed instead. Population figure (25,268) is a 2024 estimate carried over from the earlier research pass; Census QuickFacts could not be reached during this check (the 2020 Census count was 25,278).",
+  "sources": [
+    "https://www.uptexas.org/326/City-Council",
+    "https://www.uptexas.org/356/Election",
+    "https://www.uptexas.org/327/Council-Agendas-Minutes-Videos",
+    "https://www.uptexas.org/Calendar.aspx?EID=2864",
+    "https://www.uptexas.org/Calendar.aspx?CID=14&month=10&year=2026",
+    "https://www.uptexas.org/Calendar.aspx?CID=14&month=11&year=2026",
+    "https://www.uptexas.org/Calendar.aspx?CID=14&month=12&year=2026",
+    "https://www.uptexas.org/FormCenter/General-Forms-4/Request-to-Speak-Form-60",
+    "https://tx-universitypark.civicplus.com/DocumentCenter/View/601/eComment-Instructions-PDF",
+    "https://uptexas.granicusideas.com/meetings",
+    "https://uptexas.granicusideas.com/meetings/607-city-council-on-2026-09-15-5-00-pm/agenda_items",
+    "https://uptexas.granicus.com/ViewPublisher.php?view_id=11",
+    "https://www.uptexas.org/371/Youth-Advisory-Commission",
+    "https://nominatim.openstreetmap.org/search?q=3800+University+Blvd+University+Park+TX+75205&format=json&limit=1"
+  ]
+}

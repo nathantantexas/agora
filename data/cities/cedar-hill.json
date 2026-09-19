@@ -1,0 +1,161 @@
+{
+  "cityId": "cedar-hill",
+  "name": "Cedar Hill",
+  "county": "Dallas",
+  "populationApprox": 48879,
+  "cityHall": {
+    "name": "Cedar Hill Government Center, T.W. \"Turk\" Cannady/Cedar Hill Room",
+    "address": "285 Uptown Blvd., Bldg. 100, Cedar Hill, TX 75104",
+    "lat": 32.5931,
+    "lng": -96.9513
+  },
+  "website": "https://www.cedarhilltx.com/",
+  "councilPageUrl": "https://www.cedarhilltx.com/68/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "Mayor + 6 council members (Places 1 to 6), all elected at large",
+    "districtCount": 0,
+    "mayorName": "Stephen Mason",
+    "termNote": "Staggered three-year terms; elections on the May uniform election date. Places 1 (Gerald L. Malone) and 4 (Chad A. McCurdy) are up May 1, 2027; the Mayor, Place 3 (Alan E. Sims) and Place 5 (Mayor Pro Tem Gregory Glover) expire May 2028; Places 2 (Patricia Bushart) and 6 (Maranda K. Auzenne) expire May 2029. Home-rule city with a council-manager form of government."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "19:00",
+        "notes": "The adopted June 2026 to May 2027 calendar generally follows the second and fourth Tuesdays (Sept 22, Oct 13, Oct 27, Nov 10, Dec 8, then Jan 12 and 26, 2027 onward), but November and December each have only one meeting. Regular meetings begin at 7:00 p.m. after a 6:00 p.m. briefing session; the city calendar lists each meeting at 6:00 p.m. because it uses the briefing start. The Sept 1, 2026 meeting began at 5:00 p.m. as a one-off."
+      },
+      "location": "T.W. \"Turk\" Cannady/Cedar Hill Room, Cedar Hill Government Center, 285 Uptown Blvd., Bldg. 100, Cedar Hill, TX 75104",
+      "virtualUrl": "https://www.cedarhilltx.com/2776/Watch-Meetings-LIVE",
+      "openToPublicComment": true,
+      "notes": "Citizens Forum/Public Comments is item 5 on the regular agenda, right after presentations. Agendas are posted at the Government Center and online at least 72 hours before the meeting.",
+      "source": "http://www.cedarhilltx.com/574/City-Council-Meetings"
+    },
+    {
+      "type": "briefing",
+      "label": "City Council Briefing Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "18:00",
+        "notes": "Briefing sessions usually begin at 6:00 p.m. on regular meeting days and follow the same adopted calendar as the regular meetings."
+      },
+      "location": "T.W. \"Turk\" Cannady/Cedar Hill Room, Cedar Hill Government Center, 285 Uptown Blvd., Bldg. 100, Cedar Hill, TX 75104",
+      "virtualUrl": "https://www.cedarhilltx.com/2776/Watch-Meetings-LIVE",
+      "openToPublicComment": false,
+      "notes": "Open to the public. Typical agenda: City Manager reports (council calendar, city operations), a briefing on the 7:00 p.m. regular agenda, and staff presentations. No Citizens Forum on the briefing agenda.",
+      "source": "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=985"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-15",
+      "status": "special",
+      "note": "Special Called Joint Meeting of the City Council and the Cedar Hill ISD Board of Trustees, 6:00 p.m., 3rd Floor Training Room, Cedar Hill Government Center. Agenda: Citizens Forum, remarks and updates from the city and the school district, and a presentation on the Cedar Hill ISD optimization process. Written comments accepted through the online form by 3 p.m.",
+      "source": "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=942"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "recess",
+      "note": "No fourth-Tuesday meeting in November; the adopted calendar and the city calendar list only November 10 (Thanksgiving week).",
+      "source": "http://www.cedarhilltx.com/574/City-Council-Meetings"
+    },
+    {
+      "date": "2026-12-22",
+      "status": "recess",
+      "note": "No fourth-Tuesday meeting in December; the adopted calendar and the city calendar list only December 8 (holiday break).",
+      "source": "http://www.cedarhilltx.com/574/City-Council-Meetings"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=23327",
+    "platform": "other",
+    "notes": "Destiny Software AgendaQuick portal (agendas, packets and Swagit video links), linked from https://cedarhilltx.com/2449/Upcoming-City-Council-Agendas as 'View Agendas on a Mobile Device' and from https://www.cedarhilltx.com/75/Agendas-Minutes; calendar listings also print the shortcut cedarhilltx.com/agenda. Agendas before October 2018 are in a separate archive linked from the Agendas & Minutes page. As of Sept 10, 2026 the portal listed nothing for October."
+  },
+  "liveStream": {
+    "url": "https://cedarhilltx.new.swagit.com/views/182/",
+    "platform": "Swagit",
+    "notes": "The Swagit archive holds City Council Briefing Session and Regular Meeting videos back to 2020, each linked to its agenda. The player is embedded on the Watch Meetings LIVE page (https://www.cedarhilltx.com/2776/Watch-Meetings-LIVE, shortcut cedarhilltx.com/live), and the city also posts to its YouTube channel (https://www.youtube.com/channel/UCqdnu4e2tmUk56dt1ZiemVQ). Briefing and regular sessions are archived as separate videos."
+  },
+  "publicComment": {
+    "summary": "Get to the Government Center before the 7 p.m. meeting starts and hand a Speaker Request Form to the City Secretary; you will be called during Citizens Forum near the start of the meeting and usually get about 3 minutes. If you would rather write, submit the online Citizens Forum/Public Comment form by 3 p.m. on meeting day and it goes to every council member and into the record.",
+    "howToRegister": "In person: submit a Speaker Request Form to the City Secretary before the meeting begins (forms are available at the meeting; City Secretary Belinda Berg, 972-291-5100 ext. 1011, belinda.berg@cedarhilltx.com). Online: complete the Citizens Forum/Public Comment Form at cedarhilltx.com/publiccomment with the meeting date, your name, street address, phone, email, the board you are addressing and your comment, by 3:00 p.m. on the meeting date.",
+    "registrationUrl": "https://www.cedarhilltx.com/FormCenter/City-Secretary-14-14/Citizens-ForumPublic-Comment-Form-132-132",
+    "deadline": "Before the meeting begins (in person); 3:00 p.m. on the meeting date (online form)",
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online Citizens Forum/Public Comment Form (cedarhilltx.com/publiccomment); all comments received by 3 p.m. on meeting day are distributed to the City Council and entered into the record.",
+    "notes": "The council cannot discuss or take action on Citizens Forum topics that are not on the agenda, but they may be referred to staff or placed on a future agenda. The printed agendas do not state a per-speaker time limit; at recent meetings (for example the Sept 3, 2024 regular meeting recording) speakers were given 3 minutes, so plan for 3 minutes and confirm with the City Secretary. Public hearings on specific items (zoning cases, tax rate) also take comments when the item is called.",
+    "source": "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=986"
+  },
+  "youthPrograms": [
+    {
+      "name": "Mayor's Teen Council",
+      "url": "https://www.cedarhilltx.com/1969/Mayors-Teen-Council",
+      "ages": "Students going into grades 10 to 12 for the 2026-2027 school year who live in Cedar Hill or attend a school located in Cedar Hill",
+      "description": "High school students who work with Mayor Stephen Mason and city staff through discussions, tours and interactive projects to address youth concerns, run community service projects, learn how city government works, plan events and fundraisers, and make recommendations to the mayor on issues affecting teens. Meets the first and third Monday of each month at the Traphene Hickman Public Library (dates and locations can change).",
+      "applyWindow": "Applications for the 2026-2027 school year are closed; watch the page for next year's application. Contact teen librarian Chelsey Randel, chelsey.randel@cedarhilltx.com, 972-291-7323 ext. 1324, or Mayor Stephen Mason, stephen.mason@cedarhilltx.com, 972-291-5100 ext. 1012.",
+      "source": "https://www.cedarhilltx.com/1969/Mayors-Teen-Council"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Remarks and updates from the City of Cedar Hill and the Cedar Hill Independent School District",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Special Called Joint Meeting: City Council and CHISD Board of Trustees",
+      "topics": [
+        "education-libraries",
+        "governance-elections"
+      ],
+      "summary": "City leaders and school board trustees share updates with each other in a joint public session that opens with a Citizens Forum.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=942"
+    },
+    {
+      "title": "Presentation on the Cedar Hill ISD Optimization Process",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "Special Called Joint Meeting: City Council and CHISD Board of Trustees",
+      "topics": [
+        "education-libraries"
+      ],
+      "summary": "The school district presents its plan for optimizing (potentially consolidating or reorganizing) district facilities and operations to the council.",
+      "url": "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=942"
+    }
+  ],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "sources": [
+    "http://www.cedarhilltx.com/574/City-Council-Meetings",
+    "https://www.cedarhilltx.com/68/City-Council",
+    "https://www.cedarhilltx.com/2580/Elections",
+    "https://www.cedarhilltx.com/75/Agendas-Minutes",
+    "https://cedarhilltx.com/2449/Upcoming-City-Council-Agendas",
+    "https://www.cedarhilltx.com/2776/Watch-Meetings-LIVE",
+    "https://cedarhilltx.new.swagit.com/views/182/",
+    "https://cedarhilltx.new.swagit.com/videos/313960",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=23327",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=986",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=985",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=9&get_year=2026&dsp=ag&seq=942",
+    "https://public.destinyhosted.com/agenda_publish.cfm?id=23327&mt=ALL&get_month=10&get_year=2026",
+    "https://www.cedarhilltx.com/Calendar.aspx?EID=19054&month=9&year=2026&day=22&calType=0",
+    "https://www.cedarhilltx.com/calendar.aspx?CID=29&view=list&year=2026&month=9",
+    "https://www.cedarhilltx.com/calendar.aspx?CID=29&view=list&year=2026&month=10",
+    "https://www.cedarhilltx.com/calendar.aspx?CID=29&view=list&year=2026&month=11",
+    "https://www.cedarhilltx.com/calendar.aspx?CID=29&view=list&year=2026&month=12",
+    "https://www.cedarhilltx.com/FormCenter/City-Secretary-14-14/Citizens-ForumPublic-Comment-Form-132-132",
+    "https://www.cedarhilltx.com/1969/Mayors-Teen-Council",
+    "https://censusreporter.org/profiles/16000US4813492-cedar-hill-tx/",
+    "https://nominatim.openstreetmap.org/search?format=json&q=285+Uptown+Blvd,+Cedar+Hill,+TX+75104"
+  ],
+  "notes": "Re-verified Sept 10, 2026 against the City Council Meetings page (adopted June 2026 to May 2027 calendar), the Elections page, the Sept 8 briefing and regular agendas, the Sept 15 joint meeting agenda, the Sept 22 calendar listing, the city calendar for October through December, the online comment form and the Mayor's Teen Council page. The agenda for the next regular meeting on Sept 22, 2026 had not been posted on the Destiny portal as of Sept 10 (the city posts agendas 72 hours ahead) and the October listing was empty, so agendaItems only cover the Sept 15 joint meeting. Population is the ACS 2024 5-year estimate (Census Reporter) and was not re-checked in this pass. Coordinates match the OpenStreetMap geocode of the Government Center."
+}

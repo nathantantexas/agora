@@ -1,0 +1,310 @@
+{
+  "cityId": "garland",
+  "name": "Garland",
+  "county": "Dallas",
+  "populationApprox": 249625,
+  "cityHall": {
+    "name": "Garland City Hall (William E. Dollar Municipal Building)",
+    "address": "200 N. Fifth St., Garland, TX 75040",
+    "lat": 32.9137,
+    "lng": -96.6363
+  },
+  "website": "https://www.garlandtx.gov/",
+  "councilPageUrl": "https://www.garlandtx.gov/758/City-Council",
+  "council": {
+    "size": 9,
+    "structure": "mayor elected at large + 8 single-member districts",
+    "districtCount": 8,
+    "findMyDistrictUrl": "https://maps2.garlandtx.gov/sites/mygarland",
+    "districtMapUrl": "https://maps.garlandtx.gov/cogmap/apps/webappviewer/index.html?id=1b154d45d9bb4eac9acbc503e5d7d90b",
+    "mayorName": "Dylan Hedrick",
+    "termNote": "Mayor and all eight district council members serve two-year terms and may serve no more than three consecutive terms (Charter Art. III Sec. 1). Elections are held in May; Mayor Hedrick was elected to his first term as Mayor in June 2025 after three consecutive terms (about six years) as the District 7 council member."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "19:00",
+        "durationMinutes": 120,
+        "notes": "First and third Tuesdays at 7 p.m. per Code of Ordinances Sec. 10.14 (cited in the 2026 Council Rules of Order) and the adopted 2026 calendar. Two exceptions this fall: the Oct. 6 and Nov. 3 meetings are moved to Monday Oct. 5 and Monday Nov. 2 (see scheduleExceptions)."
+      },
+      "location": "Council Chambers, City Hall, 200 N. Fifth St., Garland, TX 75040",
+      "virtualUrl": "https://garlandtx.new.swagit.com/views/default/live",
+      "openToPublicComment": true,
+      "notes": "Public comment is taken on items for individual consideration (speaker card to the City Secretary before the item is called) and during Citizen Comments (open microphone) near the end of the meeting, 3 minutes per speaker. Broadcast live on CGTV (Spectrum 16, Frontier 44, AT&T U-verse 99) and streamed online. The posted agenda states that members of the public who want to make a public comment must attend in person.",
+      "source": "https://www.garlandtx.gov/DocumentCenter/View/23091/2026-Garland-City-Council-Schedule"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 1,
+        "time": "18:00",
+        "dates": [
+          "2026-09-14",
+          "2026-10-05",
+          "2026-10-19",
+          "2026-11-02",
+          "2026-11-16",
+          "2026-11-30",
+          "2026-12-14"
+        ],
+        "notes": "Held at 6 p.m. on the Monday preceding each Regular Meeting. When the regular meeting itself is moved to Monday (Oct. 5 and Nov. 2), the work session runs at 6 p.m. and the regular meeting follows at 7 p.m. the same evening. Dates confirmed against the adopted 2026 calendar and the CivicClerk event list (Nov. 30 appears on the calendar but was not yet posted on CivicClerk as of Sept. 10)."
+      },
+      "location": "Work Session Room, City Hall, 200 N. Fifth St., Garland, TX 75040",
+      "virtualUrl": "https://garlandtx.new.swagit.com/views/default/live",
+      "openToPublicComment": true,
+      "notes": "Residents may speak for 3 minutes on Work Session agenda items only; speaker cards must be given to the City Secretary before the Mayor calls the meeting to order (2026 Council Rules Sec. 9(B)). No formal votes are taken at work sessions.",
+      "source": "https://garlandtx.portal.civicclerk.com/event/2305/files"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-10-05",
+      "status": "rescheduled",
+      "note": "First October meeting moved from Tuesday Oct. 6 (National Night Out) to Monday Oct. 5: Work Session 6 p.m., Regular Meeting 7 p.m.",
+      "source": "https://www.garlandtx.gov/DocumentCenter/View/23091/2026-Garland-City-Council-Schedule"
+    },
+    {
+      "date": "2026-10-06",
+      "status": "cancelled",
+      "note": "No council meeting; National Night Out. The Council Rules of Order (Housekeeping Rules Sec. 1) require the first October meeting to be rescheduled.",
+      "source": "https://www.garlandtx.gov/DocumentCenter/View/23091/2026-Garland-City-Council-Schedule"
+    },
+    {
+      "date": "2026-11-02",
+      "status": "rescheduled",
+      "note": "First November meeting moved from Tuesday Nov. 3 (Election Day) to Monday Nov. 2: Work Session 6 p.m., Regular Meeting 7 p.m.",
+      "source": "https://www.garlandtx.gov/DocumentCenter/View/23091/2026-Garland-City-Council-Schedule"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "cancelled",
+      "note": "Election Day; no council meeting.",
+      "source": "https://www.garlandtx.gov/DocumentCenter/View/23091/2026-Garland-City-Council-Schedule"
+    },
+    {
+      "date": "2026-11-10",
+      "status": "special",
+      "note": "Special City Council Meeting at 6 p.m. in the Council Chambers to canvass election results.",
+      "source": "https://garlandtx.portal.civicclerk.com/"
+    },
+    {
+      "date": "2026-11-30",
+      "status": "special",
+      "note": "Work Session held Monday Nov. 30 at 6 p.m. ahead of the Tuesday Dec. 1 Regular Meeting (shown on the adopted calendar; not yet posted on CivicClerk as of Sept. 10).",
+      "source": "https://www.garlandtx.gov/DocumentCenter/View/23091/2026-Garland-City-Council-Schedule"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://garlandtx.portal.civicclerk.com/",
+    "platform": "other",
+    "notes": "CivicClerk (CivicPlus) portal reached through the Public Meeting Agendas link on the City Council page (garlandtx.gov/801). Agendas and packets for the Sept. 14 Work Session and Sept. 15 Regular Meeting were posted there as of Sept. 10."
+  },
+  "liveStream": {
+    "url": "https://garlandtx.new.swagit.com/views/default/live",
+    "platform": "Swagit",
+    "notes": "Swagit live player; archived videos with linked agendas at garlandtx.new.swagit.com/views/default/city-council. Also on CGTV cable: Spectrum 16, Frontier 44, AT&T U-verse 99, with closed captions in English (CC1) and Spanish (CC2). Council agendas also cite the short link GarlandTX.tv for live and on-demand video."
+  },
+  "publicComment": {
+    "summary": "Show up in person at City Hall, grab a speaker card at the Council Chambers entrance (or sign in at the electronic kiosk), fill it in and hand it to the City Secretary; you get 3 minutes. To talk about an agenda item, turn in the card before that item is called; to talk about anything else, speak during Citizen Comments near the end of a Regular Meeting.",
+    "howToRegister": "In person only: complete a speaker card (at the entrance to the Council Chambers, or the visitor side of the Work Session Room) or register at the electronic kiosk, then give it to the City Secretary. For items for individual consideration, submit the card before the item is called; for open-microphone Citizen Comments, submit it before the comment period closes; for Work Session items, submit it before the Mayor calls the meeting to order.",
+    "deadline": "Before the item is called (agenda items) or before the Citizen Comments period closes (non-agenda topics); work session cards before the meeting is called to order",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No online comment form is published. A person who does not want to speak can still register a position on an agenda item by filling out a speaker card, and it is read into the record. Questions go to the City Secretary's Office at 972-205-2404.",
+    "notes": "Citizen Comments period is capped at 30 minutes, with Garland residents given priority when not everyone can be heard. Groups of three or more may yield their time to one spokesperson (2 minutes per person, up to 10 minutes total). Posted agendas state that members of the public who want to comment must attend in person. Speakers state their name and address for the record. Council cannot discuss or act on non-agenda topics raised during Citizen Comments (Texas Open Meetings Act).",
+    "source": "https://www.garlandtx.gov/DocumentCenter/View/23163/2026-Council-rules-of-order-and-policies-FINAL-APPROVED"
+  },
+  "youthPrograms": [
+    {
+      "name": "Garland Youth Council",
+      "url": "https://www.garlandtx.gov/1983/Youth-Council",
+      "ages": "High school students (grades 9-12), no older than 19 at appointment; must live in Garland and/or attend a Garland ISD school",
+      "description": "Advisory commission of up to 36 teens appointed by the Mayor and Council (up to four each) that advises Council on youth needs, learns the local political process, and runs service and social projects. Meets 5:30 p.m. on the 2nd Tuesday of each month at Fields Recreation Center, 1701 Dairy Road, September through May, after an August retreat and induction. Applicants need one letter of recommendation.",
+      "applyWindow": "Applications for the 2026-27 class were due 11:59 p.m. May 31, 2026; applications typically open in spring for the following school year",
+      "source": "https://www.garlandtx.gov/DocumentCenter/View/22766/Garland-Youth-Council-Application_2026-27"
+    },
+    {
+      "name": "Teen Advisory Board (Garland Public Library)",
+      "url": "https://www.garlandtx.gov/calendar.aspx?EID=12974",
+      "ages": "13-17",
+      "description": "Library teen board that helps plan teen events and gives input on library programming while earning volunteer hours toward graduation. The Central Library group (625 Austin St.) next meets Wednesday Sept. 16, 2026, 6 to 7 p.m., with snacks provided; the North Garland and South Garland branches run their own TAB groups. Check the library calendar for dates.",
+      "source": "https://www.garlandtx.gov/calendar.aspx?EID=12974"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Zoning ordinance for Z 26-19 Glamour by Jessica, 2903 Saturn Road (District 5)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development",
+        "economic-development"
+      ],
+      "summary": "Council would formally adopt an ordinance granting a Specific Use Provision and concept plan for a personal-service business on a 0.23-acre lot on Saturn Road after an earlier public hearing.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/1563/files"
+    },
+    {
+      "title": "Small Watershed Dam Site #11 interlocal agreement with Sachse and Rowlett",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "environment",
+        "utilities-water"
+      ],
+      "summary": "Garland would agree with Sachse and Rowlett to sponsor and maintain an Army Corps of Engineers flood-control dam through a shared operations and maintenance plan.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/1563/files"
+    },
+    {
+      "title": "Garland Cultural Arts Commission hotel occupancy tax budget and subgrant recipients",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "arts-culture",
+        "budget-taxes"
+      ],
+      "summary": "Approves how hotel tax money for arts programs will be budgeted and which local arts groups receive grants this year.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/1563/files"
+    },
+    {
+      "title": "Atmos Energy Mid-Tex 2026 Rate Review Mechanism settlement",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Adopts a negotiated settlement between the Atmos Cities Steering Committee and Atmos Energy that sets new natural gas rates for Atmos customers in Garland.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/1563/files"
+    },
+    {
+      "title": "Public hearing: Z 26-22 Lone Star Green Homes PD amendment at 2000 and 2050 East Miller Road (District 3)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "A developer wants to switch a planned development from attached homes to detached single-family houses on East Miller Road, and residents can speak at the hearing.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/1563/files"
+    },
+    {
+      "title": "Public hearing: Z 26-25 ZoneDev planned development on Bobtown Road (District 3)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "zoning-development",
+        "housing"
+      ],
+      "summary": "Proposal to rezone agricultural and large-lot land at 4712, 4718, 4802 and 4902 Bobtown Road into a new single-family detached subdivision.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/1563/files"
+    },
+    {
+      "title": "Fire Department ambulance equipment purchase ($582,158)",
+      "meetingDate": "2026-09-15",
+      "meetingLabel": "City Council Regular Meeting",
+      "topics": [
+        "public-safety",
+        "health"
+      ],
+      "summary": "Consent-agenda purchase of Stryker equipment to outfit Fire Department ambulances.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/1563/files"
+    },
+    {
+      "title": "2027 Annual Proposed Council Calendar",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council reviews next year's meeting calendar before formal consideration at the Oct. 5 Regular Meeting.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/2305/files"
+    },
+    {
+      "title": "Development Services Committee report on auto repair, industrial and golf course property rules",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "zoning-development",
+        "environment"
+      ],
+      "summary": "Staff and Councilmember Lucht brief Council on proposed standards for automotive repair and industrial uses, tree-line preservation next to neighborhoods, and rules for former golf course or country club land.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/2305/files"
+    },
+    {
+      "title": "DART general update",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "transit",
+        "public-safety"
+      ],
+      "summary": "DART leaders brief Council on ridership and service trends, public safety and crime statistics, and transit-oriented development, with Council questions.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/2305/files"
+    },
+    {
+      "title": "GP&L Recovery Adjustment Factor decrease",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "utilities-water",
+        "budget-taxes"
+      ],
+      "summary": "Garland Power & Light proposes lowering the Recovery Adjustment Factor, a component of the electric rate that residents pay.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/2305/files"
+    },
+    {
+      "title": "Library Strategic Plan update",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "education-libraries"
+      ],
+      "summary": "The Library Director presents a proposed five-year plan for library services, programs, outreach, partnerships and facilities, headed for formal consideration Oct. 5.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/2305/files"
+    },
+    {
+      "title": "Garland Housing Authority Administrative Plan approval (HOTMA and NSPIRE updates)",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Work Session",
+      "topics": [
+        "housing"
+      ],
+      "summary": "Updates the rules the Housing Authority follows so Garland keeps federal HUD funding for rental assistance to low-income families.",
+      "url": "https://garlandtx.portal.civicclerk.com/event/2305/files"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Garland lies mostly in Dallas County with small portions in Collin and Rockwall counties. Population is the Census Bureau Vintage 2025 estimate (July 1, 2025) as reported by a secondary site; the city's own Demographics page still lists the 2020 figure. The adopted 2026 schedule PDF was rendered and read as an image on Sept. 10 to confirm the color-coded dates, and the CivicClerk event list matched it. City holidays Nov. 26-27 and Dec. 24-25 do not affect council dates. City Hall coordinates were checked against the Census Bureau geocoder (32.9134, -96.6365).",
+  "sources": [
+    "https://www.garlandtx.gov/758/City-Council",
+    "https://www.garlandtx.gov/DocumentCenter/View/23091/2026-Garland-City-Council-Schedule",
+    "https://www.garlandtx.gov/DocumentCenter/View/23163/2026-Council-rules-of-order-and-policies-FINAL-APPROVED",
+    "https://garlandtx.portal.civicclerk.com/",
+    "https://garlandtx.portal.civicclerk.com/event/1563/files",
+    "https://garlandtx.portal.civicclerk.com/event/2305/files",
+    "https://www.garlandtx.gov/801/Meeting-Agendas-and-Minutes",
+    "https://www.garlandtx.gov/3869/CGTV-Government-Access-Television",
+    "https://garlandtx.new.swagit.com/views/default/live",
+    "https://garlandtx.new.swagit.com/views/default/city-council",
+    "https://www.garlandtx.gov/1983/Youth-Council",
+    "https://www.garlandtx.gov/DocumentCenter/View/22786/Garland-Youth-Council-Mission-and-Membership-Guidelines",
+    "https://www.garlandtx.gov/DocumentCenter/View/22766/Garland-Youth-Council-Application_2026-27",
+    "https://www.garlandtx.gov/calendar.aspx?EID=12974",
+    "https://www.garlandtx.gov/2014/City-Maps",
+    "https://maps.garlandtx.gov/cogmap/apps/webappviewer/index.html?id=1b154d45d9bb4eac9acbc503e5d7d90b",
+    "https://maps2.garlandtx.gov/sites/mygarland",
+    "https://www.garlandtx.gov/782/Mayor",
+    "https://www.everycityintheusa.com/cities/garland-tx/"
+  ],
+  "lastVerified": "2026-09-10"
+}

@@ -1,0 +1,164 @@
+{
+  "cityId": "richardson",
+  "name": "Richardson",
+  "county": "Dallas",
+  "populationApprox": 118542,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "Richardson Temporary City Hall, Council Chambers (Suite 525)",
+    "address": "2360 Campbell Creek Blvd, Suite 525, Richardson, TX 75082",
+    "lat": 32.9811,
+    "lng": -96.7017
+  },
+  "website": "https://www.cor.net/",
+  "councilPageUrl": "https://www.cor.net/government/city-council",
+  "council": {
+    "size": 7,
+    "structure": "Mayor + 6 council members, all elected at large by all voters; Places 1-4 are district seats whose members must live in their district, Places 5-6 are at-large seats",
+    "districtCount": 4,
+    "findMyDistrictUrl": "https://experience.arcgis.com/experience/3dae3cb63308484a863994bf7da92460",
+    "mayorName": "Amir Omar",
+    "termNote": "All seats carry two-year terms and are elected together in May of odd-numbered years; term limit of 6 terms (12 consecutive years). Council members choose the Mayor Pro Tem (currently Ken Hutchenrider, Place 5). Other members: Curtis Dorian (Place 1), Jennifer Justice (Place 2), Joe Corcoran (Place 4), Arefin Shamsul (Place 6). Place 3 is vacant after Dan Barrios resigned in July 2026 (the city's council roster page still showed his name on Sept 10); council picks up to three finalists on Sept 14, interviews them and names a lone finalist on Sept 21, and is expected to appoint the new member on Sept 28, 2026, to serve until the May 2027 election."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Meeting (regular/business meeting)",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "18:00",
+        "notes": "The adopted 2026 calendar lists a council meeting every Monday at 6:00 p.m., with the posted agenda determining whether a given Monday is a work session or a business meeting; the city says business meetings are on the second and fourth Mondays. No meetings on fifth Mondays, city holidays, Mondays of a holiday week, or RISD/PISD spring break."
+      },
+      "location": "Council Chambers, Temporary City Hall, 2360 Campbell Creek Blvd, Suite 525, Richardson, TX 75082 (the Sept 14, 2026 agenda lists Multipurpose Room CH 157 in the same building)",
+      "virtualUrl": "https://www.cor.net/government/city-council/watch-live-council-video",
+      "openToPublicComment": true,
+      "notes": "Confirmed 2026 calendar dates from Sept 10 onward: Sept 14, 21, 28; Oct 5, 12, 19, 26; Nov 2, 9, 16; Dec 7, 14. Agendas and packets are posted as they become available, normally by the Friday before, and show the start time for that night. The Sept 14, 2026 meeting starts at 6:00 p.m.",
+      "source": "https://www.cor.net/government/city-council/city-council"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 1,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "18:00",
+        "notes": "Work sessions are held at least once a month, typically on the first and third Mondays at 6:00 p.m.; the council page also says work sessions are typically held every Monday, often ahead of business items."
+      },
+      "location": "Council Chambers, Temporary City Hall, 2360 Campbell Creek Blvd, Suite 525, Richardson, TX 75082",
+      "virtualUrl": "https://www.cor.net/government/city-council/watch-live-council-video",
+      "openToPublicComment": true,
+      "notes": "Residents may attend work sessions and speak to the council; the same public comment card process applies. Sept 21, 2026 is set aside for interviewing Place 3 finalists.",
+      "source": "https://www.cor.net/government/city-council"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-11-23",
+      "status": "cancelled",
+      "note": "City Council - No Meeting (Thanksgiving week)",
+      "source": "https://www.cor.net/government/city-council/city-council"
+    },
+    {
+      "date": "2026-11-30",
+      "status": "cancelled",
+      "note": "City Council - No Meeting (fifth Monday)",
+      "source": "https://www.cor.net/government/city-council/city-council"
+    },
+    {
+      "date": "2026-12-21",
+      "status": "cancelled",
+      "note": "City Council - No Meeting (Christmas week)",
+      "source": "https://www.cor.net/government/city-council/city-council"
+    },
+    {
+      "date": "2026-12-28",
+      "status": "cancelled",
+      "note": "City Council - No Meeting (holiday week)",
+      "source": "https://www.cor.net/government/city-council/city-council"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://www.cor.net/government/boards-commissions-meetings/city-council/city-council-regular-meeting-documents",
+    "platform": "other",
+    "notes": "PDF agendas, packets, presentations and minutes are posted on the city website as they become available (the Sept 14, 2026 agenda and packet were up on Sept 10); the same table is linked from the council page as cor.net/government/city-council/council-meeting-documents. Video and agendas are also on Swagit (richardsontx.new.swagit.com/views/default/city-council). The cor.net site blocks automated fetch tools, so open it in a normal browser."
+  },
+  "liveStream": {
+    "url": "https://www.cor.net/government/city-council/watch-live-council-video",
+    "platform": "Swagit",
+    "notes": "The city says meetings stream live at cor.net/CITV (Citizens Information Television) and on AT&T U-verse channel 99, with on-demand video generally within 24 hours; the embedded player is Swagit (richardsontx.new.swagit.com/views/614)."
+  },
+  "publicComment": {
+    "summary": "Fill out a public comment card at the meeting and hand it to the City Secretary before the meeting starts; you then get up to 5 minutes to speak on an agenda item or, during the Visitors Forum, on any topic the city handles. If you cannot come in person, submit the online Public Comment Form by 4 p.m. on the meeting day and it will be acknowledged for the record.",
+    "howToRegister": "In person: complete the City Council Public Comment Card (available at the meeting or as a PDF on the city website) and submit it to the City Secretary before the meeting begins; choose Public Comments on Agenda Items, Public Hearing, or Visitors Forum. Written: submit the electronic City Council Public Comment Card (cor.net/PublicCommentForm, which opens the feedback.cor.gov form) by 4 p.m. on the day of the meeting.",
+    "registrationUrl": "https://feedback.cor.gov/s/Public-Meeting-Comment-Form/tt-QWnVy",
+    "deadline": "In person: before the meeting begins; online form: 4 p.m. on the day of the meeting",
+    "timeLimitMinutes": 5,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online Public Comment Form at feedback.cor.gov (submitted by 4 p.m. on meeting day; acknowledged during the meeting and provided for the record)",
+    "notes": "A 30 minute cap applies to all public speakers at the start of the meeting; agenda-item speakers are heard first in the order received, then Visitors Forum speakers, and any Visitors Forum speakers left when 30 minutes runs out may be heard after the posted agenda. The mayor may extend or shorten times. Speakers should not repeat the same arguments at successive meetings; groups are asked to designate a spokesperson. If you bring handouts, bring nine copies for the council and do not display materials; no applause or demonstrations from the audience. Overflow seating with live video is provided when the chamber is full.",
+    "source": "https://www.cor.net/government/boards-commissions-meetings/submit-public-meeting-comment-card"
+  },
+  "youthPrograms": [
+    {
+      "name": "Teen Advisory Board (Richardson Public Library)",
+      "url": "https://www.cor.net/departments/public-library/teens/teen-advisory-board",
+      "ages": "13-18",
+      "description": "Library teen board that plans teen events, advises staff on teen interests, and earns volunteer hours; meets once a month before or after teen programs, and graduating seniors may apply for the Friends of the Library Dot McCalpin scholarship.",
+      "applyWindow": "Rolling: return the application and liability waiver (with parent signature) to the Youth Services desk or email richardsonteenadvisoryboard@gmail.com",
+      "source": "https://www.cor.net/departments/public-library/teens/teen-advisory-board"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing on the proposed FY2026-27 tax rate of $0.54218 per $100 valuation",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can weigh in on the proposed property tax rate before council adopts the 2026-27 budget and rate.",
+      "url": "https://www.cor.net/home/showpublisheddocument/46977/639244851219486063"
+    },
+    {
+      "title": "Selection of up to three finalists to interview for the Place 3 council vacancy",
+      "meetingDate": "2026-09-14",
+      "meetingLabel": "City Council Meeting",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council narrows applicants for the vacant Place 3 seat, with interviews planned for Sept 21 and the appointee serving until the May 2027 election.",
+      "url": "https://www.cor.net/home/showpublisheddocument/46977/639244851219486063"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Richardson lies mostly in Dallas County with a portion in Collin County. Since the August 22, 2022 electrical fire at the old City Hall (411 W. Arapaho Road), council meets at the Temporary City Hall, 2360 Campbell Creek Blvd, Suite 525 (southwest corner of Plano Road and Greenville Avenue); a new City Hall is being built under the 2023 bond program, so check cor.net for a move. The city's calendar page states the 2026 schedule as adopted and warns meetings may be added or cancelled. The Sept 21 agenda was not yet posted on Sept 10, so only Sept 14 items are listed; that agenda is short (tax rate hearing, council vacancy, community interest items). The cor.net site returns 403 to automated tools, so its pages were confirmed through a rendering proxy. Population is the Census Bureau July 1, 2025 estimate as reported by the earlier research pass (2020 census: 119,469); the QuickFacts page could not be reopened during the Sept 10 check.",
+  "sources": [
+    "https://www.cor.net/government/city-council",
+    "https://www.cor.net/government/city-council/city-council",
+    "https://www.cor.net/government/city-council/who-are-our-city-council-members",
+    "https://www.cor.net/government/boards-commissions-meetings/submit-public-meeting-comment-card",
+    "https://www.cor.net/government/boards-commissions-meetings/city-council/city-council-regular-meeting-documents",
+    "https://www.cor.net/government/city-council/council-meeting-documents",
+    "https://www.cor.net/home/showpublisheddocument/46977/639244851219486063",
+    "https://www.cor.net/government/city-council/watch-live-council-video",
+    "https://www.cor.net/departments/communications/citizens-information-television",
+    "https://www.cor.net/our-city/municipal-campus/temporary-city-hall",
+    "https://www.cor.net/departments/public-library/teens/teen-advisory-board",
+    "https://feedback.cor.gov/s/Public-Meeting-Comment-Form/tt-QWnVy",
+    "https://experience.arcgis.com/experience/3dae3cb63308484a863994bf7da92460",
+    "https://richardsontx.new.swagit.com/views/default/city-council",
+    "https://richardsontoday.com/city-council-2026-meeting-calendar-approved/",
+    "https://richardsontoday.com/interviews-held-for-city-council-place-3-vacancy/",
+    "https://communityimpact.com/richardson/government/richardson-city-council-interviews-candidates-for-vacant-place-3-seat/",
+    "https://www.census.gov/quickfacts/fact/table/planocitytexas,richardsoncitytexas,addisontowntexas/PST045224"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "cityId": "arlington",
+  "name": "Arlington",
+  "county": "Tarrant",
+  "populationApprox": 397742,
+  "cityHall": {
+    "name": "Arlington City Hall (Council Chamber, 1st floor; Council Briefing Room, 3rd floor)",
+    "address": "101 W. Abram St., Arlington, TX 76010",
+    "lat": 32.7357,
+    "lng": -97.1073
+  },
+  "website": "https://www.arlingtontx.gov",
+  "councilPageUrl": "https://www.arlingtontx.gov/Government/City-Government/City-Council",
+  "council": {
+    "size": 9,
+    "structure": "mayor at large + 5 single-member districts (Districts 1 to 5) + 3 at-large seats (Districts 6, 7 and 8)",
+    "districtCount": 5,
+    "districtMapUrl": "https://www.arlingtontx.gov/Government/City-Government/City-Council/City-Council-District-Map",
+    "findMyDistrictUrl": "https://experience.arcgis.com/experience/045829f15b78459fa0649dba2a384a48",
+    "mayorName": "Jim Ross",
+    "termNote": "Three-year staggered terms with elections in May and a three-term limit; Mayor Ross was re-elected in May 2026 to his third and final term. Current members: Mauricio Galante (D1), Raul H. Gonzalez (D2), Nikkie Hunter (D3), Tom Ware (D4), Brittney Garcia-Dumas (D5), Long Pham (D6), Bowie Hogg (D7, term expires May 2027), Dr. Jason Shelton (D8)."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Evening Meeting",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "18:30",
+        "dates": [
+          "2026-09-15",
+          "2026-09-29",
+          "2026-10-13",
+          "2026-10-27",
+          "2026-11-10",
+          "2026-12-08",
+          "2026-12-15"
+        ],
+        "notes": "Council meets roughly every other Tuesday on an adopted annual calendar (2026: Jan 6, 27; Feb 10, 24; Mar 10, 24; Apr 7, 21, 28 (Council Retreat); May 5, 19; Jun 9, 23; July break; Aug 4, 11 (Budget Related Meeting), 25; Sep 8, 15 (Budget Related Meeting), 29; Oct 13, 27; Nov 10; Dec 8, 15). Evening meetings usually begin at 6:30 p.m.; the city calendar blocks them 6:30 to 10:00 p.m."
+      },
+      "location": "Council Chamber, 1st floor, Arlington City Hall, 101 W. Abram St., Arlington, TX 76010",
+      "virtualUrl": "https://www.arlingtontx.gov/Government/Meetings-Agendas/Watch-Meetings/City-Council-Meetings",
+      "openToPublicComment": true,
+      "notes": "Voting meeting with public hearings and a Citizen Participation section at the end. Sept 15, 2026 is labeled Budget Related Meeting on the adopted schedule; the FY2027 budget, tax levy, water rate and other ordinances that had first reading on Sept 8 are expected to return for final reading, but the Sept 15 agenda had not been posted on Granicus as of Sept 10.",
+      "source": "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Schedule"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Afternoon Session (work session)",
+      "recurrence": {
+        "kind": "custom",
+        "weekday": 2,
+        "time": "14:30",
+        "dates": [
+          "2026-09-29",
+          "2026-10-13",
+          "2026-10-27",
+          "2026-11-10",
+          "2026-12-08",
+          "2026-12-15"
+        ],
+        "notes": "Schedule page says afternoon sessions usually begin at 2:30 p.m. (city calendar blocks 2:30 to 6:00 p.m.); the Sept 8, 2026 session started at 3 p.m., so check the posted agenda. A closed executive session (calendar block 12:00 to 3:00 p.m.) precedes it. No afternoon session is listed for Sept 15, 2026."
+      },
+      "location": "Council Briefing Room, 3rd floor, Arlington City Hall, 101 W. Abram St., Arlington, TX 76010",
+      "virtualUrl": "https://www.arlingtontx.gov/Government/Meetings-Agendas/Watch-Meetings/City-Council-Meetings",
+      "openToPublicComment": false,
+      "notes": "Briefing/work session without public comment; open to the public to watch.",
+      "source": "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Schedule"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-15",
+      "status": "special",
+      "note": "Budget Related Meeting: evening meeting only (no afternoon work session on the calendar). Final readings of the FY2027 operating budget (about $765.8 million), tax levy, water and wastewater rates and other ordinances given first reading on Sept 8 are expected; confirm on the posted agenda.",
+      "source": "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Schedule"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "recess",
+      "note": "No meeting Thanksgiving week; November has a single meeting date (Nov 10).",
+      "source": "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Schedule"
+    },
+    {
+      "date": "2026-12-15",
+      "status": "special",
+      "note": "Second December meeting one week after Dec 8 (back-to-back weeks) to close out the year.",
+      "source": "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Schedule"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://arlingtontx.granicus.com/ViewPublisher.php?view_id=2",
+    "platform": "Granicus",
+    "notes": "Agendas with attachments, minutes and video are on the Granicus publisher (linked from https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Agendas); agendas are posted no later than 3 business days before the meeting. Agenda RSS feed: https://arlingtontx.granicus.com/ViewPublisherRSS.php?view_id=2&mode=agendas. City Secretary posted-meetings page: https://www.arlingtontx.gov/Government/City-Government/City-Secretary/Posted-Meetings"
+  },
+  "liveStream": {
+    "url": "https://www.arlingtontx.gov/Government/Meetings-Agendas/Watch-Meetings/City-Council-Meetings",
+    "platform": "Granicus",
+    "notes": "Live and archived video via Granicus; also on the MyArlingtonTV YouTube channel (https://www.youtube.com/user/cityofarlington) and cable: AT&T U-verse channel 99, Spectrum channel 16 / 15.1 (digital), per the city's meeting news releases."
+  },
+  "publicComment": {
+    "summary": "To speak on an item that is on the agenda, fill out a registration card with staff outside the Council Chamber starting 30 minutes before the evening meeting; you get 3 minutes. To speak about something not on the agenda (Citizen Participation), pre-register by 5 p.m. on the meeting day online, by calling 817-459-6186, or at the City Secretary's Office, and you get 2 minutes (1 minute if 26 or more people signed up).",
+    "howToRegister": "Agenda items: complete a registration card with city staff outside the Council Chamber at 101 W. Abram St. beginning 30 minutes before the 6:30 p.m. meeting (name, city of residence, who you represent if anyone, the item, whether you need a translator). Citizen Participation (non-agenda topics): pre-register no later than 5:00 p.m. the day of the meeting via the online form linked from the City Council Meeting Process page at arlingtontx.gov, by phone at 817-459-6186, or by filling out a registration card at the City Secretary's Office in City Hall.",
+    "registrationUrl": "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Process",
+    "deadline": "Citizen Participation: 5:00 p.m. on the day of the meeting; agenda items: register outside the chamber from 30 minutes before the meeting until the item is called",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "No written-comment channel is listed in the rules; contact council members directly through the City Council office (817-459-6122) or the council members page",
+    "notes": "Zoning public hearings: applicant 5 minutes plus 3-minute rebuttal, all other speakers 3 minutes. Speakers must address the Council from the podium and may not use music, video, other media, signs or props; a translator doubles the time. Speakers with the same message may designate one person to speak for the group. The presiding officer may shorten time limits when many speakers are present. Afternoon sessions have no public comment.",
+    "source": "https://www.arlingtontx.gov/files/assets/city/v/3/city-council/documents/city-council-rules-for-public-comment.pdf"
+  },
+  "youthPrograms": [
+    {
+      "name": "Arlington Mayor's Youth Commission",
+      "url": "https://www.arlingtontx.gov/Government/City-Government/City-Council/City-Council-Members/Mayor-Jim-Ross/Mayor%E2%80%99s-Advisory-Groups",
+      "ages": "Students entering grades 7 to 12 who live in Arlington or attend Arlington ISD schools",
+      "description": "Advisory group to the Mayor and city staff on issues affecting youth, founded 2006; members do service projects and leadership development and meet the first Thursday of each month at 6:30 p.m., September through May (dates subject to change). Application: https://forms.arlingtontx.gov/Forms/MYCApplication",
+      "applyWindow": "Applications for the 2026-27 school year opened July 14, 2026; no deadline is stated on the city page",
+      "source": "https://www.arlingtontx.gov/News-Articles/2026/July/Applications-Open-for-2026-27-Arlington-Mayors-Youth-Commission"
+    },
+    {
+      "name": "Arlington Teen Court",
+      "url": "https://www.arlingtontx.gov/Government/Municipal-Court/Court-Information/Teen-Court",
+      "ages": "Teen volunteers currently enrolled in secondary school serve as jurors and teen attorneys; defendants are 14 to 17",
+      "description": "Voluntary juvenile justice program inside the Arlington Municipal Court where teen volunteers act as prosecutors, defense attorneys and jurors and earn community service credit; adults volunteer as jury monitors, clerks and judges. Coordinator Russell Fiorella, 817-459-6496.",
+      "applyWindow": "Rolling volunteer application at https://app.betterimpact.com/PublicOrganization/d4edf706-d6a6-4a73-9e57-5b5eea2eb485/1",
+      "source": "https://www.arlingtontx.gov/Government/Municipal-Court/Court-Information/Teen-Court"
+    }
+  ],
+  "agendaItems": [],
+  "confidence": "high",
+  "lastVerified": "2026-09-10",
+  "notes": "Verified 2026-09-10 against official arlingtontx.gov pages (2026 adopted meeting schedule, city calendar, Meeting Process page, Rules for Public Comment PDF, council member pages, May 2026 election results, youth program pages) and the Granicus agenda publisher. No agenda items are listed because the Sept 15, 2026 agenda had not been published on Granicus or the agenda RSS feed as of Sept 10 and the Sept 8 meeting has already happened; the Sept 8 agenda (https://arlingtontx.granicus.com/AgendaViewer.php?view_id=2&clip_id=5539) gave first reading to the FY2027 operating budget (about $765.8 million per the city's Sept 8 news release), the FY2027 tax levy, water and wastewater rate changes, one-way street revisions, construction/electrical/fire code amendments and four improvement-district assessment plans, all of which need a second reading that is expected at the Sept 15 Budget Related Meeting. Afternoon session start times vary between 2:30 and 3:00 p.m. The find-my-district link is the city GIS office's public Representatives lookup app (ArcGIS Experience Builder), which replaces the retired gis.arlingtontx.gov/mapsonline address that now returns 403. Population is the July 1, 2024 Census estimate. Coordinates from OpenStreetMap for 101 W. Abram St. No district town halls were found on the city calendar for Sept to Dec 2026.",
+  "sources": [
+    "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Schedule",
+    "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Schedule/City-Council-Calendar",
+    "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Process",
+    "https://www.arlingtontx.gov/files/assets/city/v/3/city-council/documents/city-council-rules-for-public-comment.pdf",
+    "https://www.arlingtontx.gov/Government/Meetings-Agendas/City-Council-Meeting-Agendas",
+    "https://www.arlingtontx.gov/Government/City-Government/City-Secretary/Posted-Meetings",
+    "https://www.arlingtontx.gov/Government/Meetings-Agendas/Watch-Meetings/City-Council-Meetings",
+    "https://arlingtontx.granicus.com/ViewPublisher.php?view_id=2",
+    "https://arlingtontx.granicus.com/ViewPublisherRSS.php?view_id=2&mode=agendas",
+    "https://arlingtontx.granicus.com/AgendaViewer.php?view_id=2&clip_id=5539",
+    "https://www.arlingtontx.gov/News-Articles/2026/September/Arlington-City-Council-Meets-Tuesday-September-8-2026",
+    "https://www.arlingtontx.gov/Government/City-Government/City-Council",
+    "https://www.arlingtontx.gov/Government/City-Government/City-Council/City-Council-Members",
+    "https://www.arlingtontx.gov/Government/City-Government/City-Council/City-Council-District-Map",
+    "https://www.arlingtontx.gov/Government/City-Government/City-Council/City-Council-Members/Council-Member-Bowie-Hogg-District-7",
+    "https://www.arlingtontx.gov/News-Articles/2026/May/Arlington-Voters-Elect-Mayor-District-3-4-5-and-8-Council-Reps",
+    "https://www.arlingtontx.gov/News-Events/MyArlingtonTV/MyArlingtonTV-Directory",
+    "https://www.arlingtontx.gov/News-Articles/2026/July/Applications-Open-for-2026-27-Arlington-Mayors-Youth-Commission",
+    "https://www.arlingtontx.gov/Government/City-Government/City-Council/City-Council-Members/Mayor-Jim-Ross/Mayor%E2%80%99s-Advisory-Groups",
+    "https://www.arlingtontx.gov/Government/Municipal-Court/Court-Information/Teen-Court",
+    "https://experience.arcgis.com/experience/045829f15b78459fa0649dba2a384a48",
+    "https://www.arcgis.com/sharing/rest/content/items/045829f15b78459fa0649dba2a384a48?f=json",
+    "https://nominatim.openstreetmap.org/search?q=101+W+Abram+St,+Arlington,+TX+76010&format=json",
+    "https://www.texas-demographics.com/arlington-demographics"
+  ]
+}

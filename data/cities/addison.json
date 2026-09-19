@@ -1,0 +1,105 @@
+{
+  "cityId": "addison",
+  "name": "Addison",
+  "county": "Dallas",
+  "populationApprox": 17195,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "Addison Town Hall (Council Chambers)",
+    "address": "15600 Addison Road, Addison, TX 75001",
+    "lat": 32.9618,
+    "lng": -96.8298
+  },
+  "website": "https://www.addisontx.gov/",
+  "councilPageUrl": "https://www.addisontx.gov/Government/City-Council",
+  "council": {
+    "size": 7,
+    "structure": "Mayor + 6 council members, all elected at large (no districts), council-manager form of government",
+    "districtCount": 0,
+    "mayorName": "Bruce Arfsten",
+    "termNote": "Two-year terms elected in alternating years, with a limit of three successive terms. Current council: Mayor Bruce Arfsten, Mayor Pro Tem Chris DeFrancisco, Deputy Mayor Pro Tem Darren Gardner, Schnell Blanton, Dan Liscio, Randy Smith, Marlin Willesen."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Regular Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "19:00",
+        "notes": "Second and fourth Tuesdays; the council meeting itself convenes at 7 p.m. in the Council Chambers, after a work session that starts earlier the same evening (see the work session entry). The town calendar confirms Sept 8 and Sept 22, 2026. October through December dates could not be read from the JavaScript calendar, so Oct 13, Oct 27, Nov 10, Nov 24, Dec 8 and Dec 22 follow the stated rule; the town skipped the fourth Tuesday in July 2026, so holiday-week cancellations are possible."
+      },
+      "location": "Council Chambers, Addison Town Hall, 15600 Addison Road, Addison, TX 75001",
+      "virtualUrl": "https://addisontx.new.swagit.com/views/default/live",
+      "openToPublicComment": true,
+      "notes": "The Sept 8, 2026 council meeting agenda runs pledge, proclamations and presentations, public comment, consent agenda, public hearings, individual consideration, items of community interest. The town also posts occasional special meetings (for example a Sept 1, 2026 special meeting on the FY2027 budget at 6 p.m.). Agendas post three business days before the meeting.",
+      "source": "https://addisontexas.primegov.com/Portal/Meeting?meetingId=1318&templateName=HTML%20Agenda"
+    },
+    {
+      "type": "work-session",
+      "label": "City Council Work Session",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 2,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "17:30",
+        "notes": "Held before the regular meeting on the same evening and posted on the same agenda. The start time changes with the length of the work session: 5:30 p.m. on Sept 8, 2026, and 5:00, 5:30, 6:00 or 6:30 p.m. at other 2026 meetings. Check the posted agenda."
+      },
+      "location": "Work Session Room, Addison Town Hall, 15600 Addison Road, Addison, TX 75001",
+      "virtualUrl": "https://addisontx.new.swagit.com/views/default/live",
+      "openToPublicComment": true,
+      "notes": "The work session agenda includes a public comment item, council questions on consent items, and staff work session reports (on Sept 8, 2026: delivery options for the new Police and Courts facility and possible Unified Development Code amendments).",
+      "source": "https://addisontexas.primegov.com/Portal/Meeting?meetingId=1318&templateName=HTML%20Agenda"
+    }
+  ],
+  "scheduleExceptions": [],
+  "agendaPortal": {
+    "url": "https://www.addisontx.gov/Government/Meetings-Agendas",
+    "platform": "other",
+    "notes": "The town's website lists agendas three business days before each meeting; the agendas themselves are built in PrimeGov (addisontexas.primegov.com/public/portal), and each meeting's Swagit video entry at addisontx.new.swagit.com/views/128/city-council embeds the same PrimeGov agenda. Email agenda notices come from noreply@opencities.com after the 2026 site relaunch."
+  },
+  "liveStream": {
+    "url": "https://addisontx.new.swagit.com/views/default/live",
+    "platform": "Swagit",
+    "notes": "The town's Watch Meetings Live page says to select the Live tab on the Swagit site (addisontx.swagit.com/live redirects here); archives are at addisontx.new.swagit.com/views/128/city-council. Also on AT&T U-verse channel 99 and Spectrum channel 16. The town has noted that Chrome and Edge sometimes have playback problems and suggests another browser."
+  },
+  "publicComment": {
+    "summary": "Go to the meeting, fill out a speaker card (the agenda calls it a City Council Appearance Card), and give it to a staff member or place it on the City Secretary's desk at the front of the chambers before the Public Comment item comes up; you get up to 3 minutes. Comments about a public hearing item are heard when that hearing starts. If you would rather write in, use the online City Council Public Comment Form by 3 p.m. on meeting day; it will be acknowledged at the meeting, and attached to the minutes if you ask for it to be on the record.",
+    "howToRegister": "In person: complete a speaker card (choose only one option: general public comment or a specific public hearing item) and hand it to a staff member or put it on the City Secretary's desk before the Public Comment item on the agenda; address remarks to the presiding officer. Written: submit the City Council Public Comment Form linked from the City Secretary page (hosted on openforms.com) by 3 p.m. the day of the meeting.",
+    "registrationUrl": "https://www.addisontx.gov/Government/City-Secretary/City-Council-Public-Comment-Form",
+    "deadline": "In person: before the Public Comment item on the agenda; online form: 3 p.m. on the day of the meeting",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": false,
+    "writtenCommentMethod": "Online City Council Public Comment Form (via addisontx.gov City Secretary page, hosted at us.openforms.com); comments requested for the record are attached to the minutes, other comments are acknowledged during the meeting but not read aloud",
+    "notes": "The Public Comment Procedures page and the Sept 8, 2026 agenda describe only in-person speaker cards and written submissions, so remote speaking is treated as not offered; confirm with the City Secretary (972-450-7000) if you need it. Public comment appears on both the work session and the council meeting agenda. Decorum rules: no placards, banners or signs in the chambers; no personal, profane or slanderous remarks; the council cannot discuss or act on topics that are not on the agenda but may put them on a future agenda.",
+    "source": "https://www.addisontx.gov/Government/Meetings-Agendas/Public-Comment-Procedures"
+  },
+  "youthPrograms": [],
+  "agendaItems": [],
+  "confidence": "medium",
+  "notes": "The old domain addisontexas.net now redirects to addisontx.gov, which relaunched in 2026 on OpenCities; several older pages return 404 and the site's calendar needs JavaScript. The council previously met at the Addison TreeHouse (14681 Midway Road, Suite 200) during a Town Hall renovation, but that notice is no longer online and all current pages and the Sept 8, 2026 agenda list Town Hall. The Sept 22, 2026 agenda was not yet posted on Sept 10 (agendas post three business days ahead), so no agenda items are listed; the Sept 8 agenda (already past) covered the FY2027 budget and a $0.5981 tax rate, utility and solid waste fee increases, and a 380-unit Belt Line Road rezoning. The town's boards are the Board of Zoning Adjustment and Planning and Zoning Commission (applications closed until November 2026); no youth council or teen court was found. Population is the Census Bureau July 1, 2025 estimate as reported by the earlier research pass (2020 census: 16,661); the QuickFacts page could not be reopened during the Sept 10 check.",
+  "sources": [
+    "https://www.addisontx.gov/Government/City-Council",
+    "https://www.addisontx.gov/Government/City-Council/Meeting-Schedule",
+    "https://www.addisontx.gov/Government/Meetings-Agendas",
+    "https://www.addisontx.gov/Government/Meetings-Agendas/Public-Comment-Procedures",
+    "https://www.addisontx.gov/Government/Meetings-Agendas/Watch-Meetings-Live",
+    "https://www.addisontx.gov/Government/Meetings-Agendas/Watch-City-Council-Meetings",
+    "https://www.addisontx.gov/Government/City-Secretary/City-Council-Public-Comment-Form",
+    "https://us.openforms.com/Form/fd37749e-f85f-4afe-8ec1-f41449519ab5",
+    "https://www.addisontx.gov/Government/City-Secretary/Boards-and-Commissions-Applications",
+    "https://addisontx.new.swagit.com/views/default/live",
+    "https://addisontx.new.swagit.com/views/128/city-council",
+    "https://addisontx.new.swagit.com/videos/400203",
+    "https://addisontexas.primegov.com/Portal/Meeting?meetingId=1318&templateName=HTML%20Agenda",
+    "https://addisontexas.primegov.com/api/v2/PublicPortal/ListArchivedMeetings?year=2026",
+    "https://www.census.gov/quickfacts/fact/table/planocitytexas,richardsoncitytexas,addisontowntexas/PST045224"
+  ]
+}

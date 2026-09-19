@@ -1,0 +1,287 @@
+{
+  "cityId": "dallas",
+  "name": "Dallas",
+  "county": "Dallas",
+  "populationApprox": 1329491,
+  "lastVerified": "2026-09-10",
+  "cityHall": {
+    "name": "Dallas City Hall (Council Chambers, 6th floor)",
+    "address": "1500 Marilla St, Dallas, TX 75201",
+    "lat": 32.77627,
+    "lng": -96.79694
+  },
+  "website": "https://dallascityhall.com/",
+  "councilPageUrl": "https://dallascityhall.com/government/Pages/city-council.aspx",
+  "council": {
+    "size": 15,
+    "structure": "mayor elected at large + 14 single-member districts",
+    "districtCount": 14,
+    "findMyDistrictUrl": "https://dallasgis.maps.arcgis.com/apps/instant/minimalist/index.html?appid=807494fddae04830852e4b13e6847979",
+    "districtMapUrl": "https://dallascityhall.com/government/citysecretary/elections/Pages/MAPS.aspx",
+    "mayorName": "Eric L. Johnson",
+    "termNote": "Mayor serves a four-year term (maximum two terms); council members serve two-year terms (maximum four terms). Mayor Johnson was first elected in June 2019 and re-elected in May 2023; council members were last elected in May 2025. Mayor Pro Tem is Jaime Resendez (District 5) and Deputy Mayor Pro Tem is Maxie Johnson (District 4). Current district maps took effect May 2023."
+  },
+  "meetings": [
+    {
+      "type": "regular",
+      "label": "City Council Voting Agenda Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 3,
+        "ordinals": [
+          2,
+          4
+        ],
+        "time": "09:00",
+        "notes": "Per Council Rules of Procedure sec. 2 and the adopted 2026 City Calendar: second and fourth Wednesdays at 9 a.m. The council recesses at noon and reconvenes no earlier than 1 p.m. for public hearings. No meetings on fifth Wednesdays. Subject to the adopted calendar (holiday shifts and cancellations listed under scheduleExceptions)."
+      },
+      "location": "Council Chambers, 6th floor, Dallas City Hall, 1500 Marilla St, Dallas, TX 75201",
+      "virtualUrl": "https://dallascityhall.com/government/Pages/Live.aspx",
+      "openToPublicComment": true,
+      "notes": "Voting on consent and individual agenda items, plus public hearings (zoning cases after 1 p.m.). Open microphone period at the start (first five registered speakers) and at the end of the meeting.",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "type": "briefing",
+      "label": "City Council Briefing Meeting",
+      "recurrence": {
+        "kind": "nth-weekday",
+        "weekday": 3,
+        "ordinals": [
+          1,
+          3
+        ],
+        "time": "09:00",
+        "notes": "Per Council Rules of Procedure and the adopted 2026 City Calendar: first and third Wednesdays at 9 a.m. Briefings may be moved to Room 6ES. No meetings on fifth Wednesdays."
+      },
+      "location": "Council Chambers (or Room 6ES), Dallas City Hall, 1500 Marilla St, Dallas, TX 75201",
+      "virtualUrl": "https://dallascityhall.com/government/Pages/Live.aspx",
+      "openToPublicComment": true,
+      "notes": "Policy briefings from the City Manager; voting items are generally not scheduled except emergencies, construction contracts and change orders, architectural and engineering contracts, budget resolutions and ordinances, minutes and board appointments. Speakers may register for open microphone periods at the beginning and end of each briefing and on any voting item placed on a briefing agenda. The Sept 16, 2026 briefing doubles as the Budget Workshop to adopt the FY 2026-27 budget and tax rate.",
+      "source": "https://citysecretary2.dallascityhall.com/pdf/City_Council_Rules082725.pdf"
+    }
+  ],
+  "scheduleExceptions": [
+    {
+      "date": "2026-09-16",
+      "status": "special",
+      "note": "Council Briefing plus Budget Workshop: adopt FY 2026-27 budget on final reading, adopt tax rate, approve other budget items (9 a.m., Council Chambers).",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "date": "2026-09-30",
+      "status": "recess",
+      "note": "Fifth Wednesday: no City Council meetings.",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "date": "2026-11-10",
+      "status": "rescheduled",
+      "note": "The second-Wednesday voting agenda meeting is moved to Tuesday, Nov 10 at 9 a.m. because Wednesday, Nov 11 is the Veterans Day city holiday.",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "date": "2026-11-18",
+      "status": "cancelled",
+      "note": "City Council Briefing canceled (National League of Cities City Summit week).",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "date": "2026-11-25",
+      "status": "cancelled",
+      "note": "City Council voting agenda meeting canceled (Thanksgiving week).",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "date": "2026-12-16",
+      "status": "cancelled",
+      "note": "City Council Briefing canceled.",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "date": "2026-12-23",
+      "status": "cancelled",
+      "note": "City Council voting agenda meeting canceled (Christmas week).",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    },
+    {
+      "date": "2026-12-30",
+      "status": "recess",
+      "note": "Fifth Wednesday: no City Council meetings.",
+      "source": "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf"
+    }
+  ],
+  "agendaPortal": {
+    "url": "https://cityofdallas.legistar.com/Calendar.aspx",
+    "platform": "Legistar",
+    "notes": "Agendas, meeting details and Swagit video links for council meetings, briefings and committees. The City Secretary also posts agendas at https://dallascityhall.com/government/citysecretary/Pages/cMeetings.aspx."
+  },
+  "liveStream": {
+    "url": "https://dallascityhall.com/government/Pages/Live.aspx",
+    "platform": "city TV",
+    "notes": "The city's City Council Video Stream page embeds the Dallas Swagit player (live channels 16, 95 and 96 plus archived meetings). Archived council video is also at https://dallastx.new.swagit.com/views/default/city-council/ (the older dallastx.swagit.com/city-council/ address redirects there). Cable: Spectrum ch. 16, AT&T U-verse ch. 99, Verizon FiOS ch. 47. Channel listings and the live schedule are also at https://www.dallascitynews.net/watch-live."
+  },
+  "publicComment": {
+    "summary": "Register with the City Secretary by 5 p.m. on the business day before the meeting, then show up at City Hall (or join by WebEx video) and you get up to 3 minutes to speak on an agenda item or during open microphone. Open mic speakers: the first five registered go at the start, everyone else at the end, and you can only do open mic once every 30 days.",
+    "howToRegister": "1) Fill out the online Speaker Registration Form (forms.office.com/g/83jQyRpPsP, linked from the Council Rules page), or 2) email secspeakerrequest@dallas.gov, or 3) call the City Secretary at 214-670-3738, or 4) register in person at Dallas City Hall, Room 5D South. Give your name, home address, daytime phone, whether you will appear in person or by videoconference, the subject, and whether it is on the agenda. Registration opens at 8:15 a.m. the business day after the previous council meeting.",
+    "registrationUrl": "https://forms.office.com/g/83jQyRpPsP",
+    "deadline": "5:00 p.m. of the last regular business day before the meeting (usually the Tuesday before a Wednesday meeting)",
+    "timeLimitMinutes": 3,
+    "virtualAllowed": true,
+    "writtenCommentMethod": "Email secspeakerrequest@dallas.gov or file copies of remarks and supporting materials with the City Secretary, who makes them available to the council and city manager on request. Handouts for the council should be submitted by 3 p.m. the business day before the meeting.",
+    "notes": "Applies to both voting agenda meetings and briefings. Speakers appear in person or by WebEx videoconference. Dallas residents are called before nonresidents; the mayor may shorten time limits when many people register; a speaker registered on multiple voting items gets 3 minutes total; comments during public hearings must stay on the hearing topic. Questions: City Secretary 214-670-3738.",
+    "source": "https://dallascityhall.com/government/citysecretary/pages/ccrules.aspx"
+  },
+  "youthPrograms": [
+    {
+      "name": "Dallas Youth Commission",
+      "url": "https://dallascityhall.com/government/Boards-and-Commissions/Youth-Commission/Pages/default.aspx",
+      "ages": "Full-time students in good standing in grades 9 through 12 who have lived in Dallas at least six months before appointment and reside in the appointing council member's district",
+      "description": "A 15-member advisory body (one appointee per council district plus the mayor) that gives Dallas youth a voice on city issues, meets monthly (Mondays at 6 p.m. in the Council Chambers) with working committees, and expects roughly four hours a month of service.",
+      "applyWindow": "Rolling; apply through the city's boards and commissions portal (https://cityofdallas.granicus.com/boards/forms/845/apply/). One of 15 seats was vacant as of Sept 2026. Coordinator: Jacob Rayner, jacob.rayner@dallas.gov, 469-849-1008.",
+      "source": "https://cityofdallas.granicus.com/boards/forms/845/apply/"
+    }
+  ],
+  "agendaItems": [
+    {
+      "title": "Public hearing on proposed FY 2026-27 property tax rate of $0.6978 per $100 valuation (26-2612A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Residents can speak before the council votes on the property tax rate that will fund next year's city budget.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "City Council amendments to the FY 2026-27 budget (26-2822A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "budget-taxes",
+        "governance-elections"
+      ],
+      "summary": "Council members propose and vote on changes to the city manager's recommended budget before final adoption.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Final reading and adoption of the FY 2026-27 appropriations ordinance, about $5.97 billion (26-2885A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "The council gives final approval to the operating, capital and grant budgets for the fiscal year starting Oct 1, 2026.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Ordinance setting the FY 2026-27 tax rate and levying property taxes, estimated levy $1.66 billion (26-2934A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "Formally adopts the property tax rate that determines what Dallas homeowners and businesses will pay this year.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Resolution ratifying the property tax revenue increase in the FY 2026-27 budget (26-2922A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "budget-taxes"
+      ],
+      "summary": "State law requires a separate vote acknowledging that the budget raises more property tax revenue than last year.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Ordinance amending city fees for stormwater, animal services, ambulance, fire permits, sanitation, and water/wastewater (26-2932A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "utilities-water",
+        "animal-services",
+        "budget-taxes"
+      ],
+      "summary": "Updates the rates residents pay for water, sewer, trash, stormwater, ambulance and other city services for the new fiscal year.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Ordinance reorganizing the city's facilities and real estate management functions (26-2882A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Reorganizes how the city manages its buildings and property holdings.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Position changes and salary schedules for civilian and uniformed employees for FY 2026-27 (26-2991A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "budget-taxes",
+        "public-safety"
+      ],
+      "summary": "Sets staffing levels and pay scales for city workers, including police and fire, for the coming year.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Approval of 2027 employee health benefits plan design (26-3007A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "health",
+        "budget-taxes"
+      ],
+      "summary": "Approves the health insurance plans the city will offer its employees in 2027.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Board and commission appointments (26-2089A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "governance-elections"
+      ],
+      "summary": "Council members appoint residents to the city's volunteer boards and commissions.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    },
+    {
+      "title": "Closed session on legal matters related to the Fair Park First management contract (26-2909A)",
+      "meetingDate": "2026-09-16",
+      "meetingLabel": "City Council Briefing / Budget Workshop (final budget adoption)",
+      "topics": [
+        "parks-recreation",
+        "governance-elections"
+      ],
+      "summary": "The council meets privately with attorneys about the nonprofit contract that runs Fair Park.",
+      "url": "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A"
+    }
+  ],
+  "confidence": "high",
+  "notes": "Re-verified Sept 10, 2026 against the council-adopted 2026 City Calendar (Attachment A), the City Secretary's amended calendar PDF (matching for Sept through Dec 2026), the Council Rules of Procedure (rev. 8-27-25), the City Secretary's speaker rules page and the FAQ page. The Sept 16, 2026 briefing/budget workshop agenda is final on Legistar and all agenda items above appear on it; the Sept 23, 2026 voting agenda was still in draft with no items posted. Council committee date shifts (10/13, 11/17, 12/14) are committee meetings, not full council meetings, so they are not listed. The speaker registration form and the find-my-district map are script-driven pages that could not be read by an automated fetch, but both are linked directly from official city pages. The population figure is a Census estimate carried over from the earlier research pass; Census QuickFacts could not be reached during this check.",
+  "sources": [
+    "https://dallascityhall.com/government/Calendar1/2026-City-Calendar.pdf",
+    "https://citysecretary2.dallascityhall.com/pdf/council_calendar.pdf",
+    "https://citysecretary2.dallascityhall.com/pdf/City_Council_Rules082725.pdf",
+    "https://dallascityhall.com/government/citysecretary/pages/ccrules.aspx",
+    "https://dallascityhall.com/government/Pages/FAQs.aspx",
+    "https://dallascityhall.com/government/Pages/city-council.aspx",
+    "https://dallascityhall.com/government/citymayor/Pages/default.aspx",
+    "https://dallascityhall.com/government/citysecretary/elections/Pages/MAPS.aspx",
+    "https://cityofdallas.legistar.com/Calendar.aspx",
+    "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362421&GUID=9FF6CB5B-9AB2-4C39-BEEC-A7E946BEB71A",
+    "https://cityofdallas.legistar.com/MeetingDetail.aspx?ID=1362423&GUID=C4FABFDE-D9D8-493D-A742-4D392E055CA8",
+    "https://dallascityhall.com/government/Pages/Live.aspx",
+    "https://dallascityhall.com/Pages/watch-city-meetings-online.aspx",
+    "https://www.dallascitynews.net/watch-live",
+    "https://dallastx.new.swagit.com/views/default/city-council/",
+    "https://dallascityhall.com/government/Boards-and-Commissions/Youth-Commission/Pages/default.aspx",
+    "https://dallascityhall.com/government/Boards-and-Commissions/Youth-Commission/Pages/Meetings.aspx",
+    "https://cityofdallas.granicus.com/boards/forms/845/apply/",
+    "https://www.governmentjobs.com/careers/dallasboards/jobs/newprint/1274817",
+    "https://nominatim.openstreetmap.org/search?q=1500+Marilla+St+Dallas+TX+75201&format=json&limit=1"
+  ]
+}
