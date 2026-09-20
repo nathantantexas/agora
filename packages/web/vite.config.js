@@ -37,7 +37,7 @@ export default defineConfig({
         ],
         shortcuts: [
           { name: 'For you', url: `${base}for-you`, description: 'Meetings matched to your interests' },
-          { name: 'Map', url: base, description: 'Every DFW council meeting on a map' },
+          { name: 'Map', url: `${base}map`, description: 'Every DFW council meeting on a map' },
         ],
       },
       workbox: {

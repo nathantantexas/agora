@@ -998,19 +998,41 @@ dl.facts dd {
 /* Hero */
 .hero {
   display: grid;
-  gap: 22px;
-  grid-template-columns: 1.25fr 1fr;
-  align-items: center;
-  padding: 24px 0 10px;
+  gap: 22px 40px;
+  grid-template-columns: 1.35fr 1fr;
+  align-items: start;
+  padding: 22px 0 8px;
+  border-bottom: 3px double var(--rule-strong);
+  padding-bottom: 26px;
 }
 .hero .lead {
   font-size: 1.12rem;
   color: var(--ink-2);
   max-width: 54ch;
 }
+.hero-title {
+  font-size: clamp(2rem, 3.4vw + 1.1rem, 3.1rem);
+  line-height: 1.08;
+  margin-bottom: 0.3em;
+}
+/* An aside set against the opening statement, the way a standfirst sits beside a lead. */
+.hero-note {
+  margin: 0;
+  padding-left: 18px;
+  border-left: 1px solid var(--rule-strong);
+  color: var(--ink-2);
+  font-size: 0.95rem;
+  max-width: 46ch;
+}
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
+  }
+  .hero-note {
+    padding-left: 0;
+    border-left: 0;
+    border-top: 1px solid var(--rule-strong);
+    padding-top: 14px;
   }
 }
 
@@ -1388,6 +1410,33 @@ table.data th.num {
 }
 .table-scroll {
   overflow-x: auto;
+}
+
+/* City emblems. A locator mark per city, square like every other panel. */
+.emblem {
+  flex: none;
+  display: block;
+}
+.city-ident {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  min-width: 0;
+}
+.city-head {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  min-width: 0;
+}
+@media (max-width: 560px) {
+  .city-head {
+    gap: 14px;
+  }
+  .city-head .emblem {
+    width: 64px;
+    height: 64px;
+  }
 }
 
 /* City index rows */

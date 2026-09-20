@@ -4,6 +4,7 @@ import { formatDate, formatTime, relativeDays, getTopic, inferTopics, t } from '
 import { CloseIcon, CalendarIcon, DirectionsIcon, ExternalIcon, MicIcon } from './icons.jsx';
 import { TopicTag } from './TopicChips.jsx';
 import { MeetingClock } from './viz.jsx';
+import CityEmblem from './CityEmblem.jsx';
 import { downloadIcs, directionsUrl } from '../lib/ics.js';
 import { api } from '../lib/api.js';
 
@@ -58,16 +59,19 @@ export default function MeetingDrawer({ meeting, city, today, onClose, hideCityL
       <div className="drawer-backdrop" onClick={onClose} aria-hidden="true" />
       <aside ref={panelRef} className="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
         <div className="drawer-head">
-          <div>
-            <p className="muted" style={{ margin: 0, fontWeight: 600, fontSize: '0.88rem' }}>
-              {city.name}
-            </p>
-            <h2 id="drawer-title" style={{ marginBottom: 2 }}>
-              {meeting.label}
-            </h2>
-            <p className="muted" style={{ margin: 0 }}>
-              {formatDate(meeting.date, { withYear: true, long: true })}, {formatTime(meeting.time)} · {relativeDays(meeting.date, today)}
-            </p>
+          <div className="city-ident">
+            <CityEmblem city={city} size={52} />
+            <div style={{ minWidth: 0 }}>
+              <p className="muted" style={{ margin: 0, fontWeight: 600, fontSize: '0.88rem' }}>
+                {city.name}
+              </p>
+              <h2 id="drawer-title" style={{ marginBottom: 2 }}>
+                {meeting.label}
+              </h2>
+              <p className="muted" style={{ margin: 0 }}>
+                {formatDate(meeting.date, { withYear: true, long: true })}, {formatTime(meeting.time)} · {relativeDays(meeting.date, today)}
+              </p>
+            </div>
           </div>
           <button ref={closeRef} type="button" className="btn icon" onClick={onClose} aria-label={t('common.close')}>
             <CloseIcon />

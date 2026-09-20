@@ -7,6 +7,7 @@ import { useStore } from '../lib/store.jsx';
 import MeetingCard from '../components/MeetingCard.jsx';
 import MeetingDrawer, { AgendaItem } from '../components/MeetingDrawer.jsx';
 import { ScheduleRibbon, MeetingClock } from '../components/viz.jsx';
+import CityEmblem, { emblemLabel } from '../components/CityEmblem.jsx';
 import { ExternalIcon, MicIcon, PinIcon } from '../components/icons.jsx';
 
 const HORIZON = 90;
@@ -75,19 +76,22 @@ export default function CityPage() {
   return (
     <div className="container">
       <div className="row between" style={{ alignItems: 'start' }}>
-        <div>
-          <h1 style={{ marginBottom: 4 }}>{t('city.councilTitle', { city: city.name })}</h1>
-          <p className="muted" style={{ marginBottom: 4 }}>
-            <PinIcon /> {city.cityHall.name ? `${city.cityHall.name}, ` : ''}
-            {city.cityHall.address}
-          </p>
-          {city.council && city.council.structure && (
-            <p className="muted">
-              {city.council.size ? `${t('city.members', { n: city.council.size })}, ` : ''}
-              {city.council.structure}
-              {city.council.mayorName ? t('city.mayor', { name: city.council.mayorName }) : ''}
+        <div className="city-head">
+          <CityEmblem city={city} size={92} label={emblemLabel(city)} />
+          <div style={{ minWidth: 0 }}>
+            <h1 style={{ marginBottom: 4 }}>{t('city.councilTitle', { city: city.name })}</h1>
+            <p className="muted" style={{ marginBottom: 4 }}>
+              <PinIcon /> {city.cityHall.name ? `${city.cityHall.name}, ` : ''}
+              {city.cityHall.address}
             </p>
-          )}
+            {city.council && city.council.structure && (
+              <p className="muted">
+                {city.council.size ? `${t('city.members', { n: city.council.size })}, ` : ''}
+                {city.council.structure}
+                {city.council.mayorName ? t('city.mayor', { name: city.council.mayorName }) : ''}
+              </p>
+            )}
+          </div>
         </div>
         {isHome ? (
           <span className="tag brand">{t('common.yourCity')}</span>
@@ -129,7 +133,9 @@ export default function CityPage() {
         )}
       </div>
 
-      {live.length > 0 && <ScheduleRibbon meetings={live} from={today} days={HORIZON} title={t('viz.cityRibbonTitle', { n: HORIZON })} compact />}
+      {/* Not compact: this sits in the full width container, and the narrow viewBox would
+          scale the labels up to nearly three times their intended size. */}
+      {live.length > 0 && <ScheduleRibbon meetings={live} from={today} days={HORIZON} title={t('viz.cityRibbonTitle', { n: HORIZON })} />}
 
       <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(330px, 1fr))', alignItems: 'start' }}>
         <div className="stack">

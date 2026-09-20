@@ -3,8 +3,10 @@ import { t } from '@agora/core';
 
 /** Mobile overflow page: the destinations that do not fit in the tab bar. */
 const LINKS = [
+  { to: '/', key: 'nav.homePage' },
   { to: '/insights', key: 'nav.insights' },
   { to: '/news', key: 'nav.news' },
+  { to: '/profile', key: 'profile.title' },
   { to: '/about', key: 'nav.about' },
 ];
 

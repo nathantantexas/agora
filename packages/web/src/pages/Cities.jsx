@@ -5,6 +5,7 @@ import { today as todayFn } from '../lib/data.js';
 import { useCities } from '../lib/DataProvider.jsx';
 import { useStore } from '../lib/store.jsx';
 import { CadenceStrip } from '../components/viz.jsx';
+import CityEmblem from '../components/CityEmblem.jsx';
 
 const CADENCE_DAYS = 42;
 
@@ -81,15 +82,18 @@ export default function Cities() {
           return (
             <li key={city.cityId}>
               <div className="city-row">
-                <div>
-                  <h3 className="name">
-                    <Link to={`/city/${city.cityId}`}>{city.name}</Link>
-                  </h3>
-                  <p className="meta" style={{ margin: 0 }}>
-                    {t('location.countyOf', { county: city.county })}
-                    {miles != null ? ` · ${milesText(miles)}` : ''}
-                    {isHome ? ` · ${t('common.yourCity')}` : ''}
-                  </p>
+                <div className="city-ident">
+                  <CityEmblem city={city} size={46} />
+                  <div style={{ minWidth: 0 }}>
+                    <h3 className="name">
+                      <Link to={`/city/${city.cityId}`}>{city.name}</Link>
+                    </h3>
+                    <p className="meta" style={{ margin: 0 }}>
+                      {t('location.countyOf', { county: city.county })}
+                      {miles != null ? ` · ${milesText(miles)}` : ''}
+                      {isHome ? ` · ${t('common.yourCity')}` : ''}
+                    </p>
+                  </div>
                 </div>
 
                 <div className="cadence-cell">

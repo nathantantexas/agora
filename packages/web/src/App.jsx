@@ -5,8 +5,12 @@ import { useStore } from './lib/store.jsx';
 import { DataProvider } from './lib/DataProvider.jsx';
 import { Logo, MapIcon, StarIcon, BuildingIcon, BookIcon, NewsIcon, MoreIcon } from './components/icons.jsx';
 import LanguageSwitcher from './components/LanguageSwitcher.jsx';
-import MapPage from './pages/MapPage.jsx';
+import ProfileSwitcher from './components/ProfileSwitcher.jsx';
+import Home from './pages/Home.jsx';
 
+// The map is no longer the landing page, so Leaflet can load on demand instead of
+// shipping with the first screen.
+const MapPage = lazy(() => import('./pages/MapPage.jsx'));
 const Onboarding = lazy(() => import('./pages/Onboarding.jsx'));
 const ForYou = lazy(() => import('./pages/ForYou.jsx'));
 const Cities = lazy(() => import('./pages/Cities.jsx'));
@@ -16,9 +20,11 @@ const News = lazy(() => import('./pages/News.jsx'));
 const Learn = lazy(() => import('./pages/Learn.jsx'));
 const About = lazy(() => import('./pages/About.jsx'));
 const More = lazy(() => import('./pages/More.jsx'));
+const Profile = lazy(() => import('./pages/Profile.jsx'));
 
+// Home has no entry of its own: the wordmark links there, the way a masthead does.
 const NAV = [
-  { to: '/', key: 'nav.map', icon: MapIcon, end: true },
+  { to: '/map', key: 'nav.map', icon: MapIcon },
   { to: '/for-you', key: 'nav.forYou', icon: StarIcon },
   { to: '/cities', key: 'nav.cities', icon: BuildingIcon },
   { to: '/insights', key: 'nav.insights' },
@@ -66,7 +72,7 @@ class ErrorBoundary extends Component {
         <h1>{t('errors.boundaryTitle')}</h1>
         <p className="muted">{t('errors.boundaryBody')}</p>
         <p>
-          <NavLink to="/" className="btn primary">
+          <NavLink to="/map" className="btn primary">
             {t('errors.backToMap')}
           </NavLink>
         </p>
@@ -98,6 +104,7 @@ export default function App() {
             ))}
           </nav>
           <div className="nav-tools">
+            <ProfileSwitcher />
             <LanguageSwitcher />
           </div>
         </header>
@@ -107,7 +114,8 @@ export default function App() {
           <ErrorBoundary resetKey={pathname}>
             <Suspense fallback={<Loading />}>
               <Routes>
-                <Route path="/" element={<MapPage />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/map" element={<MapPage />} />
                 <Route path="/start" element={<Onboarding />} />
                 <Route path="/for-you" element={<ForYou />} />
                 <Route path="/cities" element={<Cities />} />
@@ -117,6 +125,7 @@ export default function App() {
                 <Route path="/learn" element={<Learn />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/more" element={<More />} />
+                <Route path="/profile" element={<Profile />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>
@@ -140,7 +149,7 @@ function NotFound() {
     <div className="container">
       <h1>{t('errors.notFoundTitle')}</h1>
       <p>
-        <NavLink to="/">{t('nav.map')}</NavLink> · <NavLink to="/cities">{t('nav.cities')}</NavLink>
+        <NavLink to="/map">{t('nav.map')}</NavLink> · <NavLink to="/cities">{t('nav.cities')}</NavLink>
       </p>
     </div>
   );

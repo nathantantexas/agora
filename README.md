@@ -92,6 +92,8 @@ ANTHROPIC_API_KEY=sk-ant-... npm run dev
 | Insights: when councils meet, evening share, school-hours share, speaking limits | Insights (web), `stats` (CLI) |
 | Add to calendar (.ics), directions, offline support | Meeting drawer (web) |
 | Language menu: English, Spanish, Vietnamese, covering the interface, the engine's wording, and the city data | Header (web), `--lang` (CLI) |
+| Profiles: separate saved setups on one device, with export and import to move one | Header and Profiles page (web) |
+| A locator emblem for each of the 39 cities, placed from its real city hall coordinates | City index, city pages, meeting drawer |
 
 ## Data visualizations
 
@@ -110,10 +112,28 @@ rest of the app runs on.
 | Dumbbell plot | How much of a council's calendar happens before the school day ends? Daytime and evening meetings per city, joined by a bar | Insights |
 | Dot plot | What subjects fill upcoming agendas? | Insights |
 | Unit chart | How long do cities let you speak, and how is coverage split by county? One square per city | Insights |
+| City emblem | Where in the region is this council? The whole metroplex as a field of marks, with this city's hall struck through by a crosshair and tinted by county | City index, city pages, meeting drawer |
 
 Every chart has a keyboard-reachable table view of the same numbers, an SVG description
 for screen readers, and labels drawn from the same dictionaries as the rest of the app,
 so the charts translate along with everything else.
+
+## Profiles
+
+Agora has no accounts, no sign-in, and no server holding anyone's data. A profile is a
+separate saved setup in one browser: its own topics, availability, home city, language,
+and first-meeting checklist. That covers the case the app actually has, which is a shared
+school laptop where several students each want their own matches, without asking a minor
+to create a password or hand over an email address.
+
+Because nothing is stored remotely, the only way to move a setup between devices, or to
+get it back after clearing browser data, is the export file on the Profiles page. The page
+says so directly rather than implying a recovery that cannot exist. The optional email
+field is used for exactly one thing, closing your own draft comment with a contact line,
+and the form says that too.
+
+A setup saved before profiles existed is migrated into the first profile on next load, so
+nobody is sent back through onboarding.
 
 ## Design
 

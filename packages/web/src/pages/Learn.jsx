@@ -84,10 +84,10 @@ function Checklist() {
 }
 
 function CommentBuilder({ initialCity }) {
-  const { prefs } = useStore();
+  const { prefs, profile } = useStore();
   const { cities, cityById } = useCities();
   const [form, setForm] = useState({
-    name: '',
+    name: profile.name === t('profile.defaultName') ? '' : profile.name,
     school: '',
     cityId: initialCity || prefs.homeCityId || '',
     topicId: prefs.interests[0] || 'parks-recreation',
@@ -100,7 +100,11 @@ function CommentBuilder({ initialCity }) {
   const [copied, setCopied] = useState(false);
   const city = form.cityId ? cityById(form.cityId) : null;
   const timeOfDay = city && city.meetings && city.meetings[0] ? timeOfDayFor(city.meetings[0].recurrence.time) : 'evening';
-  const draft = useMemo(() => buildComment({ ...form, cityName: city ? city.name : '', timeOfDay }), [form, city, timeOfDay]);
+  const draft = useMemo(() => {
+    const body = buildComment({ ...form, cityName: city ? city.name : '', timeOfDay });
+    // The one place a profile email is ever used: closing your own draft with a contact line.
+    return profile.email ? [body, t('learn.contactLine', { email: profile.email })].join('\n\n') : body;
+  }, [form, city, timeOfDay, profile.email]);
   const seconds = estimateSpeakingSeconds(ai.text || draft);
   const limit = city && city.publicComment && city.publicComment.timeLimitMinutes ? city.publicComment.timeLimitMinutes * 60 : 180;
   const set = (k) => (e) => setForm({ ...form, [k]: e.target.value });
