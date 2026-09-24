@@ -10,6 +10,8 @@ export const BRAND = Object.freeze({
   cliCommand: 'agora',
   packageScope: '@agora',
   regionShort: 'DFW',
+  // Where a community post written on one device is sent for the team to review.
+  repoUrl: 'https://github.com/nathantantexas/agora',
   get tagline() {
     return t('brand.tagline');
   },

@@ -42,6 +42,10 @@ const CSP = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://tile.openstreetmap.org https://*.tile.openstreetmap.org",
   "connect-src 'self' https://tile.openstreetmap.org https://*.tile.openstreetmap.org",
+  // Community posts: photos and video stored on the device come back as blob: URLs, and
+  // pasted video links are only ever rewritten to these two embed hosts.
+  "media-src 'self' blob:",
+  "frame-src https://www.youtube-nocookie.com https://player.vimeo.com",
   "font-src 'self'",
   "worker-src 'self'",
   "manifest-src 'self'",

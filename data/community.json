@@ -1,0 +1,132 @@
+{
+  "note": "Seed posts for the Community page. Every entry with sample: true carries a placeholder author; swap in real names, schools, and media before the team presents. Media paths are relative to packages/web/public/. Kinds are tip, toolkit, win, question.",
+  "posts": [
+    {
+      "id": "sample-plano-signup",
+      "sample": true,
+      "kind": "toolkit",
+      "title": "How to find the Plano speaker sign-up before the 4 PM cutoff",
+      "body": "Plano does not let you sign up at the door, and the online form closes at 4 PM on meeting day. I lost my first chance because I did not know that. I recorded a short walkthrough of where the form lives so nobody else has to hunt for it.\n\nOpen the city page here, scroll to How to speak here, and the Sign up to speak button takes you straight to the form. Register the Tuesday before if you can.",
+      "author": { "name": "Maya R.", "school": "Plano East Senior High", "cityId": "plano" },
+      "cityId": "plano",
+      "postedAt": "2026-09-08",
+      "helpful": 21,
+      "media": [
+        { "type": "video", "src": "community/plano-signup-walkthrough.webm", "poster": "community/plano-signup-poster.png", "caption": "Where the Plano sign-up form lives, in under ten seconds." }
+      ],
+      "links": [{ "label": "Plano city guide", "to": "/city/plano" }]
+    },
+    {
+      "id": "sample-garland-crosswalk",
+      "sample": true,
+      "kind": "win",
+      "title": "Six of us spoke about the Park Boulevard crossing. It is on the budget list.",
+      "body": "We each took one crossing and described walking it at 7:40 AM. Nobody read from a script for more than a minute. Two council members asked follow-up questions, which the clerk told us afterward almost never happens during public comment.\n\nThe item is now in the capital projects list for review. Not built yet, but it exists on paper, which it did not before. The thing that worked was six short stories about the same three blocks instead of one long speech.",
+      "author": { "name": "Jordan T.", "school": "Garland High School", "cityId": "garland" },
+      "cityId": "garland",
+      "postedAt": "2026-09-16",
+      "helpful": 34,
+      "media": [
+        { "type": "image", "src": "community/podium.svg", "alt": "Line drawing of a speaker at a lectern with a microphone and a three minute timer." }
+      ],
+      "links": []
+    },
+    {
+      "id": "sample-coppell-card",
+      "sample": true,
+      "kind": "toolkit",
+      "title": "The index card I bring to every meeting",
+      "body": "One card, four lines: who I am and my school, the item number, the one thing I am asking for, and one sentence of why it matters to people my age. If I get nervous I read the card. If I do not, I have it anyway.\n\nThe comment builder in Learn produces the same structure, so I draft there, cut it to the card, and time it against the limit with the ruler.",
+      "author": { "name": "Priya S.", "school": "Coppell High School", "cityId": "coppell" },
+      "cityId": "coppell",
+      "postedAt": "2026-09-12",
+      "helpful": 18,
+      "media": [
+        { "type": "image", "src": "community/speaker-card.svg", "alt": "Line drawing of a speaker registration card with lines for name, address, and agenda item, and a pen beside it." }
+      ],
+      "links": [{ "label": "Open the comment builder", "to": "/learn?tab=comment" }]
+    },
+    {
+      "id": "sample-fortworth-early",
+      "sample": true,
+      "kind": "tip",
+      "title": "Fort Worth: budget twenty minutes for the security line",
+      "body": "City Hall has a security checkpoint and on a budget night the line ran out the door. The clerk closes the speaker sign-up when the meeting is called to order, so if you are still in line at that moment you cannot speak. I now aim to be inside by 5:40 for a 6:00 start.",
+      "author": { "name": "Diego M.", "school": "Paschal High School", "cityId": "fort-worth" },
+      "cityId": "fort-worth",
+      "postedAt": "2026-09-18",
+      "helpful": 12,
+      "media": [],
+      "links": [{ "label": "Fort Worth city guide", "to": "/city/fort-worth" }]
+    },
+    {
+      "id": "sample-denton-age",
+      "sample": true,
+      "kind": "question",
+      "title": "Can you speak at public comment if you are under 18?",
+      "body": "I asked the Denton city secretary this directly because I could not find it written anywhere. The answer was yes: there is no age requirement to speak during public comment, you just fill out the same card as everyone else. Posting because I almost did not go.\n\nIf anyone has heard differently for their own city, reply with what your clerk said.",
+      "author": { "name": "Amara O.", "school": "Denton High School", "cityId": "denton" },
+      "cityId": "denton",
+      "postedAt": "2026-09-05",
+      "helpful": 27,
+      "media": [],
+      "links": []
+    },
+    {
+      "id": "sample-richardson-library",
+      "sample": true,
+      "kind": "win",
+      "title": "Teen room hours at the library extended to 8 PM",
+      "body": "This was not even an agenda item. Four of us used the Citizen Comments slot to say the teen room closes at 6, which is exactly when most of us finish practice. A council member asked the library director about it the same night. The change showed up in the next month's hours.\n\nLesson: the open comment period is for things that are not on the agenda yet. That is the point of it.",
+      "author": { "name": "Ethan K.", "school": "Richardson High School", "cityId": "richardson" },
+      "cityId": "richardson",
+      "postedAt": "2026-08-28",
+      "helpful": 40,
+      "media": [
+        { "type": "image", "src": "community/chamber.svg", "alt": "Line drawing of a council chamber: a curved dais with seven seats facing rows of audience chairs." }
+      ],
+      "links": []
+    },
+    {
+      "id": "sample-irving-spanish",
+      "sample": true,
+      "kind": "toolkit",
+      "title": "A short Spanish script for parents who want to come with you",
+      "body": "My mom wanted to come but did not want to speak in English in front of the council. Irving lets you request an interpreter in advance, so we wrote her three sentences in Spanish and asked for one. She spoke for ninety seconds and got applause.\n\nSwitch this app to Español in the top right and the city guides and the comment builder come out in Spanish, which is where we started.",
+      "author": { "name": "Sofia L.", "school": "Nimitz High School", "cityId": "irving" },
+      "cityId": "irving",
+      "postedAt": "2026-09-10",
+      "helpful": 23,
+      "media": [],
+      "links": [{ "label": "Irving city guide", "to": "/city/irving" }]
+    },
+    {
+      "id": "sample-arlington-worksession",
+      "sample": true,
+      "kind": "tip",
+      "title": "Go to the work session, not just the vote",
+      "body": "The evening meeting is where the vote happens, but the afternoon work session is where council members actually argue about the item. You usually cannot speak at a work session, but you can sit in the room, and you learn which member already agrees with you. Then your three minutes at the evening meeting can be aimed at the ones who do not.\n\nThe Map page filter for Can speak shows which meetings take comment; the ones marked Watch only are still worth attending.",
+      "author": { "name": "Marcus B.", "school": "Martin High School", "cityId": "arlington" },
+      "cityId": "arlington",
+      "postedAt": "2026-09-14",
+      "helpful": 16,
+      "media": [
+        { "type": "image", "src": "community/dais.svg", "alt": "Line drawing of a council dais with nameplates and a city seal on the front." }
+      ],
+      "links": [{ "label": "Meetings you can speak at", "to": "/map" }]
+    },
+    {
+      "id": "sample-frisco-appointed",
+      "sample": true,
+      "kind": "win",
+      "title": "Appointed to the Frisco youth advisory council after two meetings",
+      "body": "I went to two regular meetings, spoke once about the skate park hours, and introduced myself to the council liaison afterward. She told me about the youth council application, which I had never heard of. Applied, interviewed, appointed.\n\nThe For you page lists these seats under Youth councils and programs near you. Attending gets you in the room; the appointed seat gets you a vote on what the room talks about.",
+      "author": { "name": "Lin H.", "school": "Lone Star High School", "cityId": "frisco" },
+      "cityId": "frisco",
+      "postedAt": "2026-09-02",
+      "helpful": 31,
+      "media": [],
+      "links": [{ "label": "Youth councils near you", "to": "/for-you" }]
+    }
+  ]
+}

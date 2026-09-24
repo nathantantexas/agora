@@ -5,3 +5,5 @@
 *.png binary
 *.svg text
 *.json text
+*.webm binary
+*.mp4 binary

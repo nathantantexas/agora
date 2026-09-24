@@ -94,6 +94,7 @@ ANTHROPIC_API_KEY=sk-ant-... npm run dev
 | Language menu: English, Spanish, Vietnamese, covering the interface, the engine's wording, and the city data | Header (web), `--lang` (CLI) |
 | Profiles: separate saved setups on one device, with export and import to move one | Header and Profiles page (web) |
 | A locator emblem for each of the 39 cities, placed from its real city hall coordinates | City index, city pages, meeting drawer |
+| Community: tips, toolkits, wins, and questions from students, with photos and video | Community (web) |
 
 ## Data visualizations
 
@@ -134,6 +135,33 @@ and the form says that too.
 
 A setup saved before profiles existed is migrated into the first profile on next load, so
 nobody is sent back through onboarding.
+
+## Community
+
+The Community page is where someone who has stood up at a meeting tells the next person
+what worked. Posts are one of four kinds, tip, toolkit, win, or question, and each can
+carry up to four photos, a video file, or a YouTube or Vimeo link.
+
+The page is honest about what a static site can do. The shared feed is seeded from
+`data/community.json`, which the team edits directly; every entry there marked
+`sample: true` carries a placeholder name and an illustration that should be swapped for
+the real student and a real photo before the team presents. A post written on the page is
+saved on that device (IndexedDB, so a phone video fits) and shows at the top of that
+person's feed at once, badged as such. Under it, **Send to the team for everyone** opens a
+prefilled issue on this repository carrying the post text; a person reads it and adds it
+to the seed file, which is the moderation step a page used by students needs. Photos and
+video for a submitted post are attached in the issue editor, which hosts them.
+
+Pasted video links are rewritten to the privacy-preserving `youtube-nocookie.com` and
+`player.vimeo.com` embeds, and any other host is refused, so nobody can slip an arbitrary
+page into an iframe on the feed. Uploaded photos are shrunk to 1600 pixels on the longest
+edge before they are stored. The sample walkthrough video attached to the Plano post is a
+screen recording of this app, so the video renderer is demonstrated with something that is
+ours to ship.
+
+To seed a post with a video file rather than a link, put the file under
+`packages/web/public/community/` and reference it as
+`{ "type": "video", "src": "community/name.webm", "poster": "community/name.png" }`.
 
 ## Design
 

@@ -6,6 +6,7 @@ const LINKS = [
   { to: '/', key: 'nav.homePage' },
   { to: '/insights', key: 'nav.insights' },
   { to: '/news', key: 'nav.news' },
+  { to: '/community', key: 'nav.community' },
   { to: '/profile', key: 'profile.title' },
   { to: '/about', key: 'nav.about' },
 ];

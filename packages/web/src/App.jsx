@@ -21,6 +21,7 @@ const Learn = lazy(() => import('./pages/Learn.jsx'));
 const About = lazy(() => import('./pages/About.jsx'));
 const More = lazy(() => import('./pages/More.jsx'));
 const Profile = lazy(() => import('./pages/Profile.jsx'));
+const Community = lazy(() => import('./pages/Community.jsx'));
 
 // Home has no entry of its own: the wordmark links there, the way a masthead does.
 const NAV = [
@@ -29,10 +30,11 @@ const NAV = [
   { to: '/cities', key: 'nav.cities', icon: BuildingIcon },
   { to: '/insights', key: 'nav.insights' },
   { to: '/news', key: 'nav.news', icon: NewsIcon },
+  { to: '/community', key: 'nav.community' },
   { to: '/learn', key: 'nav.learn', icon: BookIcon },
   { to: '/about', key: 'nav.about' },
 ];
-const TABS = [NAV[0], NAV[1], NAV[2], NAV[5], { to: '/more', key: 'nav.more', icon: MoreIcon }];
+const TABS = [NAV[0], NAV[1], NAV[2], NAV[6], { to: '/more', key: 'nav.more', icon: MoreIcon }];
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -126,6 +128,7 @@ export default function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/more" element={<More />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/community" element={<Community />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>
