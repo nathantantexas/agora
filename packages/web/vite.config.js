@@ -42,8 +42,16 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,webmanifest}'],
+        // The vision models are about 10 MB and only needed by Rehearse, so they are
+        // fetched on first use and then kept, rather than precached for everyone.
+        globIgnores: ['models/**'],
         navigateFallback: `${base}index.html`,
         runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.includes('/models/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'vision-models', cacheableResponse: { statuses: [0, 200] }, expiration: { maxEntries: 12, maxAgeSeconds: 60 * 60 * 24 * 30 } },
+          },
           {
             urlPattern: /^https:\/\/[abc]\.tile\.openstreetmap\.org\/.*/i,
             handler: 'CacheFirst',

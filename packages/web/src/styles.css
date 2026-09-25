@@ -1614,6 +1614,162 @@ table.data th.num {
   }
 }
 
+/* Rehearse. The stage is the camera preview; everything else is the usual ruled layout. */
+.stage-video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  overflow: hidden;
+}
+.stage-video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Mirrored, the way people expect to see themselves. Analysis reads the unmirrored frame. */
+  transform: scaleX(-1);
+}
+.stage-video.audio-only video {
+  display: none;
+}
+.stage-audio-only {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--page);
+  font-weight: 600;
+}
+.stage-audio-only svg {
+  width: 28px;
+  height: 28px;
+}
+.stage-count {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 14vw, 9rem);
+  font-weight: 700;
+  color: var(--page);
+  background: rgba(23, 21, 15, 0.45);
+}
+.stage-timer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 10px;
+  background: rgba(23, 21, 15, 0.8);
+  color: var(--page);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.stage-timer .muted {
+  color: var(--rule-strong);
+}
+.rec-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--crit);
+  animation: blink 1.2s steps(2, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+/* A head-and-shoulders guide, so framing is a matter of lining up rather than guessing. */
+.stage-guide {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.stage-guide span {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 8%;
+  bottom: 22%;
+  border: 1px dashed rgba(242, 239, 231, 0.55);
+}
+.mic-meter {
+  height: 6px;
+  background: var(--surface-2);
+  border: 1px solid var(--rule-strong);
+  margin: 8px 0 12px;
+}
+.mic-meter span {
+  display: block;
+  height: 100%;
+  background: var(--series-3);
+  transition: width 0.1s linear;
+}
+.transcript-live {
+  min-height: 3.2em;
+  max-height: 12em;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+.transcript {
+  white-space: pre-wrap;
+  max-width: 72ch;
+  line-height: 1.7;
+}
+.transcript .filler {
+  background: var(--warn-soft);
+  border-bottom: 2px solid var(--warn);
+  padding: 0 2px;
+}
+.findings {
+  counter-reset: none;
+}
+.finding {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  gap: 12px;
+  padding: 13px 4px 14px;
+}
+.finding-rank {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.finding-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 0;
+}
+.finding-drill {
+  margin: 0;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.playback {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  background: var(--ink);
+  border: 1px solid var(--ink);
+}
+@media (max-width: 900px) {
+  .stage + .stack {
+    margin-top: 8px;
+  }
+}
+
 /* Misc */
 .pre {
   white-space: pre-wrap;

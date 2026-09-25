@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { glossary, checklist, speakingTips, topicList, buildComment, estimateSpeakingSeconds, timeOfDayFor, t } from '@agora/core';
 import { useCities } from '../lib/DataProvider.jsx';
 import { useStore } from '../lib/store.jsx';
@@ -84,7 +84,8 @@ function Checklist() {
 }
 
 function CommentBuilder({ initialCity }) {
-  const { prefs, profile } = useStore();
+  const { prefs, profile, setUi } = useStore();
+  const navigate = useNavigate();
   const { cities, cityById } = useCities();
   const [form, setForm] = useState({
     name: profile.name === t('profile.defaultName') ? '' : profile.name,
@@ -206,6 +207,17 @@ function CommentBuilder({ initialCity }) {
             </button>
             <button type="button" className="btn" onClick={polish} disabled={ai.status === 'loading'}>
               {ai.status === 'loading' ? <span className="spinner" /> : null} {t('learn.polish')}
+            </button>
+            <button
+              type="button"
+              className="btn"
+              onClick={() => {
+                // Hand the draft and the fields to Rehearse so the report can check what landed.
+                setUi({ lastDraft: { text: ai.text || draft, cityId: form.cityId, fields: { name: form.name, school: form.school, itemTitle: form.itemTitle, ask: form.ask } } });
+                navigate('/rehearse');
+              }}
+            >
+              {t('learn.rehearseButton')}
             </button>
             {ai.text && <span className="tag brand">{t('learn.aiTag')}</span>}
           </div>

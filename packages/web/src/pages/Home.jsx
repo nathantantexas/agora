@@ -95,6 +95,7 @@ export default function Home() {
             ['/map', 'home.doMap', 'home.doMapNote'],
             ['/cities', 'home.doCities', 'home.doCitiesNote'],
             ['/learn', 'home.doLearn', 'home.doLearnNote'],
+            ['/rehearse', 'home.doRehearse', 'home.doRehearseNote'],
             ['/insights', 'home.doInsights', 'home.doInsightsNote'],
           ].map(([to, title, note]) => (
             <li key={to}>

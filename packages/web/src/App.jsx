@@ -23,6 +23,7 @@ const About = lazy(() => import('./pages/About.jsx'));
 const More = lazy(() => import('./pages/More.jsx'));
 const Profile = lazy(() => import('./pages/Profile.jsx'));
 const Community = lazy(() => import('./pages/Community.jsx'));
+const Rehearse = lazy(() => import('./pages/Rehearse.jsx'));
 
 // Home has no entry of its own: the wordmark links there, the way a masthead does.
 const NAV = [
@@ -33,6 +34,7 @@ const NAV = [
   { to: '/news', key: 'nav.news', icon: NewsIcon },
   { to: '/community', key: 'nav.community' },
   { to: '/learn', key: 'nav.learn', icon: BookIcon },
+  { to: '/rehearse', key: 'nav.rehearse' },
   { to: '/about', key: 'nav.about' },
 ];
 const TABS = [NAV[0], NAV[1], NAV[2], NAV[6], { to: '/more', key: 'nav.more', icon: MoreIcon }];
@@ -155,6 +157,7 @@ export default function App() {
                 <Route path="/more" element={<More />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/community" element={<Community />} />
+                <Route path="/rehearse" element={<Rehearse />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>

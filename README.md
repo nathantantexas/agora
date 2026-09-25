@@ -95,6 +95,7 @@ ANTHROPIC_API_KEY=sk-ant-... npm run dev
 | Profiles: separate saved setups on one device, with export and import to move one | Header and Profiles page (web) |
 | A locator emblem for each of the 39 cities, placed from its real city hall coordinates | City index, city pages, meeting drawer |
 | Community: tips, toolkits, wins, and questions from students, with photos and video | Community (web) |
+| Rehearse: record yourself with camera and mic and get specific coaching on pace, fillers, pauses, script, eye contact, and posture, all analyzed on the device | Rehearse (web) |
 
 ## Data visualizations
 
@@ -114,6 +115,8 @@ rest of the app runs on.
 | Dot plot | What subjects fill upcoming agendas? | Insights |
 | Unit chart | How long do cities let you speak, and how is coverage split by county? One square per city | Insights |
 | City emblem | Where in the region is this council? The whole metroplex as a field of marks, with this city's hall struck through by a crosshair and tinted by county | City index, city pages, meeting drawer |
+| Pace and volume over time | Did I rush the opening and fade at the end? Fifteen second and five second buckets against a target band | Rehearse report |
+| Eye contact strip | When did I look down? One cell per second of the take | Rehearse report |
 
 Every chart has a keyboard-reachable table view of the same numbers, an SVG description
 for screen readers, and labels drawn from the same dictionaries as the rest of the app,
@@ -162,6 +165,38 @@ ours to ship.
 To seed a post with a video file rather than a link, put the file under
 `packages/web/public/community/` and reference it as
 `{ "type": "video", "src": "community/name.webm", "poster": "community/name.png" }`.
+
+## Rehearse
+
+Showing up is half of it; the other half is the three minutes. Rehearse records you
+giving your comment and tells you, specifically, what to fix.
+
+Pick the council (its speaking limit becomes the clock), optionally bring the draft from
+the comment builder, and record. From the audio it measures pace over time, pauses,
+whether you trail off at the ends of sentences, volume consistency, and pitch variety.
+With the live transcript on it also counts fillers, highlights them in the transcript,
+checks how much of your script actually came out, and whether your name, the item, and
+your ask were spoken. With the camera on it tracks how much of the time you faced the
+room, how often you looked down at notes, sway, shoulder tilt, and hands near the face.
+The report ranks the five things to work on first, each with the evidence and one drill,
+lists what went well, shows the timelines, lets you watch the take back, and keeps a
+one-line summary per attempt so the next one can be compared.
+
+Everything is analyzed in the browser. The camera and microphone streams never leave the
+device, the recording exists only in the tab (there is a download button if you want it),
+and only the summary numbers are saved, in your profile. The one exception is the live
+transcript, which uses the browser's own speech service; in Chrome and Edge that sends
+audio to Google or Microsoft for recognition, and the page says so and lets you switch it
+off. Firefox has no speech recognition, so there the transcript is simply unavailable and
+pace is estimated from syllables in your voice instead.
+
+Eye contact and posture come from two MediaPipe models (Apache 2.0) served from this
+app's own origin, about 20 MB fetched on first use and cached after that. They are not
+committed; `npm run models` downloads them into `packages/web/public/models/`, and the
+deploy does the same before it builds. Without them the page still works and simply
+offers voice analysis only. The analysis itself is plain, testable code in
+`packages/web/src/lib/rehearse/`: transcript analysis, audio envelope and pitch, body
+summaries, and the coach that turns measurements into ranked findings.
 
 ## Design
 

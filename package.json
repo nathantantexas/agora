@@ -16,6 +16,7 @@
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
     "build:news": "node scripts/build-news.mjs",
+    "models": "node scripts/fetch-models.mjs",
     "icons": "node scripts/make-icons.mjs",
     "dev": "node scripts/dev.mjs",
     "dev:web": "npm run dev --workspace @agora/web",

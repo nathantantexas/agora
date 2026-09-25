@@ -23,3 +23,6 @@ Thumbs.db
 
 # Headlines gathered at deploy time by scripts/build-news.mjs, never committed
 packages/web/public/news-snapshot.json
+
+# On-device vision models, fetched by scripts/fetch-models.mjs (about 10 MB)
+packages/web/public/models/

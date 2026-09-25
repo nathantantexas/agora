@@ -38,7 +38,8 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 
 const CSP = [
   "default-src 'self'",
-  "script-src 'self'",
+  // wasm-unsafe-eval lets the on-device vision models compile; it does not permit eval().
+  "script-src 'self' 'wasm-unsafe-eval'",
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://tile.openstreetmap.org https://*.tile.openstreetmap.org",
   "connect-src 'self' https://tile.openstreetmap.org https://*.tile.openstreetmap.org",
