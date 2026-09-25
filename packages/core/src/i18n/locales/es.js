@@ -481,6 +481,9 @@ export default {
     getStarted: 'Empieza ya',
   },
   errors: {
+    updating: 'Se publicó una versión más nueva de la app. Cargándola.',
+    reload: 'Recargar esta página',
+    detail: 'Detalles, por si quieres reportarlo:',
     notFoundTitle: 'Página no encontrada',
     boundaryTitle: 'Algo salió mal en esta página',
     boundaryBody: 'El resto de la app sigue funcionando. Prueba otra página o recarga.',

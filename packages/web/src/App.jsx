@@ -3,6 +3,7 @@ import { NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import { BRAND, t } from '@agora/core';
 import { useStore } from './lib/store.jsx';
 import { DataProvider } from './lib/DataProvider.jsx';
+import { isChunkLoadError, isReloadPending, reloadOnce } from './lib/recover.js';
 import { Logo, MapIcon, StarIcon, BuildingIcon, BookIcon, NewsIcon, MoreIcon } from './components/icons.jsx';
 import LanguageSwitcher from './components/LanguageSwitcher.jsx';
 import ProfileSwitcher from './components/ProfileSwitcher.jsx';
@@ -63,21 +64,46 @@ class ErrorBoundary extends Component {
     return { error };
   }
 
+  componentDidCatch(error, info) {
+    // Never swallow it silently: the console is where the reason lives for a bug report.
+    console.error('Agora page error:', error, info && info.componentStack);
+    // A chunk from a superseded deploy is not a bug in the page. Reload into the current build.
+    if (isChunkLoadError(error)) reloadOnce();
+  }
+
   componentDidUpdate(prevProps) {
     if (prevProps.resetKey !== this.props.resetKey && this.state.error) this.setState({ error: null });
   }
 
   render() {
     if (!this.state.error) return this.props.children;
+    // A reload is already on its way: say so instead of showing an error that is about
+    // to disappear.
+    if (isReloadPending()) {
+      return (
+        <div className="container" role="status" aria-live="polite">
+          <span className="spinner" aria-hidden="true" /> {t('errors.updating')}
+        </div>
+      );
+    }
+    const message = String((this.state.error && this.state.error.message) || this.state.error || '');
     return (
       <div className="container" role="alert">
         <h1>{t('errors.boundaryTitle')}</h1>
         <p className="muted">{t('errors.boundaryBody')}</p>
-        <p>
-          <NavLink to="/map" className="btn primary">
+        <p className="row">
+          <button type="button" className="btn primary" onClick={() => window.location.reload()}>
+            {t('errors.reload')}
+          </button>
+          <NavLink to="/map" className="btn">
             {t('errors.backToMap')}
           </NavLink>
         </p>
+        {message && (
+          <p className="hint">
+            {t('errors.detail')} <code>{message.slice(0, 300)}</code>
+          </p>
+        )}
       </div>
     );
   }

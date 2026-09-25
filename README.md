@@ -8,7 +8,7 @@ Agora is a web app, an installable phone app (PWA), and a terminal tool that all
 
 ## Try it
 
-**[Open the live app](https://nathantantexas.github.io/agora/)**, hosted from this repository. Every commit to `main` republishes it. The map, the city guides, the rankings, and the charts all read data bundled into the page, so they work with no server behind them.
+**[Open the live app](https://nathantantexas.github.io/agora/)**, hosted from this repository. Every commit to `main` republishes it. The map, the city guides, the rankings, and the charts all read data bundled into the page, so they work with no server behind them. A tab that was open during a deploy reloads itself once, the first time it needs a page from the newer build.
 
 Headlines work there too, with one difference worth knowing. A static site cannot run the
 news endpoint, so the deploy gathers the newsroom feeds at build time and ships the result

@@ -481,6 +481,9 @@ export default {
     getStarted: 'Bắt đầu',
   },
   errors: {
+    updating: 'Một phiên bản mới hơn của ứng dụng vừa được phát hành. Đang tải.',
+    reload: 'Tải lại trang này',
+    detail: 'Chi tiết, nếu bạn muốn báo lỗi:',
     notFoundTitle: 'Không tìm thấy trang',
     boundaryTitle: 'Có lỗi xảy ra trên trang này',
     boundaryBody: 'Phần còn lại của ứng dụng vẫn hoạt động. Hãy thử trang khác hoặc tải lại.',

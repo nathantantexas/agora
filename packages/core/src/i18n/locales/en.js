@@ -481,6 +481,9 @@ export default {
     getStarted: 'Get started',
   },
   errors: {
+    updating: 'A newer version of the app was published. Loading it.',
+    reload: 'Reload this page',
+    detail: 'Details, if you want to report it:',
     notFoundTitle: 'Page not found',
     boundaryTitle: 'Something went wrong on this page',
     boundaryBody: 'The rest of the app still works. Try another page, or reload.',
